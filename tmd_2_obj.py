@@ -1,8 +1,8 @@
 """
 
-TMD TO OBJ Tool, for The Legend of Dragoon weirds tmd's,
+TMD TO OBJ Tool, for The Legend of Dragoon tmd's,
 this simple tool only will take the vertex info, obj info and texture/CLUT info (if possible),
-to export it into OBJ Wavefont format, ignoring most of the primitive stuff, to get rid of it
+to export it into OBJ Wavefont format
 and import to 3D Softwares such Blender
 
 Copyright (C) 2021 DooMMetaL
