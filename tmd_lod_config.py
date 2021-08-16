@@ -42,8 +42,3 @@ primitives_block_enum_2 = None
 primitives_block_enum_tc = None
 texture_coordinate_num = None
 tc_total = None
-
-"""
-vertex_block_converted = None
-normal_block_converted = None
-"""
