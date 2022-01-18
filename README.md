@@ -10,6 +10,7 @@ Options when executing:
 Choose the Type of TMD to analyse:
 
 -tmd (Standard TMD Format).
+
 -ctmd (Custom TMD Format, specific TLoD TMD format). - this option is not currently supported, i hope to enable the option in alpha 0.3
 
 File path: (example)
