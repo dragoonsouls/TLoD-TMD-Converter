@@ -23,7 +23,7 @@ Also is pretty recommend use the tool with files dumped using:
 *https://github.com/theflyingzamboni/lodmods*
 
 
-The idea of this tool is to preserve the model as originally shown ingame. Much of the tools over internet add or remove stuff from the models (such as: Dragoon wings; convert Quad faces into Tri faces), maybe is not the BEST tool if you want something fast or bug free.
+The idea of this tool is to preserve the model as originally shown ingame(*). Much of the tools over internet add or remove stuff from the models (such as: Dragoon wings; convert Quad faces into Tri faces), maybe is not the BEST tool if you want something fast or bug free.
 
 Also i added a very specific functionality for researchers and modders, when you export the 3D model two *.txt files will created, Primitive_per_Object will contain useful data of each primitive type used in models and also the quantity of each one. The other called TMD_Report will be created with a count number of Vertex/Normal/Primitive of each object in the file and a sum of all the file.
 
@@ -34,6 +34,7 @@ TheFlyingZamboni Monoxide Illeprih Zychronix
 
 and all the people from the TLoD Global Discord!. Cheers!.
 
+(*) This prove to be partially true, the main problem comes with actual 3D Software, which do not support double faces and simply delete them without any warning for the final user, while the older version (Alpha V 0.1) maintain the double faces, newer versions simply use the auto-double face deletion -sorry-. 
 
 CHANGELOG
 
