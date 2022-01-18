@@ -1,7 +1,9 @@
 # TLoD-TMD-Converter
-ALPHA 0.2
+
+## ALPHA V 0.2
+
 A simple converter (to OBJ format and DAE format) oriented to work with TLoD TMD format and to be imported into Blender.
-Python coded, so just install python, execute tmd_2_obj.py, follow instructions and this tool should do the trick.
+Python coded (recommended version 3.8.2), so just install python, execute tlod_tmd_converter.py, follow instructions and this tool should do the trick.
 
 Options when executing:
 
@@ -12,6 +14,12 @@ Choose the Type of TMD to analyse:
 
 File path: (example)
 C:\modding\TLoD_TMD\file.bin
+
+Also is pretty recommend use the tool with files dumped using:
+
+# **LoDModS by theflyingzamboni**
+
+*https://github.com/theflyingzamboni/lodmods*
 
 
 The idea of this tool is to preserve the model as originally shown ingame. Much of the tools over internet add or remove stuff from the models (such as: Dragoon wings; convert Quad faces into Tri faces), maybe is not the BEST tool if you want something fast or bug free.
