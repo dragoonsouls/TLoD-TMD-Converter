@@ -101,6 +101,7 @@ class PrimitivePacketHeader():
 
     # TYPES OF PRIMITIVES - DID THIS WAY, FOR SAKE OF SIMPLICITY AND EASY UPDATE (MAYBE NOT THE BEST WAY)
     # THE STRAIGHT LINE AND 3-DIMENSIONAL SPRITE IS DESCRIBED HERE, BUT NOT IMPLEMENTED RIGHT NOW
+    # FOR SAKE OF SORTING THE NEW PRIMITIVES FOUND WILL BE PLACED HERE, BUT LATER IN THE CODE WILL BE AT BOTTOM OF THE LSC TEX/NOTEX OR NLSC TEX/NOTEX LIST
     
     # 3 VERTEX POLY LIGHT SOURCE CALCULATION
     # TEXTURED
@@ -113,6 +114,8 @@ class PrimitivePacketHeader():
     lsc_3v_nt_f_s = b'\x04\x03\x00\x20' # FLAT SOLID - 3 row = 12
     lsc_3v_nt_g_g = b'\x06\x06\x04\x30' # GOURAUD GRADATION - 6 row = 24
     lsc_3v_nt_f_g = b'\x06\x05\x04\x20' # FLAT GRADATION - 5 row = 20
+    new_lsc_3v_nt_gg = b'\x06\x06\x04\x32' # NEW 3 VERTEX GOURAUD GRADATION NO TEXTURE - 6 row = 24 REAL NAME = LSC_3V_GOURAUD_GRADATION_TRANSLUCENT_SINGLE_FACE
+    new_lsc_3v_nt_fg = b'\x06\x04\x00\x32' # NEW 3 VERTEX GOURAUD FLAT NO TEXTURE TRANSLUCENT - 5 row = 20, REAL NAME = LSC_3V_GOURAUD_FLAT_SINGLE_FACE_NO_TEXTURED_TRANSLUCENT //// add it!!
 
     # 4 VERTEX POLY LIGHT SOURCE CALCULATION
     # TEXTURED
@@ -126,6 +129,7 @@ class PrimitivePacketHeader():
     lsc_4v_nt_g_g = b'\x08\x08\x04\x38' # GOURAUD GRADATION - 8 row = 32
     lsc_4v_nt_f_g = b'\x08\x07\x04\x28' # FLAT GRADATION - 7 row = 28
     new_lsc_4v_nt_g_s = b'\x08\x05\x00\x3a' # NEW 4 VERTEX GOURAUD SOLID NO TEXTURE - 5 row = 20
+    new_lsc_4v_nt_g_g = b'\x08\x08\x04\x3a' # NEW 4 VERTEX GOURAUD GRADATION NO TEXTURE - 8 row = 32 REAL NAME = LSC_4V_GOURAUD_GRADATION_TRANSLUCENT_SINGLE_FACE
 
     #-------------------------------------------------------#
     #-------------------------------------------------------#
@@ -173,7 +177,7 @@ class PrimitiveTmd:
     
     #----------------------------------------------------- 3 Vertex (LSC - TEXTURED - NO TEXTURED) -----------------------------------------------------#
 
-    def decoded_lsc3vgt (self):
+    def decoded_lsc3vgt(self):
         global lsc3vgt_obj
         lsc3vgt_obj = []
         lsc3vgt_index_block = []
@@ -196,7 +200,6 @@ class PrimitiveTmd:
                            "normal0":int.from_bytes(lsc3vgt_extracted[16:18], byteorder='little'), "vertex0":int.from_bytes(lsc3vgt_extracted[18:20], byteorder='little'), 
                            "normal1":int.from_bytes(lsc3vgt_extracted[20:22], byteorder='little'), "vertex1":int.from_bytes(lsc3vgt_extracted[22:24], byteorder='little'), 
                            "normal2":int.from_bytes(lsc3vgt_extracted[24:26], byteorder='little'), "vertex2":int.from_bytes(lsc3vgt_extracted[26:28], byteorder='little')}
-
                 lsc3vgt_in_obj.append(lsc3vgt)
             lsc3vgt_obj.append(lsc3vgt_in_obj)
     
@@ -241,7 +244,7 @@ class PrimitiveTmd:
                 end_read = i_num + 28
                 newlsc3vgt_extracted = newlsc3vgt_block[start_read:end_read]
                 # CONVERSION IN A SINGLE MOVE
-                newlsc3vgt = {"lsc3vgt":newlsc3vgt_extracted[0:4], 
+                newlsc3vgt = {"newlsc3vgt":newlsc3vgt_extracted[0:4], 
                            "u0":(int.from_bytes(newlsc3vgt_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(newlsc3vgt_extracted[5:6], byteorder='little') / 256), "cba":newlsc3vgt_extracted[6:8], 
                            "u1":(int.from_bytes(newlsc3vgt_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(newlsc3vgt_extracted[9:10], byteorder='little') / 256), "tsb":newlsc3vgt_extracted[10:12], 
                            "u2":(int.from_bytes(newlsc3vgt_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(newlsc3vgt_extracted[13:14], byteorder='little') / 256), "pad0":newlsc3vgt_extracted[14:16], 
@@ -267,7 +270,7 @@ class PrimitiveTmd:
                 end_read = i_num + 28
                 newlsc3vgt2_extracted = newlsc3vgt2_block[start_read:end_read]
                 # CONVERSION IN A SINGLE MOVE
-                newlsc3vgt2 = {"lsc3vgt":newlsc3vgt2_extracted[0:4], 
+                newlsc3vgt2 = {"newlsc3vgt2":newlsc3vgt2_extracted[0:4], 
                            "u0":(int.from_bytes(newlsc3vgt2_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(newlsc3vgt2_extracted[5:6], byteorder='little') / 256), "cba":newlsc3vgt2_extracted[6:8], 
                            "u1":(int.from_bytes(newlsc3vgt2_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(newlsc3vgt2_extracted[9:10], byteorder='little') / 256), "tsb":newlsc3vgt2_extracted[10:12], 
                            "u2":(int.from_bytes(newlsc3vgt2_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(newlsc3vgt2_extracted[13:14], byteorder='little') / 256), "pad0":newlsc3vgt2_extracted[14:16], 
@@ -375,6 +378,55 @@ class PrimitiveTmd:
                 lsc3vntfg_in_obj.append(lsc3vntfg)
             lsc3vntfg_obj.append(lsc3vntfg_in_obj)
     
+    def decoded_new_lsc_3v_nt_gg(self):
+        global newlsc3vntgg_obj
+        newlsc3vntgg_obj = []
+        newlsc3vntgg_index_block = []
+        for newlsc3vntgg_match in standard_tmd_structure.primitive_block_byte:
+            newlsc3vntgg_m = [m.start() for m in re.finditer(PrimitivePacketHeader.new_lsc_3v_nt_gg, newlsc3vntgg_match)]
+            newlsc3vntgg_index_block.append(newlsc3vntgg_m)
+        newlsc3vntgg_extraction = zip(newlsc3vntgg_index_block, standard_tmd_structure.primitive_block_byte)
+
+        for index_num, newlsc3vntgg_block in newlsc3vntgg_extraction:
+            newlsc3vntgg_in_obj = []
+            for i_num in index_num:
+                start_read = i_num
+                end_read = i_num + 28
+                newlsc3vntgg_extracted = newlsc3vntgg_block[start_read:end_read]
+                # CONVERSION IN A SINGLE MOVE
+                newlsc3vntgg = {"newlsc3vntgg":newlsc3vntgg_extracted[0:4], 
+                             "r0":int.from_bytes(newlsc3vntgg_extracted[4:5], byteorder='little'), "g0":int.from_bytes(newlsc3vntgg_extracted[5:6], byteorder='little'), "b0":int.from_bytes(newlsc3vntgg_extracted[6:7], byteorder='little'), "pad0":newlsc3vntgg_extracted[7:8], 
+                             "r1":int.from_bytes(newlsc3vntgg_extracted[8:9], byteorder='little'), "g1":int.from_bytes(newlsc3vntgg_extracted[9:10], byteorder='little'), "b1":int.from_bytes(newlsc3vntgg_extracted[10:11], byteorder='little'), "pad1":newlsc3vntgg_extracted[11:12], 
+                             "r2":int.from_bytes(newlsc3vntgg_extracted[12:13], byteorder='little'), "g2":int.from_bytes(newlsc3vntgg_extracted[13:14], byteorder='little'), "b2":int.from_bytes(newlsc3vntgg_extracted[14:15], byteorder='little'), "pad2":newlsc3vntgg_extracted[15:16], 
+                             "normal0":int.from_bytes(newlsc3vntgg_extracted[16:18], byteorder='little'), "vertex0":int.from_bytes(newlsc3vntgg_extracted[18:20], byteorder='little'), 
+                             "normal1":int.from_bytes(newlsc3vntgg_extracted[20:22], byteorder='little'), "vertex1":int.from_bytes(newlsc3vntgg_extracted[22:24], byteorder='little'), 
+                             "normal2":int.from_bytes(newlsc3vntgg_extracted[24:26], byteorder='little'), "vertex2":int.from_bytes(newlsc3vntgg_extracted[26:28], byteorder='little')}
+                newlsc3vntgg_in_obj.append(newlsc3vntgg)
+            newlsc3vntgg_obj.append(newlsc3vntgg_in_obj)
+    
+    def decoded_new_lsc_3v_nt_fg(self):
+        global newlsc3vntfg_obj
+        newlsc3vntfg_obj = []
+        newlsc3vntfg_index_block = []
+        for newlsc3vntfg_match in standard_tmd_structure.primitive_block_byte:
+            newlsc3vntfg_m = [m.start() for m in re.finditer(PrimitivePacketHeader.new_lsc_3v_nt_fg, newlsc3vntfg_match)]
+            newlsc3vntfg_index_block.append(newlsc3vntfg_m)
+        newlsc3vntfg_extraction = zip(newlsc3vntfg_index_block, standard_tmd_structure.primitive_block_byte)
+
+        for index_num, newlsc3vntfg_block in newlsc3vntfg_extraction:
+            newlsc3vntfg_in_obj = []
+            for i_num in index_num:
+                start_read = i_num
+                end_read = i_num + 20
+                newlsc3vntfg_extracted = newlsc3vntfg_block[start_read:end_read]
+                # CONVERSION IN A SINGLE MOVE
+                newlsc3vntfg = {"newlsc3vntfg":newlsc3vntfg_extracted[0:4], 
+                             "r0":int.from_bytes(newlsc3vntfg_extracted[4:5], byteorder='little'), "g0":int.from_bytes(newlsc3vntfg_extracted[5:6], byteorder='little'), "b0":int.from_bytes(newlsc3vntfg_extracted[6:7], byteorder='little'), "pad0":newlsc3vntfg_extracted[7:8], 
+                             "normal0":int.from_bytes(newlsc3vntfg_extracted[8:10], byteorder='little'), "vertex0":int.from_bytes(newlsc3vntfg_extracted[10:12], byteorder='little'), 
+                             "normal1":int.from_bytes(newlsc3vntfg_extracted[12:14], byteorder='little'), "vertex1":int.from_bytes(newlsc3vntfg_extracted[14:16], byteorder='little'),
+                             "normal2":int.from_bytes(newlsc3vntfg_extracted[16:18], byteorder='little'), "vertex2":int.from_bytes(newlsc3vntfg_extracted[18:20], byteorder='little')}
+                newlsc3vntfg_in_obj.append(newlsc3vntfg)
+            newlsc3vntfg_obj.append(newlsc3vntfg_in_obj)
 
     #----------------------------------------------------- 4 Vertex (LSC - TEXTURED - NO TEXTURED) -----------------------------------------------------#
 
@@ -394,11 +446,11 @@ class PrimitiveTmd:
                 end_read = i_num + 36
                 lsc4vgt_extracted = lsc4vgt_block[start_read:end_read]
                 # CONVERSION IN A SINGLE MOVE
-                lsc4vgt = {"lsc4vgt":lsc4vgt_block[0:4], 
-                           "u0":(int.from_bytes(lsc4vgt_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(lsc4vgt_extracted[5:6], byteorder='little') / 256), "cba":lsc4vgt_block[6:8], 
-                           "u1":(int.from_bytes(lsc4vgt_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(lsc4vgt_extracted[9:10], byteorder='little') / 256), "tsb":lsc4vgt_block[10:12], 
-                           "u2":(int.from_bytes(lsc4vgt_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(lsc4vgt_extracted[13:14], byteorder='little') / 256), "pad0":lsc4vgt_block[14:16], 
-                           "u3":(int.from_bytes(lsc4vgt_extracted[16:17], byteorder='little') / 256), "v3":(int.from_bytes(lsc4vgt_extracted[17:18], byteorder='little') / 256), "pad1":lsc4vgt_block[18:20], 
+                lsc4vgt = {"lsc4vgt":lsc4vgt_extracted[0:4], 
+                           "u0":(int.from_bytes(lsc4vgt_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(lsc4vgt_extracted[5:6], byteorder='little') / 256), "cba":lsc4vgt_extracted[6:8], 
+                           "u1":(int.from_bytes(lsc4vgt_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(lsc4vgt_extracted[9:10], byteorder='little') / 256), "tsb":lsc4vgt_extracted[10:12], 
+                           "u2":(int.from_bytes(lsc4vgt_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(lsc4vgt_extracted[13:14], byteorder='little') / 256), "pad0":lsc4vgt_extracted[14:16], 
+                           "u3":(int.from_bytes(lsc4vgt_extracted[16:17], byteorder='little') / 256), "v3":(int.from_bytes(lsc4vgt_extracted[17:18], byteorder='little') / 256), "pad1":lsc4vgt_extracted[18:20], 
                            "normal0":int.from_bytes(lsc4vgt_extracted[20:22], byteorder='little'), "vertex0":int.from_bytes(lsc4vgt_extracted[22:24], byteorder='little'), 
                            "normal1":int.from_bytes(lsc4vgt_extracted[24:26], byteorder='little'), "vertex1":int.from_bytes(lsc4vgt_extracted[26:28], byteorder='little'), 
                            "normal2":int.from_bytes(lsc4vgt_extracted[28:30], byteorder='little'), "vertex2":int.from_bytes(lsc4vgt_extracted[30:32], byteorder='little'), 
@@ -449,11 +501,11 @@ class PrimitiveTmd:
                 end_read = i_num + 36
                 newlsc4vgt_extracted = newlsc4vgt_block[start_read:end_read]
                 # CONVERSION IN A SINGLE MOVE
-                newlsc4vgt = {"newlsc4vgt":newlsc4vgt_block[0:4], 
-                           "u0":(int.from_bytes(newlsc4vgt_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(newlsc4vgt_extracted[5:6], byteorder='little') / 256), "cba":newlsc4vgt_block[6:8], 
-                           "u1":(int.from_bytes(newlsc4vgt_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(newlsc4vgt_extracted[9:10], byteorder='little') / 256), "tsb":newlsc4vgt_block[10:12], 
-                           "u2":(int.from_bytes(newlsc4vgt_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(newlsc4vgt_extracted[13:14], byteorder='little') / 256), "pad0":newlsc4vgt_block[14:16], 
-                           "u3":(int.from_bytes(newlsc4vgt_extracted[16:17], byteorder='little') / 256), "v3":(int.from_bytes(newlsc4vgt_extracted[17:18], byteorder='little') / 256), "pad1":newlsc4vgt_block[18:20], 
+                newlsc4vgt = {"newlsc4vgt":newlsc4vgt_extracted[0:4], 
+                           "u0":(int.from_bytes(newlsc4vgt_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(newlsc4vgt_extracted[5:6], byteorder='little') / 256), "cba":newlsc4vgt_extracted[6:8], 
+                           "u1":(int.from_bytes(newlsc4vgt_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(newlsc4vgt_extracted[9:10], byteorder='little') / 256), "tsb":newlsc4vgt_extracted[10:12], 
+                           "u2":(int.from_bytes(newlsc4vgt_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(newlsc4vgt_extracted[13:14], byteorder='little') / 256), "pad0":newlsc4vgt_extracted[14:16], 
+                           "u3":(int.from_bytes(newlsc4vgt_extracted[16:17], byteorder='little') / 256), "v3":(int.from_bytes(newlsc4vgt_extracted[17:18], byteorder='little') / 256), "pad1":newlsc4vgt_extracted[18:20], 
                            "normal0":int.from_bytes(newlsc4vgt_extracted[20:22], byteorder='little'), "vertex0":int.from_bytes(newlsc4vgt_extracted[22:24], byteorder='little'), 
                            "normal1":int.from_bytes(newlsc4vgt_extracted[24:26], byteorder='little'), "vertex1":int.from_bytes(newlsc4vgt_extracted[26:28], byteorder='little'), 
                            "normal2":int.from_bytes(newlsc4vgt_extracted[28:30], byteorder='little'), "vertex2":int.from_bytes(newlsc4vgt_extracted[30:32], byteorder='little'), 
@@ -477,11 +529,11 @@ class PrimitiveTmd:
                 end_read = i_num + 36
                 newlsc4vgt2_extracted = newlsc4vgt2_block[start_read:end_read]
                 # CONVERSION IN A SINGLE MOVE
-                newlsc4vgt2 = {"newlsc4vgt2":newlsc4vgt2_block[0:4], 
-                           "u0":(int.from_bytes(newlsc4vgt2_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(newlsc4vgt2_extracted[5:6], byteorder='little') / 256), "cba":newlsc4vgt2_block[6:8], 
-                           "u1":(int.from_bytes(newlsc4vgt2_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(newlsc4vgt2_extracted[9:10], byteorder='little') / 256), "tsb":newlsc4vgt2_block[10:12], 
-                           "u2":(int.from_bytes(newlsc4vgt2_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(newlsc4vgt2_extracted[13:14], byteorder='little') / 256), "pad0":newlsc4vgt2_block[14:16], 
-                           "u3":(int.from_bytes(newlsc4vgt2_extracted[16:17], byteorder='little') / 256), "v3":(int.from_bytes(newlsc4vgt2_extracted[17:18], byteorder='little') / 256), "pad1":newlsc4vgt2_block[18:20], 
+                newlsc4vgt2 = {"newlsc4vgt2":newlsc4vgt2_extracted[0:4], 
+                           "u0":(int.from_bytes(newlsc4vgt2_extracted[4:5], byteorder='little') / 256), "v0":(int.from_bytes(newlsc4vgt2_extracted[5:6], byteorder='little') / 256), "cba":newlsc4vgt2_extracted[6:8], 
+                           "u1":(int.from_bytes(newlsc4vgt2_extracted[8:9], byteorder='little') / 256), "v1":(int.from_bytes(newlsc4vgt2_extracted[9:10], byteorder='little') / 256), "tsb":newlsc4vgt2_extracted[10:12], 
+                           "u2":(int.from_bytes(newlsc4vgt2_extracted[12:13], byteorder='little') / 256), "v2":(int.from_bytes(newlsc4vgt2_extracted[13:14], byteorder='little') / 256), "pad0":newlsc4vgt2_extracted[14:16], 
+                           "u3":(int.from_bytes(newlsc4vgt2_extracted[16:17], byteorder='little') / 256), "v3":(int.from_bytes(newlsc4vgt2_extracted[17:18], byteorder='little') / 256), "pad1":newlsc4vgt2_extracted[18:20], 
                            "normal0":int.from_bytes(newlsc4vgt2_extracted[20:22], byteorder='little'), "vertex0":int.from_bytes(newlsc4vgt2_extracted[22:24], byteorder='little'), 
                            "normal1":int.from_bytes(newlsc4vgt2_extracted[24:26], byteorder='little'), "vertex1":int.from_bytes(newlsc4vgt2_extracted[26:28], byteorder='little'), 
                            "normal2":int.from_bytes(newlsc4vgt2_extracted[28:30], byteorder='little'), "vertex2":int.from_bytes(newlsc4vgt2_extracted[30:32], byteorder='little'), 
@@ -513,10 +565,6 @@ class PrimitiveTmd:
                              "normal3":int.from_bytes(lsc4vntgs_extracted[20:22], byteorder='little'), "vertex3":int.from_bytes(lsc4vntgs_extracted[22:24], byteorder='little')}
                 lsc4vntgs_in_object.append(lsc4vntgs)
             lsc4vntgs_obj.append(lsc4vntgs_in_object)
-        for count_lsc4vntgs in lsc4vntgs_obj:
-            pass
-            #print(len(count_lsc4vntgs))
-
     
     def decoded_lsc4vntfs(self):
         global lsc4vntfs_obj
@@ -621,6 +669,34 @@ class PrimitiveTmd:
                              "normal3":int.from_bytes(newlsc4vntgs_extracted[20:22], byteorder='little'), "vertex3":int.from_bytes(newlsc4vntgs_extracted[22:24], byteorder='little')}
                 newlsc4vntgs_in_object.append(newlsc4vntgs)
             newlsc4vntgs_obj.append(newlsc4vntgs_in_object)
+    
+    def decoded_new_lsc_4v_nt_gg(self):
+        global newlsc4vntgg_obj
+        newlsc4vntgg_obj = []
+        newlsc4vntgg_index_block = []
+        for newlsc4vntgg_match in standard_tmd_structure.primitive_block_byte:
+            newlsc4vntgg_m = [m.start() for m in re.finditer(PrimitivePacketHeader.new_lsc_4v_nt_g_g, newlsc4vntgg_match)]
+            newlsc4vntgg_index_block.append(newlsc4vntgg_m)
+        newlsc4vntgg_extraction = zip(newlsc4vntgg_index_block, standard_tmd_structure.primitive_block_byte)
+
+        for index_num, newlsc4vntgg_block in newlsc4vntgg_extraction:
+            newlsc4vntgg_in_obj = []
+            for i_num in index_num:
+                start_read = i_num
+                end_read = i_num + 36
+                newlsc4vntgg_extracted = newlsc4vntgg_block[start_read:end_read]
+                # CONVERSION IN A SINGLE MOVE
+                newlsc4vntgg = {"newlsc4vntgg":newlsc4vntgg_extracted[0:4], 
+                             "r0":int.from_bytes(newlsc4vntgg_extracted[4:5], byteorder='little'), "g0":int.from_bytes(newlsc4vntgg_extracted[5:6], byteorder='little'), "b0":int.from_bytes(newlsc4vntgg_extracted[6:7], byteorder='little'), "pad0":newlsc4vntgg_extracted[7:8], 
+                             "r1":int.from_bytes(newlsc4vntgg_extracted[8:9], byteorder='little'), "g1":int.from_bytes(newlsc4vntgg_extracted[9:10], byteorder='little'), "b1":int.from_bytes(newlsc4vntgg_extracted[10:11], byteorder='little'), "pad1":newlsc4vntgg_extracted[11:12], 
+                             "r2":int.from_bytes(newlsc4vntgg_extracted[12:13], byteorder='little'), "g2":int.from_bytes(newlsc4vntgg_extracted[13:14], byteorder='little'), "b2":int.from_bytes(newlsc4vntgg_extracted[14:15], byteorder='little'), "pad2":newlsc4vntgg_extracted[15:16], 
+                             "r3":int.from_bytes(newlsc4vntgg_extracted[16:17], byteorder='little'), "g3":int.from_bytes(newlsc4vntgg_extracted[17:18], byteorder='little'), "b3":int.from_bytes(newlsc4vntgg_extracted[18:19], byteorder='little'), "pad3":newlsc4vntgg_extracted[19:20], 
+                             "normal0":int.from_bytes(newlsc4vntgg_extracted[20:22], byteorder='little'), "vertex0":int.from_bytes(newlsc4vntgg_extracted[22:24], byteorder='little'), 
+                             "normal1":int.from_bytes(newlsc4vntgg_extracted[24:26], byteorder='little'), "vertex1":int.from_bytes(newlsc4vntgg_extracted[26:28], byteorder='little'), 
+                             "normal2":int.from_bytes(newlsc4vntgg_extracted[28:30], byteorder='little'), "vertex2":int.from_bytes(newlsc4vntgg_extracted[30:32], byteorder='little'), 
+                             "normal3":int.from_bytes(newlsc4vntgg_extracted[32:34], byteorder='little'), "vertex3":int.from_bytes(newlsc4vntgg_extracted[34:36], byteorder='little')}
+                newlsc4vntgg_in_obj.append(newlsc4vntgg)
+            newlsc4vntgg_obj.append(newlsc4vntgg_in_obj)
     
     #----------------------------------------------------- 3 Vertex (NLSC - TEXTURED - NO TEXTURED) -----------------------------------------------------#
 
@@ -816,7 +892,7 @@ class PrimitiveTmd:
         newnlsc4vgt_obj = []
         newnlsc4vgt_index_block = []
         for newnlsc4vgt_match in standard_tmd_structure.primitive_block_byte:
-            newnlsc4vgt_m = [m.start() for m in re.finditer(PrimitivePacketHeader.new_nlsc_4v_g_t, newnlsc4vgt_match)]
+            newnlsc4vgt_m = [m.start() for m in re.finditer(re.escape(PrimitivePacketHeader.new_nlsc_4v_g_t), newnlsc4vgt_match)]
             newnlsc4vgt_index_block.append(newnlsc4vgt_m)
         newnlsc4vgt_extraction = zip(newnlsc4vgt_index_block, standard_tmd_structure.primitive_block_byte)
 
@@ -898,14 +974,14 @@ class ObjectCleaner: # POST DECODING PROCESS TO CLEAN THE NONE VALUES ALONG THE 
 
     def primitive_cleaner(self): 
 
-        primitives_for_prim_calc = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj)# I DO THIS TO AVOID THE EXHAUSTING FROM THE FIRST LIST COMPREHENSION OF THE ZIP, BECAUSE ZIP OBJECT GET EXHAUSTED
-        primitives_uv_preclean = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj) # I DO THIS TO AVOID THE EXHAUSTING FROM THE FIRST LIST COMPREHENSION OF THE ZIP, BECAUSE ZIP OBJECT GET EXHAUSTED
-        primitives_vertex_index_preclean = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj) # I DO THIS TO AVOID THE EXHAUSTING FROM THE FIRST LIST COMPREHENSION OF THE ZIP, BECAUSE ZIP OBJECT GET EXHAUSTED
+        primitives_for_prim_calc = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj, newlsc4vntgg_obj, newlsc3vntgg_obj, newlsc3vntfg_obj)# I DO THIS TO AVOID THE EXHAUSTING FROM THE FIRST LIST COMPREHENSION OF THE ZIP, BECAUSE ZIP OBJECT GET EXHAUSTED
+        primitives_uv_preclean = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj, newlsc4vntgg_obj, newlsc3vntgg_obj, newlsc3vntfg_obj) # I DO THIS TO AVOID THE EXHAUSTING FROM THE FIRST LIST COMPREHENSION OF THE ZIP, BECAUSE ZIP OBJECT GET EXHAUSTED
+        primitives_vertex_index_preclean = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj, newlsc4vntgg_obj, newlsc3vntgg_obj, newlsc3vntfg_obj) # I DO THIS TO AVOID THE EXHAUSTING FROM THE FIRST LIST COMPREHENSION OF THE ZIP, BECAUSE ZIP OBJECT GET EXHAUSTED
         number_of_prims = [] # I DO THIS CALCULATION TO KNOW IF EVERYTHING GOES CORRECT AND IF I NEED TO ADD A NEW PRIMITIVE TYPE OR CHANGE SOMETHING FROM THE DECODERS CODE
         # THIS ZIP WOULD BE USED FOR COLLADA FILE CONVERSION (TOO EXPERIMENTAL)
         # I DO THIS TO AVOID THE EXHAUSTING FROM THE FIRST LIST COMPREHENSION OF THE ZIP, BECAUSE ZIP OBJECT GET EXHAUSTED
-        preclean_primitives_collada = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj)
-        preclean_primitives_primobj = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj)
+        preclean_primitives_collada = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj, newlsc4vntgg_obj, newlsc3vntgg_obj, newlsc3vntfg_obj)
+        preclean_primitives_primobj = zip_longest(lsc3vgt_obj, lsc3vft_obj, newlsc3vgt_obj, newlsc3vgt2_obj, lsc3vntgs_obj, lsc3vntfs_obj, lsc3vntgg_obj, lsc3vntfg_obj, lsc4vgt_obj, lsc4vft_obj, newlsc4vgt_obj, newlsc4vgt2_obj, lsc4vntgs_obj, lsc4vntfs_obj, lsc4vntgg_obj, lsc4vntfg_obj, newlsc4vntgs_obj, nlsc3vgt_obj, nlsc3vft_obj, newnlsc3vgt_obj, nlsc3vntg_obj, nlsc3vntf_obj, nlsc4vgt_obj, nlsc4vft_obj, newnlsc4vgt_obj, nlsc4vntg_obj, nlsc4vntf_obj, newlsc4vntgg_obj, newlsc3vntgg_obj, newlsc3vntfg_obj)
         
         for num_prims in primitives_for_prim_calc:
             for n_prim in num_prims:
