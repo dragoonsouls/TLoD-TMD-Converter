@@ -3,7 +3,7 @@
 Standard TMD Structure Reader: This module read the Standard TMD structure data to be used
 split from the header, because this module has to be very flexible and easy to update
 
-Copyright (C) 2021 DooMMetaL
+Copyright (C) 2022 DooMMetaL
 
 """
 
@@ -182,7 +182,7 @@ class StandardTmdStructure:
             for normal_byte in normal_addnum_zip:
                 normal_add = (int(str(normal_byte[0:1]).replace("(", "").replace(")", "").replace(",", "")) + standard_tmd.tmd_start + 12)
                 normal_num = int(str(normal_byte[1:2]).replace("(", "").replace(")", "").replace(",", ""))
-                normal_length = normal_num * 8 # !!!!FOR CUSTOM THIS VALUE MUST CHANGE!!!!
+                normal_length = normal_num * 8
                 normal_block.seek(normal_add)
                 normal_piece = normal_block.read(normal_length)
                 normal_block_byte.append(normal_piece)
