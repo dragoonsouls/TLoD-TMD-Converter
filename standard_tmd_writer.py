@@ -1,10 +1,10 @@
 """
 
 Standard TMD Structure Writer: This module write the Standard TMD structure data into
-TMD Properties and Debug data,OBJ, PLY (support will be soon), 
+TMD Properties and Debug data, OBJ. DAE data write is done by tlod_tmd_converter_colladaexp.py 
 because this module has to be very flexible and easy to update
 
-Copyright (C) 2021 DooMMetaL
+Copyright (C) 2022 DooMMetaL
 
 """
 
@@ -31,8 +31,6 @@ class NewFolder():                      # THIS CLASS IS IN CHARGE OF CREATING A 
         file_name_complete = os.path.basename(file_path_complete)
         file_name = os.path.splitext(file_name_complete)[0]
         new_folder = os.path.join(path_folder, file_name)
-        #ply_nest_no_join = os.fspath(f'PLY_Conversion') ONLY USED FOR PLY CONVESION, BECAUSE I NEED TO NEST FILES
-        #ply_nest = os.path.join(new_folder, ply_nest_no_join)
 
         try:
             os.makedirs(new_folder, exist_ok=True)
@@ -89,7 +87,7 @@ class PropertiesWriter():               # THIS IS THE TMD FILE REPORTER, JUST CO
                     if obj_prim.get('lsc3vgt') != None:
                         primitives_type_inside_obj.append('lsc3vgt')
                     elif obj_prim.get('lsc3vft') != None:
-                        primitives_type_inside_obj.append('lsc3vft')                    
+                        primitives_type_inside_obj.append('lsc3vft')
                     elif obj_prim.get('newlsc3vgt') != None:
                         primitives_type_inside_obj.append('newlsc3vgt')
                     elif obj_prim.get('newlsc3vgt2') != None:
@@ -140,6 +138,13 @@ class PropertiesWriter():               # THIS IS THE TMD FILE REPORTER, JUST CO
                         primitives_type_inside_obj.append('nlsc4vntg')
                     elif obj_prim.get('nlsc4vntf') != None:
                         primitives_type_inside_obj.append('nlsc4vntf')
+                    # NEW PRIMITIVES FOUND AFTER RELEASE 0.1 GO HERE
+                    elif obj_prim.get('newlsc4vntgg') != None:
+                        primitives_type_inside_obj.append('newlsc4vntgg')
+                    elif obj_prim.get('newlsc3vntgg') != None:
+                        primitives_type_inside_obj.append('newlsc3vntgg')
+                    elif obj_prim.get('newlsc3vntfg') != None:
+                        primitives_type_inside_obj.append('newlsc3vntfg')
                     
                     else:
                         primitives_type_inside_obj.append("UNKNOWN_PRIMITIVE_TYPE")
@@ -181,6 +186,10 @@ class PropertiesWriter():               # THIS IS THE TMD FILE REPORTER, JUST CO
             ptc_newnlsc4vgt = counted_by_type.count('newnlsc4vgt')
             ptc_nlsc4vntg = counted_by_type.count('nlsc4vntg')
             ptc_nlsc4vntf = counted_by_type.count('nlsc4vntf')
+            # NEW PRIMITIVES FOUND AFTER RELEASE 0.1 GO HERE
+            ptc_newlsc4vntgg = counted_by_type.count('newlsc4vntgg')
+            ptc_newlsc3vntgg = counted_by_type.count('newlsc3vntgg')
+            ptc_newlsc3vntfg = counted_by_type.count('newlsc3vntfg')
             ptc_unk_prim_type = counted_by_type.count('UNKNOWN_PRIMITIVE_TYPE')
 
             if ptc_lsc3vgt > 0:
@@ -227,8 +236,6 @@ class PropertiesWriter():               # THIS IS THE TMD FILE REPORTER, JUST CO
                 primitives_types_per_object.append(f'new_nlsc_3vgt {ptc_newnlsc3vgt}')
             if ptc_nlsc3vntg > 0:
                 primitives_types_per_object.append(f'nlsc_3vntg {ptc_nlsc3vntg}')
-            if ptc_nlsc3vntf > 0:
-                primitives_types_per_object.append(f'nlsc_3vntf {ptc_nlsc3vntf}')
             if ptc_nlsc4vgt > 0:
                 primitives_types_per_object.append(f'nlsc_4vgt {ptc_nlsc4vgt}')
             if ptc_nlsc4vft > 0:
@@ -239,9 +246,16 @@ class PropertiesWriter():               # THIS IS THE TMD FILE REPORTER, JUST CO
                 primitives_types_per_object.append(f'nlsc_4vntg {ptc_nlsc4vntg}')
             if ptc_nlsc4vntf > 0:
                 primitives_types_per_object.append(f'nlsc_4vntf {ptc_nlsc4vntf}')
+            # NEW PRIMITIVES FOUND AFTER RELEASE 0.1 GO HERE
+            if ptc_newlsc4vntgg > 0:
+                primitives_types_per_object.append(f'new_lsc_4vntgg {ptc_newlsc4vntgg}')
+            if ptc_newlsc3vntgg > 0:
+                primitives_types_per_object.append(f'new_lsc_3vntgg {ptc_newlsc3vntgg}')
+            if ptc_newlsc3vntfg > 0:
+                primitives_types_per_object.append(f'new_lsc_3vntfg {ptc_newlsc3vntfg}')
             if ptc_unk_prim_type > 0:
                 primitives_types_per_object.append(f'Unknown_Primitive_Type {ptc_unk_prim_type}')
-            
+
             else:
                 pass
 
