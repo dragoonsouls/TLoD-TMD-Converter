@@ -53,10 +53,10 @@ class ColladaFileWriter:
 
                 for c_p_d in c_prim_data:
                     if c_p_d.get("v3") != None:
-                        fourvertex_uv = c_p_d.get("u0"), (1 - c_p_d.get("v0")), c_p_d.get("u2"), (1 - c_p_d.get("v2")), c_p_d.get("u3"), (1 - c_p_d.get("v3")), c_p_d.get("u1"), (1 - c_p_d.get("v1"))
+                        fourvertex_uv = c_p_d.get("u1"), (1 - c_p_d.get("v1")), c_p_d.get("u3"), (1 - c_p_d.get("v3")), c_p_d.get("u2"), (1 - c_p_d.get("v2")), c_p_d.get("u0"), (1 - c_p_d.get("v0"))
                         denested_collada_uv.append(fourvertex_uv)
                     elif c_p_d.get("u0") != None:
-                        threevertex_uv = c_p_d.get("u2"), (1 - c_p_d.get("v2")), c_p_d.get("u1"), (1 - c_p_d.get("v1")), c_p_d.get("u0"), (1 - c_p_d.get("v0"))
+                        threevertex_uv = c_p_d.get("u0"), (1 - c_p_d.get("v0")), c_p_d.get("u1"), (1 - c_p_d.get("v1")), c_p_d.get("u2"), (1 - c_p_d.get("v2"))
                         denested_collada_uv.append(threevertex_uv)
                     elif (c_p_d.get("u0") == None) and (c_p_d.get("vertex3") != None):
                         none_uv_4v = 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
@@ -68,22 +68,22 @@ class ColladaFileWriter:
                         pass # I DO A PASS HERE, BECAUSE HERE WILL BE SHOWN ALL THE PRIMITIVES WITH COLOURS
 
                 for vertex_color in c_prim_data:
-                    if "b3" in vertex_color.keys():
+                    if "b3" in vertex_color.keys(): # Original: vertex_color.get("b3")
                         b3_alpha_value = 1
                         fourdiff_color = (vertex_color.get("r0") / 256), (vertex_color.get("g0") / 256), (vertex_color.get("b0") / 256), b3_alpha_value, (vertex_color.get("r2") / 256), (vertex_color.get("g2") / 256), (vertex_color.get("b2") / 256), b3_alpha_value, (vertex_color.get("r3") / 256), (vertex_color.get("g3") / 256), (vertex_color.get("b3") / 256), b3_alpha_value, (vertex_color.get("r1") / 256), (vertex_color.get("g1") / 256), (vertex_color.get("b1") / 256), b3_alpha_value
                         denested_collada_vcolor.append(fourdiff_color)
-                    elif ("r0" in vertex_color.keys()) and ("b2" in vertex_color.keys()):
+                    elif ("r0" in vertex_color.keys()) and ("b2" in vertex_color.keys()): # Original: vertex_color.get("r0") and vertex_color.get("b2") != None
                         b2_alpha_value = 1
                         threediff_color = (vertex_color.get("r2") / 256), (vertex_color.get("g2") / 256), (vertex_color.get("b2") / 256), b2_alpha_value, (vertex_color.get("r1") / 256), (vertex_color.get("g1") / 256), (vertex_color.get("b1") / 256), b2_alpha_value, (vertex_color.get("r0") / 256), (vertex_color.get("g0") / 256), (vertex_color.get("b0") / 256), b2_alpha_value
                         denested_collada_vcolor.append(threediff_color)
-                    elif ("r0" in vertex_color.keys()) and ("b2" not in vertex_color.keys()):
+                    elif ("r0" in vertex_color.keys()) and ("b2" not in vertex_color.keys()): # Original: vertex_color.get("r0") != None
                         r0_alpha_value = 1
                         one_color_flat = (vertex_color.get("r0") / 256), (vertex_color.get("g0") / 256), (vertex_color.get("b0") / 256), r0_alpha_value
                         denested_collada_vcolor.append(one_color_flat)
                     else:
                         if c_p_d.get("lsc3vgt") or c_p_d.get("lsc3vft") or c_p_d.get("newlsc3vgt") or c_p_d.get("newlsc3vgt2") or c_p_d.get("lsc4vgt") or c_p_d.get("lsc4vft") or c_p_d.get("newlsc4vgt") or c_p_d.get("newlsc4vgt2"):
                             pass # I DO A PASS HERE, BECAUSE HERE WILL BE SHOWN ALL THE PRIMITIVES WITH UV BUT WITH NO COLOURS ON THEM
-
+                            #print(vertex_color)
                         else:
                             print("WARNING: VERTEX COLOR ERROR, Value not possible, Report as Vertex Color Conversion packer - not in dict")
 
@@ -102,7 +102,10 @@ class ColladaFileWriter:
             collada_polygon.append(denested_polygon)
             #END of UV // VERTEX COLOR // V-Count loop
 
-
+        # here i check if nesting for objects it's correct, this objects down here are just nested 1 level (better to say the values for the current object, but not all of them in "pairs")
+        #print(len(collada_uv))
+        #print(len(collada_vertex_color))
+        #print(len(collada_polygon))
         #------------------------------------------START /// P-ARRAY LOOP------------------------------------------#
 
         collada_p_array = [] # polylist -  P ARRAY - sorting: vertex_index, normal_index, texcoord (uv), color_index
@@ -205,6 +208,10 @@ class ColladaFileWriter:
                     else:
                         print("Something odd happen here, report this bug immediately! - No Color Primitive ERROR")
 
+            #a print to check the data integrity, checking the length with the primitive number of each one
+            #print(len(vertex_index), len(normal_index), len(uv_index), len(color_index))
+            #print(vertex_index, normal_index)
+
             ##############################################################################################################################
             ############################ FOR CHECKING IF FACES ARE OVERLAPPING --- FOR NOW WORKING AS INTENDED ###########################
             ##############################################################################################################################
@@ -306,6 +313,7 @@ class ColladaFileWriter:
                     add_more_index = position_adding + slicing_value
                     collada_vertex_positions[internal_object_counter].insert(add_more_index, duplicate_vertex_adding)
                     ver_extraction = duplicate_vertex_adding
+                    #print(slicing_value, vertex_real_index, "Vertex Duplicate:", ver_extraction)
                     slicing_value += 1
 
             else:
@@ -334,6 +342,8 @@ class ColladaFileWriter:
                     num_count -= 1
             collada_p_array.append(p_array_formed)
             internal_object_counter += 1
+        #print(len(collada_p_array))
+        #print(list(enumerate(collada_p_array)))
 
         #-------------------------------------- ////// END ////// ==> PRECONVERSION OF DATA FOR COLLADA FILES --------------------------------------#
 
@@ -466,6 +476,8 @@ class ColladaFileWriter:
                 for vcolor_in_array in collada_vertex_color[number_geometry]:
                     vcolor_array_write = f'{vcolor_in_array} '.replace("(","").replace(")","").replace(",","")
                     dae_file_writer.write(vcolor_array_write)
+                    #print(number_geometry, vcolor_array_write) # DEBUG PRINT
+                    #print(number_geometry, vcolor_in_array) # DEBUG PRINT
 
                 colors_float_array_end = f'</float_array>\n'
                 dae_file_writer.write(colors_float_array_end)
@@ -495,6 +507,8 @@ class ColladaFileWriter:
                 v_count_start = f'          <vcount>'
                 dae_file_writer.write(v_count_start)
                 collada_v_count = collada_polygon[number_geometry]
+                #print(collada_v_count, "for object number", number_geometry)
+                #print(len(list(collada_v_count)), "for object, number", number_geometry)
                 for v_count_array in collada_v_count:
                     v_count_write = f'{v_count_array} '
                     dae_file_writer.write(v_count_write)
@@ -509,6 +523,7 @@ class ColladaFileWriter:
                 for array_ready in collada_p_array[number_geometry]:
                     p_data = f'{array_ready} '
                     dae_file_writer.write(p_data)
+                    #print(array_ready, "for object number", number_geometry)
                 p_end = f'</p>\n'
                 dae_file_writer.write(p_end)
                 polylist_mat_end = f'        </polylist>\n'
@@ -542,5 +557,5 @@ class ColladaFileWriter:
             # END OF THE FILE WITH </COLLADA>
             collada_end_of_file = f'</COLLADA>'
             dae_file_writer.write(collada_end_of_file)
-
+        #print(len(collada_vertex_positions), "Total Vertices Blocks on TMD")
         print("Collada File successfully converted")
