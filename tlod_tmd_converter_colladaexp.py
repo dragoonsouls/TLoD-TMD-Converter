@@ -11,6 +11,7 @@ Copyright (C) 2021 DooMMetaL
 from itertools import zip_longest
 import os
 import datetime
+from collections import Counter
 import standard_tmd_decoder
 import standard_tmd_writer
 import standard_tmd
@@ -23,23 +24,7 @@ class ColladaFileWriter:
         self.dae_conversion = dae_conversion
     
     def dae_from_obj(self):
-        """ # this is not implemented because the Collada Format seems to be more stable and easy to trace errors on the code
-        try:
-            print(f'Would you like to convert the TMD into DAE file? (experimental)\n' f'yes for continue, no for finish')
-            key_select = input()
-            if key_select == f'yes' or f'y' or f'YES':
-                print(f'TMD file: {standard_tmd_writer.file_name}, is being converted to *.dae')
-            elif key_select == f'no' or f'n' or f'NO':
-                print("Exiting the tool...")
-                exit()
-            else:
-                print("Not a valid choice, exiting...")
-                exit()
-        except OSError:
-            print("Not a valid option, exiting....")
-            exit()
-        """
-
+        
         """ DAE FILE FORMAT (USING AS EXAMPLE THE BLENDER GENERATED FILE)
         |   
         |   LOOK INTO THE DOCUMENTATION ABOUT DAE FILE FORMAT
@@ -83,23 +68,24 @@ class ColladaFileWriter:
                         pass # I DO A PASS HERE, BECAUSE HERE WILL BE SHOWN ALL THE PRIMITIVES WITH COLOURS
 
                 for vertex_color in c_prim_data:
-                    if vertex_color.get("b3") != None:
+                    if "b3" in vertex_color.keys():
                         b3_alpha_value = 1
                         fourdiff_color = (vertex_color.get("r0") / 256), (vertex_color.get("g0") / 256), (vertex_color.get("b0") / 256), b3_alpha_value, (vertex_color.get("r2") / 256), (vertex_color.get("g2") / 256), (vertex_color.get("b2") / 256), b3_alpha_value, (vertex_color.get("r3") / 256), (vertex_color.get("g3") / 256), (vertex_color.get("b3") / 256), b3_alpha_value, (vertex_color.get("r1") / 256), (vertex_color.get("g1") / 256), (vertex_color.get("b1") / 256), b3_alpha_value
                         denested_collada_vcolor.append(fourdiff_color)
-                    elif vertex_color.get("r0") and vertex_color.get("b2") != None:
+                    elif ("r0" in vertex_color.keys()) and ("b2" in vertex_color.keys()):
                         b2_alpha_value = 1
                         threediff_color = (vertex_color.get("r2") / 256), (vertex_color.get("g2") / 256), (vertex_color.get("b2") / 256), b2_alpha_value, (vertex_color.get("r1") / 256), (vertex_color.get("g1") / 256), (vertex_color.get("b1") / 256), b2_alpha_value, (vertex_color.get("r0") / 256), (vertex_color.get("g0") / 256), (vertex_color.get("b0") / 256), b2_alpha_value
                         denested_collada_vcolor.append(threediff_color)
-                    elif vertex_color.get("r0") != None:
+                    elif ("r0" in vertex_color.keys()) and ("b2" not in vertex_color.keys()):
                         r0_alpha_value = 1
                         one_color_flat = (vertex_color.get("r0") / 256), (vertex_color.get("g0") / 256), (vertex_color.get("b0") / 256), r0_alpha_value
                         denested_collada_vcolor.append(one_color_flat)
                     else:
                         if c_p_d.get("lsc3vgt") or c_p_d.get("lsc3vft") or c_p_d.get("newlsc3vgt") or c_p_d.get("newlsc3vgt2") or c_p_d.get("lsc4vgt") or c_p_d.get("lsc4vft") or c_p_d.get("newlsc4vgt") or c_p_d.get("newlsc4vgt2"):
                             pass # I DO A PASS HERE, BECAUSE HERE WILL BE SHOWN ALL THE PRIMITIVES WITH UV BUT WITH NO COLOURS ON THEM
+
                         else:
-                            print("This shouldn't happen!, look at the code at line 100 if a bug is ongoing")
+                            print("WARNING: VERTEX COLOR ERROR, Value not possible, Report as Vertex Color Conversion packer - not in dict")
 
                 for polygon_number in c_prim_data: # counting the polygon v-count 
                     three_faces_prim = 3
@@ -116,15 +102,12 @@ class ColladaFileWriter:
             collada_polygon.append(denested_polygon)
             #END of UV // VERTEX COLOR // V-Count loop
 
-        # here i check if nesting for objects it's correct, this objects down here are just nested 1 level (better to say the values for the current object, but not all of them in "pairs")
-        #print(len(collada_uv))
-        #print(len(collada_vertex_color))
-        #print(len(collada_polygon))
+
         #------------------------------------------START /// P-ARRAY LOOP------------------------------------------#
 
         collada_p_array = [] # polylist -  P ARRAY - sorting: vertex_index, normal_index, texcoord (uv), color_index
         #P-Array Constructor
-        interntal_object_counter = 0
+        internal_object_counter = 0
         for p_array_extraction_calc in collada_primitive_data:
             vertex_index = []
             normal_index = []
@@ -139,13 +122,13 @@ class ColladaFileWriter:
                     # P ARRAY - sorting: vertex_index, normal_index, texcoord (uv), color_index
                     
                     #VERTEX ARRAY
-                    # VERTEX ORDER FOR 4 VERTEX IS V0 V2 V3 V1, NORMALS, UV AND OTHERS USE THE SAME ORDER
+                    # VERTEX ORDER FOR 4 VERTEX IS V1 V3 V2 V0, NORMALS, UV AND OTHERS USE THE SAME ORDER
                     if polyex.get("vertex3") != None:
-                        four_vertex_order = polyex.get("vertex0"), polyex.get("vertex2"), polyex.get("vertex3") ,polyex.get("vertex1")
+                        four_vertex_order = polyex.get("vertex1"), polyex.get("vertex3"), polyex.get("vertex2") ,polyex.get("vertex0")
                         vertex_index.append(four_vertex_order)
-                    # VERTEX ORDER FOR 3 VERTEX IS V2 V1 V0, NORMALS, UV AND OTHERS USE THE SAME ORDER
+                    # VERTEX ORDER FOR 3 VERTEX IS V0 V1 V2, NORMALS, UV AND OTHERS USE THE SAME ORDER
                     elif polyex.get("vertex2") != None:
-                        three_vertex_order = polyex.get("vertex2"), polyex.get("vertex1"), polyex.get("vertex0")
+                        three_vertex_order = polyex.get("vertex0"), polyex.get("vertex1"), polyex.get("vertex2")
                         vertex_index.append(three_vertex_order)
                     else:
                         print("Something odd happen here, report this bug immediately! - No Vertex Primitive ERROR")
@@ -153,16 +136,19 @@ class ColladaFileWriter:
                     #NORMAL ARRAY
                     # 4 NORMALS
                     if polyex.get("normal3") != None:
-                        four_normal_order = polyex.get("normal0"), polyex.get("normal2"), polyex.get("normal3"), polyex.get("normal1")
+                        four_normal_order = polyex.get("normal1"), polyex.get("normal3"), polyex.get("normal2"), polyex.get("normal0")
                         normal_index.append(four_normal_order)
                     # 3 NORMALS
                     elif polyex.get("normal2") != None:
-                        four_normal_order = polyex.get("normal2"), polyex.get("normal1"), polyex.get("normal0")
-                        normal_index.append(four_normal_order)
+                        three_normal_order = polyex.get("normal0"), polyex.get("normal1"), polyex.get("normal2")
+                        normal_index.append(three_normal_order)
                     # 1 NORMAL OR NONE NORMALS
-                    elif polyex.get("normal0") != None:
+                    elif (polyex.get("normal0") != None) and (polyex.get("vertex3") != None):
                         one_normal_order_4v = polyex.get("normal0")
                         normal_index.append(one_normal_order_4v)
+                    elif (polyex.get("normal0") != None) and (polyex.get("vertex2") != None):
+                        one_normal_order_3v = polyex.get("normal0")
+                        normal_index.append(one_normal_order_3v)
                     elif (polyex.get("normal0") == None) and (polyex.get("vertex3") != None):
                         normal_index.append(default_value_4v)
                     elif (polyex.get("normal0") == None) and (polyex.get("vertex2") != None):
@@ -190,85 +176,146 @@ class ColladaFileWriter:
                         uv_num += 3
                     else:
                         print("Something odd happen here, report this bug immediately! - No UV Primitive ERROR")
-                    
-                    #COLOR ARRAY
+
+                    #COLOR ARRAY // new algorithm
                     # 4 VERTEX COLORED
-                    if polyex.get("b3") != None:
-                        four_color_order = (color_num), (color_num + 1), (color_num + 2), (color_num + 3)
+                    if ("lsc4vntgg" in polyex.keys()) or ("lsc4vntfg" in polyex.keys()) or ("newlsc4vntgg" in polyex.keys()) or ("nlsc4vgt" in polyex.keys()) or ("newnlsc4vgt" in polyex.keys()) or ("nlsc4vntg" in polyex.keys()):
+                        four_color_order = (color_num + 3), (color_num + 2), (color_num + 1), (color_num)
                         color_index.append(four_color_order)
                         color_num += 4
                     # 3 VERTEX COLORED
-                    elif polyex.get("b2") != None:
-                        three_color_order = (color_num), (color_num + 1), (color_num + 2), (color_num + 3)
+                    elif ("lsc3vntgg" in polyex.keys()) or ("lsc3vntfg" in polyex.keys()) or ("newlsc3vntgg" in polyex.keys()) or ("nlsc3vgt" in polyex.keys()) or ("newnlsc3vgt" in polyex.keys()) or ("nlsc3vntg" in polyex.keys()):
+                        three_color_order = (color_num + 2), (color_num + 1), (color_num)
                         color_index.append(three_color_order)
                         color_num += 3
                     # FLAT COLORED (JUST 1 COLOR)
-                    elif polyex.get("b0") != None:
-                        one_color_order = ((color_num), 0, 0, 0)
-                        color_index.append(one_color_order)
+                    elif ("lsc4vntgs" in polyex.keys()) or ("lsc4vntfs" in polyex.keys()) or ("newlsc4vntgs" in polyex.keys()) or ("nlsc4vft" in polyex.keys()) or ("nlsc4vntf" in polyex.keys()):
+                        one_color_order_4v = ((color_num), (color_num), (color_num), (color_num)) # THIS VALUES ORIGINALLY WERE COLOR_NUM, 0, 0, 0.
+                        color_index.append(one_color_order_4v)
                         color_num += 1
-                    # NONE COLORS (FULLY TEXTURED)
-                    elif (polyex.get("b0") == None) and (polyex.get("vertex3") != None):
+                    elif ("lsc3vntgs" in polyex.keys()) or ("lsc3vntfs" in polyex.keys()) or ("newlsc3vntfg" in polyex.keys()) or ("nlsc3vft" in polyex.keys()) or ("nlsc3vntf" in polyex.keys()):
+                        one_color_order_3v = ((color_num), (color_num), (color_num)) # THIS VALUES ORIGINALLY WERE COLOR_NUM, 0, 0.
+                        color_index.append(one_color_order_3v)
+                        color_num += 1
+                    # NONE COLORS (FULLY TEXTURED) |||| ONLY LSC CAN BE THIS WAY, BECAUSE NLSC HAVE COLOURS
+                    elif ("lsc4vgt" in polyex.keys()) or ("lsc4vft" in polyex.keys()) or ("newlsc4vgt" in polyex.keys()) or ("newlsc4vgt2" in polyex.keys()):
                         color_index.append(default_value_4v)
-                    elif (polyex.get("b0") == None) and (polyex.get("vertex2") != None):
+                    elif ("lsc3vgt" in polyex.keys()) or ("lsc3vft" in polyex.keys()) or ("newlsc3vgt" in polyex.keys()) or ("newlsc3vgt2" in polyex.keys()):
                         color_index.append(default_value_3v)
                     else:
                         print("Something odd happen here, report this bug immediately! - No Color Primitive ERROR")
-            #a print to check the data integrity, checking the length with the primitive number of each one
-            #print(len(vertex_index), len(normal_index), len(uv_index), len(color_index))
 
-            #FOR CHECKING IF FACES ARE OVERLAPPING --- FOR NOW WORKING AS INTENDED
+            ##############################################################################################################################
+            ############################ FOR CHECKING IF FACES ARE OVERLAPPING --- FOR NOW WORKING AS INTENDED ###########################
+            ##############################################################################################################################
             vertex_duplicated = vertex_index
             vertex_set = set(vertex_index)
             contains_duplicate = len(vertex_duplicated) != len(vertex_set)
-            primitive_duplicate_bool = []
-            if contains_duplicate == True:
-                max_value_vi = max(max(vertex_duplicated)) + 2 # MAX VALUE FROM THE CURRENT OBJECT VERTEX INDEX
-                print("We got a duplicate face in a Primitive, we must change some values to avoid duplicate Face automatic removing from 3D Softwares")
-                primitive_duplicate_bool.append(True)
 
-                duplicate_elements_index = []
-                real_index_vertex = []
-                for vertex_dup in range(0, len(vertex_duplicated)): # HERE I CALCULATE THE INDEXES OF DUPLICATE VERTEX INDEX
+            if contains_duplicate == True:
+
+                vertex_dup_maxvalue_int = []
+                for ver_2_int in vertex_duplicated:
+                    v_d_maxv_int = []
+                    for v2i in ver_2_int:
+                        verind_int = int(v2i)
+                        v_d_maxv_int.append(verind_int)
+                    vertex_dup_maxvalue_int.append(v_d_maxv_int)
+                maxval_vi_int = [max(map(int, i)) for i in vertex_dup_maxvalue_int]
+
+                max_value_vi = max(maxval_vi_int) + 1 # MAX VALUE FROM THE CURRENT OBJECT VERTEX INDEX = will be max_index + 1
+                number_of_current_object = internal_object_counter
+                print("We got a duplicate face in a Primitive, we must change some values to avoid duplicate Face automatic removing from 3D Softwares, Object number:", f'{number_of_current_object}')
+
+                duplicate_elements_index = [] # This index is the position of the index, but nested
+                real_index_vertex = []  # this is the duplicate vertex index array
+
+                for vertex_dup in range(0, len(vertex_duplicated)): # HERE I CALCULATE THE INDICES OF DUPLICATE VERTEX INDEX
                     for v_dup in range(vertex_dup + 1, len(vertex_duplicated)):
                         if (vertex_duplicated[vertex_dup] == vertex_duplicated[v_dup]):
                             equal_faces = vertex_duplicated[v_dup]
                             index_in_array = vertex_duplicated.index(equal_faces)
                             duplicate_elements_index.append(index_in_array)
                             real_index_vertex.append(equal_faces)
+                        else:
+                            pass
 
-                values_replace_final = []
-                num_sum = 0
-                for vertex_d in duplicate_elements_index: # HERE I CALCULATE THE NEW VERTEX INDICES TO BE USED
+                # VERTEX INDEX DUPLICATOR
+                values_for_replace_final = []
+                for vertex_d in duplicate_elements_index: # HERE I TRANSFORM THE TUPLES INTO LIST (because working with tuples is a pain in the ass)
                     value_duplicate = vertex_duplicated[vertex_d]
-                    values_for_replace = []
+                    values_replaced = []
                     for value_change in value_duplicate:
-                        value_changed = max_value_vi + num_sum
-                        values_for_replace.append(value_changed)
-                        num_sum += 1
-                        #print(value_change, value_changed) # This is the compare between old Vertex Index Values and new ones maybe could use this as metadata in the future
-                    values_replace_final.append(values_for_replace)
-                #print(values_replace_final)
+                        values_replaced.append(value_change)
+                    values_for_replace_final.append(values_replaced)
+                length_values_frf = len(values_for_replace_final)
+
+                # TO KNOW THE NUMBER OF TIMES A VALUE IS DUPLICATED
+                values_replaced_counter = Counter(vx for vxs in values_for_replace_final for vx in set(vxs)) # the times that a Vertex Index is used in the array
+                value_keys = values_replaced_counter.items() # key and value for that key
+                
+                values_in_use = [] # LIST IN WHICH COMPARE THE ITEMS INSIDE THE COUNTER, JUST TO SEND IT TO THE REPLACE CALCULATOR
+                for val_key in value_keys:
+                    key_convert = int(val_key[0])
+                    values_in_use.append(key_convert)
+
+                length_v_r_c = len(values_replaced_counter) # total number of repeated values
+                max_value_length = length_v_r_c + max_value_vi
+                values_change_range = range(max_value_vi, max_value_length) # RANGE FROM THE MAXIMUN VALUE IN VERTEX INDEX, UNTIL THE LAST VALUE USABLE AND NOT REPEATED
+
+                # DUPLICATE CALCULATOR
+                slice_range = 0 # i kept out this value because i need to iterate all over with the value in use
+                values_changed_final = []
+                for values_prev in values_in_use: # LOOPING OVER THE VALUES THAT MUST BE REPLACED
+                    values_changed = []
+                    for new_values in values_for_replace_final: # LOOP in the object that need to change
+                        range_value = values_change_range[slice_range] # range of usable values for that specific number
+                        if values_prev in new_values:
+                            position_value = new_values.index(values_prev)
+                            new_values.pop(position_value)
+                            new_values.insert(position_value, range_value)
+                        else:
+                            pass
+                        values_changed.append(new_values)
+                    values_changed_final.append(values_changed)
+                    slice_range += 1
+                
+                values_duplicated_final = values_changed_final[0]
+                length_values_df = len(values_duplicated_final)
+
+                if length_values_frf != length_values_df:
+                    print("ERROR: Vertex Index Duplication discrepancy, report this bug")
+                    exit()
+                else:
+                    pass
+
+                # VERTEX INDEX VALUE REPLACE CALCULATOR
                 start_index_pos = 0
                 for vertexindex_to_change in duplicate_elements_index:
                     vertex_index.pop(vertexindex_to_change)
-                    vertex_index.insert(vertexindex_to_change, tuple(values_replace_final[start_index_pos]))
+                    vertex_index.insert(vertexindex_to_change, tuple(values_duplicated_final[start_index_pos]))
                     start_index_pos += 1
 
-                for vertex_real_index in real_index_vertex:
-                    current_vertex_array = collada_vertex_positions[interntal_object_counter]
-                    position_adding = len(collada_vertex_positions[interntal_object_counter])
-                    slicing_value = 1
-                    for vertex_pos_array in vertex_real_index:
-                        duplicate_vertex_adding = current_vertex_array[vertex_pos_array]
-                        add_more_index = position_adding + slicing_value
-                        collada_vertex_positions[interntal_object_counter].insert(add_more_index, duplicate_vertex_adding)
-                        slicing_value += 1
-                        
-            else:
-                primitive_duplicate_bool.append(False)
+                slicing_value = 0
+                position_adding = len(collada_vertex_positions[internal_object_counter])
 
-            # Data compiler
+                for vertex_real_index in values_in_use:
+                    vertex_recalc = vertex_real_index
+                    current_vertex_array = collada_vertex_positions[internal_object_counter]
+                    duplicate_vertex_adding = current_vertex_array[vertex_recalc]
+                    add_more_index = position_adding + slicing_value
+                    collada_vertex_positions[internal_object_counter].insert(add_more_index, duplicate_vertex_adding)
+                    ver_extraction = duplicate_vertex_adding
+                    slicing_value += 1
+
+            else:
+                pass
+
+            ##############################################################################################################################
+            ############################################ FACE OVERLAPPING CHECK ALGORITHM END ############################################
+            ##############################################################################################################################
+
+            # Data compiler and sent to Collada P-Array - HERE I CREATE THE P-ARRAY FOR THE OBJECTS
             zipped_p_array = zip_longest(vertex_index, normal_index, uv_index, color_index)
             p_array_formed = []
             for vertex_arr, normal_arr, uv_arr, color_arr in zipped_p_array:
@@ -286,9 +333,7 @@ class ColladaFileWriter:
                     slicing_internal += 1
                     num_count -= 1
             collada_p_array.append(p_array_formed)
-            #print(len(p_array_formed))
-            interntal_object_counter += 1
-        #print(len(collada_p_array))
+            internal_object_counter += 1
 
         #-------------------------------------- ////// END ////// ==> PRECONVERSION OF DATA FOR COLLADA FILES --------------------------------------#
 
@@ -450,12 +495,12 @@ class ColladaFileWriter:
                 v_count_start = f'          <vcount>'
                 dae_file_writer.write(v_count_start)
                 collada_v_count = collada_polygon[number_geometry]
-                #print(len(list(collada_v_count)), "for object, number", number_geometry)
                 for v_count_array in collada_v_count:
                     v_count_write = f'{v_count_array} '
                     dae_file_writer.write(v_count_write)
                 v_count_end = f'</vcount>\n'
                 dae_file_writer.write(v_count_end)
+
 
                 # p-array
                 p_start = f'          <p>'
@@ -464,7 +509,6 @@ class ColladaFileWriter:
                 for array_ready in collada_p_array[number_geometry]:
                     p_data = f'{array_ready} '
                     dae_file_writer.write(p_data)
-                    #print(array_ready, "for object number", number_geometry)
                 p_end = f'</p>\n'
                 dae_file_writer.write(p_end)
                 polylist_mat_end = f'        </polylist>\n'
@@ -498,5 +542,5 @@ class ColladaFileWriter:
             # END OF THE FILE WITH </COLLADA>
             collada_end_of_file = f'</COLLADA>'
             dae_file_writer.write(collada_end_of_file)
-        #print(len(collada_vertex_positions), "Total Vertices Blocks on TMD")
+
         print("Collada File successfully converted")
