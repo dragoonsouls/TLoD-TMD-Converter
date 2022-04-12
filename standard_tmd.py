@@ -2,7 +2,7 @@
 
 Standard TMD Reader: This module read the Standard TMD Header data to be used
 
-Copyright (C) 2021 DooMMetaL
+Copyright (C) 2022 DooMMetaL
 
 """
 
