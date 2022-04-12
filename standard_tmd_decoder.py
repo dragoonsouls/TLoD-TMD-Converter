@@ -4,7 +4,7 @@ Standard TMD Decoder: This module decode the data from Vertex, Normal and Primit
 into integers for easy read/write for the Standard TMD Writer.
 This module has to be very flexible and easy to update
 
-Copyright (C) 2021 DooMMetaL
+Copyright (C) 2022 DooMMetaL
 
 """
 from itertools import zip_longest
