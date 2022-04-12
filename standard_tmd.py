@@ -6,6 +6,7 @@ Copyright (C) 2021 DooMMetaL
 
 """
 
+from operator import index
 from struct import *
 
 # Magic numbers used in most of the TMD Files
@@ -33,95 +34,102 @@ class StandardTmdReader:
             print("is not a valid path, exiting")
             exit()
 
-        with open(tmd_file, 'rb') as readfile:
-            all_file = readfile.read()
-            header_1_bool = bool(all_file.find(TMD_HEADER_1)) # THIS FOUR BOOLS CHECKS IF THE TMD_HEADER IS FOUND, FALSE = IS THERE ; TRUE = ISN'T THERE
-            header_2_bool = bool(all_file.find(TMD_HEADER_2))
-            header_3_bool = bool(all_file.find(TMD_HEADER_3))
-            header_4_bool = bool(all_file.find(TMD_HEADER_4))
+        with open(tmd_file, 'rb') as read_file:
+            all_file = read_file.read()
+            header_1_bool = all_file.find(TMD_HEADER_1)
+            header_2_bool = all_file.find(TMD_HEADER_2)
+            header_3_bool = all_file.find(TMD_HEADER_3)
+            header_4_bool = all_file.find(TMD_HEADER_4)
             global last_mark_location # THIS VALUE IS THE LAST VALUE CHECKED IN THE HEADER
             global tmd_nobj_expected # THIS VALUE IS THE NUMBER OF OBJECTS IN INT NOTATION
-            global tmd_start # THIS VALUE IS USED FOR SEEK() METHOD, IN THE VERTEX, NORMAL AND PRIMITIVE BLOCK READER 
+            global tmd_start # THIS VALUE IS USED FOR SEEK() METHOD, IN THE VERTEX, NORMAL AND PRIMITIVE BLOCK READER
+            global clut_data_start # THIS ONLY WORKS WITH STANDARD TMD INSIDE DEFF FILES
 
-            if header_1_bool == False:
-                tmd_start = tmd_start = all_file.find(TMD_HEADER_1)
-                readfile.seek(tmd_start)
-                tmd_read_header = readfile.read(4) # Here is reading the header itself
-                if tmd_read_header == TMD_HEADER_1:
+            # WRITE A PROPER ONE PLS!!!!
+
+            if header_1_bool != -1:
+                tmd_start = all_file.find(TMD_HEADER_1) # OBTAINING THE POSITION OF THE TMD HEADER FIRST OCCURRENCE
+                clut_data_start = all_file[0:tmd_start] # HERE I GET THE CLUT DATA FROM THE START OF THE FILE
+                read_file.seek(tmd_start)
+                read_header = read_file.read(4) # Here is reading the header itself
+
+                if read_header == TMD_HEADER_1:
                     print("This is a Standard 0x 41 00 00 00 TMD File")
                 else:
-                    print("This is not a TMD File, exiting")
+                    print("This is not a Standard TMD file")
                     exit()
-
-                tmd_clut_prop = readfile.read(4) # Here i obtain the TMD - CLUT property values / FLAGS
-                tmd_nobj_info = readfile.read(4) # Here i obtain the TMD Number of Objects in file
-                tmd_nobj_info_int = unpack('<L', tmd_nobj_info) # Here is a conversion to list mode, for easy reading for the user
-                tmd_nobj_expected_list = list(tmd_nobj_info)[0:1]
-                tmd_nobj_extract = [str(integer) for integer in tmd_nobj_expected_list]
-                join_nobj_str = "".join(tmd_nobj_extract)
-                tmd_nobj_expected = int(join_nobj_str) # Here i get the NObj as integer for he use on the TMD Structure Class
-                print("This TMD file have: ", ''.join(str(tmd_nobj_info_int)).replace("(", "").replace(")", "").replace(",", ""), " Objects inside")
-                print("Remember that TMD objects have textured and untextured faces, that all part from the same object")
-                last_mark_location = all_file.find(tmd_nobj_info) + 4 # This i need to use the continue reading for the structure Class
                 
-            elif header_2_bool == False:
-                tmd_start = tmd_start = all_file.find(TMD_HEADER_2)
-                readfile.seek(tmd_start)
-                tmd_read_header = readfile.read(4)
-                if tmd_read_header == TMD_HEADER_2:
+                tmd_clut_prop = read_file.read(4) # Here i obtain the TMD - CLUT property values / FLAGS
+                tmd_nobj_prop = read_file.read(4) # Here i obtain the TMD Number of Objects in file
+                tmd_clut_prop_info = int.from_bytes(tmd_clut_prop, 'little')
+                tmd_nobj_prop_info = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_nobj_expected = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_properties = f'FLAG Configuration: {tmd_clut_prop_info}, Number of Objects in the File: {tmd_nobj_prop_info}'
+                last_mark_location = tmd_start + 12 # I HAVE TO BE WITH AN EYE ON THIS, MAY CAN FAIL
+                print(tmd_properties)
+            
+            elif header_2_bool != -1:
+                tmd_start = all_file.find(TMD_HEADER_2) # OBTAINING THE POSITION OF THE TMD HEADER FIRST OCCURRENCE
+                clut_data_start = all_file[0:tmd_start] # HERE I GET THE CLUT DATA FROM THE START OF THE FILE
+                read_file.seek(tmd_start)
+                read_header = read_file.read(4) # Here is reading the header itself
+
+                if read_header == TMD_HEADER_2:
                     print("This is a Standard 0x 41 01 00 00 TMD File")
                 else:
-                    print("This is not a TMD File, exiting")
+                    print("This is not a Standard TMD file")
                     exit()
-                tmd_clut_prop = readfile.read(4)
-                tmd_nobj_info = readfile.read(4)
-                tmd_nobj_info_int = unpack('<L', tmd_nobj_info)
-                tmd_nobj_expected_list = list(tmd_nobj_info)[0:1]
-                tmd_nobj_extract = [str(integer) for integer in tmd_nobj_expected_list]
-                join_nobj_str = "".join(tmd_nobj_extract)
-                tmd_nobj_expected = int(join_nobj_str)
-                print("This TMD file have: ", ''.join(str(tmd_nobj_info_int)).replace("(", "").replace(")", "").replace(",", ""), " Objects inside")
-                print("Remember that TMD objects have textured and untextured faces, that all part from the same object")
-                last_mark_location = all_file.find(tmd_nobj_info) + 4
+                
+                tmd_clut_prop = read_file.read(4) # Here i obtain the TMD - CLUT property values / FLAGS
+                tmd_nobj_prop = read_file.read(4) # Here i obtain the TMD Number of Objects in file
+                tmd_clut_prop_info = int.from_bytes(tmd_clut_prop, 'little')
+                tmd_nobj_prop_info = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_nobj_expected = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_properties = f'FLAG Configuration: {tmd_clut_prop_info}, Number of Objects in the File: {tmd_nobj_prop_info}'
+                last_mark_location = tmd_start + 12 # I HAVE TO BE WITH AN EYE ON THIS, MAY CAN FAIL
+                print(tmd_properties)
+            
+            elif header_3_bool != -1:
+                tmd_start = all_file.find(TMD_HEADER_3) # OBTAINING THE POSITION OF THE TMD HEADER FIRST OCCURRENCE
+                clut_data_start = all_file[0:tmd_start] # HERE I GET THE CLUT DATA FROM THE START OF THE FILE
+                read_file.seek(tmd_start)
+                read_header = read_file.read(4) # Here is reading the header itself
 
-            elif header_3_bool == False:
-                tmd_start = tmd_start = all_file.find(TMD_HEADER_3)
-                readfile.seek(tmd_start)
-                tmd_read_header = readfile.read(4)
-                if tmd_read_header == TMD_HEADER_3:
+                if read_header == TMD_HEADER_3:
                     print("This is a Standard 0x 41 00 01 00 TMD File")
                 else:
-                    print("This is not a TMD File, exiting")
+                    print("This is not a Standard TMD file")
                     exit()
-                tmd_clut_prop = readfile.read(4) 
-                tmd_nobj_info = readfile.read(4) 
-                tmd_nobj_info_int = unpack('<L', tmd_nobj_info)
-                tmd_nobj_expected_list = list(tmd_nobj_info)[0:1]
-                tmd_nobj_extract = [str(integer) for integer in tmd_nobj_expected_list]
-                join_nobj_str = "".join(tmd_nobj_extract)
-                tmd_nobj_expected = int(join_nobj_str) 
-                print("This TMD file have: ", ''.join(str(tmd_nobj_info_int)).replace("(", "").replace(")", "").replace(",", ""), " Objects inside")
-                print("Remember that TMD objects have textured and untextured faces, that all part from the same object")
-                last_mark_location = all_file.find(tmd_nobj_info) + 4 
+                
+                tmd_clut_prop = read_file.read(4) # Here i obtain the TMD - CLUT property values / FLAGS
+                tmd_nobj_prop = read_file.read(4) # Here i obtain the TMD Number of Objects in file
+                tmd_clut_prop_info = int.from_bytes(tmd_clut_prop, 'little')
+                tmd_nobj_prop_info = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_nobj_expected = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_properties = f'FLAG Configuration: {tmd_clut_prop_info}, Number of Objects in the File: {tmd_nobj_prop_info}'
+                last_mark_location = tmd_start + 12 # I HAVE TO BE WITH AN EYE ON THIS, MAY CAN FAIL
+                print(tmd_properties)
+            
+            elif header_4_bool != -1:
+                tmd_start = all_file.find(TMD_HEADER_4) # OBTAINING THE POSITION OF THE TMD HEADER FIRST OCCURRENCE
+                clut_data_start = all_file[0:tmd_start] # HERE I GET THE CLUT DATA FROM THE START OF THE FILE
+                read_file.seek(tmd_start)
+                read_header = read_file.read(4) # Here is reading the header itself
 
-            elif header_4_bool == False:
-                tmd_start = tmd_start = all_file.find(TMD_HEADER_4) 
-                readfile.seek(tmd_start)
-                tmd_read_header = readfile.read(4) 
-                if tmd_read_header == TMD_HEADER_4:
+                if read_header == TMD_HEADER_4:
                     print("This is a Standard 0x 41 00 00 01 TMD File")
                 else:
-                    print("This is not a TMD File, exiting")
+                    print("This is not a Standard TMD file")
                     exit()
-                tmd_clut_prop = readfile.read(4) 
-                tmd_nobj_info = readfile.read(4) 
-                tmd_nobj_info_int = unpack('<L', tmd_nobj_info) 
-                tmd_nobj_expected_list = list(tmd_nobj_info)[0:1]
-                tmd_nobj_extract = [str(integer) for integer in tmd_nobj_expected_list]
-                join_nobj_str = "".join(tmd_nobj_extract)
-                tmd_nobj_expected = int(join_nobj_str) 
-                print("This TMD file have: ", ''.join(str(tmd_nobj_info_int)).replace("(", "").replace(")", "").replace(",", ""), " Objects inside")
-                print("Remember that TMD objects have textured and untextured faces, that all part from the same object")
-                last_mark_location = all_file.find(tmd_nobj_info) + 4 
+                
+                tmd_clut_prop = read_file.read(4) # Here i obtain the TMD - CLUT property values / FLAGS
+                tmd_nobj_prop = read_file.read(4) # Here i obtain the TMD Number of Objects in file
+                tmd_clut_prop_info = int.from_bytes(tmd_clut_prop, 'little')
+                tmd_nobj_prop_info = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_nobj_expected = int.from_bytes(tmd_nobj_prop, 'little')
+                tmd_properties = f'FLAG Configuration: {tmd_clut_prop_info}, Number of Objects in the File: {tmd_nobj_prop_info}'
+                last_mark_location = tmd_start + 12 # I HAVE TO BE WITH AN EYE ON THIS, MAY CAN FAIL
+                print(tmd_properties)
+            
             else:
-                print("This is not a TMD file or Header is not correct")
+                print("This is not a Standard TMD file or Header is not correct/documented - HIGHLY RECOMMENDED: Check manually the file")
