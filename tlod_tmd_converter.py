@@ -6,7 +6,7 @@ to export it into OBJ Wavefont format, and import to 3D Softwares such Blender.
 
 Note: Custom TMD are under research so Primitives and CLUT is not fully supported
 
-Copyright (C) 2021 DooMMetaL
+Copyright (C) 2022 DooMMetaL
 
 """
 
@@ -15,7 +15,6 @@ import standard_tmd_structure
 import standard_tmd_writer
 import standard_tmd_decoder
 import tlod_tmd_converter_colladaexp
-
 
 
 print("Choose the Type of TMD to analyse: Standard TMD, Custom TMD. \nFor standard -tmd, for custom -ctmd")
@@ -27,6 +26,7 @@ try:
         print("Working on a Standard TMD")
         try:
             standard_tmd.StandardTmdReader.data_reader(standard_tmd.StandardTmdReader.data_reader)
+            
             standard_tmd_structure.StandardTmdStructure.object_list_reader(standard_tmd_structure.StandardTmdStructure.object_list_reader)
             standard_tmd_structure.StandardTmdStructure.object_list_converter(standard_tmd_structure.StandardTmdStructure.object_list_converter)
             standard_tmd_structure.StandardTmdStructure.vertex_block_extractor(standard_tmd_structure.StandardTmdStructure.vertex_block_extractor)
@@ -46,6 +46,7 @@ try:
             standard_tmd_decoder.PrimitiveTmd.decoded_lsc3vntfs(standard_tmd_decoder.PrimitiveTmd.decoded_lsc3vntfs)
             standard_tmd_decoder.PrimitiveTmd.decoded_lsc3vntgg(standard_tmd_decoder.PrimitiveTmd.decoded_lsc3vntgg)
             standard_tmd_decoder.PrimitiveTmd.decoded_lsc3vntfg(standard_tmd_decoder.PrimitiveTmd.decoded_lsc3vntfg)
+            standard_tmd_decoder.PrimitiveTmd.decoded_new_lsc_3v_nt_fg(standard_tmd_decoder.PrimitiveTmd.decoded_new_lsc_3v_nt_fg)
             # (ALL) 4 Vertex LSC Textured - No Textured
             standard_tmd_decoder.PrimitiveTmd.decoded_lsc4vgt(standard_tmd_decoder.PrimitiveTmd.decoded_lsc4vgt)
             standard_tmd_decoder.PrimitiveTmd.decoded_lsc4vft(standard_tmd_decoder.PrimitiveTmd.decoded_lsc4vft)
@@ -68,6 +69,9 @@ try:
             standard_tmd_decoder.PrimitiveTmd.decoded_new_nlsc_4v_g_t(standard_tmd_decoder.PrimitiveTmd.decoded_new_nlsc_4v_g_t)
             standard_tmd_decoder.PrimitiveTmd.decoded_nlsc4vntg(standard_tmd_decoder.PrimitiveTmd.decoded_nlsc4vntg)
             standard_tmd_decoder.PrimitiveTmd.decoded_nlsc4vntf(standard_tmd_decoder.PrimitiveTmd.decoded_nlsc4vntf)
+            # NEW PRIMITIVES FOUND
+            standard_tmd_decoder.PrimitiveTmd.decoded_new_lsc_4v_nt_gg(standard_tmd_decoder.PrimitiveTmd.decoded_new_lsc_4v_nt_gg)
+            standard_tmd_decoder.PrimitiveTmd.decoded_new_lsc_3v_nt_gg(standard_tmd_decoder.PrimitiveTmd.decoded_new_lsc_3v_nt_gg)
             #End of Decoders of Primitives
             standard_tmd_decoder.ObjectCleaner.primitive_cleaner(standard_tmd_decoder.ObjectCleaner.primitive_cleaner)
             standard_tmd_writer.TmdConverter.object_converter(standard_tmd_writer.TmdConverter.object_converter)
@@ -77,16 +81,17 @@ try:
 
             # Collada converter (experimental)
             tlod_tmd_converter_colladaexp.ColladaFileWriter.dae_from_obj(tlod_tmd_converter_colladaexp.ColladaFileWriter.dae_from_obj)
-
+            
 
         except OSError:
             print("This is not a valid path, exiting")
             exit()
 
     elif user_choose == "-ctmd":
-        print("Working on a Custom TMD - NOT SUPPORTED RIGHT NOW")
+        print("Working on a Custom TMD - HIGHLY EXPERIMENTAL")
         try:
-            print("Please, write the full path to the Custom TMD file: ")
+            exit()
+            
         
         except OSError:
             print("This is not a valid path, exiting")
