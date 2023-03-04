@@ -52,7 +52,7 @@ Also a special thanks to Monoxide, who did an impressive job reversing TLoD Game
 
 *https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java*
 
-Thanks to it work doing this i could be able to make a converter for CTMD, SAF, CMB and LMB files!.
+Thanks to his job, i been able to make a converter for CTMD, SAF, CMB and LMB files!.
 
 and all the people from the TLoD Global Discord!. Cheers!.
 
