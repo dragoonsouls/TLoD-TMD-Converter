@@ -6,6 +6,7 @@ if a TMD or a CTMD, if none of those, tool will close
 Copyright (C) 2023 DooMMetaL
 
 """
+import os
 
 # HERE I DECLARE THE 'MAGIC' OR HEADERS, THAT ARE "CONSTANTS"
 # THIS IS PRETTY MUCH THE FOUND WE MADE UNTIL HERE
@@ -96,6 +97,29 @@ class FilterFile:
                 path_animation = input()
                 if (path_animation == f'-none') or (path_animation == f''):
                     animation_data_info = [0, 0, f'NONE']
+                
+                elif path_animation == f'-mergeSAF':
+                    print(f'Working of Merge SAF Animation Mode')
+                    print(f'For sake of simplicity be sure of have the animations isolated in a folder')
+                    print(f'Input the Folder complete path...')
+                    folder_search = input()
+                    list_files = self.look_anims_in_folder(folder_path=folder_search)
+
+                    multi_animation_data = []
+                    multi_animation_info = []
+                    for animation_file_path in list_files:
+                        with open(animation_file_path, 'rb') as single_animation:
+                            anim_file_read = single_animation.read()
+                            anim_external = self.search_anim_type(anim_search_file=anim_file_read)
+                            animation_data_single = anim_external[0]
+                            animation_data_info_single = anim_external[1]
+                            self.animation_obj_compare(compare_tmd=model_data_objects, compare_anim=animation_data_info_single)
+                            multi_animation_data.append(animation_data_single)
+                            multi_animation_info.append(animation_data_info_single)
+                    animation_merged = self.merge_saf_data(animation_data_to_merge=multi_animation_data, animation_info_to_merge=multi_animation_info)
+                    animation_data = animation_merged[0]
+                    animation_data_info = animation_merged[1]
+                
                 else:
                     with open(path_animation, 'rb') as animation_file:
                         animation_file_read = animation_file.read()
@@ -258,3 +282,43 @@ class FilterFile:
         else:
             print(f'FATAL DISCREPANCY!! - Number of Objects in Model: {model_data_objects} - {anim_type} Expected: {anim_obj_info}, processing will stop...')
             exit()
+    
+    @staticmethod
+    def look_anims_in_folder(folder_path=str):
+        anim_files_in_folder = os.listdir(folder_path)
+
+        anim_file_list = []
+        for anim_files in anim_files_in_folder:
+            complete_file_path = folder_path + f'\\' + anim_files
+            anim_file_list.append(complete_file_path)
+        
+        return anim_file_list
+    
+    @staticmethod
+    def merge_saf_data(animation_data_to_merge=list, animation_info_to_merge=list):
+        tmd_objects = []
+        saf_transformation = []
+
+        for info in animation_info_to_merge:
+            if info[2] == f'SAF':
+                num_objs = info[0]
+                transformations = info[1]
+                tmd_objects.append(num_objs)
+                saf_transformation.append(transformations)
+            else:
+                print(f'FATAL - MERGING IMPOSSIBLE DUE TO A NON SAF FILE, EXITING...')
+                exit()
+        
+        objects_in_animations = list(set(tmd_objects))
+        total_transformations = sum(saf_transformation)
+
+        if len(objects_in_animations) != 1:
+            print(f'FATAL - Number of objects in animation merging is different, exiting...')
+            exit()
+        
+        total_animation_data = b''.join(animation_data_to_merge)
+
+        anim_info = [objects_in_animations[0], total_transformations, f'SAF']
+        
+        
+        return total_animation_data, anim_info
