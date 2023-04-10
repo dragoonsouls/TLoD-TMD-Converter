@@ -8,6 +8,8 @@ Also i added a very specific functionality for researchers and modders, when you
 
 ## BETA 0.1
 
+**There is an available version of the tool with GUI**
+
 A simple converter to DAE (Collada) format oriented to work with TLoD Model and animation formats, to later be imported into Blender. Python coded (recommended version 3.10.2 64bit), so just install python, execute tlod_tmd_converter.py, follow instructions and this tool should do the trick.
 Soon i will add the GUI and in a near future a previewer for models/animations converted.
 
@@ -68,6 +70,7 @@ You can find me here:
 ```
 BETA 0.1 version
 
+ADDING GUI FOR EASY USE OF THE TOOL!
 TOTAL REFACTOR ON THE CODE TO FIT THE STANDARDS
 FIX SOME RETAIL BUGS RELATED TO MODELS THAT HAVE UNUSED VERTICES IN THE BLOCK
 
