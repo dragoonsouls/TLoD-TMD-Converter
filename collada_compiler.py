@@ -253,7 +253,7 @@ class ColladaCompiler:
         # Getting the UV data and if not exist just fill with a default value |||| DAE format don't allow non UV if a single face in all the model is already textured
         uv_get = ()
         if (c_p_d.get("u3") != None) and (c_p_d.get("v3") != None): # uv1-uv3-uv2-uv0
-            fourvertex_uv = c_p_d.get("u2"), (1 - c_p_d.get("v2")), c_p_d.get("u0"), (1 - c_p_d.get("v0")), c_p_d.get("u3"), (1 - c_p_d.get("v3")), c_p_d.get("u0"), (1 - c_p_d.get("v0"))
+            fourvertex_uv = c_p_d.get("u1"), (1 - c_p_d.get("v1")), c_p_d.get("u3"), (1 - c_p_d.get("v3")), c_p_d.get("u2"), (1 - c_p_d.get("v2")), c_p_d.get("u0"), (1 - c_p_d.get("v0"))
             uv_get = fourvertex_uv
         elif c_p_d.get("u0") != None:
             threevertex_uv = c_p_d.get("u0"), (1 - c_p_d.get("v0")), c_p_d.get("u1"), (1 - c_p_d.get("v1")), c_p_d.get("u2"), (1 - c_p_d.get("v2"))
