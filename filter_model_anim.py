@@ -7,6 +7,8 @@ Copyright (C) 2023 DooMMetaL
 
 """
 import os
+from tkinter.filedialog import askopenfile, askdirectory
+from tkinter import messagebox
 
 # HERE I DECLARE THE 'MAGIC' OR HEADERS, THAT ARE "CONSTANTS"
 # THIS IS PRETTY MUCH THE FOUND WE MADE UNTIL HERE
@@ -56,6 +58,9 @@ class FilterFile:
             """Model Data Objects == Number of Objects in model"""
             global animation_data
             global animation_data_info
+            """File Filter Text to be printed"""
+            global file_filter_text
+            file_filter_text = f''
             
             model_data = b''
             model_data_objects = 0
@@ -70,7 +75,7 @@ class FilterFile:
                 data_grab_model = data_grab[0]
                 model_data_objects = data_grab[1]
                 model_data = data_grab_model
-                print(f'This is a Standard TMD {header_type}, Number of Objects: {model_data_objects}')
+                file_filter_text = f'\nThis is a Standard TMD {header_type}, Number of Objects: {model_data_objects}'
             elif (file_type == f'CTMD'):
                 start_slice_model = read_file[file_start:]
                 header_type = start_slice_model[0:4]
@@ -78,9 +83,9 @@ class FilterFile:
                 data_grab_model = data_grab[0]
                 model_data_objects = data_grab[1]
                 model_data = data_grab_model
-                print(f'This is a Standard CTMD {header_type}, Number of Objects: {model_data_objects}')
+                file_filter_text = f'\nThis is a Standard CTMD {header_type}, Number of Objects: {model_data_objects}'
             else:
-                print(f'file {check_header} is not a 3D model file')
+                file_filter_text = f'\nfile {check_header} is not a 3D model file'
                 exit()
             
             # NOW I FILTER IF THEY HAVE EMBEDDED ANIMATION DATA
@@ -91,18 +96,22 @@ class FilterFile:
                 self.animation_obj_compare(compare_tmd=model_data_objects, compare_anim=animation_data_info)
                 
             else:
-                print(f'No embedded Animation file found, for continue, please input the full path to the animation file...')
-                print(f'If you want to continue without animation, type -none or simply press enter, for TMD and CTMDs insde DEFF files we recommend use this option!')
-                print(f'If want to merge various animations into a single one, type -mergeSAF')
-                path_animation = input()
-                if (path_animation == f'-none') or (path_animation == f''):
+                new_message = messagebox.showinfo(title=f'Warning!', message=f'No embedded Animation file found, load animations or cancel to continue the processing')
+                if new_message == f'ok':
+                    select_processing = messagebox.askyesnocancel(title=f'Select an Option to continue...', message=f'[Yes] = Load Single SAF\n[No] = Merge SAF\n[Cancel] = Don\'t load animation')
+                
+                if select_processing == None:
                     animation_data_info = [0, 0, f'NONE']
                 
-                elif path_animation == f'-mergeSAF':
-                    print(f'Working of Merge SAF Animation Mode')
-                    print(f'For sake of simplicity be sure of have the animations isolated in a folder')
-                    print(f'Input the Folder complete path...')
-                    folder_search = input()
+                elif select_processing == False:
+                    merge_1 = f'Working of Merge SAF Animation Mode'
+                    merge_2 = f'\nFor sake of simplicity be sure of have the animations isolated in a folder'
+                    merge_3 = f'\nInput the Folder complete path...'
+                    merge_message = merge_1 + merge_2 + merge_3
+                    new_message_merge = messagebox.showinfo(title=f'IMPORTANT!!...', message=merge_message)
+                    path_folder_anim = askdirectory(title='Select a SAF Animation Folder')
+                    
+                    folder_search = path_folder_anim
                     list_files = self.look_anims_in_folder(folder_path=folder_search)
 
                     multi_animation_data = []
@@ -121,6 +130,8 @@ class FilterFile:
                     animation_data_info = animation_merged[1]
                 
                 else:
+                    path_anim = askopenfile(title=f'Select a SAF file...')
+                    path_animation = path_anim.name
                     with open(path_animation, 'rb') as animation_file:
                         animation_file_read = animation_file.read()
                         animation_external = self.search_anim_type(anim_search_file=animation_file_read)
@@ -203,10 +214,9 @@ class FilterFile:
             final_data_cmb = start_cmb[16:]
 
             if len(start_cmb) != total_length_int:
-                print(f'FATAL ERROR - CMB FILE SIZE DON\'T MATCH!, processing can\'t continue, closing tool...')
+                cmb_error = f'FATAL ERROR - CMB FILE SIZE DON\'T MATCH!, processing can\'t continue, closing tool...'
+                show_error_cmb = messagebox.showerror(title=f'FATAL CRASH!!!', message=cmb_error)
                 exit()
-            else:
-                print(f'CMB Size Block is correct, continue processing...')
             
             anim_data = final_data_cmb
             anim_type_str = f'CMB'
@@ -245,16 +255,16 @@ class FilterFile:
             anim_info.append(anim_type_str)
 
         else:
-            print(f'No embedded Animation found in file, would load an animation?')
-            print(f'-force, this command is not available at the moment')
-            user_force = input()
-            if user_force != f'-force':
+            message_no_animation = f'No embedded Animation found in file, would load an animation?\n-force, this command is not available at the moment\nSelect [NO]'
+            new_ctmd_no_anim = messagebox.showwarning(title=f'WARNING!!...', message=message_no_animation)
+            user_force_select = messagebox.askyesno(title=f'Select Option...', message=f'Select [Yes] = Force animation loading[NOT AVAILABLE]\nSelect [No] = Continue without Animation')
+            if user_force_select == False:
                 anim_data = b''
                 anim_info = [0, 0, f'NONE']
             else:
-                print(f'i tell ya!, this option is not available at the moment!!.. exiting...') # here i must write a proper animation force algorithm
+                force_crash = f'i tell ya!, this option is not available at the moment!!.. exiting...' # here i must write a proper animation force algorithm
+                show_error_merge = messagebox.showerror(title=f'FATAL CRASH!!!', message=force_crash)
                 exit()
-        
         return anim_data, anim_info
 
     @staticmethod
@@ -265,7 +275,6 @@ class FilterFile:
         number_objects = read_header_data[8:12]
         number_objects_int = int.from_bytes(number_objects, 'little', signed=False)
         model_data_end = model_file[12:]
-
         return model_data_end, number_objects_int
     
     @staticmethod
@@ -276,22 +285,22 @@ class FilterFile:
         anim_transform_info = animation_data_info[1]
         anim_type = animation_data_info[2] # WOULD EXIST DIFFERENT ANIM TYPES: SAF, CMB, LMB_TYPE_0, LMB_TYPE_1, LMB_TYPE_2 AND NONE
         if anim_obj_info == model_data_objects:
-            print(f'This {anim_type}, have: {anim_transform_info} Transforms for {anim_obj_info} Objects')
+            global animation_check_info
+            animation_check_info = f'\nThis {anim_type}, have: {anim_transform_info} Transforms for {anim_obj_info} Objects'
         elif anim_obj_info == 0:
             pass
         else:
-            print(f'FATAL DISCREPANCY!! - Number of Objects in Model: {model_data_objects} - {anim_type} Expected: {anim_obj_info}, processing will stop...')
+            message_merge_error = f'FATAL DISCREPANCY!! - Number of Objects in Model: {model_data_objects} - {anim_type} Expected: {anim_obj_info}, processing will stop...'
+            show_error_merge = messagebox.showerror(title=f'FATAL CRASH!!!', message=message_merge_error)
             exit()
     
     @staticmethod
     def look_anims_in_folder(folder_path=str):
         anim_files_in_folder = os.listdir(folder_path)
-
         anim_file_list = []
         for anim_files in anim_files_in_folder:
             complete_file_path = folder_path + f'\\' + anim_files
             anim_file_list.append(complete_file_path)
-        
         return anim_file_list
     
     @staticmethod
@@ -306,19 +315,18 @@ class FilterFile:
                 tmd_objects.append(num_objs)
                 saf_transformation.append(transformations)
             else:
-                print(f'FATAL - MERGING IMPOSSIBLE DUE TO A NON SAF FILE, EXITING...')
+                message_merge_error_2 = f'FATAL - MERGING IMPOSSIBLE DUE TO A NON SAF FILE, EXITING...'
+                show_error_merge_2 = messagebox.showerror(title=f'FATAL CRASH!!!', message=message_merge_error_2)
                 exit()
         
         objects_in_animations = list(set(tmd_objects))
         total_transformations = sum(saf_transformation)
 
         if len(objects_in_animations) != 1:
-            print(f'FATAL - Number of objects in animation merging is different, exiting...')
+            message_merge_error_3 = f'FATAL - Number of objects in animation merging is different, exiting...'
+            show_error_merge_3 = messagebox.showerror(title=f'FATAL CRASH!!!', message=message_merge_error_3)
             exit()
-        
-        total_animation_data = b''.join(animation_data_to_merge)
 
-        anim_info = [objects_in_animations[0], total_transformations, f'SAF']
-        
-        
-        return total_animation_data, anim_info
+        total_animation_data = b''.join(animation_data_to_merge)
+        anim_info_total = [objects_in_animations[0], total_transformations, f'SAF']
+        return total_animation_data, anim_info_total

@@ -163,5 +163,6 @@ class CmbConverter:
             enumerating_keyframe_final.append(getting_enum)
 
         cmb_keyframes_converted_enum = list(enumerate(enumerating_keyframe_final)) # HERE I GET THE CORRECT NESTING USING THE KEYFRAME ENUMERATED
-        print("Conversion of Keyframes successful")
+        global cmb_conversion_finished
+        cmb_conversion_finished = f'\nConversion of Keyframes successful'
         return cmb_keyframes_converted_enum

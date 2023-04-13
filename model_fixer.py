@@ -9,6 +9,8 @@ Copyright (C) 2023 DooMMetaL
 
 """
 
+from tkinter import messagebox
+
 class ModelFix:
     def __init__(self, primitive_block, vertex_block):
         self.self = ModelFix
@@ -42,10 +44,15 @@ class ModelFix:
             
             set_vertex_index = set(vertex_index_compendium)
             current_vertex_block = vertex_block[counter_obj]
+            global check_this_mf_bool
+            check_this_mf_bool = False
             if (len(set_vertex_index)) != len(vertex_block[counter_obj]):
-                print(f'Original model seems to have retail bugged Vertex Block and Vertex Index, we will try a fix for it!...')
+                check_this_mf_bool = True
+                global retail_bugged_vertex_info
+                retail_bugged_vertex_info = f'\nOriginal model seems to have retail bugged Vertex Block and Vertex Index,\nwe will try a fix for it!...'
                 new_vertex_block_calc = self.vertex_block_fixer(vertex_index_set=set_vertex_index, original_vertex_block=current_vertex_block)
-                print(f'||||>>>>>>>>>>WORKING WITH PRIMITIVE BLOCK NUM {counter_obj}<<<<<<<<<<||||')
+                global working_retail_bugged_info
+                working_retail_bugged_info = f'\n||||>>>>>>>>>>WORKING WITH PRIMITIVE BLOCK NUM {counter_obj}<<<<<<<<<<||||'
                 new_primitive_block_get = self.primitive_block_fixer(old_vi=set_vertex_index, orig_prim_block=primitive_in)
                 new_vertex_block.append(new_vertex_block_calc)
                 new_primitive_block.append(new_primitive_block_get)
@@ -119,7 +126,8 @@ class ModelFix:
                 new_prim_get.append(current_prim)
             
             else:
-                print(f'FATAL ERROR - Impossible to set new Vertex Index... exiting')
+                error_new_vertex_index = f'Impossible to set new Vertex Index...'
+                error_new_vertex_index_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_new_vertex_index)
                 exit()
 
         return new_prim_get

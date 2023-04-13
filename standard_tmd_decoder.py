@@ -7,6 +7,7 @@ This module has to be very flexible and easy to update.
 Copyright (C) 2023 DooMMetaL
 
 """
+from tkinter import messagebox
 
 class VertexInterpreter():
     def __init__(self, vertex_number_list, vertex_to_decode):
@@ -128,7 +129,7 @@ class PrimitiveTmd:
                 grad_var = f''
                 # MODE
                 brigth_var = f'' # Calculated but not used at the moment
-                translucency_var = f''
+                translucency_var = f'' # Calculated but not used at the moment ||| i will soon
                 texture_var = f''
                 vertex_var = f''
                 shading_var = f''
@@ -287,7 +288,8 @@ class PrimitiveTmd:
                             f'vertex3': int.from_bytes(current_primitive[28:30], byteorder='little'), f'pad_value2': int.from_bytes(current_primitive[30:32], byteorder='little')})
                     
                     else:
-                        print(f'FATAL ERROR - Not reading Vertex Primitive Data(LSC)... exiting...')
+                        no_vertex_primitive_lsc = f'Not reading Vertex Primitive Data (LSC)... exiting...'
+                        no_vertex_primitive_error = messagebox.showerror(title='FATAL CRASH!!!...', message=no_vertex_primitive_lsc)
                         exit()
 
                 elif key_light_name == f'NLSC_':
@@ -366,11 +368,13 @@ class PrimitiveTmd:
                             f'vertex2': int.from_bytes(current_primitive[28:30], byteorder='little'), f'vertex3': int.from_bytes(current_primitive[30:32], byteorder='little')})
                     
                     else:
-                        print(f'FATAL ERROR - Not reading Vertex Primitive Data... exiting...')
+                        no_vertex_primitive_nlsc = f'Not reading Vertex Primitive Data (NLSC)... exiting...'
+                        no_vertex_primitive_error = messagebox.showerror(title='FATAL CRASH!!!...', message=no_vertex_primitive_nlsc)
                         exit()
                 
                 else:
-                    print(f'FATAL ERROR - Not reading Light Primitive Data...\nObject Number: {current_prim_block_num}, Primitive Number: {current_primitive_num}, Current Packet Header: {primitive_packet_header}\nexiting...')
+                    no_light_primitive= f'Not reading Light Primitive Data...\nObject Number: {current_prim_block_num}, Primitive Number: {current_primitive_num}, Current Packet Header: {primitive_packet_header}\nexiting...'
+                    no_light_primitive_error = messagebox.showerror(title='FATAL CRASH!!!...', message=no_light_primitive)
                     exit()
 
                 primitives_in_object.append(decoded_primitive)

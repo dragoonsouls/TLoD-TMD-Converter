@@ -11,6 +11,7 @@ Copyright (C) 2023 DooMMetaL
 
 import standard_tmd_decoder as std
 import custom_tmd_decoder as ctd
+from tkinter import messagebox
 
 
 class ModelDecoder:
@@ -39,7 +40,8 @@ class ModelDecoder:
             vertex_decoded = self.custom_tmd_vertex_decoder(vertex_int=v_num, vertex_block_in=v_block)
 
         else:
-            print(f'File type: {model_type}, is not a Model file... exiting tool...')
+            error_model_type = f'File type: {model_type}, is not a Model file... exiting tool...'
+            error_model = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_model)
             exit()
     
     @staticmethod
@@ -64,8 +66,8 @@ class ModelDecoder:
 
     @staticmethod
     def custom_tmd_primitive_decoder(num_obj, primitive_int, primitive_block_in):
-        print(f'Select the Desired Attribute:\n1 = 0x14 00 00 40;\n2 = 0x14 00 00 00;\n3 = 0x50 00 00 00;\n4 = 0x64 00 00 40;\n5 = 0x54 00 00 00;\nAny other value will be set as 0x14 00 00 00')
-        attribute_select = int(input())
+        #print(f'Select the Desired Attribute:\n1 = 0x14 00 00 40;\n2 = 0x14 00 00 00;\n3 = 0x50 00 00 00;\n4 = 0x64 00 00 40;\n5 = 0x54 00 00 00;\nAny other value will be set as 0x14 00 00 00')
+        attribute_select = int(1)
         primitive_dec = ctd.CustomTmdPrimitive.cprimitive_types_depacker(ctd.CustomTmdPrimitive.cprimitive_types_depacker, object_num=num_obj, prim_num=primitive_int, prim_block_byte=primitive_block_in, tmd_attribute=attribute_select)
         return primitive_dec
 

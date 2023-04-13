@@ -12,41 +12,7 @@ Copyright (C) 2023 DooMMetaL
 
 import numpy as np
 from typing import Final
-
-#########################
-#### PRIMITIVE TYPES ####
-#########################
-# HERE I WILL WRITE THE PRIMITIVE PACKET TYPES FOUND IN THE RESEARCH
-global prim_type_00
-global prim_type_01
-global prim_type_02
-global prim_type_03
-global prim_type_04
-global prim_type_05
-global prim_type_06
-global prim_type_07
-global prim_type_08
-global prim_type_09
-global prim_type_10
-global prim_type_11
-global prim_type_12
-global prim_type_13
-
-prim_type_00 = b'\x00\x0c\x30' # LSC_3V_GOURAUD_GRADATION_TEXTURED_TRANSLUCENT
-prim_type_01 = b'\x00\x0c\x32' # LSC_3V_GOURAUD_GRADATION_SINGLE_FACED
-prim_type_02 = b'\x00\x08\x34' # LSC_3V_GOURAUD_FLAT_TEXTURED_SINGLE_FACE
-prim_type_03 = b'\x00\x09\x37' # NLSC_3V_FLAT_TEXTURED_SINGLE_FACED
-prim_type_04 = b'\x00\x0c\x38' # LSC_4V_GOURAUD_GRADATION_SOLID_SINGLE_FACE_NO_TEXTURED
-prim_type_05 = b'\x00\x0c\x3a' # LSC_4V_GOURAUD_GRADATION_SOLID_NO_TEXTURED_SINGLE_FACED
-prim_type_06 = b'\x00\x08\x3c' # LSC_4V_GOURAUD_FLAT_TEXTURED_SINGLE_FACED
-prim_type_07 = b'\x00\x09\x3d' # NLSC_4V_GOURAUD_FLAT_SOLID_SINGLE_FACED
-prim_type_08 = b'\x00\x09\x3f' # NLSC_4V_GOURAUD_FLAT_TEXTURED_TRANSLUCENT_SINGLE_FACED
-prim_type_09 = b'\x00\x08\x38' # LSC_4V_GOURAUD_SOLID_FLAT_NO_TEXTURED_SINGLE_FACED
-prim_type_10 = b'\x00\x08\x30' # LSC_3V_GOURAUD_SOLID_NO_TEXTURED_SINGLE_FACED
-prim_type_11 = b'\x00\x08\x3e' # LSC_4V_GOURAUD_TRANSLUCENT_SINGLE_FACE_TEXTURED
-prim_type_12 = b'\x00\x08\x3a' # LSC_4V_GOURAUD_FLAT_SEMITRANSPARENT_NO_TEXTURED
-prim_type_13 = b'\x00\x09\x35' # NLSC_3V_FLAT_TEXTURED_SINGLE_FACED recently found in Dart Flameshot |||| RESEARCH MORE ABOUT THIS ONE
-
+from tkinter import messagebox
 
 ################################
 #### CUSTOM TMD INTERPRETER #### |||| THIS MODULE INTERPRET NORMAL/PRIMITIVE DATA TO WRITE READABLE PACKETS FOR THE COLLADA WRITER
@@ -108,6 +74,10 @@ class CustomTmdPrimitive:
         total_original_primitives = sum(num_of_prim_in_obj)
 
         processed_prim_block = [] # CTMD CONVERTED BUT IN HEX
+        # Printings
+        global primitive_conversion_info
+        primitive_conversion_info = []
+        depack_success = f'Depacking Succesfully'
 
         for p_block_num in range(0, num_obj_ctmd): # HERE I LOOP IN THE NUMBER OF OBJECT AND PRIMITIVE BLOCK
             if tmd_attribute == 1:
@@ -148,10 +118,12 @@ class CustomTmdPrimitive:
             global current_prim_slice
             current_prim_slice = 0
             while num_prims != 0:
-                print(f'////////========PRIMITIVE PROCESSING========\\\\\\\\')
-                print(f'============|||Object Number: {p_block_num}|||============')
-                print(f'NUMBER OF PRIMITIVES LEFT: {num_prims}')
-                print(f'Length of Primitive Block {len(num_packet_prim)}, Current Slice: {current_prim_slice}')
+                info_1 = f'\n////////========PRIMITIVE PROCESSING========\\\\\\\\'
+                info_2 = f'\n============|||Object Number: {p_block_num}|||============'
+                info_3 = f'\nNUMBER OF PRIMITIVES LEFT: {num_prims}'
+                info_4 = f'\nLength of Primitive Block {len(num_packet_prim)}, Current Slice: {current_prim_slice}'
+                all_head_info = info_1, info_2, info_3, info_4
+                primitive_conversion_info.append(all_head_info)
 
                 parameters_for_depack.update({"_0c": 0})
                 parameters_for_depack.update({"_08": 0})
@@ -163,23 +135,25 @@ class CustomTmdPrimitive:
 
                 new_prim_command_single = np.right_shift(type_command, 24) & 0x3e | mode_prim_single
                 index_render_single = np.right_shift(type_command, 14) & 0x20 | np.right_shift(type_command, 24) & 0xf | np.right_shift(type_command, 18) & 0x1 | mode_prim_single
-                print(f'New Primitive Command: {new_prim_command_single}, Index of Renderer: {index_render_single},\nTotal Primitives in Block: {total_prims_in_obj}, Current Primitives Processed: {type_len}')
-                print(num_packet_prim[current_prim_slice: (current_prim_slice + 4)])
-                
+                new_prim_command_info = f'New Primitive Command: {new_prim_command_single}, Index of Renderer: {index_render_single},\nTotal Primitives in Block: {total_prims_in_obj}, Current Primitives Processed: {type_len}'
+                primitive_conversion_info.append(new_prim_command_info)
+
                 not_possible_render = [16, 17, 20, 21, 24, 25, 28, 29, 48, 49, 52, 53, 56, 57, 60, 61]
                 classic_renders = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18, 19, 22, 23, 26, 27, 30, 31]
                 new_slice = 0
 
                 if index_render_single in not_possible_render:
-                    print(f'Index Render Number: {index_render_single} is not a possible value')
+                    index_ren_num_error = f'Index Render Number: {index_render_single} is not a possible value'
+                    index_ren_num_error_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=index_ren_num_error)
                     exit()
                 elif index_render_single in classic_renders:
-                    print(f'THIS CTMD USE CLASSIC PRIMITIVES RENDERS????!!!: {index_render_single}') # THIS IS WEIRD, SINCE I NEVER FOUND ONE
+                    weird_info = f'THIS CTMD USE CLASSIC PRIMITIVES RENDERS????!!!: {index_render_single}' # THIS IS WEIRD, SINCE I NEVER FOUND ONE
+                    weird_info_window = messagebox.showwarning(title=f'WARNING!!!...', message=weird_info)
                     break
                 
                 # From this point to onwards all had unpackers
                 elif (index_render_single == 32) or (index_render_single == 34) or (index_render_single == 50):
-                    print(f'Renderer 13 Single Block, need to be unpacked')
+                    info_ren_13 = f'\nRenderer 13 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -188,10 +162,11 @@ class CustomTmdPrimitive:
                         render_13_single = prim_header_13_single, primitive_13
                         obj_prim_processed.append(render_13_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_13)
+                    primitive_conversion_info.append(depack_success)
                     
                 elif (index_render_single == 33) or (index_render_single == 35) or (index_render_single == 51):
-                    print(f'Renderer 14 Single Block, need to be unpacked')
+                    info_ren_14 = f'\nRenderer 14 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -200,10 +175,11 @@ class CustomTmdPrimitive:
                         render_14_single = prim_header_14_single, primitive_14
                         obj_prim_processed.append(render_14_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_14)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 36) or (index_render_single == 38):
-                    print(f'Renderer 15 Single Block, need to be unpacked')
+                    info_ren_15 = f'\nRenderer 15 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -212,10 +188,11 @@ class CustomTmdPrimitive:
                         render_15_single = prim_header_15_single, primitive_15
                         obj_prim_processed.append(render_15_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_15)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 37) or (index_render_single == 39):
-                    print(f'Renderer 16 Single Block, need to be unpacked')
+                    info_ren_16 = f'\nRenderer 16 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -224,10 +201,11 @@ class CustomTmdPrimitive:
                         render_16_single = prim_header_16_single, primitive_16
                         obj_prim_processed.append(render_16_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_16)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 40) or (index_render_single == 42) or (index_render_single == 58):
-                    print(f'Renderer 17 Single Block, need to be unpacked')
+                    info_ren_17 = f'\nRenderer 17 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -236,10 +214,11 @@ class CustomTmdPrimitive:
                         render_17_single = prim_header_17_single, primitive_17
                         obj_prim_processed.append(render_17_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_17)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 41) or (index_render_single == 43) or (index_render_single == 59):
-                    print(f'Renderer 18 Single Block, need to be unpacked')
+                    info_ren_18 = f'\nRenderer 18 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -248,10 +227,11 @@ class CustomTmdPrimitive:
                         render_18_single = prim_header_18_single, primitive_18
                         obj_prim_processed.append(render_18_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_18)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 44) or (index_render_single == 46):
-                    print(f'Renderer 19 Single Block, need to be unpacked')
+                    info_ren_19 = f'\nRenderer 19 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -260,10 +240,11 @@ class CustomTmdPrimitive:
                         render_19_single = prim_header_19_single, primitive_19
                         obj_prim_processed.append(render_19_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_19)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 45) or (index_render_single == 47):
-                    print(f'Renderer 20 Single Block, need to be unpacked')
+                    info_ren_20 = f'\nRenderer 20 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -272,10 +253,11 @@ class CustomTmdPrimitive:
                         render_20_single = prim_header_20_single, primitive_20
                         obj_prim_processed.append(render_20_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_20)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 54):
-                    print(f'Renderer 21 Single Block, need to be unpacked')
+                    info_ren_21 = f'\nRenderer 21 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -284,10 +266,11 @@ class CustomTmdPrimitive:
                         render_21_single = prim_header_21_single, primitive_21
                         obj_prim_processed.append(render_21_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_21)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 55):
-                    print(f'Renderer 22 Single Block, need to be unpacked')
+                    info_ren_22 = f'\nRenderer 22 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -296,10 +279,11 @@ class CustomTmdPrimitive:
                         render_22_single = prim_header_22_single, primitive_22
                         obj_prim_processed.append(render_22_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_22)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 62):
-                    print(f'Renderer 23 Single Block, need to be unpacked')
+                    info_ren_23 = f'\nRenderer 23 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -308,10 +292,11 @@ class CustomTmdPrimitive:
                         render_23_single = prim_header_23_single, primitive_23
                         obj_prim_processed.append(render_23_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_23)
+                    primitive_conversion_info.append(depack_success)
 
                 elif (index_render_single == 63):
-                    print(f'Renderer 24 Single Block, need to be unpacked')
+                    info_ren_24 = f'\nRenderer 24 Single Block, need to be unpacked'
                     num_packet_prim_new = num_packet_prim[current_prim_slice + 4:]
                     for number_prim in range(0, type_len):
                         primitive_last = num_packet_prim_new[new_slice:]
@@ -320,10 +305,12 @@ class CustomTmdPrimitive:
                         render_24_single = prim_header_24_single, primitive_24
                         obj_prim_processed.append(render_24_single)
                         new_slice += sliced
-                    print("Depacking Succesfully")
+                    primitive_conversion_info.append(info_ren_24)
+                    primitive_conversion_info.append(depack_success)
 
                 else:
-                    print(f'Index Render Number: {index_render_single} do not exist!!, exiting the Tool...')
+                    error_ren_single = f'Index Render Number: {index_render_single} do not exist!!, exiting the Tool...'
+                    error_ren_single_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_ren_single)
                     exit()
 
                 adjusted_slice_00 = new_slice + 0x3
@@ -342,7 +329,8 @@ class CustomTmdPrimitive:
             for i in range(0, total_length_depack): # Filling with 0 the dictionary
                 depacked_elements[f'{i}'] = 0
 
-        print(f'ALL PRIMITIVES WERE UNPACKED\n')
+        finish_unpacking_prims = f'\nALL PRIMITIVES WERE UNPACKED\n'
+        primitive_conversion_info.append(finish_unpacking_prims)
 
         global primitive_block_dict
         primitive_block_dict = [] # CTMD CONVERTED INTO READABLE FORM
@@ -352,8 +340,8 @@ class CustomTmdPrimitive:
             prim_block_inner_obj = []
             for prim_d_b in prim_dec_block:
                 if (prim_d_b[0] == 0) or (len(prim_d_b[1]) == 0):
-                    print(f'None Primitive Unpacked {prim_d_b}, Primitive Number: {prim_dec_block_num}')
-                    print(f'Exiting...')
+                    error_primitive_unpacked = f'None Primitive Unpacked {prim_d_b}, Primitive Number: {prim_dec_block_num}'
+                    error_primitive_unpacked_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_primitive_unpacked)
                     exit()
                 
                 elif prim_d_b[0] == f'render_13':
@@ -517,9 +505,11 @@ class CustomTmdPrimitive:
         for test_total in primitive_block_dict:
             total_prims_depacked.append(len(test_total))
         sum_prims_depacked = sum(total_prims_depacked)
-        print(f'Number of Depacked Primitives: {sum_prims_depacked}, Number of Total Primitives: {total_original_primitives}, Total Objects: {total_objects_last}')
+        global primitives_unpacked_info
+        primitives_unpacked_info = f'\nNumber of Depacked Primitives: {sum_prims_depacked}, Number of Total Primitives: {total_original_primitives}, Total Objects: {total_objects_last}'
         if sum_prims_depacked != total_original_primitives:
-            print(f'ERROR - Number of Primitives is not equal, report this bug')
+            error_primitives_different = f'ERROR - Number of Primitives is not equal, report this bug'
+            error_different_prims = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_primitives_different)
             exit()
         
         primitives_decoded = primitive_block_dict
@@ -547,7 +537,6 @@ class PrimitiveDepacker:
                 parameter_3_new_value = int.from_bytes(packed_data[packed_data_slice_internal: packed_data_slice_internal + 1], 'little', signed=False) | 0xff00
                 parameters_for_depack.update({"_08": parameter_3_new_value})
                 packed_data_slice_internal += 1
-                #print(parameters_for_depack)
 
             if (parameters_for_depack.get("_08") & 0x1) != 0:
                 index_pack_it = parameters_for_depack.get("_00")
@@ -562,7 +551,6 @@ class PrimitiveDepacker:
                 fourth_value_changed = parameters_for_depack.get("_0c") + 1
                 parameters_for_depack.update({"_0c": fourth_value_changed})
                 packed_data_slice_internal += 2
-                #print(parameters_for_depack)
             
             else:
                 long_value_01 = int.from_bytes(packed_data[packed_data_slice_internal: packed_data_slice_internal + 1], 'little', signed=False)
@@ -615,7 +603,8 @@ class CustomTmdVertex:
         vertex_original = vertex_block # This is the original Block byte of Vertex
         vertex_num_original = vertex_number # This is the total number of Vertices in the model
         vertex_num_sum = sum(vertex_num_original)
-        print(f'Total Number of Vertices in the CTMD: {vertex_num_original} == {vertex_num_sum}')
+        global vertices_converted_info
+        vertices_converted_info = f'\nTotal Number of Vertices in the CTMD: {vertex_num_original} == {vertex_num_sum}'
 
         vertex_full_split = []
         for vertex_split in vertex_original:
@@ -672,11 +661,15 @@ class CustomTmdVertex:
                     decoded_vertex_inside_prim[index_2] = vertex_2
                 
                 else:
-                    print(f'NO VERTEX CTMD ERROR!!')
+                    no_vertex_error = f'NO VERTEX CTMD ERROR!!'
+                    no_vertex_error_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=no_vertex_error)
+                    exit()
+
             decoded_vertex_in_object.append(decoded_vertex_inside_prim)
             obj_number += 1
             
-        print(f'Total Blocks of Vertices: {len(decoded_vertex_in_object)}\n\n')
+        global total_block_vertices_info
+        total_block_vertices_info = f'Total Blocks of Vertices: {len(decoded_vertex_in_object)}'
 
         vertex_decoded = decoded_vertex_in_object
         return vertex_decoded

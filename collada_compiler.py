@@ -12,6 +12,8 @@ Copyright (C) 2023 DooMMetaL
 from collections import Counter
 import itertools
 
+from tkinter import messagebox
+
 class ColladaCompiler:
     def __init__(self, collada_primitives, collada_vertex):
         self.self = ColladaCompiler
@@ -52,6 +54,8 @@ class ColladaCompiler:
 
         #------------------------------------------START /// P-ARRAY LOOP------------------------------------------#
 
+        global check_duplicate_state
+        check_duplicate_state = []
         global collada_p_array
         collada_p_array = [] # polylist -  P ARRAY - sorting: vertex_index, normal_index, texcoord (uv), color_index
         #P-Array Constructor
@@ -80,8 +84,8 @@ class ColladaCompiler:
                     three_vertex_order = polyex.get("vertex0"), polyex.get("vertex1"), polyex.get("vertex2")
                     vertex_index.append(three_vertex_order)
                 else:
-                    print("Something odd happen here, report this bug immediately! - No Vertex Index Primitive ERROR")
-                    print(f'Primitive Vertex Index error: {polyex}')
+                    error_vertex_1 = f'Something odd happen here, report this bug immediately! - No Vertex Index Primitive ERROR\nPrimitive Vertex Index error: {polyex}'
+                    error_vertex_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_vertex_1)
                     exit()
 
                 #NORMAL ARRAY
@@ -113,8 +117,8 @@ class ColladaCompiler:
                     normal_index.append(default_value_3v)
 
                 else:
-                    print("Something odd happen here, report this bug immediately! - No Normal Index Primitive ERROR")
-                    print(f'Primitive Normal Index error: {polyex}')
+                    error_normal_1 = f'Something odd happen here, report this bug immediately! - No Normal Index Primitive ERROR\nPrimitive Normal Index error: {polyex}'
+                    error_normal_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_normal_1)
                     exit()
 
                 #UV ARRAY
@@ -142,8 +146,8 @@ class ColladaCompiler:
                     uv_num += 3
 
                 else:
-                    print("Something odd happen here, report this bug immediately! - No UV Primitive ERROR")
-                    print(f'Primitive UV error: {polyex}')
+                    error_uv_1 = f'Something odd happen here, report this bug immediately! - No UV Primitive ERROR\nPrimitive UV error: {polyex}'
+                    error_uv_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_uv_1)
                     exit()
 
                 #COLOR ARRAY // new algorithm
@@ -182,8 +186,8 @@ class ColladaCompiler:
                     color_num += 3
 
                 else:
-                    print("Something odd happen here, report this bug immediately! - No Color Primitive ERROR")
-                    print(f'Primitive Colour error: {polyex}')
+                    error_color_1 = f'Something odd happen here, report this bug immediately! - No Color Primitive ERROR\nPrimitive Colour error: {polyex}'
+                    error_color_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_color_1)
                     exit()
 
             ##############################################################################################################################
@@ -194,10 +198,12 @@ class ColladaCompiler:
             contains_duplicate = len(vertex_duplicated) != len(vertex_set)
 
             checking_overlap = self.check_face_overlapping(contains_duplicate=contains_duplicate, vertex_duplicated=vertex_duplicated,
-            internal_object_counter=internal_object_counter,vertex_index=vertex_index,collada_vertex_positions=collada_vertex_positions)
+            internal_object_counter = internal_object_counter,vertex_index=vertex_index,collada_vertex_positions=collada_vertex_positions)
             
             vertex_index = checking_overlap[0]
             collada_vertex_positions = checking_overlap[1]
+            check_duplicate_obj = checking_overlap[2]
+            check_duplicate_state.append(check_duplicate_obj)
 
             calculate_max_vi = []
             for vertex_max in vertex_index:
@@ -265,8 +271,8 @@ class ColladaCompiler:
             none_uv_3v = 0.01, 0.01, 0.01, 0.01, 0.01, 0.01
             uv_get = none_uv_3v
         else:
-            print(f'FATAL ERROR - UV DATA NOT RECOGNISED!!... Exiting...')
-            print(f'Primitive: {c_p_d}')
+            collada_uv_error = f'UV DATA NOT RECOGNISED!!... Exiting...\nPrimitive: {c_p_d}'
+            collada_uv_error_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=collada_uv_error)
             exit()
         
         return uv_get
@@ -303,8 +309,8 @@ class ColladaCompiler:
                 none_colour_3v = (0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)
                 vertex_colour = none_colour_3v
             else:
-                print(f'WARNING: VERTEX COLOR ERROR, Value not possible, Report as Vertex Color Conversion packer - not in dict... exiting')
-                print(f'Primitive: {c_p_d}')
+                collada_vertex_color_error = f'VERTEX COLOR ERROR, Value not possible, Report as Vertex Color Conversion packer - not in dict... exiting\nPrimitive: {c_p_d}'
+                collada_vertex_color_error_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=collada_vertex_color_error)
                 exit()
         
         return vertex_colour
@@ -320,15 +326,17 @@ class ColladaCompiler:
         elif c_p_d.get("vertex2") != None:
             face_type = three_faces_prim
         else:
-            print("Something odd happen here, report this bug immediately! - No vertex Primitive ERROR... Exiting")
-            print(f'Primitive: {c_p_d}')
+            collada_poly_error = f'Something odd happen here, report this bug immediately! - No vertex Primitive ERROR... Exiting\nPrimitive: {c_p_d}'
+            collada_poly_error_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=collada_poly_error)
             exit()
         return face_type
     
     @staticmethod
     def check_face_overlapping(contains_duplicate=bool, vertex_duplicated=list, internal_object_counter=int, vertex_index=list, collada_vertex_positions=list):
+
+        checking_state_duplicate = f''
         if contains_duplicate == True:
-            print("We got a duplicate face in a Primitive, we must change some values to avoid duplicate Face automatic removing from 3D Softwares, Object number:", f'{internal_object_counter}')
+            checking_state_duplicate = f'\nWe got a duplicate face in a Primitive, we must change some values to avoid duplicate Face automatic removing from 3D Softwares, Object number: {internal_object_counter}'
             vertex_dup_maxvalue_list = []
             for ver_2_list in vertex_duplicated:
                 vertex_to_list = list(ver_2_list)
@@ -349,7 +357,8 @@ class ColladaCompiler:
                     changing_stuff = list(vi_dup_count[0])
                     counted_duplicates.append(changing_stuff)
                 elif vi_dup_count[1] == 3:
-                    print(f'FATAL CRASH - Unexpected quantity of Vertex Index are not duplicated, are Multiplicated... exiting...')
+                    error_muilti_vi = f'Unexpected quantity of Vertex Index are not duplicated, are Multiplicated... exiting...'
+                    error_muilti_vi_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_muilti_vi)
                     exit()
             
             duplicated_vi_indices = [] # LIST OF VERTEX INDEX NUMERATED BY LIST INDEX
@@ -420,14 +429,15 @@ class ColladaCompiler:
                 vertex_index[index_list] = values_list
 
         else:
-            print(f'This Model, Object number: {internal_object_counter}, do not have overlapped faces, processing will continue...')
+            checking_state_duplicate = f'\nThis Model, Object number: {internal_object_counter}, do not have overlapped faces, processing will continue...'
         
-        return vertex_index, collada_vertex_positions
+        return vertex_index, collada_vertex_positions, checking_state_duplicate
 
     @staticmethod
     def check_same_vertex_index(collada_vertex_positions=list, vertex_index=list, current_object=int, same_vi_flags=list, max_index_number=int):
         """THIS ALGORITHM WILL FIND IF A SAME VERTEX INDEX DIFFERENT WINDING IT'S GOING ON"""
 
+        global check_bool
         check_bool = False
         check_index = []
 
@@ -440,8 +450,8 @@ class ColladaCompiler:
         
         if check_bool == True:
             check_index_str = str(check_index).replace("[", "").replace("]", "")
-            print(f'In Object Number {current_object}, Primitives Number: {check_index_str} have Faces with different Vertex Index Winding')
-            print(f'We are going to do some calculations to fix this...')
+            global winding_diff_info
+            winding_diff_info = f'In Object Number {current_object}, Primitives Number: {check_index_str} have Faces with different Vertex Index Winding\nWe are going to do some calculations to fix this...'
 
             all_involved_vertex_index = []
 

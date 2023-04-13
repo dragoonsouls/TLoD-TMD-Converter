@@ -7,6 +7,8 @@ Copyright (C) 2023 DooMMetaL
 
 """
 
+from tkinter import messagebox
+
 class SafConverter:
     def __init__(self, animation_byte_block, saf_transform_info, merge_flag):
         self.self = SafConverter
@@ -15,16 +17,15 @@ class SafConverter:
     def saf_convert(self, animation_byte_block, saf_transform_info, merge_flag=bool):
         anm_block = animation_byte_block
         saf_trans_info = saf_transform_info
-        #global saf_animation_decoded i don't think this is needed at all
         saf_animation_decoded = []
         if merge_flag == False:
             saf_animation_split = self.saf_single_split(animation_block=anm_block, saf_transform_info=saf_trans_info)
             saf_animation_decoded = self.decode_saf(keyframe_split=saf_animation_split)
-
         elif merge_flag == True:
             pass
         else:
-            print(f'FATAL ERROR - MERGING FLAG UNSET!!')
+            merging_flag_error = f'FATAL ERROR - MERGING FLAG UNSET!!'
+            merging_flag_error_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message= merging_flag_error)
             exit()
 
         return saf_animation_decoded
@@ -41,9 +42,11 @@ class SafConverter:
         coincidence = (block_size // length_each_block)
 
         if int(coincidence * 2) == (anm_frames * 2): # Multiply this anm frames because in SAF are split in ROT/LOC
-            print("Exist correlativity between Animation Frames and Blocks")
+            global conversion_saf_ok
+            conversion_saf_ok = f'\nExist correlativity between Animation Frames and Blocks'
         else:
-            print("There are no correlativity between Animation Frames and Blocks, Report this as Frame/Block not equal")
+            conversion_saf_error = f'There are no correlativity between Animation Frames and Blocks, Report this as Frame/Block not equal'
+            conversion_saf_error_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message= conversion_saf_error)
             exit()
         
         keyframes_blocks_bytes = [] # HERE I GOT THE KEYFRAMES THAT REPRESENTS ALL THE BLOCKS SPLIT
@@ -89,6 +92,7 @@ class SafConverter:
             obj_transformations = list(enumerate(single_obj_transformations))
             keyframes_converted.append(obj_transformations)
         keyframes_converted_enum = list(enumerate(keyframes_converted)) # HERE I GET THE CORRECT NESTING USING THE KEYFRAME ENUMERATED
-        print("Conversion of Keyframes successful")
+        global finished_convert_saf
+        finished_convert_saf = f'\nConversion of Keyframes successful'
 
         return keyframes_converted_enum

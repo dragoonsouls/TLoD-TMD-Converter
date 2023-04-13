@@ -13,6 +13,8 @@ Copyright (C) 2023 DooMMetaL
 
 """
 
+from tkinter import messagebox
+
 class LmbConverter:
     def __init__(self):
         self.self = LmbConverter
@@ -67,7 +69,8 @@ class LmbConverter:
                 next_value += 20
             return lmb_joined_data_trans
         else:
-            print(f'different number in the transformations: {transform_count_check}')
+            different_transforms = f'different number in the transformations: {transform_count_check}'
+            different_transforms_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=different_transforms)
             exit()
 
     @staticmethod
@@ -90,8 +93,10 @@ class LmbConverter:
                 lmb_obj_enum = list(enumerate(lmb_object_inside))
                 enumerating_keyframe_final.append(lmb_obj_enum)
             lmb_keyframes_converted_enum = list(enumerate(enumerating_keyframe_final)) # HERE I GET THE CORRECT NESTING USING THE KEYFRAME ENUMERATED
-            print("Conversion of Keyframes successful")
+            global lmb_conversion_finished
+            lmb_conversion_finished = f'Conversion of Keyframes successful'
             return lmb_keyframes_converted_enum, lmb_anm_frames
         else:
-            print("Fatal Error - No LMB data found")
+            no_lmb_data = f'No LMB data found'
+            different_transforms_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=no_lmb_data)
             exit()

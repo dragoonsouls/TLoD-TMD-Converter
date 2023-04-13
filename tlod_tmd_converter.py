@@ -18,9 +18,6 @@ import model_fixer as mf
 import collada_compiler as colcomp
 import collada_writer as cw
 
-print(f'||||---> TLoD TMD CONVERTER <---||||')
-print(f'IMPORTANT NOTE: For TMD and CTMD Files from DEFF packages, tool will try to find embedded CMB/LMB/SAF animations')
-
 def main(input_file):
     try:
         fma.FilterFile(input_file)
@@ -38,7 +35,7 @@ def main(input_file):
         mf.ModelFix(primitive_block=md.primitive_decoded, vertex_block=md.vertex_decoded)
 
         colcomp.ColladaCompiler(collada_primitives=mf.primitive_decoded_fix, collada_vertex=mf.vertex_decoded_fix)
-        cw.ColladaWriter(new_folder=pr.new_folder, file_name=pr.file_name, anim_name=pr.animation_final_name, 
+        cw.ColladaWriter(new_folder=pr.new_folder, file_name=pr.file_name, 
         mod_obj_num=fma.model_data_objects, prim_num=smd.primitives_number_int, 
         collada_vertex=mf.vertex_decoded_fix, collada_normal=md.normal_decoded, collada_uv=colcomp.collada_uv, collada_vertex_color=colcomp.collada_vertex_color,
         collada_polygon=colcomp.collada_polygon, collada_p_array=colcomp.collada_p_array,
@@ -46,9 +43,3 @@ def main(input_file):
 
     except KeyboardInterrupt:
         exit()
-
-print(f'Enter the full path of the Model:')
-model_input = input()
-
-if __name__ == "__main__":
-    main(model_input)

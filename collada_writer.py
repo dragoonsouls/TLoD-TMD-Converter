@@ -10,13 +10,14 @@ Copyright (C) 2023 DooMMetaL
 """
 import os
 import datetime
+from tkinter.filedialog import asksaveasfilename
 
 class ColladaWriter:
-    def __init__(self, new_folder, file_name, anim_name, mod_obj_num, prim_num,
+    def __init__(self, new_folder, file_name, mod_obj_num, prim_num,
     collada_vertex, collada_normal, collada_uv, collada_vertex_color, collada_polygon, collada_p_array,
     animation_flag, collada_animation):
         self.self = ColladaWriter
-        self.write_collada_file(new_folder=new_folder, file_name=file_name, anim_name=anim_name, model_obj_num=mod_obj_num, number_primitive=prim_num,
+        self.write_collada_file(new_folder=new_folder, file_name=file_name, model_obj_num=mod_obj_num, number_primitive=prim_num,
         collada_vertex=collada_vertex, collada_normal=collada_normal, collada_uv=collada_uv, collada_vertex_color=collada_vertex_color,
         collada_polygon=collada_polygon, collada_p_array=collada_p_array, collada_animation_flag=animation_flag, collada_animation=collada_animation)
     
@@ -32,8 +33,10 @@ class ColladaWriter:
         date_conversion = datetime.datetime.now().isoformat(timespec='milliseconds')
         collada_vertex_positions = collada_vertex
         animation_bool = self.check_animation(animation_flag=collada_animation_flag)
+        
+        save_dae = asksaveasfilename(confirmoverwrite=True, defaultextension=f'dae', initialdir=new_folder)
 
-        with open(os.path.join(new_folder, file_name) + f'_{anim_name}.dae', 'w') as dae_file_writer:            
+        with open(save_dae, 'w') as dae_file_writer:            
             # HEADER
             technical_header = f'<?xml version="1.0" encoding="utf-8"?>\n'
             collada_header = f'<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">\n'
@@ -101,6 +104,7 @@ class ColladaWriter:
                 dae_file_writer.write(position_source_end)
 
                 #  source id = Object_Number_n-mesh-normals
+
                 mesh_normals = collada_normal[number_geometry]
                 mesh_normals_length = len(mesh_normals) * 3 # full count of normals (so 1 normal = 3 values [x, y, z)])
                 mesh_normals_source_write = f'        <source id="Object_Number_{number_geometry}-mesh-normals">\n          <float_array id="Object_Number_{number_geometry}-mesh-normals-array" count="{mesh_normals_length}">'
@@ -480,6 +484,7 @@ class ColladaWriter:
 
                     ######################################### ROTATION #########################################
                     ######################################### ROTATION #########################################
+                    #"""
 
                     ########### Rotation X ###########
                     ########### Rotation X ###########
@@ -751,7 +756,8 @@ class ColladaWriter:
             collada_end_of_file = f'</COLLADA>'
             end_of_file = scene_write + collada_end_of_file
             dae_file_writer.write(end_of_file)
-        print("Collada File successfully converted...")
+        global collada_success
+        collada_success = f'Collada File successfully converted...'
     
     @staticmethod
     def check_animation(animation_flag=list):

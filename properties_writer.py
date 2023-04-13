@@ -13,6 +13,8 @@ import os
 import datetime
 import collections as coll
 
+from tkinter import messagebox
+
 class NewFolder:
     def __init__(self, model_path):
         self.self = NewFolder
@@ -29,21 +31,13 @@ class NewFolder:
         if check_dot_model_path == -1:
             file_name = file_name + f'_converted'
         new_folder = os.path.join(path_folder, file_name)
-        print(new_folder, file_name)
 
         try:
             os.makedirs(new_folder, exist_ok=True)
         except OSError:
-            print("Can't create the folder, permission denied")
+            error_folder = f'Can\'t create the folder, permission denied'
+            error_folder_window = messagebox.showerror(title='System Error...', message=error_folder)
             exit()
-
-        print("Please, enter a desired name for the file converted,\nKeep in mind that the chosen name will be add to the end of the filename,\nEx: Idle, Pose, Run")
-        global animation_final_name
-        animation_final_name = input()
-        if animation_final_name == '':
-            animation_final_name = f'default'
-        else:
-            animation_final_name = animation_final_name
 
 class DebugWriter:
     def __init__(self, file_path, num_obj_model, num_vertex_model, num_normal_model, num_primitive_model, prim_decoded):
@@ -64,11 +58,11 @@ class DebugWriter:
                 elements_sorted = f'Vertices: {number_vertices} - Normals: {number_normals} - Primitives: {number_primitives}\n\n'
                 file_report.write(subtitle_obj)
                 file_report.write(elements_sorted)
+            global total_number_vnp
             total_number_vnp = f'\nTotal number of ==> Vertices: {sum(num_vertex_mod)} - Normals: {sum(num_normal_mod)} - Primitives: {sum(num_primitive_mod)}\n\n'
             time_now = f'\nWork finished at: {datetime.datetime.now()}'
             file_report.write(total_number_vnp)
             file_report.write(time_now)
-            print(total_number_vnp)
     
     def primitives_per_object_write(self, file_path=str, number_objs=int, primitive_numbers=list, prim_decoded=list):
         prim_count = 0
