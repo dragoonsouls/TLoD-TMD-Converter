@@ -464,6 +464,7 @@ class TCWindow(Frame):
                 if add_this_obj == delete_this_obj:
                     index_for_delete = all_object_in_current.index(add_this_obj)
                     self.list_box_conversion_sublist.delete(index_for_delete)
+        self.list_box_conversion_parent_table.configure(state='normal')
         self.button_convert_models.configure(cursor="hand2", state='active')
         if len(self.list_box_conversion_sublist.get(0, END)) <= 0:
             self.list_box_conversion_sublist.configure(state='disabled')
