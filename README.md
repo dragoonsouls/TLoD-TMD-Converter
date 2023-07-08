@@ -27,7 +27,9 @@ convert the models will depend on how fast your Hardware is.
 A simple converter to DAE (Collada) format oriented to work with TLoD Model and animation formats, to later be imported into Blender. Python coded (recommended Python version 3.10.2 64bit).
 
 **UPDATE: COMMAND PROMPT TOOL IS TOTALLY DEPRECATED**
+
 **UPDATE: CONVERSION FILE BY FILE IS NOW IN "ADVANCED CONVERSION"**
+
 **UPDATE: NOW THE TOOL WORKS ALONG TO SEVERED CHAINS, FILE DUMP**
 
 
