@@ -14,7 +14,6 @@ import split_model_data as smd
 import model_decoder as md
 import animation_file_process as afp
 import properties_writer as pr
-import model_fixer as mf
 import collada_compiler as colcomp
 import collada_writer as cw
 
@@ -32,14 +31,11 @@ def main(input_file):
         pr.DebugWriter(file_path=input_file, num_obj_model=fma.model_data_objects, num_vertex_model=smd.vertex_number_int, num_normal_model=smd.normal_number_int,
         num_primitive_model=smd.primitives_number_int, prim_decoded=md.primitive_decoded)
 
-        mf.ModelFix(primitive_block=md.primitive_decoded, vertex_block=md.vertex_decoded)
-
-        colcomp.ColladaCompiler(collada_primitives=mf.primitive_decoded_fix, collada_vertex=mf.vertex_decoded_fix)
-        cw.ColladaWriter(new_folder=pr.new_folder, file_name=pr.file_name, 
-        mod_obj_num=fma.model_data_objects, prim_num=smd.primitives_number_int, 
-        collada_vertex=mf.vertex_decoded_fix, collada_normal=md.normal_decoded, collada_uv=colcomp.collada_uv, collada_vertex_color=colcomp.collada_vertex_color,
+        colcomp.ColladaCompiler(collada_primitives=md.primitive_decoded, collada_vertex=md.vertex_decoded)
+        cw.ColladaWriter(new_folder=pr.new_folder, mod_obj_num=fma.model_data_objects, prim_num=smd.primitives_number_int, 
+        collada_vertex=md.vertex_decoded, collada_normal=md.normal_decoded, collada_uv=colcomp.collada_uv, collada_vertex_color=colcomp.collada_vertex_color,
         collada_polygon=colcomp.collada_polygon, collada_p_array=colcomp.collada_p_array,
-        animation_flag=fma.animation_data_info, collada_animation=afp.animation_decoded)
+        animation_flag=fma.animation_data_info, collada_animation=afp.animation_decoded, batch_flag=False)
 
     except KeyboardInterrupt:
         exit()

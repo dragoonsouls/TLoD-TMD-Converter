@@ -1,0 +1,12 @@
+South Serdio: 5705 - None
+North Serdio: 5706 - None
+Tiberoa: 5707 - None
+Illisa Bay: 5708 - None
+Mille Seseau: 5709 - None
+Gloriano: 5710 - None
+Death Frontier Desert: 5711 - None
+Teleportation-Fly: 5712 - None
+Mini Dart: 5714 - None
+Queen Fury: 5715 - None
+Coloon: 5716 - None
+Teleportation Glow: 5717 - None

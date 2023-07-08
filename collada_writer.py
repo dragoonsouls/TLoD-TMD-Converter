@@ -13,17 +13,17 @@ import datetime
 from tkinter.filedialog import asksaveasfilename
 
 class ColladaWriter:
-    def __init__(self, new_folder, file_name, mod_obj_num, prim_num,
+    def __init__(self, new_folder, mod_obj_num, prim_num,
     collada_vertex, collada_normal, collada_uv, collada_vertex_color, collada_polygon, collada_p_array,
-    animation_flag, collada_animation):
+    animation_flag, collada_animation, batch_flag):
         self.self = ColladaWriter
-        self.write_collada_file(new_folder=new_folder, file_name=file_name, model_obj_num=mod_obj_num, number_primitive=prim_num,
+        self.write_collada_file(new_folder=new_folder, model_obj_num=mod_obj_num, number_primitive=prim_num,
         collada_vertex=collada_vertex, collada_normal=collada_normal, collada_uv=collada_uv, collada_vertex_color=collada_vertex_color,
-        collada_polygon=collada_polygon, collada_p_array=collada_p_array, collada_animation_flag=animation_flag, collada_animation=collada_animation)
+        collada_polygon=collada_polygon, collada_p_array=collada_p_array, collada_animation_flag=animation_flag, collada_animation=collada_animation, batch_flag=batch_flag)
     
-    def write_collada_file(self, new_folder=str, file_name=str, anim_name=str, model_obj_num=int, number_primitive=list, collada_vertex=list, collada_normal=list,
+    def write_collada_file(self, new_folder=str, model_obj_num=int, number_primitive=list, collada_vertex=list, collada_normal=list,
     collada_uv=list, collada_vertex_color=list, collada_polygon=list, collada_p_array=list,
-    collada_animation_flag=list, collada_animation=list):
+    collada_animation_flag=list, collada_animation=list, batch_flag=bool):
 
         """ DAE FILE FORMAT (USING AS EXAMPLE THE BLENDER GENERATED FILE)
         |   
@@ -34,7 +34,11 @@ class ColladaWriter:
         collada_vertex_positions = collada_vertex
         animation_bool = self.check_animation(animation_flag=collada_animation_flag)
         
-        save_dae = asksaveasfilename(confirmoverwrite=True, defaultextension=f'dae', initialdir=new_folder)
+        save_dae = f''
+        if batch_flag == False:
+            save_dae = asksaveasfilename(confirmoverwrite=True, defaultextension=f'dae', initialdir=new_folder)
+        else:
+            save_dae = new_folder + f'.dae'
 
         with open(save_dae, 'w') as dae_file_writer:            
             # HEADER

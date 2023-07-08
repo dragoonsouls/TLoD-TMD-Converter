@@ -1,0 +1,89 @@
+Hoax Beta: 2497/0/ - None
+Forest: 2498/0/ - None
+Seles: 2499/0/ - None
+Hellena Prison 1: 2500/0/ - None
+Hellena Prison 2: 2501/0/ - None
+Hellena Prison 3: 2502/0/ - None
+Prairie: 2503/0/ - None
+Limestone Cave 1: 2504/0/ - None
+Limestone Cave 2: 2505/0/ - None
+Hoax: 2506/0/ - None
+Marshlands: 2507/0/ - None
+Volcano Villude: 2508/0/ - None
+Volcano Villude Boss Fight: 2509/0/ - None
+Nest Of Dragon Outside: 2510/0/ - None
+Nest Of Dragon Feyrbrand Lair: 2511/0/ - None
+Shirley Shrine: 2512/0/ - None
+Shirley Shrine Boss Fight: 2513/0/ - None
+Lohan Battle Arena: 2514/0/ - None
+Melbu Frahma 2nd Stage: 2515/0/ - None
+Black Castle: 2518/0/ - None
+Black Castle Throne: 2519/0/ - None
+Barrens: 2520/0/ - None
+Moon Infinity Hall: 2521/0/ - None
+Melbu Frahma 3rd Generation: 2522/0/ - None
+Valley of the Corrupted Gravity: 2523/0/ - None
+Valley of the Corrupted Gravity Boss Fight: 2524/0/ - None
+Home of Giganto: 2525/0/ - None
+Home of Giganto Throne: 2526/0/ - None
+Fletz Castle Throne: 2527/0/ - None
+Phantom Ship (BUGGED): 2528/0/ - None
+Undersea Cavern (BUGGED): 2530/0/ - None
+Undersea Cavern Regole Nest: 2532/0/ - None
+Evergreen Forest: 2533/0/ - None
+Forbidden Land: 2534/0/ - None
+Forbidden Land Grand Jewel: 2535/0/ - None
+Mountain Mortal Dragon: 2536/0/ - None
+Mountain Mortal Dragon Divine Dragon: 2537/0/ - None
+Kammuy Fight: 2538/0/ - None
+Kashua Glacier: 2539/0/ - None
+Flanvel: 2541/0/ - None
+Flanvel Fight Lloyd: 2542/0/ - None
+Snowfield: 2543/0/ - None
+Fort Magrad: 2544/0/ - None
+Vellweb: 2546/0/ - None
+Vellweb 2: 2547/0/ - None
+Death Frontier: 2548/0/ - None
+Melbu Frahma Last Stage: 2549/0/ - None
+Zenebatos: 2550/0/ - None
+Mayfil: 2551/0/ - None
+Aglis: 2552/0/ - None
+Divine Tree 1: 2553/0/ - None
+Divine Tree 2: 2555/0/ - None
+Moon 1: 2556/0/ - None
+Claire Battle: 2557/0/ - None
+Moon 2 (Wingly City): 2558/0/ - None
+Archangel Battle: 2559/0/ - None
+Moon 3 (TV Stage): 2560/0/ - None
+Zieg Battle: 2561/0/ - None
+Melbu Stage 1: 2562/0/ - None
+Moon Road: 2563/0/ - None
+Zenebatos Bosses: 2564/0/ - None
+Mayfil Bosses: 2565/0/ - None
+Aglis Boss (Last Kraken): 2566/0/ - None
+Hellena Prison (Jiango): 2567/0/ - None
+Red-Eyed Dragon Dimension: 2568/0/ - None
+Jade Dragon Dimension: 2569/0/ - None
+Blue-Sea Dragon Dimension: 2570/0/ - None
+Dark Dragon Dimension: 2571/0/ - None
+White-Silver Dragon Dimension: 2572/0/ - None
+Golden Dragon Dimension: 2573/0/ - None
+Violet Dragon Dimension: 2574/0/ - None
+Divine Dragon Dragon Dimension: 2575/0/ - None
+Death Rose Battle: 2576/0/ - None
+Death Rose Battle 2 (Animated?): 2577/0/ - None
+Old Home of Gigantos: 2578/0/ - None
+Indora Battle: 2579/0/ - None
+Moon Dragon Mountain: 2580/0/ - None
+Michael Battle: 2581/0/ - None
+Doel Battle: 2582/0/ - None
+North Serdio Woods: 2583/0/ - None
+South Serdio Woods: 2584/0/ - None
+Queens Fury Ship: 2585/0/ - None
+Tiberoa Desert: 2586/0/ - None
+Hoax Last Stand Cutscene: 2587/0/ - None
+Volcano Villude Virage Cutscene: 2588/0/ - None
+Nest of Dragon Inside: 2589/0/ - None
+Melbu Frahma 2nd Stage: 2590/0/ - None
+Melbu Frahma 3rd Generation Cutscene: 2591/0/ - None
+Melbu Frahma 3rd Generation Cutscene 2: 2592/0/ - None

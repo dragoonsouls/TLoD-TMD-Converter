@@ -58,8 +58,16 @@ class AnimationInterpreter:
             animation_decoded = lmb_dec[0]
             animation_type[1] = lmb_dec[1]
         elif animation_type_check == f'LMB_Type_1':
-            processing_anim = f'\nLMB Type 1 IS NOT SUPPORTED FOR CONVERSION...'
+            processing_anim = f'\nProcessing LMB Type 1 File...'
+            lmb1_trans_info = animation_type
+            lmb_dec = clmb.LmbConverter.lmb_type1_convert(clmb.LmbConverter, lmb_anim_data=animation_file, lmb_transform_info=lmb1_trans_info)
+            animation_decoded = lmb_dec[0]
+            animation_type[1] = lmb_dec[1]
         elif animation_type_check == f'LMB_Type_2':
-            processing_anim = f'\nLMB TYPE 2 IS NOT SUPPORTED FOR CONVERSION...'
+            processing_anim = f'\nProcessing LMB Type 2 File...'
+            lmb2_trans_info = animation_type
+            lmb_dec = clmb.LmbConverter.lmb_type2_convert(clmb.LmbConverter, lmb_anim_data=animation_file, lmb_transform_info=lmb2_trans_info)
+            animation_decoded = lmb_dec[0]
+            animation_type[1] = lmb_dec[1]
 
         return animation_decoded

@@ -1,0 +1,127 @@
+Commander Seles: 3393 - 3849
+Commander Knight of Sandora: 3394 - 3850
+Sandora Elite 1: 3395 - 3851
+Fruegel Hellena Warden: 3396 - 3852
+Fruegel Hellena Senior Warden: 3397 - 3853
+Fruegel 1: 3398 - 3854
+Fruegel 2: 3399 - 3855
+Rodriguez: 3400 - 3856
+Guftas: 3401 - 3857
+Kongol Hoax: 3402 - 3858
+Kongol Armored: 3403 - 3859
+Doel Normal: 3404 - 3860
+Doel Dragoon: 3405 - 3861
+Lloyd Lohan: 3406 - 3862
+Lloyd Armored: 3407 - 3863
+Lloyd Beta_ALONE: 3408 - None
+Lloyd Beta 2_ALONE: 3409 - None
+Sandora Elite 2: 3410 - 3866
+Mappi Crafty Thief: 3411 - 3867
+Feyrbrand: 3412 - None
+Square_ALONE: 3413 - None
+Lloyd Armored 2_ALONE: 3414 - None
+Regole: 3416 - None
+Square 2_ALONE: 3417 - None
+Divine Dragon_ALONE: 3420 - None
+Square 3_ALONE: 3421 - None
+Square 4_ALONE: 3422 - None
+Greham Dragoon: 3424 - None
+Shirley_ALONE: 3425 - None
+Shana (Shirley)_ALONE: 3426 - None
+Albert (Shirley)_ALONE: 3427 - None
+Lenus_ALONE: 3430 - None
+Lenus Dragoon: 3431 - 3887
+Damia Dragon: 3432 - 3888
+Syuveil Dragon: 3433 - 3889
+Belzac Dragon: 3434 - 3890
+Kanzas Dragon: 3435 - 3891
+Mappi 1: 3436 - 3892
+Mappi 2: 3437 - 3893
+Gehrich: 3438 - 3894
+Gorgaga: 3439 - 3895
+Serfius: 3440 - 3896
+Danton: 3441 - 3897
+Atlow: 3442 - 3898
+Wounded Virage: 3445 - 3901
+Square 5_ALONE: 3446 - None
+Square 6_ALONE: 3447 - None
+Virage: 3448 - 3904
+Two Square_ALONE: 3449 - None
+Square 7_ALONE: 3450 - None
+Scarred Super Virage: 3453 - 3909
+Square 8_ALONE: 3454 - None
+Square 9_ALONE: 3455 - None
+Complete Super Virage: 3457 - 3913
+Square 10_ALONE: 3458 - None
+Square 11_ALONE: 3459 - None
+Drake The Bandit: 3462 - 3918
+Drake The BanditWeb_ALONE: 3463 - None
+Drake The BanditBomb 2: 3464 - 3920
+Jiango: 3466 - 3922
+Square 12_ALONE: 3467 - None
+Square 13_ALONE: 3468 - None
+Urobolus: 3469 - 3925
+Firebird: 3470 - 3926
+Volcano Ball (Firebird): 3471 - 3927
+Grand Jewel: 3472 - 3928
+Virage 2: 3473 - 3929
+Two Square 2_ALONE: 3474 - None
+Square 14_ALONE: 3475 - None
+Kamuy Tree _ALONE: 3476 - None
+Ghost Commander: 3477 - 3933 
+Ghost Knight (Ghost Commander): 3478 - 3934
+Mazo: 3479 - 3935
+Kamuy: 3480 - 3936
+Faust 1 (Real): 3481 - 3937
+Faust 2 (Mirage): 3482 - 3938
+Windigo: 3483 - 3939
+SnowCannon (Windigo): 3484 - 3940
+Square 15_ALONE: 3485 - None
+Polter Armor: 3486 - 3942
+Square 16_ALONE: 3487 - None
+Square 17_ALONE: 3488 - None
+Divine Dragon 2 (Mayfil Spirit)_ALONE: 3489 - None
+Regole 2 (Mayfil Spirit) _ALONE: 3490 - None
+Feyrbrand 2 (Mayfil Spirit): 3491 - 3947
+Melbu Frahma 1st: 3492 - 3948
+Tentacle (Melbu Frahma 1st)_ALONE: 3493 - None
+Lloyd Armored 3: 3494 - 3950
+Vector: 3497 - 3953
+Selebus: 3498 - 3954
+Kubila: 3499 - 3955
+Zackwell: 3500 - 3956
+Lavitz_Zackwell: 3501 - 3957
+Last Kraken: 3502 - 3958
+Cleone (Last Kraken): 3503 - 3959
+Square 18_ALONE: 3504 - None
+Caterpillar (Imago): 3505 - 3961
+Pupa (Imago): 3506 - 3962
+Imago: 3507 - 3963
+Death Rose (Miranda): 3508 - 3964
+Square 19_ALONE: 3509 - None
+Claire (Good): 3510 - 3966
+Claire (Evil): 3511 - 3967
+Indora: 3512 - 3968
+Square 20_ALONE: 3513 - None
+Square 21_ALONE: 3514 - None
+Michael (Dragon): 3515 - 3971
+Square 22_ALONE: 3516 - None
+Square 23_ALONE: 3517 - None
+Evil Doel: 3518 - 3974
+Archangel: 3519 - 3975
+Dragon Spirit (Divine Dragon): 3520 - 3978
+Dragon Spirit (Regole): 3521 - 3977
+Dragon Spirit (Feyrbrand): 3522 - 3976
+Shana God of Destruction_ALONE: 3523 - None
+Zieg Dragoon: 3524 - 3980
+Melbu Frahma 1st 2: 3525 - 3981
+Tentacle 2 (Melbu Frahma 1st)_ALONE: 3526 - None
+Melbu Frahma 2nd: 3527 - 3983
+Melbu Frahma 3rd_ALONE: 3528 - None
+Bomb Star_ALONE: 3529 - None
+Melbu Frahma 4th: 3530 - None
+Monster (Melbu Frahma): 3531 - None
+Square 24_ALONE: 3532 - None
+Melbu Frahma 1st 3: 3533 - 3989
+Tentacle 3 (Melbu Frahma 1st): 3534 - 3990
+Tentacle 4 (Melbu Frahma 1st): 3535 - 3991

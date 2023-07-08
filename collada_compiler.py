@@ -356,10 +356,9 @@ class ColladaCompiler:
                 if vi_dup_count[1] == 2:
                     changing_stuff = list(vi_dup_count[0])
                     counted_duplicates.append(changing_stuff)
-                elif vi_dup_count[1] == 3:
-                    error_muilti_vi = f'Unexpected quantity of Vertex Index are not duplicated, are Multiplicated... exiting...'
-                    error_muilti_vi_window = messagebox.showerror(title=f'FATAL CRASH!!!...', message=error_muilti_vi)
-                    exit()
+                elif vi_dup_count[1] >= 3:
+                    changing_stuff = list(vi_dup_count[0])
+                    counted_duplicates.append(changing_stuff)
             
             duplicated_vi_indices = [] # LIST OF VERTEX INDEX NUMERATED BY LIST INDEX
             for vertex_index_pos in enumerate(vertex_dup_maxvalue_list): 

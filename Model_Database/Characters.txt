@@ -1,0 +1,82 @@
+Dart Normal: 3994 - 4031, Double Slash
+Dart Normal: 3994 - 4032, Volcano
+Dart Normal: 3994 - 4033, Burning Rush
+Dart Normal: 3994 - 4034, Crush Dance
+Dart Normal: 3994 - 4035, Madness Hero
+Dart Normal: 3994 - 4036, Moon Strike
+Dart Normal: 3994 - 4037, Blazing Dynamo
+Dart Normal: 3994 - 4038, Blazing Dynamo - 2
+Lavitz Normal: 3996 - 4039, Harpoon
+Lavitz Normal: 3996 - 4040, Spinning Cane
+Lavitz Normal: 3996 - 4041, Rod Typhoon
+Lavitz Normal: 3996 - 4042, Gust of Wind Dance
+Lavitz Normal: 3996 - 4043, Flower Storm
+Lavitz Normal: 3996 - 4044, Flower Storm - 2
+Lavitz Normal: 3996 - 4045, No addition 1
+Lavitz Normal: 3996 - 4046, No addition 2
+Shana Normal: 3998 - 4047, Attack
+Shana Normal: 3998 - 4048, No addition 1
+Shana Normal: 3998 - 4049, No addition 2
+Shana Normal: 3998 - 4050, No addition 3
+Shana Normal: 3998 - 4051, No addition 4
+Shana Normal: 3998 - 4052, No addition 5
+Shana Normal: 3998 - 4053, No addition 6
+Shana Normal: 3998 - 4054, No addition 7
+Rose Normal: 4000 - 4055, Whip Smack
+Rose Normal: 4000 - 4056, More and More
+Rose Normal: 4000 - 4057, Hard Blade
+Rose Normal: 4000 - 4058, Demon's Dance
+Rose Normal: 4000 - 4059, No addition 1
+Rose Normal: 4000 - 4060, No addition 2
+Rose Normal: 4000 - 4061, No addition 3
+Rose Normal: 4000 - 4062, No addition 4
+Haschel Normal: 4002 - 4063, Double Punch
+Haschel Normal: 4002 - 4064, Ferry of Styx
+Haschel Normal: 4002 - 4065, Summon 4 Gods
+Haschel Normal: 4002 - 4066, 5-Ring Shattering
+Haschel Normal: 4002 - 4067, Hex Hammer
+Haschel Normal: 4002 - 4068, Omni-Sweep
+Haschel Normal: 4002 - 4069, No addition 1
+Haschel Normal: 4002 - 4070, No addition 2
+Albert Normal: 4004 - 4071, Harpoon
+Albert Normal: 4004 - 4072, Spinning Cane
+Albert Normal: 4004 - 4073, Rod Typhoon
+Albert Normal: 4004 - 4074, Gust of Wind Dance
+Albert Normal: 4004 - 4075, Flower Storm
+Albert Normal: 4004 - 4076, No addition 1
+Albert Normal: 4004 - 4077, No addition 2
+Albert Normal: 4004 - 4078, No addition 3
+Meru Normal: 4006 - 4079, Double Smack
+Meru Normal: 4006 - 4080, Hammer Spin
+Meru Normal: 4006 - 4081, Cool Boogie
+Meru Normal: 4006 - 4082, Cat's Cradle
+Meru Normal: 4006 - 4083, Perky Step
+Meru Normal: 4006 - 4084, No Addition 1
+Meru Normal: 4006 - 4085, No addition 2
+Meru Normal: 4006 - 4086, No addition 3
+Kongol Normal: 4008 - 4087, Pursuit
+Kongol Normal: 4008 - 4088, Inferno
+Kongol Normal: 4008 - 4089, Bone Crush
+Kongol Normal: 4008 - 4090, No addition 1
+Kongol Normal: 4008 - 4091, No addition 2
+Kongol Normal: 4008 - 4092, No addition 3
+Kongol Normal: 4008 - 4093, No addition 4
+Kongol Normal: 4008 - 4094, No addition 5
+Miranda Normal: 4010 - 4095, Attack
+Miranda Normal: 4010 - 4096, No addition 1
+Miranda Normal: 4010 - 4097, No addition 2
+Miranda Normal: 4010 - 4098, No addition 3
+Miranda Normal: 4010 - 4099, No addition 4
+Miranda Normal: 4010 - 4100, No addition 5
+Miranda Normal: 4010 - 4101, No addition 6
+Miranda Normal: 4010 - 4102, No addition 7
+Dart Dragoon: 4012 - None
+Lavitz Dragoon: 4014 - None
+Shana Dragoon: 4016 - None
+Rose Dragoon: 4018 - None
+Haschel Dragoon: 4020 - None
+Albert Dragoon: 4022 - None
+Meru Dragoon: 4024 - None
+Kongol Dragoon: 4026 - None
+Miranda Dragoon: 4028 - None
+Dart Divine Dragoon: 4030 - None

@@ -1,0 +1,161 @@
+Mantis: 3137 - 3593
+Scissorhands: 3138 - 3594
+Spinninghead: 3139 - 3595
+Sandworm: 3140 - 3596
+Sea Dragon: 3141 - 3597
+Landskater: 3142 - 3598
+Beastie Dragon: 3143 - 3599
+Manticore: 3144 - 3600
+Goblin: 3145 - 3601
+Minotaur: 3146 - 3602
+Hyper Skeleton: 3147 - 3603
+Basilisk: 3148 - 3604
+Flabby Troll: 3149 - 3605
+Evil Spider: 3150 - 3606
+Spider Urchin: 3151 - 3607
+Strong Man: 3152 - 3608
+Dragonfly: 3153 - 3609
+Hell Hound: 3154 - 3610
+Death: 3155 - 3611
+Lizard Man: 3156 - 3612
+White Ape: 3157 - 3613
+Assassin Cock: 3158 - 3614
+Merman: 3159 - 3615
+Glare: 3160 - 3616
+Berserk Mouse: 3161 - 3617
+Dragon Soldier: 3162 - 3618
+Earth Shaker: 3163 - 3619
+Vampire Kiwi: 3164 - 3620
+Myconido: 3165 - 3621
+Roc: 3166 - 3622
+Gnome: 3167 - 3623
+Bowling: 3168 - 3624
+Freeze Knight: 3169 - 3625
+Fire Spirit: 3170 - 3626
+Mad Skull: 3171 - 3627
+Run Fast: 3172 - 3628
+Canbria Dayfly: 3173 - 3629
+Wyvern: 3174 - 3630
+Trent: 3175 - 3631
+Spring Hitter: 3176 - 3632
+Guillotine: 3177 - 3633
+Terminator: 3178 - 3634
+OO Parts: 3179 - 3635
+Fairy: 3180 - 3636
+Puck: 3181 - 3637
+Mole: 3182 - 3638
+Screaming Bat: 3183 - 3639
+Succubus: 3184 - 3640
+Mammoth: 3185 - 3641
+MetalFang: 3186 - 3642
+Windy Weasel: 3187 - 3643
+Wounded Bear: 3188 - 3644
+Erupting Chick: 3189 - 3645
+Flying Rat: 3190 - 3646
+Rainbow Bird: 3191 - 3647
+Living Statue: 3192 - 3648
+Madman: 3193 - 3649
+Wildman: 3194 - 3650
+Gargoyle: 3195 - 3651
+Crescent Bee: 3196 - 3652
+Jelly: 3197 - 3653
+Spiky Beetle: 3198 - 3654
+Slug: 3199 - 3655
+Witch: 3200 - 3656
+Ugly Balloon: 3201 - 3657
+Maximum Volt: 3202 - 3658
+Crystal Golem: 3203 - 3659
+Rocky Turtle: 3204 - 3660
+Crocodile: 3205 - 3661
+Frilled Lizard: 3206 - 3662
+Magician Bogy: 3207 - 3663
+Triceratops: 3208 - 3664
+Stern Fish: 3209 - 3665
+Forest Runner: 3210 - 3666
+Magma Fish: 3211 - 3667
+Scud Shark: 3212 - 3668
+Screw Shell: 3213 - 3669
+Potbelly: 3214 - 3670
+Loner Knight: 3215 - 3671
+Berserker: 3216 - 3672
+Professor: 3217 - 3673
+Psyche Druid: 3218 - 3674
+Gangster: 3219 - 3675
+Crafty Thief: 3220 - 3676
+Undead: 3221 - 3677
+Skeleton: 3222 - 3678
+Will o' Wisp: 3223 - 3679
+Cursed Jar: 3224 - 3680
+Man Eating Bud: 3225 - 3681
+Cactus: 3226 - 3682
+Mandrake: 3227 - 3683
+Mermaid: 3228 - 3684
+Salamander: 3229 - 3685
+Unicorn: 3230 - 3686
+Orc: 3231 - 3687
+Dark Elf: 3232 - 3688
+Baby Dragon: 3233 - 3689
+Harpy: 3234 - 3690
+Cute Cat: 3235 - 3691
+Arrow Shooter: 3236 - 3692
+Red Hot: 3237 - 3693
+Specter: 3238 - 3694
+Sandora Elite 1: 3239 - 3695
+Knight of Sandora: 3240 - 3696
+Slime: 3241 - 3697
+Fowl Fighter: 3242 - 3698
+Killer Bird: 3243 - 3699
+Plague Rat: 3244 - 3700
+Stinger: 3245 - 3701
+Piggy: 3246 - 3702
+Sea Piranha: 3247 - 3703
+Toad Stool: 3248 - 3704
+Mega Sea Dragon: 3249 - 3705
+Deadly Spider: 3250 - 3706
+Icicle Ball: 3251 - 3707
+Tricky Bat: 3252 - 3708
+Mr.Bone: 3253 - 3709
+Moss Dresser: 3254 - 3710
+Death Purger: 3255 - 3711
+Scorpion: 3256 - 3712
+Trap Plant: 3257 - 3713
+Aqua King: 3258 - 3714
+Sky Chaser: 3259 - 3715
+Air Combat: 3260 - 3716
+Treasure Jar: 3261 - 3717
+Human Hunter: 3262 - 3718
+Mountain Ape: 3263 - 3719
+Roulette Face: 3264 - 3720
+Swift Dragon: 3265 - 3721
+Hellena Warden 1: 3266 - 3722
+Sandora Soldier 1: 3267 - 3723
+Sandora Soldier 2: 3268 - 3724
+Sandora Soldier 3: 3269 - 3725
+Senior Warden: 3270 - 3726
+Hellena Warden 2: 3271 - 3727
+Commander Marshlands: 3272 - 3728
+Blue Bird: 3273 - 3729
+Red Bird: 3274 - 3730
+Yellow Bird: 3275 - 3731
+Lucky Jar: 3276 - 3732
+Terminator 2: 3277 - 3733
+Madman 2: 3281 - 3737
+Madman 3: 3282 - 3738
+Madman 4: 3283 - 3739
+Madman 5: 3284 - 3740
+Madman 6: 3285 - 3741
+Madman 7: 3286 - 3742
+Fire Spirit 2: 3287 - 3743
+Fire Spirit 3: 3288 - 3744
+Specter 2: 3289 - 3745
+Specter 3: 3290 - 3746
+Will o' Wisp 2: 3291 - 3747
+Will o' Wisp 3: 3292 - 3748
+Will o' Wisp 4: 3293 - 3749
+Magma Fish 2: 3294 - 3750
+Magma Fish 3: 3295 - 3751
+Magma Fish 4: 3296 - 3752
+Salamander 2: 3297 - 3753
+Salamander 3: 3298 - 3754
+Gnome 2: 3316 - 3772
+Dark Elf 2: 3328 - 3784

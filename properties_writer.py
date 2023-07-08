@@ -27,8 +27,8 @@ class NewFolder:
         file_path_complete = (model_path).strip()
         file_name_complete = os.path.basename(file_path_complete)
         file_name = os.path.splitext(file_name_complete)[0]
-        check_dot_model_path = model_path.find('.')
-        if check_dot_model_path == -1:
+        check_model_path = os.path.isdir(model_path) # If not a directory... will continue
+        if check_model_path == False:
             file_name = file_name + f'_converted'
         new_folder = os.path.join(path_folder, file_name)
 
@@ -47,7 +47,7 @@ class DebugWriter:
     
     def model_informer(self, file_path=str, num_obj_mod=int, num_vertex_mod=list, num_normal_mod=list, num_primitive_mod=list):
         number_of_objects_int = num_obj_mod
-        with open(os.path.join(new_folder, file_name) + "_TMD_report" + ".txt", 'w') as file_report:
+        with open(file_path + "_TMD_report" + ".txt", 'w') as file_report:
             header_text = f'File: {file_path}, was converted with TLoD - TMD Converter by DooMMetaL.\n\n\n'
             file_report.write(header_text)
             for object_number in range(0, number_of_objects_int):
@@ -66,11 +66,11 @@ class DebugWriter:
     
     def primitives_per_object_write(self, file_path=str, number_objs=int, primitive_numbers=list, prim_decoded=list):
         prim_count = 0
-        with open(os.path.join(new_folder, file_name) + "_Primitive_per_Object" + ".txt", 'w') as primitive_report:
+        with open(file_path + "_Primitive_per_Object" + ".txt", 'w') as primitive_report:
             primitive_reporter_superheader = f'PRIMITIVE INSIGHT REPORT\n'
             primitive_reporter_header = f'File: {file_path}, was extracted using TLoD - TMD Converter by DooMMetaL.\n\n\n'
             primitive_reporter_warning = f'This report file is used to debug and/or add New primitive types found. \nAlso helps to compare Obj Table Calculation and final extracted primitives.\nIf you are not sure what are you doing, please ignore this file.\n\n'
-            primitive_reporter_advice = f'The current file contains the amount of primitives split per object in the TMD file: {file_name}\n\n\n'
+            primitive_reporter_advice = f'The current file contains the amount of primitives split per object in the TMD file: {file_path}\n\n\n'
             all_text = primitive_reporter_superheader + primitive_reporter_header + primitive_reporter_warning + primitive_reporter_advice
             primitive_report.write(all_text)
             calc_primitives_obtained = self.count_decoded_prims(primitives_decoded=prim_decoded)
