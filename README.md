@@ -163,7 +163,10 @@ FIRST RELEASE
 ```
 
 
-![GUI](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/showcase_2.png)
+![GUI](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Main_Window.png)
+![GUI2](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Conversion_Window.png)
+![GUI3](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Advanced_Conversion_Window.png)
+![GUI4](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Config_Window.png)
 ![Complete Virage](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Complete_Virage.png)
 ![Dart](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Dart.png)
 ![Dart DD Transformation](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Dart_DD_Transform.png)
