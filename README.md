@@ -48,7 +48,7 @@ Then will ask you the folder you want to dump the converted files:
 
 Now the tool will generate a new file with extension *.primdata
 this file will contain data from primitives if the model have some textures on it
-very handy to use along to Blender2TMD-TLoD, this data is very important for TMD Models
+very handy to use along to Blender2TLoD-TMD, this data is very important for TMD Models
 
 **UPDATE: TOOL COMES WITH A DOCUMENT ABOUT HOW TO USE IT**
 
