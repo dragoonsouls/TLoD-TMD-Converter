@@ -44,6 +44,7 @@ class DebugWriter:
         self.self = DebugWriter
         self.model_informer(file_path=file_path, num_obj_mod=num_obj_model, num_vertex_mod=num_vertex_model, num_normal_mod=num_normal_model, num_primitive_mod=num_primitive_model)
         self.primitives_per_object_write(file_path=file_path, number_objs=num_obj_model, primitive_numbers=num_primitive_model, prim_decoded=prim_decoded)
+        self.primdata_write(file_path=file_path, number_objs=num_obj_model, prim_numb=num_primitive_model, primitive_decoded=prim_decoded)
     
     def model_informer(self, file_path=str, num_obj_mod=int, num_vertex_mod=list, num_normal_mod=list, num_primitive_mod=list):
         number_of_objects_int = num_obj_mod
@@ -92,6 +93,38 @@ class DebugWriter:
             time_now = f'Work finished at: ' + str(datetime.datetime.now())
             primitive_report.write(time_now)
     
+    def primdata_write(self, file_path=str, number_objs=int, prim_numb=int, primitive_decoded=list):
+        texture_data_in_object = []
+        for current_object in range(0, number_objs):
+            number_of_current_primitives = prim_numb[current_object]
+            current_primitive_set = primitive_decoded[current_object]
+            texture_data_in_primitive = []
+            for current_primitive_number in range(0, number_of_current_primitives):
+                this_primitive = current_primitive_set[current_primitive_number]
+                if this_primitive.get('u0') != None:
+                    start_magic_string_primitive = b'\x50\x52\x49\x4D'
+                    primitive_number = int.to_bytes(current_primitive_number, 4, 'little', signed=False)
+                    get_cba = this_primitive.get('cba')
+                    get_tsb = this_primitive.get('tsb')
+                    array_bytes_complete = start_magic_string_primitive + primitive_number + get_cba + get_tsb
+                    texture_data_in_primitive.append(array_bytes_complete)
+            joined_texture_data = b''.join(texture_data_in_primitive)
+            current_object_bytes = int.to_bytes(current_object, 4, 'little', signed=False)
+            start_magic_string_object = b'\x4F\x42\x4A\x5F'
+            end_magic_string_object = b'\x5F\x45\x4E\x44'
+            final_texture_process = start_magic_string_object + current_object_bytes + joined_texture_data + current_object_bytes + end_magic_string_object
+            texture_data_in_object.append(final_texture_process)
+        
+        finished_texture_data = b''.join(texture_data_in_object)
+        number_objects_bytes = int.to_bytes(number_objs, length=4, byteorder='little', signed=False)
+        header_magic = b'\x50\x52\x49\x4D\x44\x41\x54\x41'
+
+        final_package = header_magic + number_objects_bytes + finished_texture_data
+
+        with open(file_path + ".primdata", 'wb') as write_data:
+            write_data.write(final_package)
+
+
     @staticmethod
     def count_decoded_prims(primitives_decoded=list):
         model_object_level = []

@@ -5,7 +5,7 @@ MAIN GUI: main Python code to create the GUI for TLoD TMD Converter
 Copyright (C) 2023 DooMMetaL
 """
 
-from tkinter import INSERT, CENTER, END, Canvas, Tk, Button, Frame, Text, LabelFrame, Label, messagebox, Scrollbar, Toplevel, Listbox, Checkbutton, IntVar, StringVar, ttk, Entry
+from tkinter import INSERT, CENTER, END, Canvas, Tk, Button, Frame, Text, LabelFrame, Label, messagebox, Scrollbar, Toplevel, Listbox, Checkbutton, IntVar, ttk, Entry
 from tkinter.filedialog import askopenfile, askdirectory
 from PIL import ImageTk, Image
 import webbrowser
@@ -14,7 +14,6 @@ import tlod_tmd_converter
 import force_animation_loading
 import convert_queue_files
 import os
-import threading
 
 class Options:
     def __init__(self):
@@ -95,7 +94,6 @@ class Options:
         little_root.destroy()
         return size_x, size_y
 
-    
     def write_options(self, path_cnf_file=str, first_run=bool, size_x=int, size_y=int, sc_folder_def=str, dump_folder=str):
         
         if ((size_x == None) or (size_y == None) or (sc_folder_def == None) or (dump_folder == None)) and (first_run == True):
@@ -183,7 +181,7 @@ class TCWindow(Frame):
         return self.tuple_xy_changed
 
     def execute_about(self): # About Button show
-        message_about = f'TLoD TMD Converter BETA v0.1 \nCoded By DooMMetal (AKA DragoonSouls) 2023 ©\nThis Tool was made from fans to fans!, keep it as it is!\nVisit my Github for updates'
+        message_about = f'TLoD TMD Converter BETA v0.3 \nCoded By DooMMetal (AKA DragoonSouls) 2023 ©\nThis Tool was made from fans to fans!, keep it as it is!\nVisit my Github for updates'
         self.message_box_win = messagebox.showinfo('About TLoD TMD Converter', message_about)
     
     def callback_link(self, url=str):
@@ -728,7 +726,7 @@ if __name__ == "__main__":
     main_window = Tk()
     config_window = Options.read_write_options(Options)
     main_window.iconbitmap(default='Resources/DD_Eye.ico')
-    main_window.wm_title("TLoD TMD Converter BETA v0.1")
+    main_window.wm_title("TLoD TMD Converter BETA v0.3")
     width_native_windows = main_window.winfo_screenwidth()
     height_native_windows = main_window.winfo_screenheight()
     middle_place_width = (width_native_windows // 2) - (width_native_windows // 3)

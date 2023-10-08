@@ -8,7 +8,6 @@ dae file.
 Copyright (C) 2023 DooMMetaL
 
 """
-import os
 import datetime
 from tkinter.filedialog import asksaveasfilename
 

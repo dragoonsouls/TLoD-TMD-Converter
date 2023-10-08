@@ -6,7 +6,6 @@ Copyright (C) 2023 DooMMetaL
 
 """
 
-import os
 from tkinter import messagebox
 import decompress_bpe
 
