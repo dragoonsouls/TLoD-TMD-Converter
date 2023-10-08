@@ -6,7 +6,7 @@ The idea behind this tool is to preserve TMD Models as originally shown ingame(*
 
 Also i added a very specific functionality for researchers and modders, when you export the 3D model two *.txt files will created, Primitive_per_Object will contain useful data of each primitive type used in models and also the quantity of each one. The other called TMD_Report will be created with a count number of Vertex/Normal/Primitive of each object in the file and a sum of all the file.
 
-## BETA 0.2
+## BETA 0.3
 
 **NOW THE TOOL USE A STABLE GRAPHICAL USER INTERFACE**
 You check the releases and you will find a Windows Version of it (Tested in Windows 10)
@@ -26,6 +26,8 @@ convert the models will depend on how fast your Hardware is.
 
 A simple converter to DAE (Collada) format oriented to work with TLoD Model and animation formats, to later be imported into Blender. Python coded (recommended Python version 3.10.2 64bit).
 
+**UPDATE: PRIMDATA DUMPING**
+
 **UPDATE: COMMAND PROMPT TOOL IS TOTALLY DEPRECATED**
 
 **UPDATE: CONVERSION FILE BY FILE IS NOW IN "ADVANCED CONVERSION"**
@@ -43,6 +45,10 @@ In the first run, the tool will ask the SC/files/... path:
 Then will ask you the folder you want to dump the converted files:
 
 >C:\your_modding_folder\TLoD_Models\
+
+Now the tool will generate a new file with extension *.primdata
+this file will contain data from primitives if the model have some textures on it
+very handy to use along to Blender2TMD-TLoD, this data is very important for TMD Models
 
 **UPDATE: TOOL COMES WITH A DOCUMENT ABOUT HOW TO USE IT**
 
@@ -103,6 +109,10 @@ You can find me here:
 ### **CHANGELOG**
 
 ```
+BETA 0.3 version
+FIXING LITTLE BUGS
+ADDING PRIMDATA DUMP
+
 BETA 0.2 version
 
 PERMANENT GUI, WITH MORE OPTIONS
