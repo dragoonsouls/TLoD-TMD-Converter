@@ -1,0 +1,56 @@
+[/Seles - Hills - Environment] -> FOLDER: 31
+Seles Hills: 2
+[/Seles - Hills - Objects] -> FOLDER: 32
+Dart: 0 - [1, 2, 3, 4, 6, 7, 32] # Animation 5 is missing
+Leaves: 33 - [34, 35, 36, 37]
+==========
+[/Start - Rose Staring Feyrbrand - Environment] -> FOLDER: 694
+Start Rose Staring Feyrbrand: 2
+[/Start - Rose Staring Feyrbrand - Objects] -> FOLDER: 695
+Dart: 0 - [1, 2, 3, 32]
+Rose: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+Feyrbrand: 66 - [67, 68, 69, 70, 71]
+Blank Square: 99 - [100]
+Kanji Squares: 132 - [133]
+Flock of Birds: 165 - [166]
+==========
+[/Start - Dart in the Woods - Environment] -> FOLDER: 697
+Start Dart in the Woods: 2
+[/Start - Dart in the Woods - Objects] -> FOLDER: 698
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Bird: 33 - [34, 35, 36]
+Key Glow: 66 - [67]
+Blank Square: 132 - [133]
+==========
+[/Start - Dart Intercepting Soldiers - Environment] -> FOLDER: 700
+Start Dart Intercepting Soldiers: 2
+[/Start - Dart Intercepting Soldiers - Objects] -> FOLDER: 701
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 21, 22, 23, 24, 25, 26]
+Sandora Soldier Ridding Horse: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+Key Glow: 66 - [67]
+Feyrbrand: 132 - [133, 134, 135, 136, 137, 138, 139, 140]
+Armed Dart: 231 - [232, 233, 234, 242, 243, 244, 245, 247, 248, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
+Retail Bugged Animation: None - [265] # A single animation of 1 object 4 frames, no movement
+==========
+[/Start - Dart Chase by Feyrbrand - Environment] -> FOLDER: 715
+Start Dart Chase by Feyrbrand: 2
+[/Start - Dart Chase by Feyrbrand - Objects] -> FOLDER: 716
+Dart: 0 - [1, 32]
+Feyrbrand: 33 - [34, 35]
+Falling Tree: 66 - [67, 68]
+Retail Bugged Animation 1: None - [135, 136] # Something of 5 Objects, unused Falling Tree?
+Retail Bugged Animation 2: None - [168] # Seems to be another unused Tree Falling
+Dart Escaping: 198 - [199]
+Following Shadow for Dart Escaping: 231 - [232]
+==========
+[/Start - Dart Saved by Rose - Environment] -> FOLDER: 718
+Start Dart Saved by Rose: 2
+[/Start - Dart Saved by Rose - Objects] -> FOLDER: 719
+Dart: 0 - [1, 2, 3, 4, 14, 16, 17, 18, 19, 20, 21, 27, 28, 29]
+Rose: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]
+Feyrbrand: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
+Armed Dart: 99 - [100, 101, 102, 105, 107, 109, 111, 121, 122, 123, 124, 125]
+Fume: 132 - [133]
+Spirit Dark Blue Glow: 165 - [166]
+Rock: 198 - [199]
+==========

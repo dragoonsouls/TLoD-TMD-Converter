@@ -102,12 +102,13 @@ class ColladaCompiler:
                     normal_index.append(three_normal_order)
 
                 # 1 NORMAL OR NONE NORMALS
+                # TODO I have to keep an eye on this, for some reason is getting a lot of errors for different models ¬¬
                 elif (polyex.get("normal0") != None) and (polyex.get("vertex3") != None):
-                    one_normal_order_4v = polyex.get("normal0")
+                    one_normal_order_4v = polyex.get("normal0"), polyex.get("normal0"), polyex.get("normal0"), polyex.get("normal0")
                     normal_index.append(one_normal_order_4v)
 
                 elif (polyex.get("normal0") != None) and (polyex.get("vertex2") != None):
-                    one_normal_order_3v = polyex.get("normal0")
+                    one_normal_order_3v = polyex.get("normal0"), polyex.get("normal0"), polyex.get("normal0")
                     normal_index.append(one_normal_order_3v)
 
                 elif (polyex.get("normal0") == None) and (polyex.get("vertex3") != None):
@@ -239,7 +240,7 @@ class ColladaCompiler:
             # Data compiler and sent to Collada P-Array - HERE I CREATE THE P-ARRAY FOR THE OBJECTS
             zipped_p_array = itertools.zip_longest(vertex_index, normal_index, uv_index, color_index)
             p_array_formed = []
-            for vertex_arr, normal_arr, uv_arr, color_arr in zipped_p_array:
+            for vertex_arr, normal_arr, uv_arr, color_arr in list(zipped_p_array):
                 slicing_internal = 0
                 for num in range(0, len(vertex_arr)):
                     ver_p = vertex_arr[slicing_internal]

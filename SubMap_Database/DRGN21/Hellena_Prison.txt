@@ -1,0 +1,303 @@
+[/Hellena Prison - Entrance - Environment] -> FOLDER: 43
+Hellena Prison Entrance: 2
+[/Hellena Prison - Entrance - Objects] -> FOLDER: 44
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+Merchant Riding Horse: 33 - [34, 35, 36]
+Flying Dragon: 66 - [67, 68, 69]
+==========
+[/Hellena Prison - Gate - Environment] -> FOLDER: 46
+Hellena Prison Gate: 2
+[/Hellena Prison - Gate - Objects] -> FOLDER: 47
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 32]
+Hellena Prison Bridge: 33 - [34, 35, 36, 37, 38]
+Lavitz: 66 - [67, 68, 69, 75]
+Horse and Cart: 99 - [100, 101, 102]
+Dart 2: 132 - [None] # This one have no Animation at all
+Lavitz 2: 198 - [199, 200, 201, 203, 207, 209, 210, 211, 212]
+Hellena Warden: 264 - [265, 266, 267, 270, 273, 274, 275, 276, 277, 278]
+Merchant: 297 - [298, 299, 303, 304, 306, 307, 308, 309]
+==========
+[/Hellena Prison - Cut 1 First Floor - Environment] -> FOLDER: 49
+Hellena Prison Cut 1: 2
+[/Hellena Prison - Cut 1 First Floor - Objects] -> FOLDER: 50
+Dart: 0 - [1, 2, 3, 4, 6, 9, 10, 12, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 41]
+Lavitz: 66 - [67, 68, 69, 70, 72, 73, 74, 77]
+Hellena Warden: 99 - [100, 101, 102, 108, 109, 110, 122, 124, 138, 142]
+Horse: 165 - [166]
+Fruegel 1: 231 - [232, 233, 237, 240, 241, 242]
+Hooded Man: 264 - [265, 266, 270, 271]
+Fruegel 2: 297 - [298, 299, 303, 309, 313, 314, 315, 316, 317, 318, 319]
+Dart 2: 330 - [336, 338, 339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349]
+Lavitz 2: 363 - [364, 365, 366]
+Cardboard Horse: 429 - [430]
+==========
+[/Hellena Prison - Cut 2 First Floor - Environment] -> FOLDER: 52
+Hellena Prison Cut 2: 2
+[/Hellena Prison - Cut 2 First Floor - Objects] -> FOLDER: 53
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32]
+Horse and Cart: 33 - [34, 39, 42]
+Merchant: 66 - [67, 68, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82]
+Hellena Warden: 99 - [100, 101, 102, 105, 108]
+Armed Dart: 132 - [133, 134, 135, 141, 142]
+==========
+[/Hellena Prison - Cut 3 First Floor - Environment] -> FOLDER: 55
+Hellena Prison Cut 3: 2
+[/Hellena Prison - Cut 3 First Floor - Objects] -> FOLDER: 56
+Dart: 0 - [1, 2, 3, 4, 5, 6, 9, 10, 21, 32]
+Elevator: 33 - [34]
+Sign: 66 - [67]
+==========
+[/Hellena Prison - Cut Elevators - Environment] -> FOLDER: 58
+Hellena Prison Elevators: 2
+[/Hellena Prison - Cut Elevators - Objects] -> FOLDER: 59
+Dart: 0 - [1, 2, 3, 4, 5, 6, 9, 10, 15, 16, 19, 20, 21, 22, 23, 24, 32]
+Elevator: 33 - [34]
+Treasure Chest: 165 - [166, 167, 168]
+==========
+[/Hellena Prison - Cut Second Tower - Environment] -> FOLDER: 61
+Hellena Prison Second Tower: 2
+[/Hellena Prison - Cut Second Tower - Objects] -> FOLDER: 62
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Treasure Chest: 33 - [34, 35, 36]
+==========
+[/Hellena Prison - Cut Two Towers - Environment] -> FOLDER: 64
+Hellena Prison Two Towers: 2
+[/Hellena Prison - Cut Two Towers - Objects] -> FOLDER: 65
+Dart: 0 - [1, 2, 3, 4, 5, 6, 9, 10, 11, 32]
+Elevator: 33 - [34]
+Hellena Warden: 66 - [67, 68, 69, 87, 88, 89, 90, 91]
+Sign: 198 - [199]
+Gate: 231 - [232]
+==========
+[/Hellena Prison - Cut Wardens Bedroom - Environment] -> FOLDER: 67
+Hellena Prison Wardens Bedroom: 2
+[/Hellena Prison - Cut Wardens Bedroom - Objects] -> FOLDER: 68
+Dart: 0 - [1, 2, 3, 4, 9, 10, 18, 19, 32]
+Hellena Warden: 33 - [34, 35, 36, 54, 55, 56, 57, 58]
+Treasure Chest: 132 - [133, 134, 135]
+==========
+[/Hellena Prison - Cut Fruegel Room - Environment] -> FOLDER: 70
+Hellena Prison Fruegel Room: 2
+[/Hellena Prison - Cut Fruegel Room - Objects] -> FOLDER: 71
+Dart: 0 - [1, 2, 3, 32]
+Elevator: 33 - [34]
+Fruegel: 66 - [67, 68, 72, 75, 76, 77]
+Hellena Warden: 99 - [100, 101, 102, 105, 108, 110, 111, 112, 173, 175, 176, 178, 180, 181, 182]
+Treasure Chest: 198 - [199, 200, 201]
+==========
+[/Hellena Prison - Cut 4 First Floor - Environment] -> FOLDER: 73
+Hellena Prison 4 First Floor: 2
+[/Hellena Prison - Cut 4 First Floor - Objects] -> FOLDER: 74
+Dart: 0 - [1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 13, 32]
+Hellena Warden: 33 - [34, 35, 36, 37, 38, 42, 55, 56, 67]
+Treasure Chest: 99 - [100, 101, 102]
+Orange Glow: 132 - [133]
+Merchant: 165 - [166, 167, 171, 172, 173, 174, 175, 176]
+==========
+[/Hellena Prison - Cut Left Tower Cells Hallway - Environment] -> FOLDER: 76
+Hellena Prison Left Tower Cells Hallway: 2
+[/Hellena Prison - Cut Left Tower Cells Hallway - Objects] -> FOLDER: 77
+Dart: 0 - [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 32] # This one is almost SLOT complete with 23 animations
+Armed Lavitz: 33 - [34, 35, 36, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63] # This one is almost SLOT complete with 21 Animations some are combat related
+Hellena Warden: 66 - [67, 68, 69, 72, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 100]
+Indels Knight: 165 - [166, 167, 171, 174]
+Lavitz: 198 - [199, 200, 201, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214]
+????: None - [265] # An Animation without model, seems to be a Hellena Warden watching
+Glow: 297 - [298, 323, 324, 325]
+Armed Dart: 330 - [331, 332, 333, 334, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356]
+==========
+[/Hellena Prison - Cut Left Tower Cells Hallway 2 - Environment] -> FOLDER: 79
+Hellena Prison Left Tower Cells Hallway 2: 2
+[/Hellena Prison - Cut Left Tower Cells Hallway 2 - Objects] -> FOLDER: 80
+Dart: 0 - [1, 2, 3, 4, 5, 6, 8, 9, 10, 32]
+Elevator: 33 - [34]
+Hellena Warden: 66 - [67, 68, 69, 75, 88, 89, 90, 91]
+==========
+[/Hellena Prison - Cut Left Tower Cells Hallway 3 - Environment] -> FOLDER: 82
+Hellena Prison Left Tower Cells Hallway 3: 2
+[/Hellena Prison - Cut Left Tower Cells Hallway 3 - Objects] -> FOLDER: 83
+Dart: 0 - [1, 2, 3, 8, 9, 10, 32]
+Elevator: 33 - [34]
+Hellena Warden: 66 - [67, 68, 69, 75, 88, 89, 90, 91]
+==========
+[/Hellena Prison - Cut Right Tower Cells Hallway - Environment] -> FOLDER: 85
+Hellena Prison Right Tower Cells Hallway: 2
+[/Hellena Prison - Cut Right Tower Cells Hallway - Objects] -> FOLDER: 86
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 31, 32]
+Lavitz: 33 - [34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+Hellena Warden: 66 - [67, 68, 69, 72, 74, 75, 76, 77, 78]
+Shana: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182]
+Armed Dart: 198 - [199, 200, 201, 202, 207, 208, 209, 210, 211, 212, 213, 214]
+Armed Lavitz: 231 - [232, 233, 234, 240, 241, 242, 243, 244, 286]
+Armed Shana: 297 - [298, 299, 300, 306, 307]
+==========
+[/Hellena Prison - Cut Right Tower Cells Hallway 2 - Environment] -> FOLDER: 88
+Hellena Prison Right Tower Cells Hallway 2: 2
+[/Hellena Prison - Cut Right Tower Cells Hallway 2 - Objects] -> FOLDER: 89
+Dart: 0 - [1, 2, 3, 4, 9, 10, 32]
+Hellena Warden: 33 - [34, 35, 36, 37, 38, 39, 55, 56, 57]
+==========
+[/Hellena Prison - Cut Right Tower Cells Hallway 3 - Environment] -> FOLDER: 91
+Hellena Prison Right Tower Cells Hallway 3: 2
+[/Hellena Prison - Cut Right Tower Cells Hallway 3 - Objects] -> FOLDER: 92
+Dart: 0 - [1, 2, 3, 4, 5, 6, 9, 10, 32]
+Hellena Warden: 33 - [34, 35, 36, 42, 55, 56, 57, 58]
+==========
+[/Hellena Prison - Cut Jiango Lockdown - Environment] -> FOLDER: 94
+Hellena Prison Jiango Lockdown: 2
+[/Hellena Prison - Cut Jiango Lockdown - Objects] -> FOLDER: 95
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59] # This one have a weird animation in the number 59
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+Haschel: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144]
+Armed Dart: 165 - [166]
+Armed Rose: 198 - [199, 200, 209]
+Armed Lavitz: 231 - [232]
+Armed Shana: 264 - [265]
+Treasure Chest: 297 - [298, 299, 300]
+==========
+[/Hellena Prison - Cut Left Tower Jiango Hatch - Environment] -> FOLDER: 97
+Hellena Prison Left Tower Jiango Hatch: 2
+[/Hellena Prison - Cut Left Tower Jiango Hatch - Objects] -> FOLDER: 98
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 32]
+Lavitz: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+Hellena Warden: 66 - [67, 68, 69, 72, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]
+Cardboard Hellena Warden 1: 99 - [100]
+Cardboard Hellena Warden 2: 132 - [133]
+Cardboard Hellena Warden 3: 165 - [166]
+Cardboard Hellena Warden 4: 198 - [199]
+Key Glow: 231 - [232]
+Cardboard Hellena Warden 5: 264 - [265]
+Cardboard Hellena Warden 6: 297 - [298]
+Armed Dart: 330 - [331, 332, 333, 339, 340, 341, 342, 343, 344, 346, 347]
+Haschel: 363 - [364, 365, 366, 372, 373, 374]
+Armed Rose: 396 - [397, 398, 399, 405, 406, 407, 408, 409, 410]
+Armed Lavitz: 429 - [430, 431, 432, 438, 439, 440, 441, 442, 443, 463]
+==========
+[/Hellena Prison - Cut Left Way to Fruegel Room - Environment] -> FOLDER: 100
+Hellena Prison Left Way to Fruegel Room: 2
+[/Hellena Prison - Cut Left Way to Fruegel Room - Objects] -> FOLDER: 101
+Dart: 0 - [1, 2, 3, 9, 10, 32]
+Chest: 33 - [34, 35, 36]
+Hellena Warden: 66 - [67, 68, 69, 77, 78, 79, 80, 81]
+==========
+[/Hellena Prison - Cut Left Tower Way to Roof - Environment] -> FOLDER: 103
+Hellena Prison Left Tower Way to Roof: 2
+[/Hellena Prison - Cut Left Tower Way to Roof - Objects] -> FOLDER: 104
+Dart: 0 - [1, 2, 3, 9, 10, 32]
+Hellena Warden: 33 - [34, 35, 36, 44]
+==========
+[/Hellena Prison - Cut Left Tower Roof Day - Environment] -> FOLDER: 106
+Hellena Prison Left Tower Roof Day: 2
+[/Hellena Prison - Cut Left Tower Roof Day - Objects] -> FOLDER: 107
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Chest: 33 - [34, 35, 36]
+==========
+[/Hellena Prison - Cut Left Tower Roof Night - Environment] -> FOLDER: 109
+Hellena Prison Left Tower Roof Night: 2
+[/Hellena Prison - Cut Left Tower Roof Night - Objects] -> FOLDER: 110
+Fruegel: 0 - [1, 2, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+Albert Hostage: 33 - [34, 35, 36, 37, 38]
+Hellena Warden: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 114]
+Fume: 132 - [133]
+==========
+[/Hellena Prison - Cut Left Tower Roof Dawn - Environment] -> FOLDER: 112
+Hellena Prison Left Tower Roof Dawn: 2
+[/Hellena Prison - Cut Left Tower Roof Dawn - Objects] -> FOLDER: 113
+Fruegel: 0 - [1, 2, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+Armed Dart: 33 - [34, 35, 36, 37, 38, 39, 40]
+Armed Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87]
+Armed Shana: 99 - [100, 101, 102, 103, 104]
+Armed Rose: 132 - [133, 134, 135, 136, 137, 138]
+Albert Hostage: 165 - [166, 167, 168, 169]
+Key Glow: 198 - [199]
+Arrow: 231 - [232]
+==========
+[/Hellena Prison - Cut 1 First Floor Escape - Environment] -> FOLDER: 115
+Hellena Prison 1 First Floor Escape: 2
+[/Hellena Prison - Cut 1 First Floor Escape - Objects] -> FOLDER: 116
+Dart: 0 - [1, 2, 3, 4, 6, 9, 10, 12, 32]
+Hellena Warden: 99 - [100, 101, 102, 108, 109, 110, 122, 124, 138, 142]
+Horse: 165 - [166]
+Horse with Cart: 396 - [397]
+Merchant: 429 - [430]
+==========
+[/Hellena Prison - Hellena Prison BETA - Environment] -> FOLDER: 172
+Hellena Prison BETA: 2
+[/Hellena Prison - Hellena Prison BETA - Objects] -> FOLDER: 173
+Dart: 0 - [1, 32]
+Bridge: 33 - [34, 35, 36, 37, 38]
+Hellena Warden: 66 - [67, 68, 69, 70, 71, 72, 75]
+Lavitz BETA: 132 - [133, 134, 135, 136, 137, 138, 139, 143, 144]
+Dart, Shana and Horse BETA: 165 - [166, 167, 168, 169, 170, 171]
+Strange Glow: 264 - [265]
+==========
+[/Hellena Prison - Skeleton Cell - Environment] -> FOLDER: 652
+Hellena Prison Skeleton Cell: 2
+[/Hellena Prison - Skeleton Cell - Objects] -> FOLDER: 653
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Poor Thing: 33 - [34]
+==========
+[/Hellena Prison - Treasure Jump Cell - Environment] -> FOLDER: 655
+Hellena Prison Treasure Jump Cell: 2
+[/Hellena Prison - Treasure Jump Cell - Objects] -> FOLDER: 656
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 16, 17, 32]
+Treasure Chest: 33 - [34, 35, 36]
+Male Villager: 66 - [67, 68, 69, 72]
+Old Male Villager: 99 - [100, 101, 105]
+==========
+[/Hellena Prison - Forklift Truck Cell - Environment] -> FOLDER: 658
+Hellena Prison Forklift Truck Cell: 2
+[/Hellena Prison - Forklift Truck Cell - Objects] -> FOLDER: 659
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Male Villager 1: 33 - [34, 35, 39]
+Male Villager 2: 66 - [67, 68, 72, 74]
+Treasure Chest: 99 - [100, 101, 102]
+==========
+[/Hellena Prison - Shana Cell - Environment] -> FOLDER: 661
+Hellena Prison Shana Cell: 2
+[/Hellena Prison - Shana Cell - Objects] -> FOLDER: 662
+Dart: 0 - [1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32]
+Shana: 33 - [34, 35, 36, 37, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+==========
+[/Hellena Prison - Cave Cell - Environment] -> FOLDER: 664
+Hellena Prison Cave Cell: 2
+[/Hellena Prison - Cave Cell - Objects] -> FOLDER: 665
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Male Villager 1: 33 - [34, 35, 36, 39, 41]
+Male Villager 2: 66 - [67, 68, 69, 72, 73, 74]
+Treasure Chest: 99 - [100, 101, 102]
+Male Villager 3: 132 - [133, 134, 138]
+==========
+[/Hellena Prison - Ladder Cell - Environment] -> FOLDER: 667
+Hellena Prison Ladder Cell: 2
+[/Hellena Prison - Ladder Cell - Objects] -> FOLDER: 668
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Male Villager: 33 - [34, 35, 36, 39]
+Treasure Chest: 66 - [67, 68, 69]
+==========
+[/Hellena Prison - Shana Cell CutScene - Environment] -> FOLDER: 703
+Hellena Prison Shana Cell CutScene: 2
+[/Hellena Prison - Shana Cell CutScene - Objects] -> FOLDER: 704
+Shana: 0 - [1, 4, 5, 6, 7, 9, 10, 11, 13, 14, 15, 16, 17]
+Fire: 33 - [34, 35]
+Chipmunk: 66 - [67, 69, 72]
+Orange Glow: 99 - [100]
+Hellena Warden: 132 - [133, 134, 135, 136]
+==========
+[/Hellena Prison - Fruegel and HoodedMan CutScene - Environment] -> FOLDER: 706
+Hellena Prison Fruegel and HoodedMan CutScene: 2
+[/Hellena Prison - Fruegel and HoodedMan CutScene - Objects] -> FOLDER: 707
+Armed HoodedMan: 0 - [1, 2, 3]
+Fruegel: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52] # Have almost the 32 SLOTs
+Strange Glow: 66 - [67]
+Hellena Warden: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117] # As Fruegel in here, have a lot of the SLOTs for their Animations
+==========
+[/Hellena Prison - Showing Place CutScene - Environment] -> FOLDER: 736
+Hellena Prison Showing Place CutScene: 2
+[/Hellena Prison - Showing Place CutScene - Objects] -> FOLDER: 737
+Strange Glow: 0 - [1]
+Blank Square: 66 - [67]
+==========

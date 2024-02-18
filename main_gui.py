@@ -2,17 +2,19 @@
 
 MAIN GUI: main Python code to create the GUI for TLoD TMD Converter
 
-Copyright (C) 2023 DooMMetaL
+Copyright (C) 2024 DooMMetaL
 """
 
-from tkinter import INSERT, CENTER, END, Canvas, Tk, Button, Frame, Text, LabelFrame, Label, messagebox, Scrollbar, Toplevel, Listbox, Checkbutton, IntVar, ttk, Entry
+from tkinter import INSERT, CENTER, END, Canvas, Tk, Button, Frame, Text, LabelFrame, Label, messagebox, Scrollbar, Toplevel, Listbox, Checkbutton, IntVar, ttk, Entry, StringVar
 from tkinter.filedialog import askopenfile, askdirectory
 from PIL import ImageTk, Image
 import webbrowser
 import database_to_listbox as dtl
+import submap_database_reader as submap_db
 import tlod_tmd_converter
 import force_animation_loading
 import convert_queue_files
+import convert_queue_files_submaps
 import os
 
 class Options:
@@ -126,6 +128,7 @@ class TCWindow(Frame):
         self.image_filename = "Resources/Ruff_GUI.png"
         self.model_database = "Model_Database/"
         self.create_list_files = dtl.DatabaseDict.process_database(self=dtl.DatabaseDict(database_path=self.model_database), database_path_str=self.model_database)
+        self.create_database_submap = submap_db.SubmapDatabase.process_drgn2x_database(self=submap_db.SubmapDatabase(database_path=f'SubMap_Database/'), database_path=f'SubMap_Database/')
         self.open_image = Image.open(self.image_filename)
         self.x_y_values = self.resize_window(width_mainframe_change=width_mainframe, height_mainframe_change=height_mainframe)
         self.resize_image = self.open_image.resize(self.x_y_values, Image.Resampling.LANCZOS)
@@ -134,13 +137,14 @@ class TCWindow(Frame):
         self.background_canvas = Canvas(self, width=self.x_y_values[0], height=self.x_y_values[1])
 
         ## Buttons - Main Frame
-        self.tmd_button = Button(self, text='Model Conversion', command=self.convert_model, cursor='hand2')
+        self.battle_model_button = Button(self, text='Battle Models Conversion', command=self.convert_model, cursor='hand2')
+        self.submap_model_button = Button(self, text='SubMap Models Conversion', command=self.convert_submap_models_window, cursor='hand2')
         self.advanced_button = Button(self, text='Advanced Conversion', command=self.advanced_conversion, cursor='hand2')
         ## LabelFrame - Info and Conversion Result
         self.label_info = LabelFrame(self, text='Info... Ruff')
         self.label_dump = LabelFrame(self, text='Conversion Result')
         ## Label - Parent Info LabelFrame
-        self.tmd_label = Label(self.label_info, text= f'Model Conversion: Convert a Model into DAE file format,\nif no animation data embedded or loaded,\nobjects will be placed at the retail Origin Point.', justify=CENTER)
+        self.tmd_label = Label(self.label_info, text= f'Advanced Model Conversion: Convert a Model into DAE file format,\nif no animation data embedded or loaded,\nobjects will be placed at the retail Origin Point.', justify=CENTER)
         ## Text - Parent Conversion Result LabelFrame
         self.conversion_text = Text(self.label_dump)
         initial_text = f'||||---> TLoD TMD CONVERTER <---||||\nIMPORTANT NOTE: For TMD and CTMD Files from DEFF packages, \ntool will try to find embedded CMB/LMB/SAF animations'
@@ -149,7 +153,7 @@ class TCWindow(Frame):
         ## ScrollBar for Text Dump
         self.scrollbar_text = Scrollbar(self.conversion_text, command=self.conversion_text.yview, cursor='arrow')
         ## About Button
-        self.about_button = Button(self, text="About", command=self.execute_about, cursor='hand2')
+        self.about_button = Button(self, text="About", command=self.execute_about, cursor=f'arrow')
         ## Configuration Button
         self.config_button = Button(self, text='CONFIG', cursor="hand2", command=self.configure_tool)
         ## Github Hyperlink
@@ -158,8 +162,9 @@ class TCWindow(Frame):
         #### Placing Methods ####
         self.background_canvas.place(relwidth=1, relheight=1, relx=-0.28, rely= -0.25)
         self.background_canvas.create_image(self.x_y_values[0], self.x_y_values[1], image=self.image_background)
-        self.tmd_button.place(relwidth=0.2, relheight=0.1, relx=0.30, rely=0.01)
-        self.advanced_button.place(relwidth=0.2, relheight=0.1, relx=0.55, rely=0.01)
+        self.battle_model_button.place(relwidth=0.2, relheight=0.1, relx=0.25, rely=0.01)
+        self.submap_model_button.place(relwidth=0.2, relheight=0.1, relx=0.46, rely=0.01)
+        self.advanced_button.place(relwidth=0.2, relheight=0.1, relx=0.67, rely=0.01)
         self.label_info.place(relx=0.26, rely=0.15, relwidth= 0.55, relheight= 0.23)
         self.label_dump.place(relx=0.26, rely=0.40, relwidth= 0.70, relheight= 0.53)
         self.tmd_label.place(relx=0.01, rely=0.01, relwidth= 0.9, relheight= 0.9)
@@ -181,7 +186,7 @@ class TCWindow(Frame):
         return self.tuple_xy_changed
 
     def execute_about(self): # About Button show
-        message_about = f'TLoD TMD Converter BETA v0.3 \nCoded By DooMMetal (AKA DragoonSouls) 2023 ©\nThis Tool was made from fans to fans!, keep it as it is!\nVisit my Github for updates'
+        message_about = f'TLoD TMD Converter BETA v0.4 \nCoded By DooMMetal (AKA DragoonSouls) 2024 ©\nThis Tool was made from fans to fans!, keep it as it is!\nVisit my Github for updates'
         self.message_box_win = messagebox.showinfo('About TLoD TMD Converter', message_about)
     
     def callback_link(self, url=str):
@@ -215,11 +220,19 @@ class TCWindow(Frame):
         self.scroll_listbox_2 = Scrollbar(self.list_box_conversion_sublist, command=self.list_box_conversion_sublist.yview, orient='vertical', cursor='arrow')
         self.list_box_conversion_sublist.config(yscrollcommand=self.scroll_listbox_2.set)
         self.list_box_conversion_sublist.configure(state='disabled')
+        
         # Conversion Queue List Box
         self.conversion_queue_listbox = Listbox(self.new_window_box)
         self.scroll_queue_listbox = Scrollbar(self.conversion_queue_listbox, command=self.conversion_queue_listbox.yview, orient='vertical', cursor='arrow')
         self.conversion_queue_listbox.config(yscrollcommand=self.scroll_queue_listbox.set)
         self.conversion_queue_listbox.configure(state='disabled')
+        
+        # Total Models Queue Label
+        self.total_models_in_queue_start = len(self.conversion_queue_listbox.get(0, END))
+        self.total_models_label = Label(self.new_window_box, text=f'Total Number of Models in Queue: {self.total_models_in_queue_start}')
+        # Placing Total Models in Queue
+        self.total_models_label.place(relx=0.65, rely=0.41, relwidth= 0.2, relheight= 0.05)
+        self.new_window_box.after(50, self.count_models_queue)
 
         # Options Check Buttons Callbacks
         self.convert_all_check.configure(command=lambda: self.convert_all_models())
@@ -265,9 +278,6 @@ class TCWindow(Frame):
         self.button_convert_models.configure(state='disabled', command=lambda: self.convert_models_process())
         # Placing Buttons
         self.button_convert_models.place(relx=0.35, rely=0.88, relwidth= 0.3, relheight= 0.1)
-
-        # Total Models in Queue Label
-        self.count_models_queue()
 
     def advanced_conversion(self):
         ## Setting the new created window
@@ -381,6 +391,7 @@ class TCWindow(Frame):
                     total_string = f'{parents}==>{string_child}'
                     populate_total.append(total_string)
             self.populate_listbox(table_to_populate=self.conversion_queue_listbox, list_objects=populate_total)
+            self.count_models_queue()
 
         else:
             self.conversion_queue_listbox.delete(0, END)
@@ -394,6 +405,7 @@ class TCWindow(Frame):
                 self.conversion_queue_listbox.configure(state='normal')
             else:
                 self.button_convert_models.configure(cursor="arrow", state='disabled')
+            self.count_models_queue()
 
     def populate_listbox(self, table_to_populate, list_objects):
         index_to_place = 0
@@ -456,6 +468,7 @@ class TCWindow(Frame):
             string_for_queue_listbox = f'{add_this_parent}==>{add_this_obj}'
             self.populate_listbox(table_to_populate=self.conversion_queue_listbox, list_objects=[string_for_queue_listbox])
             all_object_in_current = self.list_box_conversion_sublist.get(0, END)
+            self.count_models_queue()
             if f'Characters' in add_this_parent:
                 self.merge_animations_check.configure(state='active')
             for delete_this_obj in all_object_in_current:
@@ -466,7 +479,6 @@ class TCWindow(Frame):
         self.button_convert_models.configure(cursor="hand2", state='active')
         if len(self.list_box_conversion_sublist.get(0, END)) <= 0:
             self.list_box_conversion_sublist.configure(state='disabled')
-            #self.conversion_queue_listbox.configure(state='disabled')
             self.move_to_queue.configure(state='disabled')
             self.select_all_sublist_button.configure(state='disabled')
             self.list_box_conversion_parent_table.configure(state='normal')
@@ -499,13 +511,6 @@ class TCWindow(Frame):
         self.start_conversion(total_list_files=final_list_set_sorted)
 
     def count_models_queue(self):
-        # Total Models Queue Label
-        self.total_models_in_queue_start = len(self.conversion_queue_listbox.get(0, END))
-        self.total_models_label = Label(self.new_window_box, text=f'Total Number of Models in Queue: {self.total_models_in_queue_start}')
-        # Placing Total Models in Queue
-        self.total_models_label.place(relx=0.65, rely=0.41, relwidth= 0.2, relheight= 0.05)
-        self.new_window_box.after(50, self.count_models_queue)
-        self.total_models_label.update()
         self.total_models_in_queue = len(self.conversion_queue_listbox.get(0, END))
         self.total_models_label.configure(text=f'Total Number of Models in Queue: {self.total_models_in_queue}')
         
@@ -564,6 +569,458 @@ class TCWindow(Frame):
     def no_close(self): # THIS FUNCTION is to bypass the [X] Windows icon for closing the window
         pass
 
+    # Convert SubMaps Models Windows
+
+    def convert_submap_models_window(self):
+        """Logic on Parenting: self.this_super_parent == Disk; SubMap Name == Location; Cut Name == Name of the current CUT in the Location
+        Logic on Sub Parenting: Each cut have their OWN ENVIRONMENT AND OBJECTS, so depending on this will be the nesting of files"""
+        # Create new Widget for the Select Box
+        self.new_window_submap = Toplevel(master=self)
+        self.new_window_submap.grab_set()
+        self.new_window_submap.focus_set()
+        self.new_window_submap.title(string=f'Select the Files you want to Convert')
+        # This is just to adjust the windows size... a little impractical ¯\_(ツ)_/¯
+        x_main = self.x_y_values[0]
+        y_main = self.x_y_values[1]
+        self.new_window_submap.geometry(f'+%d+%d' %(x_main // 2, y_main // 2))
+        self.new_window_submap.geometry(f'{x_main + (x_main - 200)}x{y_main + (y_main - 125)}')
+
+        # Convert All CheckBox
+        self.convert_all_checkvar = IntVar()
+        self.label_convert_all = LabelFrame(master=self.new_window_submap, text='Conversion Controls')
+        self.convert_all_submaps = Checkbutton(master=self.label_convert_all, text='Convert All Models', variable=self.convert_all_checkvar)
+        self.convert_all_checkvar.set(0)
+        self.convert_all_submaps.configure(state='disabled')
+        
+        # DRGN2x Parent Buttons
+        self.drgn21_button = Button(master=self.new_window_submap, text='DRGN21 ->', cursor='hand2', command=self.press_drgn21_callback)
+        self.drgn22_button = Button(master=self.new_window_submap, text='DRGN22 ->', cursor='hand2', command=self.press_drgn22_callback)
+        self.drgn23_button = Button(master=self.new_window_submap, text='DRGN23 ->', cursor='hand2', command=self.press_drgn23_callback)
+        self.drgn24_button = Button(master=self.new_window_submap, text='DRGN24 ->', cursor='hand2', command=self.press_drgn24_callback)
+        self.drgn22_button.configure(state='disabled', cursor='arrow')
+        self.drgn23_button.configure(state='disabled', cursor='arrow')
+        self.drgn24_button.configure(state='disabled', cursor='arrow')
+        
+        # Parent ListBox for SubMaps
+        self.submap_parents_listbox = Listbox(master=self.new_window_submap, cursor="hand2", selectmode='single')
+        self.submap_parents_listbox.configure(state='disabled', cursor='arrow')
+
+        # ListBox SubMaps Cuts
+        self.submap_cut_listbox = Listbox(master=self.new_window_submap, cursor='hand2', selectmode='single')
+        self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+        self.scroll_listbox_submapcut_y = Scrollbar(self.submap_cut_listbox, command=self.submap_cut_listbox.yview, orient='vertical', cursor='arrow')
+        self.submap_cut_listbox.config(yscrollcommand=self.scroll_listbox_submapcut_y.set)
+        
+        # Select All SubMap Cuts Button
+        self.select_all_cuts_button = Button(master=self.new_window_submap, text='Select All', command=self.select_all_cuts)
+        self.select_all_cuts_button.configure(state='disabled', cursor='arrow')
+
+        # Select None SubMap Cuts Button
+        self.select_none_cuts_button = Button(master=self.new_window_submap, text='Select None', command=self.select_none_cuts)
+        self.select_none_cuts_button.configure(state='disabled', cursor='arrow')
+
+        # Clear SubMap Cuts Button
+        self.clear_submap_to_cut_button = Button(master=self.new_window_submap, text='CLEAR ALL X', command=self.clear_submap_cuts)
+        self.clear_submap_to_cut_button.configure(state='disabled')
+
+        # Add to Queue Controls
+        self.label_controls_queue = LabelFrame(master=self.new_window_submap, text='Add to Queue Controls')
+        self.environment_checkvar = IntVar()
+        self.environment_add_checkbox = Checkbutton(master=self.label_controls_queue, text='Add SubMap Environment', variable=self.environment_checkvar)
+        self.objects_checkvar = IntVar()
+        self.objects_add_checkbox = Checkbutton(master=self.label_controls_queue, text='Add SubMap Objects', variable=self.objects_checkvar)
+        self.submap_add_to_queue_button = Button(master=self.label_controls_queue, text='Add to Queue', command=self.submap_cuts_move_to_queue)
+        self.index_to_place_queue = 0 # Total files to convert
+        self.final_list_files_to_convert = [] # Final List of files to convert
+        self.environment_add_checkbox.configure(state='disabled')
+        self.objects_add_checkbox.configure(state='disabled')
+        self.submap_add_to_queue_button.configure(state='disabled', cursor='arrow')
+        self.string_var_text = StringVar(value='By default the Environment and Objects,\nwill be Converted,\ncheck upwards what you want to Convert')
+        self.label_controls_queue_text = Label(master=self.label_controls_queue, textvariable=self.string_var_text)
+        self.label_controls_queue_text.configure(state='disabled')
+
+        # Queue ListBox
+        self.submap_queue_listbox = Listbox(master=self.new_window_submap, cursor='arrow', selectmode='single')
+        self.submap_queue_listbox.configure(state='disabled')
+        self.scroll_listbox_queue_y = Scrollbar(self.submap_queue_listbox, command=self.submap_queue_listbox.yview, orient='vertical', cursor='arrow')
+        self.submap_queue_listbox.config(yscrollcommand=self.scroll_listbox_queue_y.set)
+
+        # Queue Controls
+        self.submap_queue_clear_button = Button(master=self.new_window_submap, text='CLEAR ALL QUEUE', command=self.clear_queue_list)
+        self.submap_queue_clear_button.configure(state='disabled', cursor='arrow')
+        self.submap_queue_convert_button = Button(master=self.new_window_submap, text='Convert Models', command=self.convert_submap_models)
+        self.submap_queue_convert_button.configure(state='disabled', cursor='arrow')
+        self.number_of_files_to_convert = StringVar(value='Total Folders to Convert: 0')
+        self.submap_queue_number_to_convert_label = Label(master=self.new_window_submap, textvariable=self.number_of_files_to_convert)
+        self.submap_queue_number_to_convert_label.configure(state='disabled')
+
+        # Placing Convert All Check-Box
+        self.label_convert_all.place(relx=0.08, rely=0.001, relwidth= 0.59, relheight= 0.075)
+        self.convert_all_submaps.place(relx=0.15, rely=0.25, relwidth= 0.8, relheight= 0.35)
+
+        # Placing Parent DRGN2x Parent Buttons
+        self.drgn21_button.place(relx=0.08, rely=0.075, relwidth= 0.1, relheight= 0.15)
+        self.drgn22_button.place(relx=0.08, rely=0.225, relwidth= 0.1, relheight= 0.15)
+        self.drgn23_button.place(relx=0.08, rely=0.376, relwidth= 0.1, relheight= 0.15)
+        self.drgn24_button.place(relx=0.08, rely=0.528, relwidth= 0.1, relheight= 0.15)
+        
+        # Placing ListBox from SubMaps
+        self.submap_parents_listbox.place(relx=0.18, rely=0.075, relwidth= 0.2, relheight= 0.6)
+
+        # Placing ListBox SubMaps Cuts
+        self.submap_cut_listbox.place(relx=0.47, rely=0.075, relwidth= 0.2, relheight= 0.6)
+        self.scroll_listbox_submapcut_y.place(relx=0.92, rely=0.001, relwidth= 0.1, relheight= 0.999)
+
+        # Placing Cuts Buttons
+        self.select_all_cuts_button.place(relx=0.67, rely=0.075, relwidth= 0.1, relheight= 0.1)
+        self.select_none_cuts_button.place(relx=0.67, rely=0.32, relwidth= 0.1, relheight= 0.1)
+        self.clear_submap_to_cut_button.place(relx=0.67, rely=0.575, relwidth= 0.1, relheight= 0.1)
+
+        # Placing Add to Queue Controls
+        self.label_controls_queue.place(relx=0.78, rely=0.075, relwidth=0.2, relheight=0.6)
+        self.environment_add_checkbox.place(relx=0.1, rely=0.05, relwidth=0.7, relheight=0.1)
+        self.objects_add_checkbox.place(relx=0.05, rely=0.15, relwidth=0.7, relheight=0.1)
+        self.submap_add_to_queue_button.place(relx=0.15, rely=0.35, relwidth=0.7, relheight=0.1)
+        self.label_controls_queue_text.place(relx=0.05, rely=0.45, relwidth=0.9, relheight=0.5)
+        self.environment_checkvar.set(1)
+        self.objects_checkvar.set(1)
+
+        # Placing Queue ListBox and Buttons for it
+        self.submap_queue_listbox.place(relx=0.18, rely=0.675, relwidth= 0.6, relheight= 0.22)
+        self.scroll_listbox_queue_y.place(relx=0.97, rely=0, relwidth= 0.03, relheight= 1)
+        self.submap_queue_clear_button.place(relx=0.18, rely=0.895, relwidth= 0.1, relheight= 0.1)
+        self.submap_queue_convert_button.place(relx=0.68, rely=0.895, relwidth= 0.1, relheight= 0.1)
+        self.submap_queue_number_to_convert_label.place(relx=0.285, rely=0.895, relwidth= 0.39, relheight= 0.1)
+
+        # Options Check Buttons Callbacks
+        self.convert_all_submaps.configure(command=lambda: self.convert_all_submap_models())
+
+    def press_drgn21_callback(self):
+        self.submap_parents_listbox.configure(state='normal', cursor='hand2')
+        self.submap_parents_listbox.delete(0, END)
+        self.this_super_parent = f'DRGN21'
+        self.convert_all_submaps.configure(state='active')
+        self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+        self.populate_listbox_submap(table_to_populate=self.submap_parents_listbox, list_objects=self.create_database_submap, parent_string=self.this_super_parent)
+        self.submap_parents_listbox.bind("<<ListboxSelect>>", lambda e: self.handling_parent_submap_list_callback())
+        self.drgn21_button.configure(state='disabled', cursor='arrow')
+    
+    def press_drgn22_callback(self):
+        this_super_parent = f'DRGN22'
+        # TODO To be filled
+    
+    def press_drgn23_callback(self):
+        this_super_parent = f'DRGN23'
+        # TODO To be filled
+    
+    def press_drgn24_callback(self):
+        this_super_parent = f'DRGN24'
+        # TODO To be filled
+
+    def populate_listbox_submap(self, table_to_populate, list_objects=dict, parent_string=str):
+        table_to_populate.delete(0, END)
+        index_to_place = 0
+        self.drgn_parent = list_objects.get(f'{parent_string}')
+        for name_key_main in self.drgn_parent:
+            table_to_populate.insert(index_to_place, name_key_main)
+            index_to_place += 1
+
+    def handling_parent_submap_list_callback(self):
+        selected_item_parent = self.submap_parents_listbox.curselection()
+        if len(selected_item_parent) >= 1:
+            single_selection = selected_item_parent[0]
+            self.selected_submap_parent = self.submap_parents_listbox.get(single_selection)
+            self.submap_cut_selected = self.create_database_submap.get(f'{self.this_super_parent}')
+            self.submap_cut_listbox.configure(state='normal', cursor='hand2')
+            self.submap_cut_listbox.bind("<<ListboxSelect>>", lambda e: self.handling_submap_cut_list_callback())
+            self.populate_listbox_submap(table_to_populate=self.submap_cut_listbox, list_objects=self.submap_cut_selected, parent_string=self.selected_submap_parent)
+    
+    def handling_submap_cut_list_callback(self):
+        self.selected_all_flag = False
+        selected_items_cut = self.submap_cut_listbox.curselection()
+        self.clear_submap_to_cut_button.configure(state='active', cursor='hand2')
+        self.select_all_cuts_button.configure(state='active', cursor='hand2')
+        self.select_none_cuts_button.configure(state='active', cursor='hand2')
+        self.cut_selections_made = []
+        for current_selection in selected_items_cut:
+            if len(selected_items_cut) >= 1:
+                single_sub_selection_index = current_selection
+                string_sublist_selected = self.submap_cut_listbox.get(single_sub_selection_index)
+                self.cut_selections_made.append(string_sublist_selected)
+                self.submap_parents_listbox.configure(state='disabled', cursor='arrow')
+        self.environment_add_checkbox.configure(state='normal')
+        self.objects_add_checkbox.configure(state='normal')
+        self.submap_add_to_queue_button.configure(state='active', cursor='hand2')
+        self.label_controls_queue_text.configure(state='normal')
+        self.environment_checkvar.trace_add('write', self.trace_checkbox_values_callback)
+        self.objects_checkvar.trace_add('write', self.trace_checkbox_values_callback)
+        self.check_if_env_obj()
+    
+    def check_if_env_obj(self):
+        """i need to check if we can really add Environment or Objects, sometimes this is not TRUE
+        Disk->SubMap->Cut self.submap_cut_selected.get(self.selected_submap_parent)
+        name of the selected item == self.cut_selections_made"""
+        parent_selected_dict = self.submap_cut_selected.get(self.selected_submap_parent)
+        if len(self.cut_selections_made ) > 0:
+            this_cut_selected = parent_selected_dict.get(f'{self.cut_selections_made[0]}')
+            this_environment_cut = this_cut_selected.get(f'Environment')
+            this_objects_cut = this_cut_selected.get(f'Objects')
+            check_environment = this_environment_cut[0]
+            check_objects = this_objects_cut[0]
+            if check_environment == 'None':
+                self.environment_checkvar.set(0)
+                self.environment_add_checkbox.configure(state='disabled', cursor='x_cursor')
+            if check_objects == 'None':
+                self.objects_checkvar.set(0)
+                self.environment_add_checkbox.configure(state='disabled', cursor='x_cursor')
+    
+    def select_all_cuts(self):
+        self.environment_checkvar.set(1)
+        self.objects_checkvar.set(1)
+        self.submap_cut_listbox.selection_set(0, END)
+        select_item_sublist = self.submap_cut_listbox.curselection()
+        self.objects_add_checkbox.configure(state='disabled')
+        self.environment_add_checkbox.configure(state='disabled')
+        self.selected_all_flag = True
+        self.string_var_text.set('Conversion of Environment/Objects,\nwill be done only\nchecking if this possible')
+        self.cut_selections_made = []
+        for selection_done in select_item_sublist:
+            if len(select_item_sublist) >= 1:
+                single_sub_selection_index = selection_done
+                string_sublist_selected = self.submap_cut_listbox.get(single_sub_selection_index)
+                self.cut_selections_made.append(string_sublist_selected)
+    
+    def select_none_cuts(self):
+        self.submap_cut_listbox.selection_clear(0, END)
+        self.submap_cut_listbox.configure(state='normal', cursor='hand2')
+    
+    def clear_submap_cuts(self):
+        self.submap_cut_listbox.delete(0, END)
+        self.submap_parents_listbox.selection_clear(0, END)
+        self.submap_add_to_queue_button.configure(state='disabled', cursor='arrow')
+        self.environment_checkvar.set(1)
+        self.environment_add_checkbox.configure(state='disabled')
+        self.objects_checkvar.set(1)
+        self.objects_add_checkbox.configure(state='disabled')
+        self.select_all_cuts_button.configure(state='disabled', cursor='arrow')
+        self.select_none_cuts_button.configure(state='disabled', cursor='arrow')
+        self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+        self.submap_parents_listbox.configure(state='normal', cursor='hand2')
+        self.clear_submap_to_cut_button.configure(state='disabled', cursor='arrow')
+    
+    def trace_checkbox_values_callback(self, var, index, mode):
+        if (self.environment_checkvar.get() == 1) and (self.objects_checkvar.get() == 1):
+            self.string_var_text.set('By default the Environment and Objects,\nwill be Converted,\ncheck upwards what you want to Convert')
+            self.submap_add_to_queue_button.configure(state='active', cursor='hand2')
+        elif (self.environment_checkvar.get() == 1) and (self.objects_checkvar.get() == 0):
+            self.string_var_text.set('Will Convert Only\nSubMap Environment 3D')
+            self.submap_add_to_queue_button.configure(state='active', cursor='hand2')
+        elif (self.environment_checkvar.get() == 0) and (self.objects_checkvar.get() == 1):
+            self.string_var_text.set('Will Convert Only\nSubMap Objects 3D')
+            self.submap_add_to_queue_button.configure(state='active', cursor='hand2')
+        else:
+            self.string_var_text.set('You can\'t convert nothing,\nplease select Environment or Objects')
+            self.submap_add_to_queue_button.configure(state='disable', cursor='arrow')
+
+    def submap_cuts_move_to_queue(self):
+        self.submap_cut_listbox.selection_clear(0, END)
+        submap_parent_selection_done = self.selected_submap_parent
+        cut_selections_done = self.cut_selections_made
+        # Depending on the selection of Environment or Objects or BOTH, will be the list shown on the Conversion Queue
+        environment_flag = self.environment_checkvar.get()
+        objects_flag = self.objects_checkvar.get()
+
+        get_parent = self.create_database_submap.get(f'{self.this_super_parent}')
+        get_submap_from_parent = get_parent.get(f'{submap_parent_selection_done}')
+        list_to_convert = []
+        for current_cut_selected in cut_selections_done:
+            get_current_cut = get_submap_from_parent.get(f'{current_cut_selected}')
+            final_cut_environment = None
+            final_cut_objects = None
+            
+            if (environment_flag == 1) and (objects_flag == 1) and (self.selected_all_flag != True):
+                final_cut_environment = f'Environment'
+                final_cut_objects = f'Objects'
+                get_folder_complete = ['ENV and OBJ', submap_parent_selection_done, current_cut_selected, get_current_cut.get(f'Environment'), get_current_cut.get(f'Objects')]
+                self.final_list_files_to_convert.append(get_folder_complete)
+            
+            elif (environment_flag == 0) and (objects_flag == 1):
+                final_cut_environment = f'No Environment'
+                final_cut_objects = f'Objects'
+                get_folder_obj = ['OBJ Only', submap_parent_selection_done, current_cut_selected, get_current_cut.get(f'Objects')]
+                self.final_list_files_to_convert.append(get_folder_obj)
+                
+            elif (environment_flag == 1) and (objects_flag == 0):
+                final_cut_environment = f'Environment'
+                final_cut_objects = f'No Objects'
+                get_folder_env = ['ENV Only', submap_parent_selection_done, current_cut_selected, get_current_cut.get(f'Environment')]
+                self.final_list_files_to_convert.append(get_folder_env)
+            
+            elif (environment_flag == 1) and (objects_flag == 1) and (self.selected_all_flag == True):
+                environment_result = get_current_cut.get(f'Environment')
+                objects_result = get_current_cut.get(f'Objects')
+                environment_str_check = environment_result[0]
+                objects_str_check = objects_result[0]
+                
+                if environment_str_check == 'None':
+                    final_cut_objects = f'Objects'
+                    final_cut_environment = f'No Environment'
+                    get_folder_mix_1 = ['OBJ Only', submap_parent_selection_done, current_cut_selected, objects_result]
+                    self.final_list_files_to_convert.append(get_folder_mix_1)
+                
+                if objects_str_check == 'None':
+                    final_cut_objects = f'No Objects'
+                    final_cut_environment = f'Environment'
+                    get_folder_mix_2 = ['ENV Only', submap_parent_selection_done, current_cut_selected, objects_result]
+                    self.final_list_files_to_convert.append(get_folder_mix_2)
+                
+                if (objects_str_check != 'None') and (environment_str_check != 'None'):
+                    final_cut_environment = f'Environment'
+                    final_cut_objects = f'Objects'
+                    get_folder_complete = ['ENV and OBJ', submap_parent_selection_done, current_cut_selected, get_current_cut.get(f'Environment'), get_current_cut.get(f'Objects')]
+                    self.final_list_files_to_convert.append(get_folder_complete)
+                
+                if (objects_str_check == 'None') and (environment_str_check == 'None'):
+                    messagebox.showerror(title='CRITICAL ERROR', message=f'Parent:{submap_parent_selection_done}, Cut: {current_cut_selected},\nImpossible to Convert No Objects or No Environment')
+            
+            final_string_for_queue_list = f'{submap_parent_selection_done} => {current_cut_selected} => [{final_cut_environment} ; {final_cut_objects}]'
+            list_to_convert.append(final_string_for_queue_list)
+        self.populate_submap_queue_list(table_to_populate=self.submap_queue_listbox, final_string_list=list_to_convert)
+
+    def populate_submap_queue_list(self, table_to_populate, final_string_list=list):
+        self.submap_queue_clear_button.configure(state='active', cursor='hand2')
+        self.submap_queue_convert_button.configure(state='active', cursor='hand2')
+        table_to_populate.configure(state='normal')
+        repeated_string_get = table_to_populate.get(0, END)
+        for full_submap_string in final_string_list:
+            if full_submap_string not in repeated_string_get:
+                table_to_populate.insert(self.index_to_place_queue, full_submap_string)
+                self.index_to_place_queue += 1
+        self.submap_queue_number_to_convert_label.configure(state='normal')
+        self.number_of_files_to_convert.set(value=f'Total Folders to Convert: {self.index_to_place_queue}')
+    
+    def clear_queue_list(self):
+        self.submap_queue_listbox.delete(0, END)
+        self.submap_queue_listbox.configure(state='disabled')
+        self.submap_queue_clear_button.configure(state='disabled', cursor='arrow')
+        self.submap_queue_convert_button.configure(state='disabled', cursor='arrow')
+        self.number_of_files_to_convert.set(value=f'Total Folders to Convert: 0')
+        self.submap_queue_number_to_convert_label.configure(state='disabled')
+        self.final_list_files_to_convert = []
+        self.index_to_place_queue = 0
+    
+    def convert_submap_models(self):
+        self.submap_cut_listbox.delete(0, END)
+        self.submap_add_to_queue_button.configure(state='disabled', cursor='arrow')
+        self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+        self.submap_parents_listbox.configure(state='disabled', cursor='arrow')
+        self.submap_queue_convert_button.configure(state='disabled', cursor='arrow')
+        # Setting Custom Window to the Conversion Process
+        final_list = []
+        a = [final_list.append(value) for value in self.final_list_files_to_convert if value not in final_list]
+        try: 
+            self.conversion_submap_new_window = Toplevel(master=self.new_window_submap)
+            self.conversion_submap_new_window.grab_set()
+            self.conversion_submap_new_window.focus_set()
+            x_main = self.x_y_values[0]
+            y_main = self.x_y_values[1]
+            self.conversion_submap_new_window.title(string=f'Conversion in Progress...')
+            self.conversion_submap_new_window.geometry(f'+%d+%d' %(x_main, y_main))
+            self.conversion_submap_new_window.geometry(f'{x_main + (500 - x_main)}x{(y_main + (300 - y_main)) // 2}')
+            self.conversion_submap_new_window.wm_protocol(name="WM_DELETE_WINDOW", func=self.no_close)
+            self.conversion_submap_new_window.overrideredirect(True)
+            self.conversion_submap_new_window.configure(bd=4, relief='ridge')
+
+            # Start Conversion Button
+            self.start_button_submap = Button(master=self.conversion_submap_new_window, cursor='hand2', text='START', command=lambda: self.final_conversion_submap(final_list=final_list))
+            self.start_button_submap.place(relx=0.1, rely=0.7, relwidth= 0.3, relheight= 0.3)
+
+            # Cancel Button
+            self.cancel_conversion_button = Button(master=self.conversion_submap_new_window, cursor='hand2', text='CANCEL', command=lambda: self.stop_conversion_submap())
+            self.cancel_conversion_button.place(relx=0.65, rely=0.7, relwidth= 0.3, relheight= 0.3)
+        
+        except RuntimeError:
+            messagebox.showerror(title='FATAL CRASH', message='Something Fail during Conversion...')
+            exit()
+    
+    def final_conversion_submap(self, final_list=list):
+        self.start_button_submap.configure(cursor='arrow',state='disabled')
+        self.start_button_submap.configure(cursor='arrow', state='disabled')
+        self.new_working_label_submap = Label(master=self.conversion_submap_new_window, text=f'Converting Models, please wait...', relief='groove')
+        self.new_working_label_submap.place(relx=0.01, rely=0.6, relwidth= 0.98, relheight= 0.4)
+        convert_queue_files_submaps.ConvertSubMapFiles(disk_parent=self.this_super_parent, list_to_convert=final_list, masterbar=self.conversion_submap_new_window)
+        new_message = messagebox.showinfo(title='Conversion Finished', message=f'Total Folders Converted: {len(final_list)}')
+        if new_message == f'ok':
+            self.conversion_submap_new_window.destroy()
+            self.new_window_submap.grab_set()
+            self.new_window_submap.focus_set()
+    
+    def stop_conversion_submap(self):
+        cancel_conversion = messagebox.askyesno(title='IMPORTANT', message='Are you sure that want to stop the conversion?')
+        if cancel_conversion:
+            self.conversion_submap_new_window.destroy()
+            self.new_window_submap.grab_set()
+            self.new_window_submap.focus_set()
+            self.submap_queue_listbox.delete(0, END)
+            #check_done_cancel = self.check_all_convert_variable.get()
+            #if check_done_cancel == 1:
+                #self.check_all_convert_variable.set(0)
+            self.submap_parents_listbox.configure(state='normal')
+        
+    def convert_all_submap_models(self):
+        if self.convert_all_checkvar.get() == 1:
+            self.submap_parents_listbox.configure(state='disabled', cursor='arrow')
+            self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+            self.select_all_cuts_button.configure(state='disabled', cursor='arrow')
+            self.select_none_cuts_button.configure(state='disabled', cursor='arrow')
+            self.clear_submap_to_cut_button.configure(state='disabled')
+            self.submap_cut_listbox.delete(0, END)
+            self.fill_all_queue_submap()
+        else:
+            self.submap_parents_listbox.configure(state='normal', cursor='arrow')
+            self.submap_queue_listbox.delete(0, END)
+            self.number_of_files_to_convert.set(value='Total Folders to Convert: 0')
+            self.final_list_files_to_convert = []
+            self.index_to_place_queue = 0
+    
+    def fill_all_queue_submap(self):
+        submap_models_complete = self.create_database_submap.get(f'{self.this_super_parent}')
+        list_to_convert = []
+        for submap_models in submap_models_complete:
+            submap_cuts = submap_models_complete.get(f'{submap_models}')
+            for this_cut in submap_cuts:
+                current_cut = submap_cuts.get(f'{this_cut}')
+                environment_result = current_cut.get(f'Environment')
+                objects_result = current_cut.get(f'Objects')
+                environment_str_check = environment_result[0]
+                objects_str_check = objects_result[0]
+                
+                if environment_str_check == 'None':
+                    final_cut_objects = f'Objects'
+                    final_cut_environment = f'No Environment'
+                    get_folder_mix_1 = ['OBJ Only', submap_models, this_cut, objects_result]
+                    self.final_list_files_to_convert.append(get_folder_mix_1)
+                
+                if objects_str_check == 'None':
+                    final_cut_objects = f'No Objects'
+                    final_cut_environment = f'Environment'
+                    get_folder_mix_2 = ['ENV Only', submap_models, this_cut, environment_result]
+                    self.final_list_files_to_convert.append(get_folder_mix_2)
+                
+                if (objects_str_check != 'None') and (environment_str_check != 'None'):
+                    final_cut_environment = f'Environment'
+                    final_cut_objects = f'Objects'
+                    get_folder_complete = ['ENV and OBJ', submap_models, this_cut, current_cut.get(f'Environment'), current_cut.get(f'Objects')]
+                    self.final_list_files_to_convert.append(get_folder_complete)
+                
+                if (objects_str_check == 'None') and (environment_str_check == 'None'):
+                    messagebox.showerror(title='CRITICAL ERROR', message=f'Parent:{submap_models}, Cut: {this_cut},\nImpossible to Convert No Objects or No Environment')
+                
+                final_string_for_queue_list = f'{submap_models} => {this_cut} => [{final_cut_environment} ; {final_cut_objects}]'
+                list_to_convert.append(final_string_for_queue_list)
+            self.populate_submap_queue_list(table_to_populate=self.submap_queue_listbox, final_string_list=list_to_convert)
+
+    
     # Configuration Window
 
     def configure_tool(self):
@@ -726,7 +1183,7 @@ if __name__ == "__main__":
     main_window = Tk()
     config_window = Options.read_write_options(Options)
     main_window.iconbitmap(default='Resources/DD_Eye.ico')
-    main_window.wm_title("TLoD TMD Converter BETA v0.3")
+    main_window.wm_title("TLoD TMD Converter BETA v0.4")
     width_native_windows = main_window.winfo_screenwidth()
     height_native_windows = main_window.winfo_screenheight()
     middle_place_width = (width_native_windows // 2) - (width_native_windows // 3)

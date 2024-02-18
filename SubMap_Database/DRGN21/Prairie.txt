@@ -1,0 +1,72 @@
+[/Praire - Cut 1 - Environment] -> FOLDER: 118
+Praire 1: 2
+[/Praire - Cut 1 - Objects] -> FOLDER: 119
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 14, 17, 18, 19, 23, 24, 32]
+Strange Glow: 33 - [34]
+Shana: 66 - [67, 68, 69, 72, 73, 74, 75, 77, 80, 81, 82, 83, 84, 85, 86]
+Lavitz: 99 - [100, 101, 102, 105, 108, 109, 110, 111, 113, 114, 115, 116, 117, 118, 119, 120, 121]
+Hellena Warden 1: 132 - [133, 135]
+Hellena Warden 2: 165 - [166, 168]
+Arrow: 198 - [199]
+Bird: 264 - [265, 266, 267]
+Treasure Crate: 429 - [430, 431, 432]
+==========
+[/Praire - Cut 2 - Environment] -> FOLDER: 121
+Praire 2: 2
+[/Praire - Cut 2 - Objects] -> FOLDER: 122
+Dart: 0 - [1, 2, 3, 7, 9, 10, 11, 13, 32]
+Strange Glow: 33 - [34]
+Shana: 66 - [67, 68, 69, 75]
+Lavitz: 99 - [100, 101, 102, 105, 108, 109]
+Hellena Warden: 132 - [133, 134, 135, 138, 141, 142, 143, 144]
+Chipmunk: 198 - [199, 200, 201, 207, 208]
+==========
+[/Praire - Cut 3 - Environment] -> FOLDER: 124
+Praire 3: 2
+[/Praire - Cut 3 - Objects] -> FOLDER: 125
+Dart: 0 - [1, 2, 3, 6, 9, 10, 13, 14, 16, 17, 32]
+Lumberjack: 33 - [34, 35, 39]
+Shana: 66 - [67, 68, 69, 71, 75, 76, 78, 81]
+Lavitz: 99 - [100, 101, 108, 109, 111]
+Horse: 132 - [133, 134, 138, 142]
+Treasure Crate: 165 - [166, 167, 168]
+==========
+[/Praire - Cut Inside Shack - Environment] -> FOLDER: 127
+Praire Inside Shack: 2
+[/Praire - Cut Inside Shack - Objects] -> FOLDER: 128
+Dart: 0 - [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 22, 23, 24, 32]
+Dart with Axe: 33 - [34, 35, 36, 42, 43]
+Shana: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 79, 85, 86]
+Lavitz: 99 - [100, 101, 102, 104, 105, 106, 107, 108, 109, 110, 111, 112, 116, 118] #Wake from bed
+Red Glow: 132 - [133]
+Key Glow: 165 - [166, 167]
+==========
+[/Praire - Cut 4 - Environment] -> FOLDER: 130
+Praire 4: 2
+[/Praire - Cut 4 - Objects] -> FOLDER: 131
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32]
+Dart with Axe: 33 - [34, 35, 36, 42, 43, 44, 45, 46]
+Shana: 66 - [67, 68, 69, 71, 72, 75, 76]
+Lavitz: 99 - [100, 101, 102, 104, 105, 107, 108, 111, 112, 114, 115]
+Falling Tree: 132 - [133, 134, 135]
+Armed Dart: 165 - [167]
+==========
+[/Praire - Cut 5 - Environment] -> FOLDER: 133
+Praire 5: 2
+[/Praire - Cut 5 - Objects] -> FOLDER: 134
+Dart: 0 - [1, 2, 3, 4, 5, 7, 8, 10, 32]
+Floating Tree: 33 - [34]
+==========
+[/Praire - Cut 6 - Environment] -> FOLDER: 136
+Praire 6: 2
+[/Praire - Cut 6 - Objects] -> FOLDER: 137
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+Shana: 33 - [34, 35, 36, 38, 39, 42, 43, 44, 45]
+Lavitz: 66 - [67, 68, 69, 71, 72, 73, 74, 75, 76, 77, 80, 81, 82, 83, 84, 85, 86]
+Male Refugee: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112, 113]
+Female Refugee: 132 - [133, 134, 135, 138, 139, 140, 141]
+Child Refugee: 165 - [166, 171, 175]
+Strange Glow: 198 - [199] # Retail Bugged?, animations goes from 199 to 231, but the 200 have different Number of objects.
+????: None - [200] # Retail Bugged?//// forced = seems to be someone with a weapon up, maybe a Indels Guard or a Hellena Warden?? Could be a Sandora Soldier too.
+Treasure Crate: 231 - [232, 233, 234]
+==========

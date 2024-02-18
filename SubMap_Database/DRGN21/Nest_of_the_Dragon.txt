@@ -1,0 +1,91 @@
+[/Nest of Dragon - Cut 1 - Environment] -> FOLDER: 394
+Nest of Dragon Cut 1: 2
+[/Nest of Dragon - Cut 1 - Objects] -> FOLDER: 395
+Dart: 0 - [1, 2, 3, 32]
+Strange Glow: 33 - [34]
+Treasure Crate: 66 - [67, 68, 69]
+Lavitz: 99 - [100, 101, 102, 103]
+==========
+[/Nest of Dragon - Cut 2 - Environment] -> FOLDER: 397
+Nest of Dragon Cut 2: 2
+[/Nest of Dragon - Cut 2 - Objects] -> FOLDER: 398
+Dart 1: 0 - [1, 2, 3, 32]
+Dart 2: 33 - [37, 38, 39, 40, 41, 42]
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+Rose: 99 - [100, 101, 102, 103, 104, 105]
+Lavitz: 132 - [133, 134, 135, 136, 137, 138, 139, 140]
+Blank Square: 165 - [166]
+Strange Glow: 198 - [199]
+==========
+[/Nest of Dragon - Cut 3 - Environment] -> FOLDER: 400
+Nest of Dragon Cut 3: 2
+[/Nest of Dragon - Cut 3 - Objects] -> FOLDER: 401
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+Blank Square: 33 - [34]
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
+Rose: 99 - [100, 101, 102, 103]
+Lavitz: 132 - [133, 134, 135, 136, 137]
+Dragoni Plant: 165 - [166, 167]
+==========
+[/Nest of Dragon - Cut 4 - Environment] -> FOLDER: 403
+Nest of Dragon Cut 4: 2
+[/Nest of Dragon - Cut 4 - Objects] -> FOLDER: 404
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Strange Glow: 33 - [34]
+Sign: 132 - [133]
+==========
+[/Nest of Dragon - Cut 5 Inside - Environment] -> FOLDER: 406
+Nest of Dragon Cut 5 Inside: 2
+[/Nest of Dragon - Cut 5 Inside - Objects] -> FOLDER: 407
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Key Glow: 33 - [34]
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+Lavitz: 132 - [133, 134, 135, 136, 137, 138]
+Treasure Chest: 165 - [166, 167, 168]
+==========
+[/Nest of Dragon - Cut 6 Inside - Environment] -> FOLDER: 409
+Nest of Dragon Cut 6 Inside: 2
+[/Nest of Dragon - Cut 6 Inside - Objects] -> FOLDER: 410
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Barricade Plant: 33 - [34, 35, 36]
+Barricade Plant Tentacles: 66 - [67]
+Treasure Chest: 231 - [232, 233, 234]
+==========
+[/Nest of Dragon - Cut 7 Feyrbrand Place - Environment] -> FOLDER: 412
+Nest of Dragon Cut 7 Feyrbrand Place: 2
+[/Nest of Dragon - Cut 7 Feyrbrand Place - Objects] -> FOLDER: 413
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 21, 22, 23, 24, 25, 32]
+Lavitz: 33 - [34, 35, 36, 39, 40, 41, 44, 45]
+Greham: 66 - [67, 68, 72, 77]
+Rose: 99 - [100, 101, 102]
+Shana: 132 - [133, 134, 135]
+==========
+[/Nest of the Dragon - Greham CutScene - Environment] -> FOLDER: 676
+Nest of the Dragon Greham CutScene: 2
+[/Nest of the Dragon - Greham CutScene - Objects] -> FOLDER: 677
+Dart: 0 - [1, 2, 4, 11, 16, 18]
+Lavitz: 33 - [34, 35, 44, 45]
+Greham: 66 - [67, 68, 72, 74, 77]
+Rose: 99 - [100, 101, 110]
+Shana: 132 - [133, 134, 136]
+Feyrbrand: 165 - [166, 167, 170] # yeah have missing legs in retail, surely to save performance
+Spirit Green Glow: 198 - [199]
+Spirit Green Flare: 231 - [232]
+Armed Dart: 264 - [265, 266]
+Armed Lavitz: 297 - [298, 299, 308, 309, 310, 311, 312, 313, 314, 315]
+Greham Dragoon: 330 - [331, 332, 336, 337, 338]
+Armed Rose: 363 - [364, 365, 374, 375, 376, 377]
+==========
+[/Nest of the Dragon - Greham CutScene 2 - Environment] -> FOLDER: 721
+Nest of the Dragon Greham CutScene 2: 2
+[/Nest of the Dragon - Greham CutScene 2 - Objects] -> FOLDER: 722
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17]
+Lavitz: 33 - [34, 35, 37, 39, 40, 41, 44, 45, 46, 47, 48]
+Greham: 66 - [67, 68, 69]
+Rose: 99 - [100, 101, 105, 106, 107, 110, 111, 112]
+Shana: 132 - [133, 134, 136, 138, 139, 140, 143, 144, 145, 146, 147, 148]
+Spirit Green Glow: 165 - [166]
+Spirit Green Flare: 198 - [199]
+Foam????: 231 - [232] # Strange shape that looks like a Mamushka Bottle
+==========

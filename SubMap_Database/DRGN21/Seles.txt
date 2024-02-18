@@ -1,0 +1,90 @@
+[/Seles BETA - BETA Cut 2 - Environment] -> FOLDER: 28
+Seles BETA - BETA Cut 2: 2
+[/Seles BETA - BETA Cut 2 - Objects] -> FOLDER: 29
+Dart BETA: 0 - [1, 2, 3]
+==========
+[/Seles - Cut 1 - Environment] -> FOLDER: 34
+Seles Cut 1: 2
+[/Seles - Cut 1 - Objects] -> FOLDER: 35
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 32]
+Strange Glow: 33 - [34]
+Old Male Villager: 66 - [67, 68, 69]
+Sandora Soldier 1: 99 - [100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 111] # 104 missing
+Sandora Soldier 2: 132 - [133, 134, 135, 136, 137, 140, 141] # 138 and 139 missing
+Old Female Villager Fainted: 165 - [166]
+Sandora Commander: None - [167, 168, 169, 170, 171] # With no TMD File
+Crow: 198 - [199, 200, 201, 202]
+Armed Dart: 231 - [232, 234, 236, 237, 238, 240, 241, 242, 243, 246, 252] # much missing anims
+Treasure Chest: 264 - [265, 266, 267]
+Leaves: 297 - [298, 299, 300, 301]
+Villager Child: 396 - [397, 398, 402] # missing animations
+Old Female Villager: 429 - [430, 431, 435] # missing animations
+Something odd: 495 - [496]
+==========
+[/Seles - Basement - Environment] -> FOLDER: 37
+Seles Basement: 2
+[/Seles - Basement - Objects] -> FOLDER: 38
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+Haschel: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 82] # 77 and 81 missing
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151]
+Plane: 165 - [166]
+Spirit Red Glow Effect: 198 - [199]
+Spirit White Glow Effect: 231 - [232]
+Spirit Dark Blue Glow Effect: 264 - [265]
+Spirit Green Glow Effect: 297 - [298]
+Strange Glow: 330 - [331]
+Fire: 396 - [397]
+Brillant Glow: 462 - [463]
+==========
+[/Seles - Cut 2 - Environment] -> FOLDER: 40
+Seles Cut 2: 2
+[/Seles - Cut 2 - Objects] -> FOLDER: 41
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Master Tasman: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+Cardboard Villager: 66 - [67]
+Female Child Villager: 99 - [100, 101, 102, 103, 104, 105, 106]
+Male Child Villager: 132 - [133, 134, 135, 136, 137, 138]
+Old Male Villager: 165 - [166, 167, 168]
+Crow: 198 - [199, 200, 201, 202, 203, 204]
+Plos: 231 - [232, 233]
+Child Shana: 264 - [265, 266, 267]
+Female Old Villager: 297 - [298, 299, 300, 301, 302, 303]
+Male Villager: 330 - [331, 332, 336] # missing animations from 333 to 335
+Shana: 363 - [364, 365, 366, 367, 368, 369, 370]
+Cardboard Villager: 429 - [430]
+Strange Glow: 462 - [463]
+==========
+[/Seles - CutScene Dart and Shana Return - Environment] -> FOLDER: 175
+CutScene Dart and Shana Return: 2
+[/Seles - CutScene Dart and Shana Return - Objects] -> FOLDER: 176
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Shana's Mother: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75]
+Shana's Father: 99 - [100, 101, 102, 103, 104, 105, 106]
+Female Child Villager: 132 - [133, 134, 135]
+Male Child Villager: 165 - [166, 167, 168]
+Plos: 198 - [199, 200]
+Strange Glow: 231 - [232]
+Male Villager: 264 - [265, 266]
+==========
+[/Seles - Dart Saving Plos_After Hellena CutScene - Environment] -> FOLDER: 724
+Seles Dart Saving Plos_After Hellena CutScene: 2
+[/Seles - Dart Saving Plos_After Hellena CutScene - Objects] -> FOLDER: 725
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 15, 16, 17, 18, 21, 22, 23, 25, 26, 27]
+Shana: 33 - [34, 35, 36, 38, 39]
+Armed Dart: 66 - [67, 71, 72, 73, 74, 75, 78]
+Plos 1: 99 - [100, 106, 107, 108, 109, 110]
+Crow 1: 132 - [133, 134, 135, 138]
+Sandora Commander: 165 - [166, 167, 168, 169, 170, 171, 173, 174]
+Plos 2: 198 - [199, 200, 201]
+Sandora Soldier: 231 - [232, 234, 237, 242]
+Armed Sandora Soldier: 264 - [265, 267, 269, 273]
+Crow 2: 297 - [298, 299, 300, 303]
+Haschel: 330 - [331, 332, 334, 335, 336]
+Leaves: 363 - [364, 365, 366, 367]
+Rose: 396 - [397, 398]
+Albert: 429 - [430, 431, 432, 433, 434]
+Empty Square: 462 - [463]
+==========

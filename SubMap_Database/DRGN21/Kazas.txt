@@ -1,0 +1,330 @@
+[/Kazas - Entrance - Environment] -> FOLDER: 517
+Kazas Entrance: 2
+[/Kazas - Entrance - Objects] -> FOLDER: 518
+Dart: 0 - [1, 2, 3, 32]
+Male Villager 1: 33 - [34, 35, 36, 39, 40, 41]
+Male Villager 2: 66 - [67, 68, 69, 72, 73, 74]
+Male Villager 3: 99 - [100, 101, 102, 105, 106, 107]
+Male Villager 4: 132 - [133, 134, 135, 138, 139, 140]
+Sandora Soldier: 165 - [166, 167, 168, 171, 173]
+==========
+[/Kazas - Sandora Soldier Meeting Room - Environment] -> FOLDER: 520
+Kazas Sandora Soldier Meeting Room: 2
+[/Kazas - Sandora Soldier Meeting Room - Objects] -> FOLDER: 521
+Dart: 0 - [1, 2, 3, 14, 15, 32]
+Sandora Commander - Sandora Mayor: 33 - [34, 35, 39, 40, 41]
+Bishop: 66 - [67, 68, 72, 73, 74]
+Sandora Soldier: 99 - [100, 101, 102, 105, 106, 107]
+==========
+[/Kazas - Sandora Soldier Recruiting Room - Environment] -> FOLDER: 523
+Kazas Sandora Soldier Recruiting Room: 2
+[/Kazas - Sandora Soldier Recruiting Room - Objects] -> FOLDER: 524
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 14, 15, 32]
+Sandora Soldier: 33 - [34, 35, 36, 39, 41, 42, 43, 44, 45, 46, 47, 48]
+Mercenary Guy 1: 66 - [67, 68, 69, 72]
+Mercenary Guy 2: 99 - [100, 101, 102, 105]
+Treasure Chest: 132 - [133, 134, 135]
+Magi The Researcher: 165 - [166, 167, 171, 172, 173, 174]
+Dog: 231 - [232, 233, 234, 236, 237, 239, 241, 242, 243, 244, 245]
+==========
+[/Kazas - Inn - Environment] -> FOLDER: 526
+Kazas Inn: 2
+[/Kazas - Inn - Objects] -> FOLDER: 527
+Dart: 0 - [1, 2, 3, 32]
+Male Villager: 33 - [34, 35, 36, 39, 40, 41]
+Old Female Villager: 66 - [67, 68, 69, 72, 73, 74]
+Fire: 99 - [100]
+==========
+[/Kazas - Weapon Shop - Environment] -> FOLDER: 529
+Kazas Weapon Shop: 2
+[/Kazas - Weapon Shop - Objects] -> FOLDER: 530
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+Mysterious Adventurer: 66 - [67, 68, 72, 75, 76, 77]
+Sandora Soldier: 99 - [100, 101, 102, 105, 107]
+Male Villager: 165 - [166, 167, 168, 171, 172, 173]
+Child Male Villager: 198 - [199, 200, 201, 204, 205, 206, 207]
+Fire: 231 - [232]
+Treasure Crate : 264 - [265, 266, 267]
+==========
+[/Kazas - Gripping Room - Environment] -> FOLDER: 532
+Kazas Gripping Room: 2
+[/Kazas - Gripping Room - Objects] -> FOLDER: 533
+Dart: 0 - [1, 2, 3, 32]
+Old Male Villager: 33 - [34, 35, 36, 39, 40, 41]
+Male Villager 1: 66 - [67, 68, 69, 72, 73, 74]
+Female Villager: 99 - [100, 101, 102, 105, 106, 107]
+Child Male Villager: 132 - [133, 134, 135, 138, 139, 140]
+Child Female Villager - Shana Like: 165 - [166, 167, 168, 171, 172, 173, 174, 175, 176]
+Male Villager 2: 198 - [199, 200, 201, 204, 205, 206]
+Fire: 231 - [232]
+==========
+[/Kazas - Castle Bridge Entrance - Environment] -> FOLDER: 535
+Kazas Castle Bridge Entrance: 2
+[/Kazas - Castle Bridge Entrance - Objects] -> FOLDER: 536
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Sandora Soldier: 33 - [34, 35, 36, 39, 41, 42, 43, 44, 45, 46, 47, 48]
+Albert: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112]
+Key Glow: 132 - [133]
+Newspaper Guy: 165 - [166, 167, 171, 174]
+Male Villager: 198 - [199, 200, 201, 204, 205, 206]
+Old Female Villager: 231 - [232, 233, 234, 237, 238, 239]
+Indels Guard: 264 - [265, 266, 267, 270, 273, 274, 275, 276, 277, 278, 279, 280] # odd
+==========
+[/Kazas - Underground Fort Front - Environment] -> FOLDER: 538
+Kazas Underground Fort Front: 2
+[/Kazas - Underground Fort Front - Objects] -> FOLDER: 539
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 21, 22, 23, 32]
+Child Male Villager 1: 33 - [34, 35, 36, 39, 40, 41, 42, 43]
+Child Female Villager: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77]
+Child Male Villager 2: 99 - [100, 101, 102, 105, 106, 107]
+Old Female Villager 1: 132 - [133, 134, 135, 138, 139, 140, 141]
+Male Villager: 165 - [166, 167, 168, 171, 172, 173, 174, 175, 176, 177, 178, 179]
+Old Female Villager 2: 198 - [199, 200, 204, 205, 206]
+Old Male Villager: 231 - [232, 233, 234, 237, 238, 239]
+Orange Glow: 264 - [265]
+==========
+[/Kazas - Underground Fort Inside 1 - Environment] -> FOLDER: 541
+Kazas Underground Fort Inside 1: 2
+[/Kazas - Underground Fort Inside 1 - Objects] -> FOLDER: 542
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 19, 20, 21, 22, 23, 30, 31, 32]
+Male Villager: 33 - [34, 35, 36, 39, 40, 41]
+Female Villager: 66 - [67, 68, 69, 72, 73, 74]
+Child Female Villager: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110]
+Old Female Villager: 132 - [133, 134, 138, 139, 140]
+Old Male Villager: 165 - [166, 167, 168, 171, 172, 173]
+Child Male Villager: 198 - [199, 200, 201, 204, 205, 206]
+Orange Glow: 264 - [265]
+Fire: 396 - [397]
+==========
+[/Kazas - Underground Fort Inside 2 - Environment] -> FOLDER: 544
+Kazas Underground Fort Inside 2: 2
+[/Kazas - Underground Fort Inside 2 - Objects] -> FOLDER: 545
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 18, 19, 20, 32]
+Old Male Villager 1: 33 - [34, 35, 36, 39, 40, 41]
+White Glow: 66 - [67]
+Popo: 99 - [100, 101, 105, 106, 107, 108]
+Albert: 132 - [133, 134, 135, 138, 139, 140, 141, 142, 143, 144, 147, 148, 149]
+Old Male Villager 2: 165 - [166, 167, 168, 171, 172, 173]
+Old Female Villager 1: 198 - [199, 200, 201, 204, 205, 206, 207]
+Old Female Villager 2: 231 - [232, 233, 237, 238, 239]
+Child Female Villager: 264 - [265, 266, 267, 270, 271, 272, 273, 274, 275]
+==========
+[/Kazas - Underground Fort Inside 3 - Environment] -> FOLDER: 547
+Kazas Underground Fort Inside 3: 2
+[/Kazas - Underground Fort Inside 3 - Objects] -> FOLDER: 548
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 15, 24, 25, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 78, 81, 82, 83]
+Rose: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112, 113]
+Haschel: 132 - [133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147]
+Popo: 165 - [166, 167, 171, 172, 173, 174]
+"Ghost": 198 - [199]
+Male Villager: 231 - [232, 233, 234, 237, 238, 239]
+Female Villager: 264 - [265, 266, 267, 270, 271, 272]
+==========
+[/Kazas - Basement - Environment] -> FOLDER: 550
+Kazas Basement: 2
+[/Kazas - Basement - Objects] -> FOLDER: 551
+Dart: 0 - [1, 2, 3, 14, 15, 18, 19, 20, 21, 22, 32]
+Raft: 33 - [34]
+Treasure Chest: 66 - [67, 68, 69]
+==========
+[/Kazas - Popo Basement Pass - Environment] -> FOLDER: 553
+Kazas Popo Basement Pass: 2
+[/Kazas - Popo Basement Pass - Objects] -> FOLDER: 554
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 16, 24, 25, 26, 27, 28, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 76, 77, 78, 81, 82, 83]
+Rose: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
+Haschel: 132 - [133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
+Popo: 165 - [166, 167, 171, 172, 173]
+Orange Glow: 198 - [199]
+Fire: 231 - [232]
+==========
+[/Kazas - Basement Hideaway - Environment] -> FOLDER: 565
+Kazas Basement Hideaway: 2
+[/Kazas - Basement Hideaway - Objects] -> FOLDER: 566
+Dart: 0 - [1, 2, 3, 14, 15, 30, 31, 32]
+Sandora Soldier: 33 - [34, 35, 36, 39, 40, 42, 43, 44, 45, 46, 47, 48, 49]
+Treasure Chest: 165 - [166, 167, 168]
+==========
+[/Kazas - Castle Entrance - Environment] -> FOLDER: 568
+Kazas Castle Entrance: 2
+[/Kazas - Castle Entrance - Objects] -> FOLDER: 569
+Dart: 0 - [1, 2, 3, 14, 15, 30, 31, 32]
+Sandora Soldier: 33 - [34, 35, 36, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+Elevator: 99 - [100, 101]
+==========
+[/Kazas - Castle Main Hallway - Environment] -> FOLDER: 571
+Kazas Castle Main Hallway: 2
+[/Kazas - Castle Main Hallway - Objects] -> FOLDER: 572
+Dart: 0 - [1, 2, 3, 32]
+Sandora Soldier: 33 - [34, 35, 36, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+Castle Elevator: 132 - [133]
+Purple Oil: 198 - [199]
+==========
+[/Kazas - Castle Bridge Opposite Side - Environment] -> FOLDER: 574
+Kazas Castle Bridge Opposite Side: 2
+[/Kazas - Castle Bridge Opposite Side - Objects] -> FOLDER: 575
+Dart: 0 - [1, 2, 3, 32]
+Sandora Soldier: 33 - [34, 35, 36, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+Purple Oil: 165 - [166]
+Treasure Chest: 231 - [232, 233, 234]
+==========
+[/Kazas - Castle Side Elevators - Environment] -> FOLDER: 577
+Kazas Castle Side Elevators: 2
+[/Kazas - Castle Side Elevators - Objects] -> FOLDER: 578
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Elevator: 33 - [34, 35]
+Purple Oil: 66 - [67]
+Treasure Chest: 99 - [100, 101, 102]
+Merchant: 165 - [166, 167, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183]
+Male Villager: 198 - [199, 200, 201, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213]
+Old Male Villager: 231 - [232, 233, 234, 237, 238, 239]
+==========
+[/Kazas - Castle Middle Right Side - Environment] -> FOLDER: 580
+Kazas Castle Middle Right Side: 2
+[/Kazas - Castle Middle Right Side - Objects] -> FOLDER: 581
+Dart: 0 - [1, 2, 3, 32]
+Sandora Soldier: 33 - [34, 35, 36, 39, 41, 42, 43, 44, 45, 46, 47, 48, 49]
+Sandora Elite: 66 - [67, 68, 69, 74, 75, 78]
+Castle Elevator: 99 - [100]
+Purple Oil: 132 - [133]
+==========
+[/Kazas - Castle Totally Right Side - Environment] -> FOLDER: 583
+Kazas Castle Totally Right Side: 2
+[/Kazas - Castle Totally Right Side - Objects] -> FOLDER: 584
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Castle Elevator: 33 - [34]
+Elevator: 66 - [67, 68]
+Purple Oil: 99 - [100]
+Treasure Chest: 231 - [232, 233, 234]
+Merchant: 297 - [298, 299, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315]
+==========
+[/Kazas - Castle Left Side - Environment] -> FOLDER: 586
+Kazas Castle Left Side: 2
+[/Kazas - Castle Left Side - Objects] -> FOLDER: 587
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Sandora Commander from Seles: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 47, 48, 49, 50]
+Sandora Soldier: 66 - [67, 68, 69, 75, 76, 77, 78, 79, 80, 82]
+Armed Dart: 132 - [133, 134, 135, 136, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155]
+Castle Elevator Part: 165 - [166]
+Castle Elevator Complete: 198 - [199]
+Purple Oil: 231 - [232]
+Shana: 429 - [430, 431, 432, 433, 434, 435, 436, 437, 438, 439, 440, 441]
+==========
+[/Kazas - Research Room - Environment] -> FOLDER: 589
+Kazas Research Room: 2
+[/Kazas - Research Room - Objects] -> FOLDER: 590
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 30, 31, 32]
+Albert: 33 - [34, 35, 36, 39, 40, 44, 45, 47, 48, 49, 50, 51, 52, 53]
+Magic Researcher: 66 - [67, 68, 72, 73, 74, 75]
+Unknown Character - Retail Bugged Animations: None - [108] # Seems to be pick something
+Green Glow: 132 - [133]
+White Glow: 165 - [166]
+Purple Glow: 198 - [199]
+"Ghost": 231 - [232]
+Castle Elevator: 264 - [265]
+Purple Oil: 297 - [298]
+==========
+[/Kazas - Dragon Magic Extraction Room - Environment] -> FOLDER: 592
+Kazas Dragon Magic Extraction Room: 2
+[/Kazas - Dragon Magic Extraction Room - Objects] -> FOLDER: 593
+Dart: 0 - [1, 2, 3, 32]
+Castle Oil: 33 - [34]
+Purple Oil: 99 - [100]
+Magic Researcher: 198 - [199, 200, 204, 205, 206, 207]
+==========
+[/Kazas - Garbage Dump Room - Environment] -> FOLDER: 595
+Kazas Garbage Dump Room: 2
+[/Kazas - Garbage Dump Room - Objects] -> FOLDER: 596
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 12, 13, 14, 15, 29, 30, 31, 32]
+Merchant: 33 - [34, 35, 39, 40, 41, 42, 44, 45, 46, 47]
+Treasure Chest: 66 - [67, 68, 69]
+Castle Elevator: 99 - [100]
+Purple Oil: 132 - [133]
+White Glow: 165 - [166]
+Garbage: 198 - [199]
+"Ghost": 462 - [463]
+==========
+[/Kazas - Landfill Room - Environment] -> FOLDER: 598
+Kazas Landfill Room: 2
+[/Kazas - Landfill Room - Objects] -> FOLDER: 599
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 18, 32]
+Treasure Crate: 33 - [34, 35, 36]
+==========
+[/Kazas - Magi Research Room - Environment] -> FOLDER: 601
+Kazas Magi Research Room: 2
+[/Kazas - Magi Research Room - Objects] -> FOLDER: 602
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 30, 31, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 75, 77, 78, 83, 84, 85, 86]
+Rose: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112, 113]
+Haschel: 132 - [133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149]
+Magi The Researcher: 165 - [166, 167, 171, 172, 173, 174]
+Dog: 198 - [199, 200, 201, 203, 204, 207, 208, 209, 210, 211, 212]
+Treasure Chest: 231 - [232, 233, 234]
+==========
+[/Kazas - Throne End Disk CutScene - Environment] -> FOLDER: 604
+Kazas Throne End Disk CutScene: 2
+[/Kazas - Throne End Disk CutScene - Objects] -> FOLDER: 605
+Dart: 0 - [1, 2, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32]
+Shana: 33 - [34, 35, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+Albert: 66 - [67, 68, 72, 73, 74, 75, 76, 77, 78, 79, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
+Rose: 99 - [100, 101, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]
+Haschel: 132 - [133, 134, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154]
+Spirit Purple Glow: 165 - [166]
+Purple Flare: 198 - [199]
+==========
+[/Kazas - Statue Hall - Environment] -> FOLDER: 682
+Kazas Statue Hall: 2
+[/Kazas - Statue Hall - Objects] -> FOLDER: 683
+Dart: 0 - [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 32]
+Shana: 33 - [34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Bishop: 66 - [67, 68, 72, 73, 74]
+White Flare: 99 - [100]
+Castle Elevator: 132 - [133]
+Purple Oil: 165 - [166]
+"Ghost": 297 - [298]
+==========
+[/Kazas - Staircase to Throne - Environment] -> FOLDER: 685
+Kazas Staircase to Throne: 2
+[/Kazas - Staircase to Throne - Objects] -> FOLDER: 686
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Shana: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77]
+Armed Rose: 99 - [100, 101, 102, 108, 109, 110]
+Haschel: 132 - [133, 134, 135, 138, 139, 140, 141, 142, 143, 144]
+Armored Kongol: 165 - [166, 167, 174, 175, 176, 177]
+Armed Dart: 198 - [199, 200, 201, 202, 206, 207, 208, 209, 210, 211]
+Kongol: 231 - [232, 233, 234, 236, 237, 238, 239, 240, 241, 242, 243, 244]
+Treasure Chest: 264 - [265, 266, 267]
+==========
+[/Kazas - Throne - Environment] -> FOLDER: 688
+Kazas Throne: 2
+[/Kazas - Throne - Objects] -> FOLDER: 689
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 32]
+Shana: 33 - [34, 35, 36, 38, 39, 40, 41]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 79, 80, 81]
+Rose: 99 - [100, 101, 102, 105, 106, 107, 113, 114]
+Haschel: 132 - [133, 134, 135, 137, 138, 139, 140, 141, 142, 143]
+Doel: 165 - [166, 167, 170, 171, 174, 175, 176, 177, 178, 179, 180]
+Armed Doel: 198 - [199, 207, 208, 209]
+Armed Dart: 231 - [232, 233, 234]
+Armed Shana: 264 - [265, 266, 267, 268, 269]
+Armed Rose: 297 - [298, 299]
+Armed Albert: 330 - [331, 332, 333, 339]
+==========
+[/Kazas - Throne Doel and Lloyd CutScene - Environment] -> FOLDER: 709
+Kazas Throne Doel and Lloyd CutScene: 2
+[/Kazas - Throne Doel and Lloyd CutScene - Objects] -> FOLDER: 710
+Doel: 0 - [1, 2, 3, 4]
+Lloyd: 33 - [34, 35, 36, 37, 38, 39] # have walking and running animations
+==========
+[/Kazas - Castle Entrance CutScene - Environment] -> FOLDER: 739
+Kazas Castle Entrance CutScene: 2
+[/Kazas - Castle Entrance CutScene - Objects] -> FOLDER: 740
+Dart: 0 - [1]
+Blank Square: 66 - [67]
+==========

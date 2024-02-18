@@ -1,0 +1,82 @@
+[/Indels Castle - Outside - Environment] -> FOLDER: 262
+Indels Castle Outside: 2
+[/Indels Castle - Outside - Objects] -> FOLDER: 263
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Raft: 33 - [34, 35]
+==========
+[/Indels Castle - Outside Top View - Environment] -> FOLDER: 265
+Indels Castle Outside Top View: 2
+[/Indels Castle - Outside Top View - Objects] -> FOLDER: 266
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 32]
+Hooded Man: 33 - [34, 35, 39, 40, 41, 42, 43, 44]
+==========
+[/Indels Castle - River Underground Channels - Environment] -> FOLDER: 268
+Indels Castle River Underground Channels: 2
+[/Indels Castle - River Underground Channels - Objects] -> FOLDER: 269
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 32]
+"Ghost": 33 - [34]
+Lever: 99 - [100]
+Raft: 132 - [133, 134]
+==========
+[/Indels Castle - Basement - Environment] -> FOLDER: 271
+Indels Castle Basement: 2
+[/Indels Castle - Basement - Objects] -> FOLDER: 272
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Treasure Crate: 33 - [34, 35, 36]
+Raft: 66 - [67, 68]
+==========
+[/Indels Castle - First Floor - Environment] -> FOLDER: 274
+Indels Castle First Floor: 2
+[/Indels Castle - First Floor - Objects] -> FOLDER: 275
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 32]
+Indels Guard: 33 - [34, 35, 36, 39]
+Indels Soldier: 99 - [100, 101, 102, 105, 108, 109, 110, 111]
+Indels Blacksmith: 132 - [133, 134, 138, 139, 140, 141, 144, 145, 146]
+Horse: 165 - [166, 167, 168, 171, 172]
+Treasure Chest: 198 - [199, 200, 201]
+Treasure Crate: 231 - [232, 233, 234]
+==========
+[/Indels Castle - Second Floor - Environment] -> FOLDER: 277
+Indels Castle Second Floor: 2
+[/Indels Castle - Second Floor - Objects] -> FOLDER: 278
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 32]
+Indels Guard: 33 - [34, 35, 36, 39]
+Castle Maiden 1: 99 - [100, 101, 102, 105, 106, 107]
+Indels Guard - Retail Bugged: 33 - [108, 141, 142, 144, 145, 146, 147, 148] # Retail Bugged Animation, correspond to Hoax Battle, instead of Hoax
+Castle Maiden 2: 165 - [166, 167, 168, 171, 172, 173]
+Treasure Chest: 198 - [199, 200, 201]
+Treasure Crate: 231 - [232, 233, 234]
+==========
+[/Indels Castle - Third Floor - Environment] -> FOLDER: 280
+Indels Castle Third Floor: 2
+[/Indels Castle - Third Floor - Objects] -> FOLDER: 281
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 32]
+Indels Guard: 33 - [34, 35, 36, 39, 40, 43, 44, 45, 46, 47, 48, 49] # Have some Animations for Hoax Attack AGAIN
+Castle Maiden: 132 - [133, 134, 135, 138, 139, 140]
+Treasure Chest: 165 - [166, 167, 168]
+==========
+[/Indels Castle - Throne - Environment] -> FOLDER: 283
+Indels Castle Throner: 2
+[/Indels Castle - Throne - Objects] -> FOLDER: 284
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 32]
+Shana: 33 - [34, 35, 39, 40, 41, 43, 44, 48, 49, 50]
+Lavitz: 66 - [67, 68, 71, 72, 73, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85]
+King Albert: 99 - [100, 101, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114]
+Minister Noish: 132 - [133, 134, 138, 139, 141, 142, 143]
+Hooded Man: 165 - [166, 167]
+Indels Guard: 198 - [199, 200, 201, 204, 207, 208, 209, 210, 211, 212, 213]
+Key Glow: 231 - [232]
+==========
+[/Indels Castle - Throne Balcony - Environment] -> FOLDER: 286
+Indels Castle Throner Balcony: 2
+[/Indels Castle - Throne Balcony - Objects] -> FOLDER: 287
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 51, 52]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]
+==========
+[/Indels Castle - Lower Balcony - Environment] -> FOLDER: 622
+Indels Castle Lower Balcony: 2
+[/Indels Castle - Lower Balcony - Objects] -> FOLDER: 623
+Dart: 0 - [1, 2, 3, 6, 7, 8, 10, 11, 12, 13, 14, 15, 32]
+Raft: 33 - [34, 35]
+==========

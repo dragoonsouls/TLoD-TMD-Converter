@@ -6,25 +6,27 @@ The idea behind this tool is to preserve TMD Models as originally shown ingame(*
 
 Also i added a very specific functionality for researchers and modders, when you export the 3D model two *.txt files will created, Primitive_per_Object will contain useful data of each primitive type used in models and also the quantity of each one. The other called TMD_Report will be created with a count number of Vertex/Normal/Primitive of each object in the file and a sum of all the file.
 
-## BETA 0.3
+## BETA 0.4
 
 **NOW THE TOOL USE A STABLE GRAPHICAL USER INTERFACE**
 You check the releases and you will find a Windows Version of it (Tested in Windows 10)
 if not, you can compile it yourself (Sorry Linux/MAC Users i'm not so skilled to port into it).
 
-Tested the full batch conversion on:
-Processor: i5-7600 CPU at 3.50GHz.
-RAM: 16 GB.
-SSD: WDC 500GB.
+Tested the full batch conversion of DRGN21 Files on:
+Processor: i5-12400F.
+RAM: 32 GB.
+SSD: Kingston SNV2S/1000g.
 
-Total Space required approximately: 2GB.
-Time to convert all the files: 01 Minutes 27 Seconds.
+Total Space required approximately: 2,7GB.
+Time to convert all the files: 01 Minutes 47 Seconds.
 
 Keep in mind, surely this tool can be executed in lesser PC specifications, but the time to
 convert the models will depend on how fast your Hardware is.
 
 
-A simple converter to DAE (Collada) format oriented to work with TLoD Model and animation formats, to later be imported into Blender. Python coded (recommended Python version 3.10.2 64bit).
+A simple converter to DAE (Collada) format oriented to work with TLoD Model and animation formats, to later be imported into Blender. Python coded (recommended Python version 3.12.0  64bit).
+
+**UPDATE: CONVERSION OF SUBMAPS DRGN21 FILES**
 
 **UPDATE: PRIMDATA DUMPING**
 
@@ -32,7 +34,7 @@ A simple converter to DAE (Collada) format oriented to work with TLoD Model and 
 
 **UPDATE: CONVERSION FILE BY FILE IS NOW IN "ADVANCED CONVERSION"**
 
-**UPDATE: NOW THE TOOL WORKS ALONG TO SEVERED CHAINS, FILE DUMP**
+**UPDATE: NOW THE TOOL WORKS ONLY WITH SEVERED CHAINS, FILE DUMP**
 
 
 First of all you'll need to download Severed Chains, install it and run the game from it,
@@ -80,9 +82,13 @@ SC done by Monoxide:
 *[Severed-Chains](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)*
 
 
-**_File Mapping Document_**
+**_File Mapping Documents_**
 
+DRGN0
 *[File Mapping Doc](https://docs.google.com/spreadsheets/d/1wso1zNTpeQM2WmxW73-hVLs4bKdGa_6jswWuKdFtavE/edit?usp=share_link)*
+
+DRGN21
+*[File Mapping Doc](https://https://docs.google.com/spreadsheets/d/1sPBToRIHWXBQMpD5THkxqJGmvaxcF8k7xV7NKyNERII/edit#gid=485730950)*
 
 ---
 
@@ -104,12 +110,19 @@ and all the people from the TLoD Global Discord!. Cheers!.
 
 You can find me here:
 
-**[Discord](https://discord.gg/legendofdragoon)**
+**[Discord](https://discord.gg/rQWXgK5)**
 
 ### **CHANGELOG**
 
 ```
+BETA 0.4 version
+
+FIXED MEMORY LEAK ON BATTLE MODEL CONVERSION WINDOW (THANKS TO DennytXVII REPORTING THIS ISSUE)
+ADDED CONVERSION FOR DRGN21 FILES (SUBMAP FILES)
+FIXED SOME BREAKING BUGS
+
 BETA 0.3 version
+
 FIXING LITTLE BUGS
 ADDING PRIMDATA DUMP
 
@@ -120,7 +133,7 @@ CHANGING MODEL CONVERSION INTO SELECTABLE LIST OF FILES TO CONVERT
 CHANGING FILE-BY-FILE CONVERSION ONLY AVAILABLE AT ADVANCED CONVERSION
 ADDING ANIMATION FORCING ONLY AVAILABLE AT ADVANCED CONVERSION
 IMPROVEMENTS TO THE CODE AND LOGICS BEHIND IT
-NOW MUCH OF THE PROCESS ARE AUTOMATIC
+NOW MUCH OF THE PROCESS IS AUTOMATIC
 MERGING ADDITIONS ANIMATIONS AVAILABLE
 FULL AND ONLY SUPPORT TO SEVERED CHAINS FILE DUMP STRUCTURE
 REMOVED THE MODEL FIXER, SINCE BROKE SOME WORKING MODELS, NOW FINDING A PROPER WAY TO DO THIS

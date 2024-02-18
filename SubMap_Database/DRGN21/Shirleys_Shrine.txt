@@ -1,0 +1,135 @@
+[/Shirley Shrine - Cut 1 - Environment] -> FOLDER: 463
+Shirley Shrine Cut 1: 2
+[/Shirley Shrine - Cut 1 - Objects] -> FOLDER: 464
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Foam????: 33 - [34] # Strange shape that looks like a Mamushka Bottle
+Dart - Retail Bugged Animations: 0 - [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 60, 61, 62, 63, 64, 65] # This is very weird, a lot of Retail Bugged Animations from Dart, with also a lot of new Animations
+Leaves: 66 - [67, 68, 69, 70]
+Water Splash: 132 - [133]
+Treasure Chest: 198 - [199, 200, 201]
+==========
+[/Shirley Shrine - Cut 2 - Environment] -> FOLDER: 466
+Shirley Shrine Cut 2: 2
+[/Shirley Shrine - Cut 2 - Objects] -> FOLDER: 467
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Lavitz: 33 - [34, 35, 36]
+Dart - Retail Bugged Animations 1: 0 - [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 60, 61, 62, 63, 64, 65] # This is very weird, a lot of Retail Bugged Animations from Dart, with also a lot of new Animations
+Rose: 66 - [67, 68, 69, 70]
+Red Glow: 99 - [100]
+Dart - Retail Bugged Animations 2: 0 - [103, 104, 105, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 126, 127, 128, 129, 130, 131] # This is very weird, a lot of Retail Bugged Animations from Dart, with also a lot of new Animations
+White Glow: 132 - [133]
+Trap Sign: 165 - [166]
+==========
+[/Shirley Shrine - Cut 3 - Environment] -> FOLDER: 469
+Shirley Shrine Cut 3: 2
+[/Shirley Shrine - Cut 3 - Objects] -> FOLDER: 470
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Lever: 33 - [34]
+Hidden Wall: 66 - [67, 68, 69]
+Trap Sign: 99 - [100]
+Strange Glow: 132 - [133]
+Treasure Chest: 165 - [166, 167, 168]
+==========
+[/Shirley Shrine - Cut 4 - Environment] -> FOLDER: 472
+Shirley Shrine Cut 4: 2
+[/Shirley Shrine - Cut 4 - Objects] -> FOLDER: 473
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Red Glow: 33 - [34]
+Dart - Retail Bugged Animations: 0 - [35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65] # This is very weird, a lot of Retail Bugged Animations from Dart, with also a lot of new Animations
+White Glow: 66 - [67]
+Treasure Chest: 99 - [100, 101, 102]
+Strange Glow: 132 - [133]
+Dart and Rail Cart - Retail Bugged Animations: None - [134, 135, 136] # Seems to be Shirleys Animations, but somehow have different Objects Number to the 3D Model
+Trap Sign: 165 - [166]
+==========
+[/Shirley Shrine - Cut 5 - Environment] -> FOLDER: 475
+Shirley Shrine Cut 5: 2
+[/Shirley Shrine - Cut 5 - Objects] -> FOLDER: 476
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Falling Ladder: 33 - [34, 35, 36]
+Dart with no Animations: 66 - [None] # A non Animation Dart model
+Lavitz: 99 - [100, 101, 102, 103, 104, 105, 106]
+==========
+[/Shirley Shrine - Cut 6 - Environment] -> FOLDER: 478
+Shirley Shrine Cut 6: 2
+[/Shirley Shrine - Cut 6 - Objects] -> FOLDER: 479
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 32]
+Strange Glow: 33 - [34]
+Rail Cart: 66 - [67, 68]
+Dart and Rail Cart: 99 - [100, 101, 102, 103]
+Treasure Chest: 132 - [133, 134, 135]
+==========
+[/Shirley Shrine - Cut 7 Temple - Environment] -> FOLDER: 481
+Shirley Shrine Cut 7 Temple: 2
+[/Shirley Shrine - Cut 7 Temple - Objects] -> FOLDER: 482
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Drake The Bandit: 33 - [34, 35, 36, 39]
+Treasure Chest: 66 - [67, 68, 69]
+==========
+[/Shirley Shrine - Cut 8 Inside Temple - Environment] -> FOLDER: 484
+Shirley Shrine Cut 8 Inside Temple: 2
+[/Shirley Shrine - Cut 8 Inside Temple - Objects] -> FOLDER: 485
+Dart: 0 - [1, 2, 3, 32]
+Treasure Chest: 33 - [34, 35, 36]
+Blank Square: 66 - [67]
+==========
+[/Shirley Shrine - Cut 9 Temple Closeup - Environment] -> FOLDER: 487
+Shirley Shrine Cut 9 Temple Closeup: 2
+[/Shirley Shrine - Cut 9 Temple Closeup - Objects] -> FOLDER: 488
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24]
+Lavitz: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45]
+Rose: 66 - [67, 68, 70, 71, 72, 73, 74, 75, 76]
+Drake The Bandit: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 114]
+Shirley: 132 - [133, 134, 135, 136, 137, 138, 139, 140]
+White Glow: 165 - [166]
+White Flare: 198 - [199]
+Strange Glow: 231 - [232]
+Armed Rose: 264 - [265, 266]
+Red Glow: 297 - [298]
+Armed Lavitz: 330 - [331, 332, 334, 335, 338]
+Arrow: 396 - [397]
+==========
+[/Shirley Shrine - Cut 10 - Environment] -> FOLDER: 490
+Shirley Shrine Cut 10: 2
+[/Shirley Shrine - Cut 10 - Objects] -> FOLDER: 491
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 32]
+Lavitz: 33 - [34, 35, 36, 37, 38, 39, 40, 65]
+Rose: 66 - [67, 68, 69, 70, 71, 72]
+Spirit Red Glow: 99 - [100]
+Spirit Green Glow: 132 - [133]
+Spirit Dark Blue Glow: 165 - [166]
+Spirit White Glow: 198 - [199]
+Dart - Retail Bugged Animations: 0 - [202, 203, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230] # This is very weird, a lot of Retail Bugged Animations from Dart, with also a lot of new Animations
+Blank Square: 231 - [232]
+==========
+[/Shirley Shrine - Cut 11 - Environment] -> FOLDER: 493
+Shirley Shrine Cut 11: 2
+[/Shirley Shrine - Cut 11 - Objects] -> FOLDER: 494
+Dart and Rail Cart: 0 - [1, 2, 3, 4]
+Strange Glow: 33 - [34]
+Falling Ladder: 99 - [100, 101, 102]
+==========
+[/Shirley Shrine - Cut 12 - Environment] -> FOLDER: 496
+Shirley Shrine Cut 12: 2
+[/Shirley Shrine - Cut 12 - Objects] -> FOLDER: 497
+Dart and Rail Cart: 0 - [1, 2, 3, 4]
+Trap Sign: 33 - [34, 35]
+Strange Glow: 66 - [67]
+==========
+[/Shirley Shrine - Cut 13 - Environment] -> FOLDER: 499
+Shirley Shrine Cut 13: 2
+[/Shirley Shrine - Cut 13 - Objects] -> FOLDER: 500
+Dart and Rail Cart: 0 - [1, 2, 3, 4]
+Trap Sign: 33 - [34, 35]
+Dart: 66 - [67]
+==========
+[/Shirley Shrine - Cut 14 - Environment] -> FOLDER: 502
+Shirley Shrine Cut 14: 2
+[/Shirley Shrine - Cut 14 - Objects] -> FOLDER: 503
+Dart and Rail Cart: 0 - [1, 2, 3, 4]
+Dart: 33 - [34, 35]
+Rail Cart: 66 - [67, 68]
+Leaves: 99 - [100, 101, 102, 103]
+Trap Sign: 165 - [166, 167]
+Strange Glow: 198 - [199]
+==========

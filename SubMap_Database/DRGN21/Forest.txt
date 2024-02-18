@@ -1,0 +1,50 @@
+[/Forest - Cut 2 - Environment] -> FOLDER: 19
+Forest Cut 2: 2
+[/Forest - Cut 2 - Objects] -> FOLDER: 20
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+"Ghost": 33 - [34]
+Leaves: 66 - [67, 68, 69, 70]
+Treasure Crate: 99 - [100, 101, 102]
+==========
+[/Forest - Cut 3 - Environment] -> FOLDER: 22
+Forest Cut 3: 2
+[/Forest - Cut 3 - Objects] -> FOLDER: 23
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 32]
+"Ghost": 33 - [34]
+Chipmunk: 66 - [67, 68, 69, 70, 71, 72]
+Child Dart: 132 - [133, 134, 135, 138, 139, 140, 141] # Animations 136 and 137 missing
+Child Shana: 165 - [166, 167, 168, 171, 173, 174, 175, 176] # Animations 170 and 172
+Forest Beast: 198 - [199, 200, 201, 207, 208, 209] # Animations 202 to 206 missing
+Arrow: None - [232] # Model 231 animation 232, Animation retail bugged, 2 objects instead of 1. Forced: Static Animation
+==========
+[/Forest - Cut 4 - Environment] -> FOLDER: 25
+Forest Cut 4: 2
+[/Forest - Cut 4 - Objects] -> FOLDER: 26
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+"Ghost": 33 - [34]
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77]
+Lavitz: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108]
+Birds Flock: 132 - [133, 134]
+Far Fume: 165 - [166]
+Sandora Soldier: 198 - [199, 200]
+Sandora Soldier Riding Horse: 264 - [265, 266]
+==========
+[/Forest - Cut 1 - Environment] -> FOLDER: 610
+Forest Cut 1: 2
+[/Forest - Cut 1 - Objects] -> FOLDER: 611
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Chipmunk: 33 - [34, 35, 36, 42, 43, 44]
+"Ghost": 198 - [199]
+Treasure Crate: 231 - [232, 233, 234]
+Merchant: 297 - [298, 299, 303, 304, 305]
+==========
+[/Forest - Cut 3 Bis - Environment] -> FOLDER: 613
+Forest Cut 3 Bis: 2
+[/Forest - Cut 3 Bis - Objects] -> FOLDER: 614
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 32]
+"Ghost": 33 - [34]
+Leaves: 66 - [67, 68, 69, 70]
+Flock of Birds: 99 - [100, 101]
+Bird: 132 - [133]
+Treasure Crate: 231 - [232, 233, 234]
+==========

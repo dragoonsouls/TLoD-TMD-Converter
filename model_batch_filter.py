@@ -120,9 +120,9 @@ class ModelFilterFile:
             model_type = f'TMD_CCONTAINER'
             model_start = [file_find_tmd_1, file_find_tmd_2, file_find_tmd_3, file_find_tmd_4, file_find_tmd_5, file_find_tmd_6]
         
-        model_final_start = f'' # Filtering the 
+        model_final_start = f'' # Filtering the possible values to avoid hardcoding
         for model_start_index in model_start:
-            if (model_start_index != -1) and (model_start_index < 500): # BIG EYE ON THIS
+            if (model_start_index != -1) and (model_start_index < 352): # TODO BIG EYE ON THIS; I Can't rely on this, i saw models that have header displaced by 400 bytes
                 model_final_start = model_start_index
         
         return model_type, model_final_start

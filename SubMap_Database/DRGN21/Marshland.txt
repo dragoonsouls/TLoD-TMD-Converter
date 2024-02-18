@@ -1,0 +1,66 @@
+[/Marshland - Cut 1 - Environment] -> FOLDER: 322
+Marshland Cut 1: 2
+[/Marshland - Cut 1 - Objects] -> FOLDER: 323
+Dart: 0 - [1, 2, 3, 32]
+Sign: 33 - [34]
+Chipmunk: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Strange Glow: 99 - [100]
+==========
+[/Marshland - Cut 2 to 7th Forth - Environment] -> FOLDER: 325
+Marshland Cut 2 to 7th Forth: 2
+[/Marshland - Cut 2 to 7th Forth - Objects] -> FOLDER: 326
+Dart: 0 - [1, 2, 3, 10, 32]
+Crow: 33 - [34, 35, 36, 37]
+Strange Glow: 66 - [67]
+==========
+[/Marshland - 7th Forth - Environment] -> FOLDER: 328
+Marshland 7th Forth: 2
+[/Marshland - 7th Forth - Objects] -> FOLDER: 329
+Dart: 0 - [1, 2, 3, 4, 5, 6, 10, 32]
+Sandora Soldier: 33 - [34, 36, 37, 38, 39, 40, 41, 63]
+Sandora Soldier vs Indels Soldier: 66 - [67, 68, 69] # Indels Soldier Defeated
+Armed Dart: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+Sandora Commander: 132 - [133, 135, 136, 137, 140, 162]
+Albert: 165 - [166, 167, 168, 169, 170]
+Strange Glow: 198 - [199]
+Treasure Chest: 264 - [265, 266, 267]
+==========
+[/Marshland - 7th Forth Inside - Environment] -> FOLDER: 331
+Marshland 7th Forth Inside: 2
+[/Marshland - 7th Forth Inside - Objects] -> FOLDER: 332
+Dart: 0 - [1, 2, 3, 4, 5, 10, 32]
+Lavitz: 33 - [34, 35, 36, 37, 38]
+Shana: 66 - [67, 68, 69]
+Rose: 99 - [100, 101, 102]
+Indels Soldier 1: 132 - [133]
+Sandora Soldier: 165 - [166]
+Indels Soldier 2: 198 - [199]
+Treasure Chest: 231 - [232, 233, 234]
+Strange Glow: 264 - [265]
+==========
+[/Marshland - Cut 3 - Environment] -> FOLDER: 334
+Marshland Cut 3: 2
+[/Marshland - Cut 3 - Objects] -> FOLDER: 335
+Dart: 0 - [1, 2, 3, 4, 5, 6, 10, 32]
+Raft: 33 - [34]
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78]
+Lavitz: 99 - [100, 101, 102, 103, 104, 105, 106]
+Rose: 132 - [133, 134, 135, 136, 137]
+Water Splash: 165 - [166]
+Monster Fish: 198 - [199, 200]
+Strange Glow: 231 - [232]
+Sign: 264 - [265]
+Treasure Crate: 297 - [298, 299, 300]
+==========
+[/Marshland - Cut 4 - Environment] -> FOLDER: 337
+Marshland Cut 4: 2
+[/Marshland - Cut 4 - Objects] -> FOLDER: 338
+Dart: 0 - [1, 2, 3, 4, 5, 6, 10, 32]
+Raft: 33 - [34]
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78]
+Lavitz: 99 - [100, 101, 102, 103, 104, 105, 106]
+Rose: 132 - [133, 134, 135, 136, 137]
+Dart and Shana: 165 - [166, 167, 169, 170, 171, 172]
+Treasure Crate: 198 - [199, 200, 201]
+Strange Glow: 231 - [232]
+==========

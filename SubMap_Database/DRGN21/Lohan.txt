@@ -1,0 +1,247 @@
+[/Lohan - Entrance - Environment] -> FOLDER: 424
+Lohan Entrance: 2
+[/Lohan - Entrance - Objects] -> FOLDER: 425
+Dart: 0 - [1, 2, 3, 4, 11, 12, 13, 14, 15, 16, 17, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47, 48]
+Lavitz: 66 - [67, 68, 69, 77, 78, 79, 80, 81, 82, 83, 84]
+Rose: 99 - [100, 101]
+Haschel: 132 - [133, 135, 144, 145, 146, 147, 148]
+Dart Carrying Shana: 165 - [166, 167, 168]
+Indels Soldier Injured: 198 - [199, 210, 211, 212]
+Female Villager: 231 - [232, 233, 234, 242]
+Old Female Villager: 264 - [265, 266]
+Indels Guard: 297 - [298, 299, 300, 308]
+Serdio Goose: 330 - [331, 332, 333, 334]
+Child Male Villager: 363 - [364, 365]
+Horse and Cart: 396 - [397]
+==========
+[/Lohan - Merchants Hallway - Environment] -> FOLDER: 427
+Lohan Merchants Hallway: 2
+[/Lohan - Merchants Hallway - Objects] -> FOLDER: 428
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 32]
+Lavitz: 33 - [34, 35, 36, 44, 45, 46]
+Bargain Merchant: 66 - [67, 69, 77, 78, 79, 80, 81]
+Rose: 99 - [100, 101, 102, 103, 110, 111, 112]
+Turban Merchant: 132 - [133, 143]
+Old Female Villager 1: 165 - [166, 176]
+Child Male Villager: 198 - [199, 200, 201, 209]
+Male Villager: 231 - [232, 233, 242]
+Old Female Villager 2: 264 - [265, 266, 275]
+Kongol: 297 - [298, 299, 308, 309, 310, 311, 312]
+Gold Glow: 330 - [331]
+Gold Flare: 363 - [364]
+==========
+[/Lohan - Upper Front - Environment] -> FOLDER: 430
+Lohan Upper Front: 2
+[/Lohan - Upper Front - Objects] -> FOLDER: 431
+Dart: 0 - [1, 2, 3, 11, 32]
+Lavitz: 33 - [34, 35, 44]
+Rose: 66 - [67, 68, 77]
+Old Female Villager: 99 - [100, 101]
+Child Male Villager: 132 - [133, 134]
+Child Female Villager: 165 - [166, 167]
+Male Villager: 198 - [199, 200]
+Treasure Crate: 231 - [232, 233, 234]
+==========
+[/Lohan - Upper Back - Environment] -> FOLDER: 433
+Lohan Upper Back: 2
+[/Lohan - Upper Back - Objects] -> FOLDER: 434
+Dart: 0 - [1, 2, 3, 32]
+Female Villager: 33 - [34, 35]
+Male Villager: 66 - [67, 68]
+Old Female Villager: 99 - [100, 101]
+==========
+[/Lohan - Houses Right - Environment] -> FOLDER: 436
+Lohan Houses Right: 2
+[/Lohan - Houses Right - Objects] -> FOLDER: 437
+Dart: 0 - [1, 2, 3, 30, 31, 32]
+Merchant: 33 - [34, 35]
+Male Villager 1: 66 - [67]
+Old Female Villager 1: 99 - [100, 101]
+Old Female Villager 2: 132 - [133, 134]
+Male Villager 2: 165 - [166, 167]
+Male Villager 3: 198 - [199]
+==========
+[/Lohan - Houses Left - Environment] -> FOLDER: 439
+Lohan Houses Left: 2
+[/Lohan - Houses Left - Objects] -> FOLDER: 440
+Dart: 0 - [1, 2, 3, 12, 30, 31, 32]
+Shana: 33 - [34]
+Medic: 66 - [67]
+White Glow: 99 - [100]
+Male Villager 1: 132 - [133, 134]
+Male Villager 2: 165 - [166, 167]
+Child Male Villager: 198 - [199, 200]
+Old Female Villager 1: 231 - [232, 233]
+Old Female Villager 2: 264 - [265]
+Merchant: 297 - [298, 299]
+==========
+[/Lohan - Inn - Environment] -> FOLDER: 442
+Lohan Inn: 2
+[/Lohan - Inn - Objects] -> FOLDER: 443
+Dart: 0 - [1, 2, 3, 30, 31, 32]
+Male Villager 1: 33 - [34, 44]
+Male Villager 2: 66 - [67, 68]
+Male Villager 3: 99 - [100, 101]
+Treasure Crate: 132 - [133, 134, 135]
+Male Villager 4: 165 - [166, 167, 168]
+==========
+[/Lohan - Roofs - Environment] -> FOLDER: 445
+Lohan Roofs: 2
+[/Lohan - Roofs - Objects] -> FOLDER: 446
+Dart: 0 - [1, 2, 3, 32]
+Merchant: 33 - [34, 35, 44]
+Female Villager: 66 - [67, 68]
+Male Villager: 99 - [100, 101]
+Old Female Villager: 132 - [133, 134]
+==========
+[/Lohan - Dabas Shop - Environment] -> FOLDER: 448
+Lohan Dabas Shop: 2
+[/Lohan - Dabas Shop - Objects] -> FOLDER: 449
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32]
+Dabas: 33 - [34, 35, 36, 37, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+Lavitz: 66 - [67, 68, 69, 77, 78]
+Rose: 99 - [100, 101, 102, 110, 111, 112]
+Dabas Armed with a BOOK: 132 - [133, 134, 143, 144, 145, 146, 147]
+Complaining Guy: None - [188] # Retail Bugged Animation forced
+Red Glow: 198 - [199]
+Dabas Shop Atendant: 264 - [265, 266, 267, 275, 276] # Just a Male Villager
+Jar: 297 - [298] # Seems to be a Jar, but could be the Famous Dabas Shiny Bag
+Half-Jar: 363 - [364] # Seems to be a broken Jar, but could be the Famous Broken Dabas Shiny Bag
+Blue Glow: 396 - [397]
+==========
+[/Lohan - Leisure Park General View 1 - Environment] -> FOLDER: 451
+Lohan Leisure Park General View 1: 2
+[/Lohan - Leisure Park General View 1 - Objects] -> FOLDER: 452
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47, 48, 49, 50]
+Lavitz: 66 - [67, 68, 69, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]
+Rose: 99 - [100, 101, 111, 112, 113, 114, 115]
+Haschel: 132 - [133, 134, 143, 144, 145, 146, 147]
+Merchant: 165 - [166]
+Child Male Villager: 198 - [199, 200, 209]
+Male Villager: 231 - [232]
+Pig: 264 - [265, 267, 268, 269, 270, 271, 272] # Pigs have more than the expected animations 0.0
+Biped Walking-Running: None - [365, 366] # Forced Animations Biped Walking, Biped Running
+Old Female Villager: 396 - [397]
+==========
+[/Lohan - Leisure Park General View 2 - Environment] -> FOLDER: 454
+Lohan Leisure Park General View 2: 2
+[/Lohan - Leisure Park General View 2 - Objects] -> FOLDER: 455
+Dart 1: 0 - [1, 2, 3, 11, 12, 13, 32]
+Shana: 33 - [34, 35, 44]
+Old Female Villager 1: 66 - [67, 77]
+Male Villager 1: 99 - [100, 101]
+Old Female Villager 2: 132 - [133, 134, 144]
+Male Villager 2: 165 - [166, 167]
+Dart 2: 198 - [None] # Just a Dart Model, without Animations
+Pig: 264 - [265, 267, 268, 269, 270, 271, 272] # Pigs have more than the expected animations 0.0
+==========
+[/Lohan - Leisure Park General View 3 - Environment] -> FOLDER: 457
+Lohan Leisure Park General View 3: 2
+[/Lohan - Leisure Park General View 3 - Objects] -> FOLDER: 458
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47]
+Lavitz: 66 - [67, 68, 69, 77, 78, 79]
+Rose: 99 - [100, 101, 110, 111, 112]
+Haschel: 132 - [133, 134, 143, 144, 145, 146]
+Hero Competition Announcer: 165 - [166, 167, 168, 176, 177, 178, 179, 180, 181]
+Female Villager: 198 - [199, 200, 209, 210]
+Pig: 231 - [232, 234, 235, 236, 237, 238, 239] # Pigs have more than the expected animations 0.0
+==========
+[/Lohan - Leisure Park Monster Conquest - Environment] -> FOLDER: 460
+Lohan Leisure Park Monster Conquest: 2
+[/Lohan - Leisure Park Monster Conquest - Objects] -> FOLDER: 461
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]
+Merchant: 33 - [34, 35, 36, 37, 38, 39, 40, 41]
+Throwing Ball Monster: 66 - [67, 68, 69, 70, 71, 72, 73, 75, 76, 77, 78, 79]
+Ball: 165 - [166]
+Cardboard Tree 1: 330 - [331, 332, 333]
+Cardboard Rock: 363 - [364, 365, 366]
+Cardboard Tree 2: 396 - [397, 398, 399]
+==========
+[/Hoax - Leisure Park Find the Bird - Environment] -> FOLDER: 634
+Hoax Leisure Park Find the Bird: 2
+[/Hoax - Leisure Park Find the Bird - Objects] -> FOLDER: 635
+Dart: 0 - [1, 2, 3, 12, 32]
+Pink Hatter: 33 - [34, 36, 37, 38, 39, 40]
+Bird: 132 - [133, 134, 135]
+Merchant: 165 - [166, 167, 176]
+==========
+[/Lohan - Leisure Park Find the Difference - Environment] -> FOLDER: 640
+Lohan Leisure Park Find the Difference: 2
+[/Lohan - Leisure Park Find the Difference - Objects] -> FOLDER: 641
+Dart: 0 - [1, 2, 12, 13, 14, 15, 16, 17, 32]
+Female Villager: 33 - [34, 35, 44, 45, 46]
+Bird: 66 - [67, 68, 69]
+Found Difference Flare: 99 - [100]
+==========
+[/Lohan - Hero Competition Waiting Room - Environment] -> FOLDER: 643
+Lohan Hero Competition Waiting Room: 2
+[/Lohan - Hero Competition Waiting Room - Objects] -> FOLDER: 644
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 32]
+Haschel: 33 - [34, 35, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+Lavitz: 66 - [67, 68, 69, 77, 78, 79]
+Lloyd: 99 - [100, 101, 110, 111, 112, 113, 114, 115, 116, 117, 118]
+Hero Competition Announcer: 132 - [133, 134, 135, 143]
+Gorgaga: 165 - [166, 167]
+Mysterious Adventurer: 198 - [199, 200]
+Atlow: 231 - [232, 233]
+Male Villager: 264 - [265, 266, 275]
+Hellena Warden: 297 - [298, 299, 308, 309, 310, 311, 312]
+==========
+[/Lohan - Hero Competition Arena - Environment] -> FOLDER: 646
+Lohan Hero Competition Arena: 2
+[/Lohan - Hero Competition Arena - Objects] -> FOLDER: 647
+Dart: 0 - [1, 2, 12]
+Hero Competition Announcer: 33 - [34, 35, 36, 44, 45, 46, 47, 48, 49]
+Gorgaga: 66 - [67, 68, 78, 79, 80, 81]
+Serfius: 99 - [100, 101, 111, 112, 114, 115] # have some "tired" animations
+Danton: 132 - [133, 134, 144, 145, 146, 147]
+Atlow: 165 - [166, 167]
+Lloyd: 198 - [199, 200]
+Armed Dart: 231 - [232, 234, 243, 244, 245, 246, 247]
+Indels Soldier: 264 - [265, 266, 267]
+Arrow: 330 - [331]
+Haschel: 363 - [364, 375]
+==========
+[/Lohan - Leisure Park Obstacle Course - Environment] -> FOLDER: 649
+Lohan Leisure Park Obstacle Course: 2
+[/Lohan - Leisure Park Obstacle Course - Objects] -> FOLDER: 650
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 16, 17, 29, 30, 31, 32]
+Dran: 33 - [34, 35, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Obstacle_Wood Pendulum: 66 - [67, 68, 69, 70, 71]
+Obstacle_Wood Hitter: 231 - [232, 233, 234, 235, 236]
+Obstacle_Conveyor Belt: 297 - [298, 299, 300]
+==========
+[/Lohan - Merchants Hallway to Leisure Park - Environment] -> FOLDER: 670
+Lohan Merchants Hallway to Leisure Park: 2
+[/Lohan - Merchants Hallway to Leisure Park - Objects] -> FOLDER: 671
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+Pelpee: 33 - [34, 35, 36, 44, 45, 46]
+Lavitz: 66 - [67, 68, 77, 78, 79, 80]
+Male Villager: 99 - [100, 101, 102, 110]
+Pig: 132 - [133, 134]
+Chipmunk: 165 - [166]
+Old Female Villager: 198 - [199, 200]
+Treasure Crate: 231 - [232, 233, 234]
+Child Female Villager - Shana like: 264 - [265, 266, 267, 275, 276]
+==========
+[/Lohan - Shana Rest CutScene - Environment] -> FOLDER: 673
+Lohan Shana Rest CutScene: 2
+[/Lohan - Shana Rest CutScene - Objects] -> FOLDER: 674
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 32]
+Shana: 33 - [34, 35, 36, 37, 41, 44, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87]
+Rose: 99 - [100, 101, 102, 103, 104, 110, 111, 112, 113]
+Haschel: 132 - [133, 134, 135, 143, 144, 145, 146, 147, 148, 149, 150]
+Medic: 165 - [166, 167, 176, 177, 178, 179, 180]
+Spirit White Glow: 231 - [232]
+Spirit White Flare: 264 - [265]
+Spirit Red Glow: 297 - [298]
+Spirit Red Flare: 330 - [331]
+Spirit Green Glow: 363 - [364]
+Spirit Green Flare: 396 - [397]
+Spirit Purple Glow: 429 - [430]
+Spirit Purple Flare: 462 - [463]
+==========

@@ -198,7 +198,8 @@ class FilterFile:
         file_find_cmb = anim_search_file.find(CMB_HEADER)
         file_find_lmb = anim_search_file.find(LMB_HEADER)
         # FOR SAF I MUST DO A DOUBLE CHECK, SINCE C_CONTAINERS are set also in the tmd/ctmd headers
-        file_find_saf = anim_search_file.rfind(SAF_HEADER) # THIS WILL TRY TO FIND AT THE END OF THE FILE, BUT I HAVE TO MATCH WITH THE NUMBER OF OBJECTS
+        file_find_saf_right = anim_search_file.rfind(SAF_HEADER) # THIS WILL TRY TO FIND AT THE END OF THE FILE, BUT I HAVE TO MATCH WITH THE NUMBER OF OBJECTS
+        file_find_saf_left = anim_search_file.find(SAF_HEADER)
 
         anim_data = b''
         anim_info = []
@@ -238,21 +239,38 @@ class FilterFile:
             anim_info.append(subtransforms_table_lmb)
             anim_info.append(anim_type_str)
             
-        elif file_find_saf != -1:
-            start_saf_data = file_find_saf + 12
-            start_saf = anim_search_file[start_saf_data:]
-            header_saf = start_saf[0:4]
-            number_obj_saf = header_saf[0:2]
-            number_transforms_saf = header_saf[2:4]
-            number_obj_saf_int = int.from_bytes(number_obj_saf, 'little', signed=False)
-            number_transforms_saf_int = int.from_bytes(number_transforms_saf, 'little', signed=False) // 2 # Divided by 2 because count ROT/LOC
-            final_data_saf = start_saf[4:]
+        elif (file_find_saf_left != -1) or (file_find_saf_right != -1):
+            if ((file_find_saf_right != -1) and (file_find_saf_right != -1)) or ((file_find_saf_right != -1) and (file_find_saf_right == -1)):
+                start_saf_data = file_find_saf_left + 12
+                start_saf = anim_search_file[start_saf_data:]
+                header_saf = start_saf[0:4]
+                number_obj_saf = header_saf[0:2]
+                number_transforms_saf = header_saf[2:4]
+                number_obj_saf_int = int.from_bytes(number_obj_saf, 'little', signed=False)
+                number_transforms_saf_int = int.from_bytes(number_transforms_saf, 'little', signed=False) // 2 # Divided by 2 because count ROT/LOC
+                final_data_saf = start_saf[4:]
 
-            anim_data = final_data_saf
-            anim_type_str = f'SAF'
-            anim_info.append(number_obj_saf_int)
-            anim_info.append(number_transforms_saf_int)
-            anim_info.append(anim_type_str)
+                anim_data = final_data_saf
+                anim_type_str = f'SAF'
+                anim_info.append(number_obj_saf_int)
+                anim_info.append(number_transforms_saf_int)
+                anim_info.append(anim_type_str)
+
+            elif ((file_find_saf_right != -1) and (file_find_saf_right != -1)) or ((file_find_saf_right == -1) and (file_find_saf_right == -1)):
+                start_saf_data = file_find_saf_right + 12
+                start_saf = anim_search_file[start_saf_data:]
+                header_saf = start_saf[0:4]
+                number_obj_saf = header_saf[0:2]
+                number_transforms_saf = header_saf[2:4]
+                number_obj_saf_int = int.from_bytes(number_obj_saf, 'little', signed=False)
+                number_transforms_saf_int = int.from_bytes(number_transforms_saf, 'little', signed=False) // 2 # Divided by 2 because count ROT/LOC
+                final_data_saf = start_saf[4:]
+
+                anim_data = final_data_saf
+                anim_type_str = f'SAF'
+                anim_info.append(number_obj_saf_int)
+                anim_info.append(number_transforms_saf_int)
+                anim_info.append(anim_type_str)
 
         else:
             message_no_animation = f'No embedded Animation found in file, would load an animation?\n-force, this command is not available at the moment\nSelect [NO]'

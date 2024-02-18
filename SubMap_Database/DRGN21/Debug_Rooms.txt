@@ -1,0 +1,67 @@
+[/Debug Room - Debug Room 1 - Environment] -> FOLDER: 4
+Debug Room 1: 2
+[/Debug Room - Debug Room 1 - Objects] -> FOLDER: 5
+Dart: 0 - [1, 2, 3, 32]
+Dart Dragoon: 33 - [34, 35, 36, 65]
+"Ghost": 66 - [67]
+==========
+[/Debug Room - Debug Room 2 - Environment] -> FOLDER: 7
+Debug Room 2: 2
+[/Debug Room - Debug Room 2 - Objects] -> FOLDER: 8
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Debug Room - Debug Room 3 - Environment] -> FOLDER: 10
+Debug Room 3: 2
+[/Debug Room - Debug Room 3 - Objects] -> FOLDER: 11
+Shana: 0 - [1, 2, 3, 32]
+==========
+[/Debug Room - Debug Room 4 - Environment] -> FOLDER: 13
+Debug Room 4: 2
+[/Debug Room - Debug Room 4 - Objects] -> FOLDER: 14
+Rose: 0 - [1, 2, 3, 32]
+==========
+[/Debug Room - Debug Room 5 - Environment] -> FOLDER: 16
+Debug Room 5: 2
+[/Debug Room - Debug Room 5 - Objects] -> FOLDER: 17
+Dart Dragoon: 0 - [1, 2, 3, 32]
+==========
+[/DEBAG Room - DEBAG ROOM - Environment] -> FOLDER: 169
+DEBAG Room: 2
+[/DEBAG Room - DEBAG ROOM - Objects] -> FOLDER: 170
+Hellena Warden: 0 - [1] # Yeah the Player Start in the DEBAG Room is a Hellena Warden
+==========
+[/No SubMap - No SubMap 1 - Environment 1 - Environment] -> FOLDER: None
+No SubMap - Environment 1: None
+[/No SubMap - Objects 1 - Objects] -> FOLDER: 416
+Dart - No SubMap - Objects 1: 0 - [1, 2, 3, 32]
+==========
+[/No SubMap - No SubMap 2 - Environment 2 - Environment] -> FOLDER: None
+No SubMap - Environment 2: None
+[/No SubMap - Objects 2 - Objects] -> FOLDER: 419
+Dart - No SubMap - Objects 2: 0 - [1, 2, 3, 32]
+==========
+[/No SubMap - No SubMap 3 - Environment 3 - Environment] -> FOLDER: None
+No SubMap - Environment 3: None
+[/No SubMap - Objects 3 - Objects] -> FOLDER: 422
+Dart - No SubMap - Objects 3: 0 - [1, 2, 3, 32]
+==========
+[/557 - No SubMap Objects Only 1 - Environment] -> FOLDER: None
+No SubMap Objects Only 1: None
+[/557 - No SubMap Objects Only 1 - Objects] -> FOLDER: 557
+Dart: 0 - [1, 2, 3, 32] # Have some BASE SCRIPTS for Dart Model for sure
+==========
+[/557 - No SubMap Objects Only 2 - Environment] -> FOLDER: None
+No SubMap Objects Only 2: None
+[/557 - No SubMap Objects Only 2 - Objects] -> FOLDER: 560
+Dart: 0 - [1, 2, 3, 32] # Have some BASE SCRIPTS for Dart Model for sure
+==========
+[/557 - No SubMap Objects Only 3 - Environment] -> FOLDER: None
+No SubMap Objects Only 3: None
+[/557 - No SubMap Objects Only 3 - Objects] -> FOLDER: 563
+Dart: 0 - [1, 2, 3, 32] # Have some BASE SCRIPTS for Dart Model for sure
+==========
+[/557 - No SubMap Objects Only 4 - Environment] -> FOLDER: None
+No SubMap Objects Only 4: None
+[/638 - No SubMap Objects Only 4 - Objects] -> FOLDER: 638
+Dart: 0 - [1, 2, 3, 32] # Have some BASE SCRIPTS for Dart Model for sure; Also this folder is in the middle of MiniGames from Lohan, maybe is a cut MiniGame content?
+==========

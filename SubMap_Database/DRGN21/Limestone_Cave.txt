@@ -1,0 +1,76 @@
+[/Limestone Cave - Cut 1 - Environment] -> FOLDER: 139
+Limestone Cave 1: 2
+[/Limestone Cave - Cut 1 - Objects] -> FOLDER: 140
+Dart 1: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Dart 2: 33 - [None] # This is a Dart Model with no Animation attached, wierd.
+Treasure Crate White: 66 - [67, 68, 69]
+==========
+[/Limestone Cave - Cut 2 - Environment] -> FOLDER: 142
+Limestone Cave 2: 2
+[/Limestone Cave - Cut 2 - Objects] -> FOLDER: 143
+Dart: 0 - [1, 2, 3, 4, 5, 10, 11, 12, 13, 14, 15, 16, 32]
+Treasure Crate White: 33 - [34, 35, 36]
+==========
+[/Limestone Cave - Cut 3 - Environment] -> FOLDER: 145
+Limestone Cave 3: 2
+[/Limestone Cave - Cut 3 - Objects] -> FOLDER: 146
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 19, 20, 21, 23, 24, 26, 27, 28, 29, 31, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 65]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 84, 86, 87, 88, 89, 93, 95, 96, 97, 98]
+Treasure Crate White: 99 - [100, 101, 102]
+==========
+[/Limestone Cave - Cut 4 - Environment] -> FOLDER: 148
+Limestone Cave 4: 2
+[/Limestone Cave - Cut 4 - Objects] -> FOLDER: 149
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86]
+Treasure Crate White: 99 - [100, 101, 102]
+Foam????: 165 - [166] # Strange shape that looks like a Mamushka Bottle
+Strange Glow: 198 - [199]
+==========
+[/Limestone Cave - Cut 5 - Environment] -> FOLDER: 151
+Limestone Cave 5: 2
+[/Limestone Cave - Cut 5 - Objects] -> FOLDER: 152
+Dart: 0 - [1, 2, 3, 9, 32]
+Treasure Crate White: 33 - [34, 35, 36]
+Foam????: 66 - [67] # Strange shape that looks like a Mamushka Bottle
+==========
+[/Limestone Cave - Cut 6 Monster MiniGame - Environment] -> FOLDER: 154
+Limestone Cave 6 Monster MiniGame: 2
+[/Limestone Cave - Cut 6 Monster MiniGame - Objects] -> FOLDER: 155
+Dart: 0 - [1, 2, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Jumping Monster: 33 - [34, 35, 36, 37, 38, 39, 40]
+Treasure Crate White: 66 - [67, 68, 69]
+Strange Glow: 132 - [133]
+==========
+[/Limestone Cave - Cut 7 - Environment] -> FOLDER: 157
+Limestone Cave 7: 2
+[/Limestone Cave - Cut 7 - Objects] -> FOLDER: 158
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Limestone Cave - Cut 8 - Environment] -> FOLDER: 160
+Limestone Cave 8: 2
+[/Limestone Cave - Cut 8 - Objects] -> FOLDER: 161
+Dart: 0 - [1, 2, 3, 32]
+Treasure Crate White: 33 - [34, 35, 36]
+Strange Glow: 66 - [67]
+==========
+[/Limestone Cave - Cut Urobolus CutScene - Environment] -> FOLDER: 163
+Limestone Cave Urobolus CutScene: 2
+[/Limestone Cave - Cut Urobolus CutScene - Objects] -> FOLDER: 164
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+Armed Lavitz: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 86, 87, 88, 89]
+Urobolus: 99 - [100, 101, 102, 103]
+Armed Dart: 132 - [133, 134, 135, 136, 148, 152, 153, 154, 155, 156]
+Lavitz: 165 - [166, 167, 168, 170, 171, 172, 174]
+Armed Shana: 198 - [199, 200, 201, 207, 208]
+==========
+[/Limestone Cave - Cut 9 - Environment] -> FOLDER: 166
+Limestone Cave 9: 2
+[/Limestone Cave - Cut 9 - Objects] -> FOLDER: 167
+Dart: 0 - [1, 2, 3, 32]
+Treasure Crate White: 33 - [34, 35, 36]
+Strange Glow: 66 - [67]
+==========

@@ -1,0 +1,226 @@
+[/Bale - Bale DEMO - Environment] -> FOLDER: 178
+Bale DEMO CutScene: 2
+[/Bale - Bale DEMO - Objects] -> FOLDER: 179
+Dart: 0 - [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 32]
+Shana: 33 - [34, 35, 39, 40, 41, 42, 43, 44, 45, 46]
+Lavitz: 66 - [67, 68, 69, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+Birds Flock: 99 - [100, 101]
+Armed Martel: 132 - [133, 134, 135, 138, 143] # LOL!! WTF?? Martel have a Weapon??? O.O
+Child Dart: 165 - [166, 167, 168]
+Dog: 198 - [199, 200, 201, 204]
+Dran: 231 - [232, 233, 237, 241, 242, 246, 248]
+Merchant: 264 - [265, 266]
+Male Villager 1: 297 - [298, 299, 300, 303, 304, 305]
+Male Villager 2: 330 - [331, 332, 333, 336, 337, 338]
+Male Child Villager: 363 - [364, 365, 366, 369, 370, 371]
+Old Female Villager: 396 - [397, 398, 399, 402, 403, 404]
+Female Artist: 429 - [430, 431]
+==========
+[/Bale - Lavitz House Roof CutScene  - Environment] -> FOLDER: 199
+Lavitz House Roof CutScene: 2
+[/Bale - Lavitz House Roof CutScene  - Objects] -> FOLDER: 200
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+Lavitz: 33 - [34, 35, 36, 37, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 54]
+Flock of Birds: 66 - [67]
+Bird: 99 - [100]
+==========
+[/Bale - Cut 1 - Environment] -> FOLDER: 202
+Bale Cut 1: 2
+[/Bale - Cut 1 - Objects] -> FOLDER: 203
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 29, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 51, 52, 54]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 81, 82]
+Male Villager 1: 99 - [100, 101, 102, 103, 104, 105, 106, 107]
+Old Female Villager 1: 132 - [133, 134, 135, 138, 139]
+Male Villager 2: 165 - [166, 167, 168, 171, 172, 173]
+Raft: 198 - [199, 200]
+Female Child Villager: 231 - [232, 233, 234, 237, 238, 239]
+Old Female Villager 2: 264 - [265, 266, 267, 270, 271, 272]
+Martel: 297 - [298, 299, 300, 306, 307, 308, 309, 310, 311, 312] # Even have an Attack Animation
+Flock of Birds: 330 - [331, 332]
+==========
+[/Bale - Cut 2 - Environment] -> FOLDER: 205
+Bale Cut 2: 2
+[/Bale - Cut 2 - Objects] -> FOLDER: 206
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Dran: 33 - [34, 35, 39, 42, 43, 44, 48, 49, 50]
+Orange Glow: 66 - [67]
+Raft: 132 - [133, 134]
+==========
+[/Bale - Cut 3 - Environment] -> FOLDER: 208
+Bale Cut 3: 2
+[/Bale - Cut 3 - Objects] -> FOLDER: 209
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 26, 28, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+Male Villager 1: 99 - [100, 101, 102, 103, 104, 105, 106, 107]
+Male Villager 2: 132 - [133, 134, 135]
+Male Villager 3: 165 - [166, 167, 168]
+Old Male Villager: 198 - [199, 200, 201]
+Flock of Birds: 231 - [232, 233]
+==========
+[/Bale - Cut 4 - Environment] -> FOLDER: 211
+Bale Cut 4: 2
+[/Bale - Cut 4 - Objects] -> FOLDER: 212
+Dart: 0 - [1, 2, 3, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Male Villager 1: 99 - [100, 101, 102, 103, 104, 105, 106, 107]
+Male Villager 2: 132 - [133, 134, 135, 138, 139, 140]
+Female Villager: 165 - [166, 167, 168, 171, 172, 173]
+Male Villager 3: 198 - [199, 200, 201, 204, 205, 206]
+Old Male Villager: 231 - [232, 233, 234, 237, 238, 239]
+Old Female Villager: 264 - [265, 266, 267, 270, 271, 272]
+==========
+[/Bale - Cut 5 - Environment] -> FOLDER: 214
+Bale Cut 5: 2
+[/Bale - Cut 5 - Objects] -> FOLDER: 215
+Dart: 0 - [1, 2, 3, 32]
+Lavitz: 33 - [34, 35, 36, 37, 38, 39, 40, 41]
+Male Villager: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Child Wannabe Soldier: 99 - [100, 101, 105, 108, 109, 110]
+Old Female Villager: 132 - [133, 134, 135]
+==========
+[/Bale - Inn - Environment] -> FOLDER: 217
+Bale Inn: 2
+[/Bale - Inn - Objects] -> FOLDER: 218
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Old Female Villager: 33 - [34, 35, 36, 39, 40, 41] # Good Spirit Seller
+Male Villager 1: 66 - [67, 68, 69, 72, 73, 74]
+Male Villager 2: 99 - [100, 101, 102, 105, 106, 107]
+Old Male Villager: 165 - [166, 167, 168, 171, 172, 173]
+==========
+[/Bale - Stardust Old Man House - Environment] -> FOLDER: 220
+Bale Stardust Old Man House: 2
+[/Bale - Stardust Old Man House - Objects] -> FOLDER: 221
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+Male Villager: 99 - [100, 101, 102, 103, 104, 105, 106, 107] # This is not textured?
+Old Male Villager: 132 - [133, 134, 135]
+Martel: 165 - [166, 167, 168, 171, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187] # This Animation from Martel also have an Attack Animation
+==========
+[/Bale - Paint Artist House - Environment] -> FOLDER: 223
+Bale Paint Artist House: 2
+[/Bale - Paint Artist House - Objects] -> FOLDER: 224
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 18, 19, 20, 32]
+Female Paint Artist: 33 - [34, 35, 39, 42, 43, 44, 45, 46, 47]
+Lavitz Paint: 66 - [67]
+Treasure Crate: 99 - [100, 101, 102]
+Lavitz: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144]
+==========
+[/Bale - Paint Artist House 2 - Environment] -> FOLDER: 226
+Bale Paint Artist House 2: 2
+[/Bale - Paint Artist House 2 - Objects] -> FOLDER: 227
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 15, 16, 32]
+Male Villager 1: 33 - [34, 35, 36, 39, 40, 41, 42] # Not used in this SubMap!
+Male Villager 2: 66 - [67, 68, 69, 70, 71, 72, 73, 74] # Not used in this SubMap!
+==========
+[/Bale - Wife House Basement - Environment] -> FOLDER: 229
+Bale Wife House Basement: 2
+[/Bale - Wife House Basement - Objects] -> FOLDER: 230
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Bale - Wife House - Environment] -> FOLDER: 232
+Bale Wife House: 2
+[/Bale - Wife House - Objects] -> FOLDER: 233
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 32]
+Female Villager: 33 - [34, 35, 36, 39, 40, 41] # Wife
+Shana: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78] # This Shana Model is ever used!
+==========
+[/Bale - Barn - Environment] -> FOLDER: 235
+Bale Barn: 2
+[/Bale - Barn - Objects] -> FOLDER: 236
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 21, 26, 28, 32] # Dart Roll Anim
+Treasure Crate: 33 - [34, 35, 36]
+==========
+[/Bale - Clinic - Environment] -> FOLDER: 238
+Bale Clinic: 2
+[/Bale - Clinic - Objects] -> FOLDER: 239
+Dart: 0 - [1, 2, 3, 32]
+Female Villager: 33 - [34, 35, 36, 39, 40, 41]
+Male Villager 1: 66 - [67, 68, 69, 72, 73, 74]
+Male Villager 2: 99 - [100, 101, 102, 105, 106, 107]
+==========
+[/Bale - Clinic 2 - Environment] -> FOLDER: 241
+Bale Clinic 2: 2
+[/Bale - Clinic 2 - Objects] -> FOLDER: 242
+Dart: 0 - [1, 2, 3, 32]
+Female Villager: 33 - [34, 35, 36, 39, 40, 41]
+Male Villager: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Child Shana: 132 - [133, 134, 135, 138, 139, 140, 141, 142, 143] # Seems to be Child Shana??
+Male Villager: 165 - [166, 167, 168, 171, 172, 173]
+==========
+[/Bale - Clinic 3 - Environment] -> FOLDER: 244
+Bale Clinic 3: 2
+[/Bale - Clinic 3 - Objects] -> FOLDER: 245
+Dart: 0 - [1, 2, 3, 32]
+Medic: 33 - [34, 35, 36]
+Healing Glow: 66 - [67]
+Strange Glow: 99 - [100]
+==========
+[/Bale - Lavitz House First Floor - Environment] -> FOLDER: 247
+Bale Lavitz House First Floor: 2
+[/Bale - Lavitz House First Floor - Objects] -> FOLDER: 248
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 91, 96]
+"Ghost": 99 - [100, 101, 102, 103, 104, 105, 106, 107] # Maybe it's Servi Ghost? hahaha
+Lavitz Mother: 132 - [133, 134, 135, 138, 139, 140, 141, 142, 143, 144, 146]
+Female Refugee: 165 - [166, 167, 168, 171, 172, 173, 174]
+Male Refugee: 198 - [199, 200, 201, 204, 205, 206, 207, 208, 209, 210, 211, 212]
+Treasure Crate: 231 - [232, 233, 234]
+==========
+[/Bale - Lavitz House Second Floor - Environment] -> FOLDER: 250
+Bale Lavitz House Second Floor: 2
+[/Bale - Lavitz House Second Floor - Objects] -> FOLDER: 251
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+Lavitz: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85]
+"Ghost": 99 - [100] # Maybe it's Servi Ghost? hahaha
+Lavitz Mother: 132 - [133, 134, 135, 138, 139, 140, 141, 142, 143, 144, 147]
+Library Stairs: 165 - [166]
+Armed Dart: 198 - [199, 200, 201, 202, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221] # Full Animations for Armed Dart??? wth is going on here????
+Child Refugee: 231 - [232, 233, 234, 237, 238, 239, 240, 241, 242]
+==========
+[/Bale - Weapon Shop - Environment] -> FOLDER: 253
+Bale Weapon Shop: 2
+[/Bale - Weapon Shop - Objects] -> FOLDER: 254
+Dart: 0 - [1, 2, 3, 32]
+Weapon Merchant: 33 - [34, 35, 36, 39, 40, 41]
+==========
+[/Bale - Item Shop - Environment] -> FOLDER: 256
+Bale Item Shop: 2
+[/Bale - Item Shop - Objects] -> FOLDER: 257
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 32]
+Item Merchant: 33 - [34, 35, 36, 39, 40, 41]
+Orange Glow: 66 - [67]
+Fire: 99 - [100]
+==========
+[/Bale - Library - Environment] -> FOLDER: 259
+Bale Library: 2
+[/Bale - Library - Objects] -> FOLDER: 260
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 14, 15, 16, 17, 32]
+Male Villager 1: 33 - [34, 35, 36, 39, 40, 41]
+Male Villager 2: 66 - [67, 68, 69, 72, 73, 74]
+Old Male Villager: 132 - [133, 134, 135, 138, 139, 140, 141, 142] # Last Animations seem to get faint lol
+Old Female Villager: 165 - [166, 167, 168, 171, 172, 173]
+Chipmunk: 198 - [199, 200, 201, 202, 203, 204, 205, 206, 207]
+Orange Glow: 231 - [232]
+==========
+[/Bale - Underground Hallway - Environment] -> FOLDER: 607
+Bale Underground Hallway: 2
+[/Bale - Underground Hallway - Objects] -> FOLDER: 608
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Bale - Commerce Plaza - Environment] -> FOLDER: 625
+Bale Commerce Plaza: 2
+[/Bale - Commerce Plaza - Objects] -> FOLDER: 626
+Dart: 0 - [1, 2, 3, 10, 11, 12, 13, 14, 15, 32]
+Raft: 33 - [34, 35]
+Female Villager: 66 - [67, 68, 69, 72, 73, 74]
+Unknown Character - Retail Bugged Animation: None - [75] # Seems to be a humanoid complaining
+Male Villager: 99 - [100, 101, 102, 105, 106, 107]
+Old Female Villager: 132 - [133, 134, 135, 138, 139, 140]
+Old Male Villager: 165 - [166, 167, 168, 171, 172, 173]
+==========

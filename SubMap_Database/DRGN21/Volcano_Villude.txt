@@ -1,0 +1,89 @@
+[/Volcano Villude - Cut 1 - Environment] -> FOLDER: 346
+Volcano Villude Cut 1: 2
+[/Volcano Villude - Cut 1 - Objects] -> FOLDER: 347
+Dart: 0 - [1, 2, 3, 11, 12, 13, 16, 17, 18, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47, 48, 49]
+Lavitz: 66 - [67, 68, 69, 77]
+Rose: 99 - [100, 101, 102, 110, 111]
+Fire Bird: 132 - [133, 134]
+Fire: 198 - [199, 200]
+==========
+[/Volcano Villude - Cut 2 - Environment] -> FOLDER: 349
+Volcano Villude Cut 2: 2
+[/Volcano Villude - Cut 2 - Objects] -> FOLDER: 350
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 32]
+Shana: 33 - [34, 35, 36, 44, 45]
+Lavitz: 66 - [67, 68, 69, 77, 78]
+Rose: 99 - [100, 101, 102, 110]
+Treasure Crate White: 132 - [133, 134, 135]
+==========
+[/Volcano Villude - Cut 3 - Environment] -> FOLDER: 352
+Volcano Villude Cut 3: 2
+[/Volcano Villude - Cut 3 - Objects] -> FOLDER: 353
+Dart: 0 - [1, 2, 3, 16, 17, 32]
+Treasure Crate White: 33 - [34, 35, 36]
+==========
+[/Volcano Villude - Cut 4 - Environment] -> FOLDER: 355
+Volcano Villude Cut 4: 2
+[/Volcano Villude - Cut 4 - Objects] -> FOLDER: 356
+Dart: 0 - [1, 2, 3, 11, 12, 13, 16, 17, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47, 48]
+Lavitz: 66 - [67, 68, 69, 77, 78, 79, 80]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113]
+Treasure Chest: 132 - [133, 134, 135]
+==========
+[/Volcano Villude - Cut 5 - Environment] -> FOLDER: 358
+Volcano Villude Cut 5: 2
+[/Volcano Villude - Cut 5 - Objects] -> FOLDER: 359
+Dart 1: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+Lavitz: 66 - [67, 68, 69, 77, 78, 79, 80]
+Rose: 99 - [100, 101, 102, 110, 111]
+Dabas: 132 - [133, 134, 135, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155]
+Dart 2: 165 - [None] # Seems to be a single model of Dart only, no animations
+==========
+[/Volcano Villude - Cut 6 - Environment] -> FOLDER: 361
+Volcano Villude Cut 6: 2
+[/Volcano Villude - Cut 6 - Objects] -> FOLDER: 362
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 16, 17, 32]
+Shana: 33 - [34, 35, 36, 44, 49, 50]
+Lavitz: 66 - [67, 68, 69, 77, 78]
+Fire: 99 - [100]
+Monster Fish: 132 - [133, 134]
+Foam????: 198 - [199] # Strange shape that looks like a Mamushka Bottle
+==========
+[/Volcano Villude - Cut 7 Virage - Environment] -> FOLDER: 364
+Volcano Villude Cut 7 Virage: 2
+[/Volcano Villude - Cut 7 Virage - Objects] -> FOLDER: 365
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 18, 19, 20, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47, 48, 49, 50, 51]
+Lavitz: 66 - [67, 68, 69, 77, 78, 79, 80, 81, 82]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113, 114, 115, 116, 117]
+White Glow: 165 - [166]
+==========
+[/Volcano Villude - Cut 8 Fire Bird - Environment] -> FOLDER: 367
+Volcano Villude Cut 8 Fire Bird: 2
+[/Volcano Villude - Cut 8 Fire Bird - Objects] -> FOLDER: 368
+Dart: 0 - [1, 2, 3, 11, 12, 16, 17, 21, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 54]
+Lavitz: 66 - [67, 68, 69, 77, 78, 87]
+Rose: 99 - [100, 101, 102, 110, 111, 120]
+Fire Bird: 132 - [133, 134]
+Red Glow: 165 - [166]
+Armed Dart: 198 - [199, 200, 209]
+Armed Lavitz: 231 - [232, 233, 242]
+Armed Rose: 264 - [265, 275]
+Fire: 297 - [298, 299]
+==========
+[/Volcano Villude - Cut 9 - Environment] -> FOLDER: 370
+Volcano Villude Cut 9: 2
+[/Volcano Villude - Cut 9 - Objects] -> FOLDER: 371
+Dart: 0 - [1, 2, 3, 12, 13, 32]
+Dabas: 33 - [34, 35, 36, 44, 45]
+Treasure Crate White: 66 - [67, 68, 69]
+==========
+[/Volcano Villude - Cut 10 After Virage - Environment] -> FOLDER: 373
+Volcano Villude Cut 10 After Virage: 2
+[/Volcano Villude - Cut 10 After Virage - Objects] -> FOLDER: 374
+Dart: 0 - [1, 2, 3, 32]
+==========

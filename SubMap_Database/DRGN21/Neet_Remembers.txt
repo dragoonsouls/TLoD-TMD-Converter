@@ -1,0 +1,22 @@
+[/Neet - Dart Remember Black Monster 1 - Environment] -> FOLDER: 712
+Neet Dart Remember Black Monster 1: 2
+[/Neet - Dart Remember Black Monster - Objects] -> FOLDER: 713
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8]
+Mille Seseau Guard: 33 - [34, 35, 42, 43, 44]
+Retail Bugged Animation: None - [68] # Walking Humanoid of 16 Objects, seems to have a weapon
+Black Monster: 99 - [100, 101]
+Fire: 132 - [133]
+==========
+[/Neet - Dart Remember Black Monster 2 - Environment] -> FOLDER: 730
+Neet Dart Remember Black Monster 2: 2
+[/Neet - Dart Remember Black Monster 2 - Objects] -> FOLDER: 731
+Child Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12] # Child Dart having Walking and Running Animations
+Dart Father: 33 - [34, 35, 36, 39, 42, 43, 44, 45] # Dart Father having Walking and Running Animations//Named like this because this is the "human" Zieg
+Dart Mother: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88] # Dart Mother having Walking and Running Animations//Named like this because purist will say "nanana, in any place of the game states directly that this is Claire:crying:"//Shut up for me is CLAIRE:chad:
+==========
+[/Neet - Dart Remember Black Monster 3 - Environment] -> FOLDER: 733
+Neet Dart Remember Black Monster 3: 2
+[/Neet - Dart Remember Black Monster 3 - Objects] -> FOLDER: 734
+Child Dart: 0 - [1, 2, 3, 8, 9, 10, 11, 12, 13, 14, 15]
+Memento Red Glow: 33 - [34]
+==========
