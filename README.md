@@ -6,7 +6,7 @@ The idea behind this tool is to preserve TMD Models as originally shown ingame(*
 
 Also i added a very specific functionality for researchers and modders, when you export the 3D model two *.txt files will created, Primitive_per_Object will contain useful data of each primitive type used in models and also the quantity of each one. The other called TMD_Report will be created with a count number of Vertex/Normal/Primitive of each object in the file and a sum of all the file.
 
-## BETA 0.4
+## BETA 0.5
 
 **NOW THE TOOL USE A STABLE GRAPHICAL USER INTERFACE**
 You check the releases and you will find a Windows Version of it (Tested in Windows 10)
@@ -17,8 +17,8 @@ Processor: i5-12400F.
 RAM: 32 GB.
 SSD: Kingston SNV2S/1000g.
 
-Total Space required approximately: 2,7GB.
-Time to convert all the files: 01 Minutes 47 Seconds.
+Total Space required approximately: up to 10 GB (When converting all the Models and Animations).
+Time to convert all the files: 01 Minutes 47 Seconds (average).
 
 Keep in mind, surely this tool can be executed in lesser PC specifications, but the time to
 convert the models will depend on how fast your Hardware is.
@@ -26,7 +26,7 @@ convert the models will depend on how fast your Hardware is.
 
 A simple converter to DAE (Collada) format oriented to work with TLoD Model and animation formats, to later be imported into Blender. Python coded (recommended Python version 3.12.0  64bit).
 
-**UPDATE: CONVERSION OF SUBMAPS DRGN21 FILES**
+**UPDATE: CONVERSION OF ALL MODELS AND ANIMATIONS FROM SUBMAPS FILES**
 
 **UPDATE: PRIMDATA DUMPING**
 
@@ -85,10 +85,19 @@ SC done by Monoxide:
 **_File Mapping Documents_**
 
 DRGN0
-*[File Mapping Doc](https://docs.google.com/spreadsheets/d/1wso1zNTpeQM2WmxW73-hVLs4bKdGa_6jswWuKdFtavE/edit?usp=share_link)*
+*[File Mapping Doc](https://docs.google.com/spreadsheets/d/1wso1zNTpeQM2WmxW73-hVLs4bKdGa_6jswWuKdFtavE/edit?usp=sharing)*
 
 DRGN21
-*[File Mapping Doc](https://https://docs.google.com/spreadsheets/d/1sPBToRIHWXBQMpD5THkxqJGmvaxcF8k7xV7NKyNERII/edit#gid=485730950)*
+*[File Mapping Doc](https://docs.google.com/spreadsheets/d/1sPBToRIHWXBQMpD5THkxqJGmvaxcF8k7xV7NKyNERII/edit?usp=sharing)*
+
+DRGN22
+*[File Mapping Doc](https://docs.google.com/spreadsheets/d/1Lg2FYrkxK6sdgDKshztT4NPuL3471t2u5JqDrbkDvkI/edit?usp=sharing)*
+
+DRGN23
+*[File Mapping Doc](https://docs.google.com/spreadsheets/d/1VirHWFHBPTx452fYkWe6xT105RGmEMbpBcVUV3vUsPQ/edit?usp=sharing)*
+
+DRGN24
+*[File Mapping Doc](https://docs.google.com/spreadsheets/d/1VKcHZT2A7kCZlmbNVK_QczhwQdGHeUhSUyOvwQprMDg/edit?usp=sharing)*
 
 ---
 
@@ -115,6 +124,11 @@ You can find me here:
 ### **CHANGELOG**
 
 ```
+BETA 0.5 version
+ADDED CONVERSION FOR ALL THE SUBMAPS CUTS MODELS AND ANIMATIONS INCLUDING THE MAP ITSELF
+FIXED SOME BREAKING BUGS
+CHANGE SOME LOGIC AROUND TO FIT STANDARDS
+
 BETA 0.4 version
 
 FIXED MEMORY LEAK ON BATTLE MODEL CONVERSION WINDOW (THANKS TO DennytXVII REPORTING THIS ISSUE)
