@@ -1,0 +1,149 @@
+[/Phantom Ship - After Collision CutScene - Environment] -> FOLDER: 967
+Phantom Ship After Collision CutScene: 2
+[/Phantom Ship - After Collision CutScene - Objects] -> FOLDER: 968
+Dart: 0 - [1, 2, 3, 4, 5, 32]
+Key Glow: 33 - [34]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103, 130]
+Albert: 132 - [133, 134, 135, 136, 137]
+Haschel: 165 - [166, 167, 168, 169, 170]
+Kongol: 198 - [199, 200, 201, 228, 229]
+Commodore Puler: 231 - [232, 233, 234, 235, 236, 237, 238, 239]
+Kayla: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273]
+Sailor: 297 - [298, 299, 300, 301, 302, 303, 304, 305]
+Orange Glow: 330 - [331]
+==========
+[/Phantom Ship - Captain Room - Environment] -> FOLDER: 874
+Phantom Ship Captain Room: 2
+[/Phantom Ship - Captain Room - Objects] -> FOLDER: 875
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+Shana: 33 - [34, 35, 36, 37]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169]
+Kongol: 198 - [199, 200, 201, 202, 228, 229]
+Ghost Captain: 231 - [232, 233, 234, 235, 236, 237]
+Treasure Chest: 264 - [265, 266, 267]
+Key Glow: 297 - [298]
+Strange Glow: 330 - [331]
+==========
+[/Phantom Ship - Doom Chest Room - Environment] -> FOLDER: 871
+Phantom Ship Doom Chest Room: 2
+[/Phantom Ship - Doom Chest Room - Objects] -> FOLDER: 872
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Treasure Chest: 33 - [34, 35, 36]
+Skeleton: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
+Armed Dart: 99 - [100, 101]
+Strange Glow: 132 - [133]
+==========
+[/Phantom Ship - Louvia Room - Environment] -> FOLDER: 889
+Phantom Ship Louvia Room: 2
+[/Phantom Ship - Louvia Room - Objects] -> FOLDER: 890
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103, 104]
+Albert: 132 - [133, 134, 135, 136, 137]
+Haschel: 165 - [166, 167, 168, 169]
+Kongol: 198 - [199, 200, 201, 202, 228, 229]
+Cradle: 231 - [232, 233, 234, 235]
+Ghost Maiden: 264 - [265, 266, 267, 268, 269, 270]
+Treasure Chest: 297 - [298, 299, 300]
+==========
+[/Phantom Ship - Main Deck - Environment] -> FOLDER: 868
+Phantom Ship Main Deck: 2
+[/Phantom Ship - Main Deck - Objects] -> FOLDER: 869
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103, 104]
+Albert: 132 - [133, 134, 135, 136]
+Strange Glow: 165 - [166]
+Magician Bogey: 231 - [232, 233, 234, 235]
+Skeleton: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273, 274]
+Ghost Knight: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312]
+Armed Dart: 330 - [331, 332]
+Armed Albert: 363 - [364, 365]
+Ghost Sailor: 396 - [397, 398, 399]
+Phantom Flame: 429 - [430]
+==========
+[/Phantom Ship - Main Hallway - Environment] -> FOLDER: 892
+Phantom Ship Main Hallway: 2
+[/Phantom Ship - Main Hallway - Objects] -> FOLDER: 893
+Dart: 0 - [1, 2, 3, 5, 32]
+Ghost Sailor: 33 - [34, 35, 36]
+Phantom Flame: 66 - [67]
+==========
+[/Phantom Ship - Phantom Ship Sinking CutScene - Environment] -> FOLDER: 970
+Phantom Ship Phantom Ship Sinking CutScene: 2
+[/Phantom Ship - Phantom Ship Sinking CutScene - Objects] -> FOLDER: 971
+Dart: 0 - [1, 2, 3, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135, 136, 137, 138]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201, 228, 229]
+Dart and Rose: 231 - [232, 233, 234, 235]
+Commodore Puler: 264 - [265, 266, 267, 268, 269, 270, 271, 272]
+Kayla: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306]
+Water Splash: 330 - [331]
+Phantom Flame: 363 - [364]
+==========
+[/Phantom Ship - Queen Fury Prow - Environment] -> FOLDER: 865
+Phantom Ship Queen Fury Prow: 2
+[/Phantom Ship - Queen Fury Prow - Objects] -> FOLDER: 866
+Dart: 0 - [1, 2, 3, 32]
+Commodore Puler: 33 - [34, 35, 36, 37, 38]
+Sailor: 66 - [67, 68, 69, 70]
+Strange Glow: 99 - [100]
+Phantom Flame: 297 - [298]
+==========
+[/Phantom Ship - Room 1 - Environment] -> FOLDER: 880
+Phantom Ship Room 1: 2
+[/Phantom Ship - Room 1 - Objects] -> FOLDER: 881
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Treasure Chest: 33 - [34, 35, 36]
+Magician Bogey: 66 - [67, 68, 69, 70]
+Skeleton: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+Armed Dart: 132 - [133, 134]
+Strange Glow: 165 - [166]
+==========
+[/Phantom Ship - Room 2 - Environment] -> FOLDER: 883
+Phantom Ship Room 2: 2
+[/Phantom Ship - Room 2 - Objects] -> FOLDER: 884
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Treasure Chest: 33 - [34, 35, 36]
+Magician Bogey: 66 - [67, 68, 69, 70]
+Armed Dart: 99 - [100, 101]
+Strange Glow: 132 - [133]
+Ghost Sailor: 165 - [166, 167]
+Key Glow: 198 - [199]
+Phantom Flame: 363 - [364]
+==========
+[/Phantom Ship - Room 3 - Environment] -> FOLDER: 886
+Phantom Ship Room 3: 2
+[/Phantom Ship - Room 3 - Objects] -> FOLDER: 887
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169]
+Kongol: 198 - [199, 200, 201, 202, 228, 229]
+Ghost Knight: 231 - [232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+Armed Dart: 264 - [265, 266, 267]
+Armed Rose: 297 - [298, 299, 300]
+Treasure Chest: 330 - [331, 332, 333]
+Strange Glow: 363 - [364]
+==========
+[/Phantom Ship - Room's Hallway - Environment] -> FOLDER: 877
+Phantom Ship Room's Hallway: 2
+[/Phantom Ship - Room's Hallway - Objects] -> FOLDER: 878
+Dart: 0 - [1, 2, 3, 5, 32]
+Magician Bogey: 33 - [34, 35, 36, 37]
+Treasure Crate: 66 - [67, 68, 69]
+Strange Glow: 99 - [100]
+Phantom Flame: 132 - [133]
+==========

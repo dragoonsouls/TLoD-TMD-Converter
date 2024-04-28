@@ -1,0 +1,203 @@
+[/Mayfil - Ascending to Signet Sphere CU - Environment] -> FOLDER: 895
+Mayfil Ascending to Signet Sphere CU: 2
+[/Mayfil - Ascending to Signet Sphere CU - Objects] -> FOLDER: 896
+Dart: 0 - [1, 2, 3, 12, 13, 14, 32]
+Miranda: 33 - [34, 35, 45]
+Albert: 66 - [67, 68, 78]
+Rose: 99 - [100, 101, 111]
+Haschel: 132 - [133, 134, 144]
+Meru: 165 - [166, 167, 177]
+==========
+[/Mayfil - Ascending to Signet Sphere CU 2 - Environment] -> FOLDER: 898
+Mayfil Ascending to Signet Sphere CU 2: 2
+[/Mayfil - Ascending to Signet Sphere CU 2 - Objects] -> FOLDER: 899
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 16, 32]
+Miranda: 33 - [34, 35]
+Albert: 66 - [67, 68]
+Rose: 99 - [100, 101, 102, 111, 112, 113]
+Haschel: 132 - [133, 134]
+Meru: 165 - [166, 167]
+TeleportOrb: 198 - [199, 200]
+TreasureChest: 231 - [232, 233, 234]
+==========
+[/Mayfil - Coolon Flying CU - Environment] -> FOLDER: 937
+Mayfil Coolon Flying CU: 2
+[/Mayfil - Coolon Flying CU - Objects] -> FOLDER: 938
+Coolon: 0 - [1]
+==========
+[/Mayfil - Cut 1 - Environment] -> FOLDER: 526
+Mayfil Cut 1: 2
+[/Mayfil - Cut 1 - Objects] -> FOLDER: 527
+Dart: 0 - [1, 2, 3, 12, 13, 32]
+Miranda: 33 - [34, 35, 51]
+Albert: 66 - [67, 68, 77, 84]
+Rose: 99 - [100, 101, 111, 112, 113, 114, 115, 116, 117, 118]
+Haschel: 132 - [133, 134, 143, 150]
+Meru: 165 - [166, 167, 183]
+TeleportOrb: 198 - [199, 200]
+==========
+[/Mayfil - Cut 2 - Environment] -> FOLDER: 529
+Mayfil Cut 2: 2
+[/Mayfil - Cut 2 - Objects] -> FOLDER: 530
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 32]
+DragonSpirit: 33 - [34]
+Albert: 66 - [67, 68, 78, 79, 80, 81, 82]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113, 114, 115]
+Empty: 198 - [199] # Textured Quad with no Texture assigned maybe PhantomFire is used here
+Armed Dart: 363 - [364, 375, 376] # Seems to have no texture assigned
+Armed Rose: 396 - [397, 408] # For some reason the Texture assigned to Rose here is PhantomFire
+==========
+[/Mayfil - Cut 3 - Environment] -> FOLDER: 532
+Mayfil Cut 3: 2
+[/Mayfil - Cut 3 - Objects] -> FOLDER: 533
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TreasureChest: 66 - [67, 68, 69]
+Bridge: 132 - [133]
+Railing: 165 - [166]
+Brige2: 330 - [331]
+Railing2: 363 - [364]
+Brige3: 396 - [397]
+Railing3: 429 - [430]
+==========
+[/Mayfil - Cut 4 - Environment] -> FOLDER: 535
+Mayfil Cut 4: 2
+[/Mayfil - Cut 4 - Objects] -> FOLDER: 536
+Dart: 0 - [1, 2, 3, 12, 14, 15, 32]
+DragonSpirit: 33 - [34]
+Armed Dart: 132 - [133, 144, 145]
+Meru: 165 - [166, 167, 168, 176, 177, 178, 179, 180]
+Empty: 198 - [199] # For some reason here is a Textured Quad with no texture assigned
+Armed Meru: 363 - [364, 375, 376]
+==========
+[/Mayfil - Cut 5 - Environment] -> FOLDER: 538
+Mayfil Cut 5: 2
+[/Mayfil - Cut 5 - Objects] -> FOLDER: 539
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TreasureChest: 66 - [67, 68, 69]
+Bridge: 132 - [133]
+Railing: 165 - [166]
+Brige2: 198 - [199]
+Railing2: 231 - [232]
+Brige3: 330 - [331]
+Railing3: 363 - [364]
+==========
+[/Mayfil - Cut 6 - Environment] -> FOLDER: 541
+Mayfil Cut 6: 2
+[/Mayfil - Cut 6 - Objects] -> FOLDER: 542
+Dart: 0 - [1, 2, 3, 12, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 44, 45]
+Armed Dart: 132 - [133, 144, 145]
+DragonSpirit: 165 - [166]
+Empty: 198 - [199] # Textured Quad with no texture assigned maybe using PhantomFire Texture
+Armed Miranda: 363 - [364, 365, 374, 375, 376, 377]
+TreasureChest: 396 - [397, 398, 399]
+==========
+[/Mayfil - Cut 7 - Environment] -> FOLDER: 544
+Mayfil Cut 7: 2
+[/Mayfil - Cut 7 - Objects] -> FOLDER: 545
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TreasureChest: 66 - [67, 68, 69]
+Bridge: 99 - [100]
+Railing: 132 - [133]
+==========
+[/Mayfil - Cut 8 - Environment] -> FOLDER: 553
+Mayfil Cut 8: 2
+[/Mayfil - Cut 8 - Objects] -> FOLDER: 554
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 32]
+TeleporterOrb: 33 - [34, 35]
+TreasureChest: 297 - [298, 299, 300]
+==========
+[/Mayfil - Cut 9 - Environment] -> FOLDER: 556
+Mayfil Cut 9: 2
+[/Mayfil - Cut 9 - Objects] -> FOLDER: 557
+Dart: 0 - [1, 2, 3, 12, 13, 32]
+PhantomFire: 66 - [67] # Textured Quad with no Texture assigned
+Rose: 99 - [100, 101, 102, 111, 112, 113, 114, 115, 116]
+==========
+[/Mayfil - Cut 10 - Environment] -> FOLDER: 559
+Mayfil Cut 10: 2
+[/Mayfil - Cut 10 - Objects] -> FOLDER: 560
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 32]
+TeleporterOrb: 33 - [34, 35]
+Albert: 66 - [67, 68, 69, 77, 78, 79, 80, 81]
+Rose: 99 - [100, 101, 102, 110, 111]
+LavitzGhost: 132 - [133, 134, 135, 143, 144, 145, 146]
+PossessedLavitz: 165 - [166, 167, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187]
+TreasureChest: 198 - [199, 200, 201]
+Empty: 264 - [265] # Textured Quad with no Texture assigned
+==========
+[/Mayfil - Entrance - Environment] -> FOLDER: 520
+Mayfil Entrance: 2
+[/Mayfil - Entrance - Objects] -> FOLDER: 521
+Dart: 0 - [1, 2, 3, 32]
+Zieg: 33 - [34, 35, 45, 46, 47, 48, 49, 50, 51]
+==========
+[/Mayfil - Lavitz Last Stand CU - Environment] -> FOLDER: 892
+Mayfil Lavitz Last Stand CU: 2
+[/Mayfil - Lavitz Last Stand CU - Objects] -> FOLDER: 893
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36]
+Armed Albert: 66 - [67, 68, 69, 77, 78, 79]
+Rose: 99 - [100, 101, 102, 110, 111]
+Albert2: 132 - [133, 134, 135, 144]
+Armed Rose: 165 - [166, 167, 168, 177]
+TeleporterOrb: 198 - [199, 200]
+PossessedLavitz: 231 - [232, 233, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253]
+Armed Dart: 429 - [430, 431, 441, 442]
+==========
+[/Mayfil - Lavitz Last Stand Cut 1 - Environment] -> FOLDER: 934
+Mayfil Lavitz Last Stand Cut 1: 2
+[/Mayfil - Lavitz Last Stand Cut 1 - Objects] -> FOLDER: 935
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 32]
+TeleporterOrb: 33 - [34, 35]
+PhantomFire: 66 - [67]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113, 114]
+Fume: 231 - [232, 233]
+==========
+[/Mayfil - Maze Puzzle - Environment] -> FOLDER: 547
+Mayfil Maze Puzzle: 2
+[/Mayfil - Maze Puzzle - Objects] -> FOLDER: 548
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 32]
+TeleporterOrb: 33 - [34, 35]
+==========
+[/Mayfil - Maze Puzzle Underneath - Environment] -> FOLDER: 550
+Mayfil Maze Puzzle Underneath: 2
+[/Mayfil - Maze Puzzle Underneath - Objects] -> FOLDER: 551
+Dart: 0 - [1, 2, 3, 12, 13, 14, 32]
+TeleporterOrb: 33 - [34, 35]
+TreasureChest: 66 - [67, 68, 69]
+==========
+[/Mayfil - Roof - Environment] -> FOLDER: 919
+Mayfil Roof: 2
+[/Mayfil - Roof - Objects] -> FOLDER: 920
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 77, 78, 79, 80]
+Coolon: 99 - [100]
+Dart2: 132 - [None] # Dart Model with no Animations
+==========
+[/Mayfil - Signet Sphere CU - Environment] -> FOLDER: 901
+Mayfil Signet Sphere CU: 2
+[/Mayfil - Signet Sphere CU - Objects] -> FOLDER: 902
+Dart1: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 32]
+Rose1: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51]
+Albert1: 66 - [67, 68, 69, 72, 73, 74, 77, 78, 79]
+Zieg: 99 - [100, 110, 111, 112, 116, 117, 118, 119, 120, 121, 122, 123, 124]
+Armed Dart: 132 - [133, 134, 135, 143, 144, 147, 148, 153, 154, 155, 156]
+Armed Rose: 165 - [166, 167, 168, 176, 177, 178, 179, 180, 181, 182]
+Armed Albert: 198 - [199, 200, 201, 209, 210]
+DartDragoon: 231 - [232, 244, 245, 246, 247, 248]
+TeleportOrb: 264 - [265]
+Exploding Smoke: 297 - [298]
+MoonGem: 330 - [331]
+==========
+[/Mayfil - Teleporter Entrance - Environment] -> FOLDER: 523
+Mayfil Teleporter Entrance: 2
+[/Mayfil - Teleporter Entrance - Objects] -> FOLDER: 524
+Dart: 0 - [1, 2, 3, 32]
+LandTeleporterOrb: 33 - [34]
+LandTeleporterOrb2: 66 - [67]
+==========

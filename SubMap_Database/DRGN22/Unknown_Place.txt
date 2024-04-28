@@ -1,0 +1,32 @@
+[/Unknown Place - Unknown Scene 1 - Environment] -> FOLDER: None
+Unknown Place Unknown Scene 1: None
+[/Unknown Place - Unknown Scene 1 - Objects] -> FOLDER: 923
+Dart: 0 - [1, 2, 3, 4, 32]
+Shana: 33 - [34, 35, 36, 37]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103, 130]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169]
+Kongol: 198 - [199, 200, 201]
+Dart 2: 231 - [None] # Model with no Animations
+Commodore Puler: 264 - [265, 266, 267, 268, 269, 270, 271, 272]
+Kayla: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306]
+Sailor: 330 - [331, 332, 333, 334, 335, 336, 337, 338]
+Fire: 363 - [364]
+==========
+[/Unknown Place - Unknown Scene 2 - Environment] -> FOLDER: None
+Unknown Place Unknown Scene 2: None
+[/Unknown Place - Unknown Scene 2 - Objects] -> FOLDER: 926
+Dart: 0 - [1, 2, 3, 4, 32]
+Shana: 33 - [34, 35, 36, 37]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169]
+Kongol: 198 - [199, 200, 201]
+Dart 2: 231 - [None] # Model with no Animations
+Commodore Puler: 264 - [265, 266, 267, 268, 269, 270, 271, 272]
+Kayla: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306]
+Sailor: 330 - [331, 332, 333, 334, 335, 336, 337, 338]
+Fire: 363 - [364]
+==========

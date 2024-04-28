@@ -1,0 +1,113 @@
+[/Home of Gigantos - Cut 1 - Environment] -> FOLDER: 787
+Home of Gigantos Cut 1: 2
+[/Home of Gigantos - Cut 1 - Objects] -> FOLDER: 788
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Cardboard Tree: 33 - [34]
+Bandit: 66 - [67, 69, 96]
+Arrow: 99 - [100]
+Treasure Crate: 231 - [232, 233, 234]
+Treasure Chest: 264 - [265, 266, 267]
+==========
+[/Home of Gigantos - Cut 2 - Environment] -> FOLDER: 790
+Home of Gigantos Cut 2: 2
+[/Home of Gigantos - Cut 2 - Objects] -> FOLDER: 791
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Shana: 33 - [34, 35, 36]
+Meru: 66 - [67, 68, 69]
+Rose: 99 - [100, 101, 102]
+Albert: 132 - [133, 134, 135]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201, 202, 203, 228, 229]
+Treasure Chest: 231 - [232, 233, 234]
+Key Glow: 264 - [265]
+==========
+[/Home of Gigantos - Cut 3 - Environment] -> FOLDER: 793
+Home of Gigantos Cut 3: 2
+[/Home of Gigantos - Cut 3 - Objects] -> FOLDER: 794
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Haschel: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Broken Gate: 66 - [67, 68]
+Gangster: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115]
+Bandit: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143]
+Bandit 2: 165 - [166, 167, 168, 169, 170, 171, 172, 173]
+Arrow: 198 - [199]
+Dart Armed: 231 - [241, 245, 246, 247, 248, 261]
+Foam: 297 - [298]
+Hand Flare: 330 - [331]
+Ki Gather: 363 - [364]
+Blue Fire: 396 - [397]
+==========
+[/Home of Gigantos - Cut 4 - Environment] -> FOLDER: 796
+Home of Gigantos Cut 4: 2
+[/Home of Gigantos - Cut 4 - Objects] -> FOLDER: 797
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Shana: 33 - [34, 35, 36, 37]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179]
+Kongol: 198 - [199, 200, 201, 202, 203, 204, 205, 228, 229]
+Miranda: 231 - [232, 233, 234, 235, 236]
+Treasure Crate: 264 - [265, 266, 267]
+Rock Face: 297 - [298]
+Flock of Birds: 330 - [331, 332]
+Healing Rockflies: 363 - [364]
+==========
+[/Home of Gigantos - Throne - Environment] -> FOLDER: 799
+Home of Gigantos Throne: 2
+[/Home of Gigantos - Throne - Objects] -> FOLDER: 800
+Dart: 0 - [1, 2, 3, 5, 6, 32]
+Haschel: 33 - [34, 35, 36, 37]
+Kongol: 66 - [67, 68, 69, 70, 96, 97]
+Throne: 99 - [100]
+Haschel and Gehrich: 132 - [133, 134]
+Strange Glow: 165 - [166]
+==========
+[/Home of Gigantos - Throne Basement - Environment] -> FOLDER: 805
+Home of Gigantos Throne Basement: 2
+[/Home of Gigantos - Throne Basement - Objects] -> FOLDER: 806
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 87, 88, 89, 90, 91]
+Rose: 99 - [100, 101, 102, 103, 104, 105]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201, 202, 203, 228, 229]
+Lynn: 231 - [232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243]
+Red-Eyed Dragoon Spirit Glow: 264 - [265]
+Spirit Flare: 297 - [298]
+Key Glow: 330 - [331]
+Orange Glow: 363 - [364]
+Stange Glow: 396 - [397]
+==========
+[/Home of Gigantos - Throne CutScene - Environment] -> FOLDER: 802
+Home of Gigantos Throne CutScene: 2
+[/Home of Gigantos - Throne CutScene - Objects] -> FOLDER: 803
+Dart: 0 - [1, 2, 3, 4]
+Shana: 33 - [34, 35, 36, 37, 38]
+Meru: 66 - [67, 68, 69, 70, 71]
+Rose: 99 - [100, 101, 102, 103, 106]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 169, 170, 171, 172, 173, 174]
+Kongol: 198 - [199, 200, 202, 203, 204, 205, 206, 207, 208, 228, 229]
+Gehrich: 231 - [232, 233, 234, 235, 236, 237, 238, 239, 240, 241]
+Mappi: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275]
+Throne: 297 - [298]
+Haschel and Gehrich: 330 - [331, 332, 333]
+Armed Dart: 363 - [364]
+Bandit: 396 - [397, 399, 400, 426]
+==========
+[/Home of Gigantos - Cut 4 2 - Environment] -> FOLDER: None
+Home of Gigantos Unknown Scene: None
+[/Home of Gigantos - Cut 4 2 - Objects] -> FOLDER: 809
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Shana: 33 - [34, 35, 36, 37] # This is weird. It's like the Cut 4 but, with no Miranda in Party
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178]
+Kongol: 198 - [199, 200, 201, 202]
+Dart 2: 231 - [None] # Model with no Animations
+Treasure Crate: 264 - [265, 266, 267]
+Rock Face: 297 - [298] # Also this scene have no Environment Data
+==========

@@ -1,0 +1,11 @@
+[/Start Disk 4 - Death Frontier Entrance - Environment] -> FOLDER: 982
+Start Disk 4 Death Frontier Entrance: 2
+[/Start Disk 4 - Death Frontier Entrance - Objects] -> FOLDER: 983
+Dart: 0 - [1, 2, 3, 32]
+Miranda: 33 - [34, 35, 36]
+Meru: 66 - [67, 68, 69]
+Rose: 99 - [100, 101, 102]
+Albert: 132 - [133, 134, 135]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201, 228, 229]
+==========

@@ -1,0 +1,237 @@
+[/Aglis - Cut 1 - Environment] -> FOLDER: 613
+Aglis Cut 1: 2
+[/Aglis - Cut 1 - Objects] -> FOLDER: 614
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+TeleporterOrb: 33 - [34, 35]
+StrangeGlow: 66 - [67]
+Rose: 99 - [100, 101, 102, 103, 104, 105]
+MeruFlying: 132 - [133, 134, 135, 136, 137]
+Albert: 165 - [166, 167, 168, 169, 170, 171]
+Haschel: 198 - [199, 200, 201, 202, 203, 204]
+Miranda: 231 - [232, 233, 234, 235, 236, 237, 238]
+Kongol: 264 - [265, 266, 267]
+Dart2: 297 - [None] # Model with no Animations
+==========
+[/Aglis - Cut 2 - Environment] -> FOLDER: 616
+Aglis Cut 2: 2
+[/Aglis - Cut 2 - Objects] -> FOLDER: 617
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+TeleporterOrb: 33 - [34, 35]
+Ruff: 66 - [67, 68]
+Rose: 99 - [100, 101, 102, 103]
+Miranda: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142]
+Meru: 165 - [166, 167, 168, 169, 170, 171, 172]
+Albert: 198 - [199, 200, 201]
+Haschel: 231 - [232, 233, 234]
+Kongol: 264 - [265, 266, 267, 268, 269, 270]
+KeyGlow: 297 - [298]
+TeleporterGlow: 330 - [331]
+Dart2: 363 - [None] # Model with no Animations
+TeleporterGate: 396 - [397, 398, 399]
+==========
+[/Aglis - Cut 3 - Environment] -> FOLDER: 622
+Aglis Cut 3: 2
+[/Aglis - Cut 3 - Objects] -> FOLDER: 623
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+TreasureChest: 330 - [331, 332, 333]
+KeyGlow: 396 - [397]
+==========
+[/Aglis - Cut 4 - Environment] -> FOLDER: 625
+Aglis Cut 4: 2
+[/Aglis - Cut 4 - Objects] -> FOLDER: 626
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+KeyGlow: 99 - [100]
+TreasureChest: 330 - [331, 332, 333]
+==========
+[/Aglis - Cut 5 - Environment] -> FOLDER: 628
+Aglis Cut 5: 2
+[/Aglis - Cut 5 - Objects] -> FOLDER: 629
+Dart: 0 - [1, 2, 3, 4, 32]
+Ruff: 33 - [34, 35, 36, 37, 38, 39]
+Rose: 99 - [100, 101, 102, 103, 104, 105]
+KeyGlow: 132 - [133]
+Meru: 165 - [166, 167, 168, 169, 170, 171]
+TreasureChest: 198 - [199, 200, 201]
+==========
+[/Aglis - Cut 6 - Environment] -> FOLDER: 631
+Aglis Cut 6: 2
+[/Aglis - Cut 6 - Objects] -> FOLDER: 632
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+Spino: 66 - [67, 68]
+Rose: 99 - [100, 101, 102]
+TreasureChest: 132 - [133, 134, 135]
+TeleporterGlow: 165 - [166]
+KeyGlow: 198 - [199]
+==========
+[/Aglis - Cut 7 - Environment] -> FOLDER: 634
+Aglis Cut 7: 2
+[/Aglis - Cut 7 - Objects] -> FOLDER: 635
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Spino: 33 - [34, 35, 36, 37, 38, 39, 40]
+Rose: 99 - [100, 101, 102, 103]
+Meru: 132 - [133, 134, 135]
+MirrorFume: 165 - [166]
+KeyGlow: 330 - [331]
+Zieg: 363 - [364, 365, 366, 367, 368, 369, 370]
+MoonMirror: 396 - [397, 398]
+==========
+[/Aglis - Cut 7 Repeat - Environment] -> FOLDER: 886
+Aglis Cut 7 Repeat: 2
+[/Aglis - Cut 7 Repeat - Objects] -> FOLDER: 887
+Dart: 0 - [1]
+Spino: 33 - [34, 35, 36, 37, 38, 39, 40]
+Ruff: 66 - [67, 68, 69, 70, 71, 72]
+StrangeGlow: 99 - [100]
+MirrorFume: 165 - [166]
+Haschel: 231 - [232, 233, 234, 235]
+Rose: 264 - [265, 266, 267]
+KeyGlow: 330 - [331]
+Empty: 363 - [364]
+Savan: 396 - [397, 398, 399]
+==========
+[/Aglis - Cut 8 - Environment] -> FOLDER: 637
+Aglis Cut 8: 2
+[/Aglis - Cut 8 - Objects] -> FOLDER: 638
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+StrangeGlow: 66 - [67]
+KeyGlow: 99 - [100]
+TreasureChest: 330 - [331, 332, 333]
+==========
+[/Aglis - Cut 9 - Environment] -> FOLDER: 640
+Aglis Cut 9: 2
+[/Aglis - Cut 9 - Objects] -> FOLDER: 641
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+KeyGlow: 99 - [100]
+==========
+[/Aglis - Cut 10 - Environment] -> FOLDER: 649
+Aglis Cut 10: 2
+[/Aglis - Cut 10 - Objects] -> FOLDER: 650
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+KeyGlow: 99 - [100]
+==========
+[/Aglis - Elemental Courage Room - Environment] -> FOLDER: 643
+Aglis Elemental Courage Room: 2
+[/Aglis - Elemental Courage Room - Objects] -> FOLDER: 644
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Rose: 33 - [34, 35, 36, 37, 38, 39, 40]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75]
+Albert: 99 - [100, 101, 102, 103, 104, 105]
+Haschel: 132 - [133, 134, 135, 136, 137, 138]
+Miranda: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176]
+Kongol: 198 - [199, 200, 201, 202]
+KeyGlow: 231 - [232]
+Savan: 264 - [265, 266, 267, 268]
+Buckle: 297 - [298, 299, 300, 301, 302]
+BridgeFloor: 330 - [331]
+BridgeRailing: 363 - [364]
+==========
+[/Aglis - Entrance - Environment] -> FOLDER: 610
+Aglis Entrance: 2
+[/Aglis - Entrance - Objects] -> FOLDER: 611
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Rose: 33 - [34, 35, 36]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78]
+Albert: 99 - [100, 101, 102, 103, 104, 105, 106]
+Haschel: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142]
+Miranda: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177]
+Kongol: 198 - [199, 200, 201, 202, 203, 204, 205, 206, 207]
+KeyGlow: 231 - [232]
+AglisGate: 264 - [265, 266, 267]
+==========
+[/Aglis - Following Savan Cut 1 - Environment] -> FOLDER: 910
+Aglis Following Savan Cut 1: 2
+[/Aglis - Following Savan Cut 1 - Objects] -> FOLDER: 911
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+Savan: 66 - [67, 68]
+Empty1: 132 - [133] # Just a Textured Quad with no Texture assigned
+TeleporterGlow: 165 - [166]
+TreasureChest: 330 - [331, 332, 333]
+==========
+[/Aglis - Isolated Courage Room 1 - Environment] -> FOLDER: 646
+Aglis Isolated Courage Room 1: 2
+[/Aglis - Isolated Courage Room 1 - Objects] -> FOLDER: 647
+KeyGlow: 0 - [1]
+Armed Kongol: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75]
+Doel: 99 - [100, 101, 102, 103, 104, 105, 106]
+Armed Rose: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141]
+Miranda: 198 - [199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213]
+Buckle: 231 - [232, 233]
+Albert: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 282]
+MinisterNoish: 297 - [298, 299, 300]
+Rose: 363 - [364, 365, 366]
+Savan: 396 - [397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407]
+==========
+[/Aglis - Isolated Courage Room 2 - Environment] -> FOLDER: 685
+Aglis Isolated Courage Room 2: 2
+[/Aglis - Isolated Courage Room 2 - Objects] -> FOLDER: 686
+Armed Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32]
+Meru: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+Guaraha: 66 - [67, 68, 69, 70, 71, 72]
+Shana: 99 - [100]
+Buckle: 132 - [133]
+Haschel1: 165 - [166, 167, 168, 169, 170]
+Haschel2: 198 - [199, 200, 201, 202, 203, 204, 205]
+Claire: 231 - [232, 233, 234, 235]
+Bardel: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277, 278]
+FireDome: 297 - [298]
+Fireball: 330 - [331]
+WinglyAlphabet: 363 - [364]
+MeruFlying: 429 - [430]
+==========
+[/Aglis - PsycheBomb Creation Room - Environment] -> FOLDER: 907
+Aglis PsycheBomb Creation Room: 2
+[/Aglis - PsycheBomb Creation Room - Objects] -> FOLDER: 908
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Savan: 33 - [34, 35]
+Spino: 66 - [67, 68, 69, 70, 71, 72, 73]
+Ruff: 363 - [364, 365] # For some reason Texture for Ruff here is missing, while in retail is ok
+==========
+[/Aglis - Signet Sphere - Environment] -> FOLDER: 916
+Aglis Signet Sphere: 2
+[/Aglis - Signet Sphere - Objects] -> FOLDER: 917
+Dart: 0 - [1, 2, 3, 4, 5, 7, 8, 32]
+Rose: 33 - [34, 35, 36, 37, 38, 39]
+Meru: 66 - [67, 68, 69, 70]
+Albert: 99 - [100, 101, 102]
+Haschel: 132 - [133, 134, 135]
+Miranda: 165 - [166, 167, 168]
+KeyGlow: 198 - [199]
+Savan: 264 - [265, 266, 267]
+Spino: 297 - [298, 299]
+LastKraken: 330 - [331, 332, 333, 334, 335, 336, 337, 338, 339]
+Armed Albert: 363 - [364, 367]
+Armed Dart: 396 - [397, 398, 399]
+==========
+[/Aglis - Teleporter Room - Environment] -> FOLDER: 619
+Aglis Teleporter Room: 2
+[/Aglis - Teleporter Room - Objects] -> FOLDER: 620
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+LandTeleporterOrb: 33 - [34]
+TeleporterGlow: 66 - [67]
+Rose: 99 - [100, 101, 102, 103]
+Meru: 132 - [133, 134, 135, 136]
+Albert: 165 - [166, 167, 168, 169]
+Haschel: 198 - [199, 200, 201, 202]
+Miranda: 231 - [232, 233, 234, 235]
+Kongol: 264 - [265, 266, 267, 268]
+LandTeleporterOrb2: 297 - [298]
+==========
+[/Aglis - To Signet Sphere Hallway - Environment] -> FOLDER: 913
+Aglis To Signet Sphere Hallway: 2
+[/Aglis - To Signet Sphere Hallway - Objects] -> FOLDER: 914
+Dart: 0 - [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 32]
+Savan: 33 - [34, 35, 36, 37, 38]
+Rose: 99 - [100, 101, 102, 103, 104] # This animations is when she landed
+Doors to Signet Sphere: 132 - [133, 134, 135]
+==========

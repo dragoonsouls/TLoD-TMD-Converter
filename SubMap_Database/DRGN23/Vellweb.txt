@@ -1,0 +1,186 @@
+[/VellWeb - Blue-Sea Dragoon Altar - Environment] -> FOLDER: 445
+VellWeb Blue-Sea Dragoon Altar: 2
+[/VellWeb - Blue-Sea Dragoon Altar - Objects] -> FOLDER: 446
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 32]
+Rose: 33 - [34, 35, 39, 40, 41]
+==========
+[/VellWeb - Blue-Sea Dragoon Altar Past - Environment] -> FOLDER: 484
+VellWeb Blue-Sea Dragoon Altar Past: 2
+[/VellWeb - Blue-Sea Dragoon Altar Past - Objects] -> FOLDER: 485
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+Damia: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80]
+==========
+[/VellWeb - Cut 1 - Environment] -> FOLDER: 418
+VellWeb Cut 1: 2
+[/VellWeb - Cut 1 - Objects] -> FOLDER: 419
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 32]
+ArmoredLloyd: 33 - [34, 35, 39, 40, 41]
+Albert: 66 - [67, 68, 72, 73, 74, 77, 78, 79]
+Miranda: 99 - [100, 101]
+Meru: 132 - [133, 134, 138, 139, 143]
+Haschel: 165 - [166, 167]
+Rose: 198 - [199, 200]
+==========
+[/VellWeb - Cut 2 - Environment] -> FOLDER: 421
+VellWeb Cut 2: 2
+[/VellWeb - Cut 2 - Objects] -> FOLDER: 422
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Cut 3 - Environment] -> FOLDER: 424
+VellWeb Cut 3: 2
+[/VellWeb - Cut 3 - Objects] -> FOLDER: 425
+Dart: 0 - [1, 2, 3, 7, 8, 32]
+Merchant: 33 - [34, 35, 39, 40, 41, 44, 45, 46]
+TreasureChest: 99 - [100, 101, 102]
+==========
+[/VellWeb - Cut 4 - Environment] -> FOLDER: 427
+VellWeb Cut 4: 2
+[/VellWeb - Cut 4 - Objects] -> FOLDER: 428
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47]
+==========
+[/VellWeb - Cut 5 - Environment] -> FOLDER: 430
+VellWeb Cut 5: 2
+[/VellWeb - Cut 5 - Objects] -> FOLDER: 431
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51] # Here Rose have some unseen Animations before
+Shirley: 66 - [67, 72, 73, 74, 77]
+==========
+[/VellWeb - Cut 6 - Environment] -> FOLDER: 463
+VellWeb Cut 6: 2
+[/VellWeb - Cut 6 - Objects] -> FOLDER: 464
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 32]
+==========
+[/VellWeb - Cut 7 - Environment] -> FOLDER: 466
+VellWeb Cut 7: 2
+[/VellWeb - Cut 7 - Objects] -> FOLDER: 467
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Cut 8 - Environment] -> FOLDER: 469
+VellWeb Cut 8: 2
+[/VellWeb - Cut 8 - Objects] -> FOLDER: 470
+Dart: 0 - [1, 2, 3, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+==========
+[/VellWeb - Cut 9 - Environment] -> FOLDER: 472
+VellWeb Cut 9: 2
+[/VellWeb - Cut 9 - Objects] -> FOLDER: 473
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Dark Dragoon Altar - Environment] -> FOLDER: 442
+VellWeb Dark Dragoon Altar: 2
+[/VellWeb - Dark Dragoon Altar - Objects] -> FOLDER: 443
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Diaz Throne CutScene - Environment] -> FOLDER: 475
+VellWeb Diaz Throne CutScene: 2
+[/VellWeb - Diaz Throne CutScene - Objects] -> FOLDER: 476
+Dart: 0 - [1, 2, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+Diaz: 33 - [34, 35, 39, 40, 41, 44, 45, 46]
+Rose: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 87, 91]
+Shana: 99 - [100, 101, 102]
+Armed Rose: 165 - [166, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186]
+Zieg: 231 - [232, 233, 234]
+==========
+[/VellWeb - Diaz Throne Far View - Environment] -> FOLDER: 478
+VellWeb Diaz Throne Far View: 2
+[/VellWeb - Diaz Throne Far View - Objects] -> FOLDER: 479
+Dart: 0 - [1, 2, 3, 32]
+Floating Shana: 33 - [34]
+Fire: 66 - [67]
+==========
+[/VellWeb - Diaz Throne Upper View - Environment] -> FOLDER: 481
+VellWeb Diaz Throne Upper View: 2
+[/VellWeb - Diaz Throne Upper View - Objects] -> FOLDER: 482
+Dart: 0 - [1, 2, 3, 4, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 32]
+Diaz: 33 - [34, 39, 40, 41, 44, 45]
+ArmoredLloyd: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81]
+Shana: 99 - [100, 101, 102]
+Rose: 132 - [133, 134, 138, 139, 140, 143, 144, 145, 146]
+Albert: 165 - [166, 167, 169, 171, 176]
+DartAndShana: 198 - [199, 200, 209, 210]
+MoonGem: 231 - [232]
+MoonDagger: 264 - [265]
+MoonMirror: 297 - [298]
+Fireball: 429 - [430]
+==========
+[/VellWeb - Dragoon Altars 1 - Environment] -> FOLDER: 433
+VellWeb Dragoon Altars 1: 2
+[/VellWeb - Dragoon Altars 1 - Objects] -> FOLDER: 434
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Dragoon Altars 2 - Environment] -> FOLDER: 436
+VellWeb Dragoon Altars 2: 2
+[/VellWeb - Dragoon Altars 2 - Objects] -> FOLDER: 437
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Dragoon Altars 3 - Environment] -> FOLDER: 439
+VellWeb Dragoon Altars 3: 2
+[/VellWeb - Dragoon Altars 3 - Objects] -> FOLDER: 440
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Golden Dragoon Altar - Environment] -> FOLDER: 460
+VellWeb Golden Dragoon Altar: 2
+[/VellWeb - Golden Dragoon Altar - Objects] -> FOLDER: 461
+Dart: 0 - [1, 2, 3, 7, 8, 11, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44]
+==========
+[/VellWeb - Golden Dragoon Altar Past - Environment] -> FOLDER: 493
+VellWeb Golden Dragoon Altar Past: 2
+[/VellWeb - Golden Dragoon Altar Past - Objects] -> FOLDER: 494
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 44, 45]
+Belzac: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81, 82]
+Empty: 198 - [199] # I don't know what it is, Model is a Texture RECT
+Empty2: 297 - [298] # I don't know what it is, Model is a Texture RECT
+==========
+[/VellWeb - Jade Dragoon Altar - Environment] -> FOLDER: 451
+VellWeb Jade Dragoon Altar: 2
+[/VellWeb - Jade Dragoon Altar - Objects] -> FOLDER: 452
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 32]
+Rose: 33 - [34, 35, 39, 40, 41]
+==========
+[/VellWeb - Jade Dragoon Altar Past - Environment] -> FOLDER: 487
+VellWeb Jade Dragoon Altar Past: 2
+[/VellWeb - Jade Dragoon Altar Past - Objects] -> FOLDER: 488
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46]
+Syuveil: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81]
+Armed Rose: 165 - [166]
+==========
+[/VellWeb - Red-Eyed Dragoon Altar - Environment] -> FOLDER: 448
+VellWeb Red-Eyed Dragoon Altar: 2
+[/VellWeb - Red-Eyed Dragoon Altar - Objects] -> FOLDER: 449
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/VellWeb - Species Explanation CutScene - Environment] -> FOLDER: 496
+VellWeb Species Explanation CutScene: 2
+[/VellWeb - Species Explanation CutScene - Objects] -> FOLDER: 497
+Dart: 0 - [1]
+Diaz: 33 - [34, 35, 39, 40, 41, 44, 45]
+Rose: 66 - [67]
+Armed Dart: 99 - [100, 101, 102]
+Kongol: 132 - [133, 134]
+MeruFlying: 165 - [166, 167, 168, 169]
+Pelpee: 198 - [199, 200]
+Feyrbrand: 231 - [232, 234, 235]
+==========
+[/VellWeb - Violet Dragoon Altar - Environment] -> FOLDER: 454
+VellWeb Violet Dragoon Altar: 2
+[/VellWeb - Violet Dragoon Altar - Objects] -> FOLDER: 455
+Dart: 0 - [1, 2, 3, 7, 8, 11, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45]
+==========
+[/VellWeb - Violet Dragoon Altar Past - Environment] -> FOLDER: 490
+VellWeb Violet Dragoon Altar Past: 2
+[/VellWeb - Violet Dragoon Altar Past - Objects] -> FOLDER: 491
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47]
+Kanzas: 66 - [67, 68, 72, 73, 74, 77, 78, 79]
+==========
+[/VellWeb - White-Silver Dragoon Altar - Environment] -> FOLDER: 457
+VellWeb White-Silver Dragoon Altar: 2
+[/VellWeb - White-Silver Dragoon Altar - Objects] -> FOLDER: 458
+Dart: 0 - [1, 2, 3, 32]
+==========

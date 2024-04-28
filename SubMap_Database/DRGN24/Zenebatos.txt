@@ -1,0 +1,169 @@
+[/Zenebatos - Cut 1 - Environment] -> FOLDER: 490
+Zenebatos Cut 1: 2
+[/Zenebatos - Cut 1 - Objects] -> FOLDER: 491
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 32]
+TeleporterOrb: 33 - [34, 35]
+FlyingPlatform: 66 - [67]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143]
+MeruFlying: 165 - [166, 167, 168, 169, 170, 171]
+Haschel: 198 - [199, 200, 201, 202, 203, 204, 205, 206, 207]
+Miranda: 231 - [232, 233, 234, 235, 236, 237, 238, 239]
+Kongol: 264 - [265, 266]
+Lapto: 297 - [298]
+LawPod: 330 - [331]
+Coolon: 363 - [364, 365]
+Meru: 396 - [397, 398, 399, 400, 401, 402, 403, 404, 405, 406, 407, 408]
+CardboardLapto: 429 - [430]
+Empty: 462 - [463] # Textured Quad with no Texture assigned
+==========
+[/Zenebatos - Cut 2 - Environment] -> FOLDER: 493
+Zenebatos Cut 2: 2
+[/Zenebatos - Cut 2 - Objects] -> FOLDER: 494
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+FlyingPlatform: 33 - [34]
+Albert: 66 - [67, 68, 69, 70, 71]
+Lapto: 99 - [100]
+LawPod: 396 - [397]
+KeyGlow: 429 - [430]
+==========
+[/Zenebatos - Cut 3 Jail - Environment] -> FOLDER: 496
+Zenebatos Cut 3 Jail: 2
+[/Zenebatos - Cut 3 Jail - Objects] -> FOLDER: 497
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+Rose: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+Albert: 66 - [67, 68, 69, 70, 71, 72]
+Meru: 99 - [100, 101, 102, 103, 104, 105]
+Haschel: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142]
+Miranda: 165 - [166, 167, 168, 169, 170, 171]
+Kongol: 198 - [199, 200, 201, 202, 203]
+TeleporterOrb: 231 - [232, 233]
+Dart2: 264 - [None] # Model with no Animations
+Kongol2: 297 - [None] # Model with no Animations
+KeyGlow: 330 - [331]
+MeruFlying: 429 - [430, 431, 432, 433]
+==========
+[/Zenebatos - Cut 4 - Environment] -> FOLDER: 499
+Zenebatos Cut 4: 2
+[/Zenebatos - Cut 4 - Objects] -> FOLDER: 500
+Dart: 0 - [1, 2, 3, 32]
+FlyingPlatform: 33 - [34]
+Lapto: 66 - [67, 72]
+TreasureChest: 99 - [100, 101, 102]
+==========
+[/Zenebatos - Cut 5 - Environment] -> FOLDER: 502
+Zenebatos Cut 5: 2
+[/Zenebatos - Cut 5 - Objects] -> FOLDER: 503
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+GuardLapto: 99 - [100]
+TreasureChest: 231 - [232, 233, 234]
+KeyGlow: 297 - [298]
+CardboardFlyingLapto: 330 - [331]
+CardboardFlyingLapto2: 363 - [364]
+==========
+[/Zenebatos - Cut 6 - Environment] -> FOLDER: 508
+Zenebatos Cut 6: 2
+[/Zenebatos - Cut 6 - Objects] -> FOLDER: 509
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+KeyGlow: 66 - [67]
+GuardLapto: 99 - [100]
+Lapto: 198 - [199]
+FlyingPlatform: 231 - [232]
+TreasureChest: 264 - [265, 266, 267]
+==========
+[/Zenebatos - Cut 7 - Environment] -> FOLDER: 514
+Zenebatos Cut 7: 2
+[/Zenebatos - Cut 7 - Objects] -> FOLDER: 515
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+KeyGlow: 66 - [67]
+GuardLapto: 99 - [100]
+CardboardFlyingLapto: 231 - [232]
+Retail Bugged Animations: None - [233] # Model Expected to be used CardboardFlyingLapto
+CardboardFlyingLapto2: 264 - [265]
+TreasureChest: 297 - [298, 299, 300]
+==========
+[/Zenebatos - Law Factory - Environment] -> FOLDER: 517
+Zenebatos Law Factory: 2
+[/Zenebatos - Law Factory - Objects] -> FOLDER: 518
+Dart: 0 - [1, 2, 3, 4, 5, 32]
+TeleporterOrb: 33 - [34, 35]
+Lapto: 66 - [67]
+FlyingPlatform: 132 - [133]
+LawPod: 330 - [331]
+==========
+[/Zenebatos - Law Launcher - Environment] -> FOLDER: 511
+Zenebatos Law Launcher: 2
+[/Zenebatos - Law Launcher - Objects] -> FOLDER: 512
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+FlyingPlatform: 66 - [67]
+LawPod: 99 - [100]
+Lapto: 132 - [133, 134]
+CardboardFlyingLapto: 429 - [430]
+==========
+[/Zenebatos - Legislation Center - Environment] -> FOLDER: 505
+Zenebatos Legislation Center: 2
+[/Zenebatos - Legislation Center - Objects] -> FOLDER: 506
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+Lapto: 66 - [67]
+FlyingPlatform: 330 - [331]
+TeleporterGlow: 363 - [364]
+LawPod: 396 - [397]
+QueueLaser: 429 - [430]
+Empty: 462 - [463] # Textured Quad with no Texture assigned
+==========
+[/Zenebatos - Nomus Court - Environment] -> FOLDER: 925
+Zenebatos Nomus Court: 2
+[/Zenebatos - Nomus Court - Objects] -> FOLDER: 926
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Rose: 33 - [34, 35, 36, 37, 38, 39, 40]
+Albert: 66 - [67, 68, 69, 70, 71]
+Meru: 99 - [100, 101, 102, 103, 104]
+Haschel: 132 - [133, 134, 135, 136, 137]
+Miranda: 165 - [166, 167, 168, 169, 170]
+Kongol: 198 - [199, 200, 201, 202, 203]
+Nomus: 231 - [232]
+KeyGlow: 264 - [265]
+Armed Dart: 297 - [298, 299]
+Armed Rose: 330 - [331, 332]
+Armed Albert: 363 - [364, 365, 366]
+Lapto: 396 - [397]
+==========
+[/Zenebatos - Signet Sphere - Environment] -> FOLDER: 928
+Zenebatos Signet Sphere: 2
+[/Zenebatos - Signet Sphere - Objects] -> FOLDER: 929
+Dart1: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 32]
+Rose: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Albert: 66 - [67, 68, 69, 70, 71]
+Meru: 99 - [100, 101, 102, 103, 104, 105, 106]
+Haschel: 132 - [133, 134, 135, 136, 137, 138, 139]
+KeyGlow: 165 - [166]
+Armed Albert: 198 - [199, 200, 201, 202]
+Zieg: 231 - [232, 233, 234, 235, 236, 237, 238, 239, 240, 241]
+MoonDagger: 264 - [265]
+Armed Dart: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315]
+Lapto: 330 - [331, 336]
+LawPod: 363 - [364]
+Dart2: 396 - [406, 408, 409]
+Fume: 429 - [430]
+==========
+[/Zenebatos - Teleporter Entrance - Environment] -> FOLDER: 487
+Zenebatos Teleporter Entrance: 2
+[/Zenebatos - Teleporter Entrance - Objects] -> FOLDER: 488
+Dart: 0 - [1, 2, 3, 32]
+LandTeleporterOrb: 33 - [34]
+LandTeleporterOrb2: 66 - [67]
+TeleporterGlow: 99 - [100]
+==========
+[/Zenebatos - To Signet Sphere Hallway - Environment] -> FOLDER: 922
+Zenebatos To Signet Sphere Hallway: 2
+[/Zenebatos - To Signet Sphere Hallway - Objects] -> FOLDER: 923
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+FlyingPlatform: 33 - [34]
+Lapto: 66 - [67]
+==========

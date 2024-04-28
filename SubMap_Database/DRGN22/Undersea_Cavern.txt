@@ -1,0 +1,81 @@
+[/Undersea Cavern - Cut 1 - Environment] -> FOLDER: 913
+Undersea Cavern Cut 1: 2
+[/Undersea Cavern - Cut 1 - Objects] -> FOLDER: 914
+Dart: 0 - [1, 2, 3, 32]
+White Treasure Chest: 33 - [34, 35, 36]
+==========
+[/Undersea Cavern - Cut 2 - Environment] -> FOLDER: 916
+Undersea Cavern Cut 2: 2
+[/Undersea Cavern - Cut 2 - Objects] -> FOLDER: 917
+Dart: 0 - [1, 2, 3, 32]
+White Treasure Chest: 33 - [34, 35, 36]
+==========
+[/Undersea Cavern - Cut 3 - Environment] -> FOLDER: 919
+Undersea Cavern Cut 3: 2
+[/Undersea Cavern - Cut 3 - Objects] -> FOLDER: 920
+Dart: 0 - [1, 2, 3, 32]
+White Treasure Chest: 33 - [34, 35, 36]
+==========
+[/Undersea Cavern - Path to Fueno - Environment] -> FOLDER: 907
+Undersea Cavern Path to Fueno: 2
+[/Undersea Cavern - Path to Fueno - Objects] -> FOLDER: 908
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 32]
+Pete: 33 - [34, 35, 36, 44, 45]
+Albert: 66 - [67, 68, 69, 77, 78, 79]
+Shana: 99 - [100, 101, 102, 111, 112, 113, 114]
+Rose: 132 - [133, 134, 135, 143, 144]
+Meru: 165 - [166, 167, 168, 177, 178, 179, 180, 181]
+==========
+[/Undersea Cavern - Path to Fueno Low Tide - Environment] -> FOLDER: 910
+Undersea Cavern Path to Fueno Low Tide: 2
+[/Undersea Cavern - Path to Fueno Low Tide - Objects] -> FOLDER: 911
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 32]
+Shana: 33 - [34, 35, 36, 44, 45, 46, 47, 48]
+Albert: 66 - [67, 68, 69, 77, 78]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113]
+Meru: 132 - [133, 134, 135, 143]
+Kongol: 165 - [166, 167, 168, 176]
+Haschel: 198 - [199, 200, 201, 209]
+White Treasure Chest: 231 - [232, 233, 234]
+==========
+[/Undersea Cavern - Path to Regole's Nest - Environment] -> FOLDER: 973
+Undersea Cavern Path to Regole's Nest: 2
+[/Undersea Cavern - Path to Regole's Nest - Objects] -> FOLDER: 974
+Dart: 0 - [1, 2, 3, 32]
+Dart 2: 33 - [None] # Model with no Animations
+BlankSquare: 99 - [100]
+==========
+[/Undersea Cavern - Regole's Nest CutScene - Environment] -> FOLDER: 979
+Undersea Cavern Regole's Nest CutScene: 2
+[/Undersea Cavern - Regole's Nest CutScene - Objects] -> FOLDER: 980
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+Albert: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75]
+Meru: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113]
+Rose: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141]
+Lenus Dragoon: 165 - [166, 167]
+BlankSquare: 198 - [199]
+Lloyd: 231 - [232, 233, 234, 235, 236, 237, 238, 239, 240]
+Lenus: 264 - [265, 266, 267, 268, 269, 270, 275, 276, 277, 278, 279, 280, 281]
+Armed Dart: 297 - [298, 299, 300, 301, 302]
+Armed Albert: 330 - [331, 332, 333, 334]
+Blue-Sea Dragoon Spirit Glow: 363 - [364]
+Moon Dagger: 396 - [397]
+Blue-Sea Dragoon Spirit Flare: 429 - [430]
+==========
+[/Undersea Cavern - Regole's Nest Far View - Environment] -> FOLDER: 976
+Undersea Cavern Regole's Nest Far View: 2
+[/Undersea Cavern - Regole's Nest Far View - Objects] -> FOLDER: 977
+Dart: 0 - [1, 2, 3, 32]
+Lloyd: 33 - [34]
+Lenus: 66 - [67]
+==========
+[/Undersea Cavern - Whirlpool CutScene - Environment] -> FOLDER: 928
+Undersea Cavern Whirlpool CutScene: 2
+[/Undersea Cavern - Whirlpool CutScene - Objects] -> FOLDER: 929
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 32]
+Albert: 66 - [67, 68, 69, 77, 78, 79]
+Shana: 99 - [100, 101, 102, 111, 112, 113, 114]
+Rose: 132 - [133, 134, 135, 143, 144]
+Meru: 165 - [166, 167, 168, 177, 178, 179, 180, 181]
+==========

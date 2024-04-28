@@ -1,0 +1,136 @@
+[/Fueno - Clinic 1 - Environment] -> FOLDER: 952
+Fueno Clinic 1: 2
+[/Fueno - Clinic 1 - Objects] -> FOLDER: 953
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 32]
+Pete: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45]
+Pete Mother: 66 - [67, 72]
+Female Villager: 99 - [100, 101, 105]
+Child Female Villager: 132 - [133, 138]
+Male Villager: 165 - [166, 167, 171]
+Rose: 231 - [232, 233, 237, 238, 240]
+Shana: 264 - [265, 266, 269, 273, 274]
+Meru: 297 - [298, 299, 300, 302, 303, 306, 307, 308, 309, 310, 311, 312]
+==========
+[/Fueno - Clinic 2 - Environment] -> FOLDER: 955
+Fueno Clinic 2: 2
+[/Fueno - Clinic 2 - Objects] -> FOLDER: 956
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Bishop: 33 - [34, 35, 39]
+Healing Glow: 66 - [67]
+Dog: 99 - [100, 101, 105]
+==========
+[/Fueno - Cut 1 - Environment] -> FOLDER: 931
+Fueno Cut 1: 2
+[/Fueno - Cut 1 - Objects] -> FOLDER: 932
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 42, 43, 44, 45]
+Old Female Villager: 66 - [67, 68, 72]
+Pete: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111]
+Pete Mother: 132 - [133, 134, 138, 139, 140, 141]
+Dran: 165 - [166, 167, 171, 174, 175]
+Male Villager: 198 - [199, 200, 204, 205, 206]
+Shop Attendant: 231 - [232, 233, 237, 238]
+Female Villager: 264 - [265, 266, 270]
+Dog: 297 - [298, 299, 300, 306]
+Post: 330 - [331]
+==========
+[/Fueno - Cut 1 Second time - Environment] -> FOLDER: 964
+Fueno Cut 1 Second time: 2
+[/Fueno - Cut 1 Second time - Objects] -> FOLDER: None
+None: None - [None] # THIS FOLDER DO NOT EXIST
+==========
+[/Fueno - Cut 2 - Environment] -> FOLDER: 934
+Fueno Cut 2: 2
+[/Fueno - Cut 2 - Objects] -> FOLDER: 935
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32] # Have an eating animation?
+Rose: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87]
+Male Villager: 99 - [100, 105]
+Female Villager: 132 - [133, 134, 138]
+Child Male Villager: 165 - [166, 167, 171]
+Child Female Villager: 198 - [199, 200, 204]
+Male Villager 2: 231 - [232, 233, 237]
+Strange Glow: 264 - [265]
+==========
+[/Fueno - Harbor - Environment] -> FOLDER: 937
+Fueno Harbor: 2
+[/Fueno - Harbor - Objects] -> FOLDER: 938
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 31, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 42, 43]
+Kayla: 66 - [67, 68, 69, 72, 73, 74, 75, 76]
+Commodore Puler: 99 - [100, 101, 102, 104, 105, 106, 107, 108]
+Sailor: 132 - [133, 134, 135, 138, 141]
+Retail Bugged Animations: None - [140] # This seems to be a Shana Animation that is displaced
+Shana: 165 - [166, 167, 168, 171, 174]
+Strange Glow: 198 - [199]
+Male Villager: 231 - [232, 233, 237]
+==========
+[/Fueno - Hot Spring Room 1 - Environment] -> FOLDER: 949
+Fueno Hot Spring Room 1: 2
+[/Fueno - Hot Spring Room 1 - Objects] -> FOLDER: 950
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Female Villager: 33 - [34, 35, 39]
+Strange Glow: 66 - [67]
+==========
+[/Fueno - Hot Spring Room 2 - Environment] -> FOLDER: 1150
+Fueno Hot Spring Room 2: 2
+[/Fueno - Hot Spring Room 2 - Objects] -> FOLDER: 1151
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Male Villager: 33 - [34, 35, 39]
+Strange Glow: 66 - [67]
+==========
+[/Fueno - Inn Entrance 1 - Environment] -> FOLDER: 940
+Fueno Inn Entrance 1: 2
+[/Fueno - Inn Entrance 1 - Objects] -> FOLDER: 941
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 46, 47]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82]
+Shana: 99 - [100, 108, 109, 110]
+Haschel: 132 - [133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 144, 145, 151, 155]
+Albert: 165 - [166, 167, 168, 171, 172, 173, 174, 175, 177]
+Kongol: 198 - [199, 200, 203, 205, 207] # Just normal Kongol Mini Model
+Orange Glow: 231 - [232]
+Cardboard Bartender: 330 - [331]
+Cardboard Kongol: 363 - [364]
+Fire: 396 - [397]
+==========
+[/Fueno - Inn Entrance 2 - Environment] -> FOLDER: 961
+Fueno Inn Entrance 2: 2
+[/Fueno - Inn Entrance 2 - Objects] -> FOLDER: 962
+Dart: 0 - [1, 2, 3, 32]
+Old Male Villager: 33 - [34, 35, 39, 42]
+Waitress: 66 - [67, 68, 69, 72]
+Male Villager: 99 - [100, 105]
+Male Villager 2: 132 - [133, 138]
+Female Villager: 165 - [166, 167, 171]
+Lumberjack: 198 - [199, 204] # This is the Lumberjack from Praire?
+Fire: 231 - [232]
+Orange Glow: 330 - [331]
+==========
+[/Fueno - Inn First Floor Hallway - Environment] -> FOLDER: 943
+Fueno Inn First Floor Hallway: 2
+[/Fueno - Inn First Floor Hallway - Objects] -> FOLDER: 944
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32] # Have a lot of animations to be alone... even talking
+Fire: 33 - [34]
+==========
+[/Fueno - Inn Second Room - Environment] -> FOLDER: 958
+Fueno Inn Second Room: 2
+[/Fueno - Inn Second Room - Objects] -> FOLDER: 959
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Fire: 33 - [34]
+Old Male Villager: 165 - [166, 167, 168, 169, 170, 171]
+Old Female Villager: 198 - [199, 200, 204]
+Male Villager: 231 - [232] # Seems to be dizzy or dead lol
+==========
+[/Fueno - Inn Shana Room - Environment] -> FOLDER: 946
+Fueno Inn Shana Room: 2
+[/Fueno - Inn Shana Room - Objects] -> FOLDER: 947
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 24, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76]
+Haschel: 99 - [100, 101, 102, 104, 105, 106, 107]
+Albert: 132 - [133, 134, 135, 138, 139, 140]
+Fire: 165 - [166]
+Male Villager: 231 - [232, 233, 237]
+Female Villager: 264 - [265, 266, 270]
+==========

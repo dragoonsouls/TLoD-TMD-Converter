@@ -1,0 +1,161 @@
+[/Forbidden Land - Coliseum - Environment] -> FOLDER: 205
+Forbidden Land Coliseum: 2
+[/Forbidden Land - Coliseum - Objects] -> FOLDER: 206
+Dart: 0 - [1, 2, 3, 32] # This model seems to be more detailed in some stuff
+TeleporterGlow: 33 - [34]
+TeleporterOrb: 66 - [67, 68]
+StrangeGlow: 99 - [100]
+Miranda: 132 - [133, 134, 135]
+Meru: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176]
+Albert: 198 - [199, 200, 201, 202, 203, 204, 205]
+Haschel: 231 - [232, 233, 234, 235, 236, 237]
+Kongol: 264 - [265, 266, 267, 268, 269]
+Dart 2: 297 - [301, 302, 303, 304, 305, 306, 307, 308, 309]
+==========
+[/Forbidden Land - Coliseum Lloyd and Diaz CutScene - Environment] -> FOLDER: 403
+Forbidden Land Coliseum Lloyd and Diaz CutScene: 2
+[/Forbidden Land - Coliseum Lloyd and Diaz CutScene - Objects] -> FOLDER: 404
+StrangeGlow: 0 - [1]
+Lloyd: 33 - [34, 35, 36, 37, 38, 39]
+Diaz: 66 - [67, 68, 70, 71, 72, 73, 74]
+TeleporterGlow: 99 - [100]
+==========
+[/Forbidden Land - Cut 1 - Environment] -> FOLDER: 196
+Forbidden Land Cut 1: 2
+[/Forbidden Land - Cut 1 - Objects] -> FOLDER: 197
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Miranda: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75]
+Rose: 99 - [100, 101, 102, 103, 104]
+BlankSquare: 132 - [133]
+GreyQuad: 165 - [166] # I don't know what the hell is this
+TreasureChest: 198 - [199, 200, 201]
+StrangeGlow: 231 - [232]
+==========
+[/Forbidden Land - Cut 2 - Environment] -> FOLDER: 199
+Forbidden Land Cut 2: 2
+[/Forbidden Land - Cut 2 - Objects] -> FOLDER: 200
+Dart: 0 - [1, 2, 3, 4, 5, 32]
+TeleporterOrb: 33 - [34, 35]
+StrangeGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+==========
+[/Forbidden Land - Cut 3 - Environment] -> FOLDER: 202
+Forbidden Land Cut 3: 2
+[/Forbidden Land - Cut 3 - Objects] -> FOLDER: 203
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+StrangeGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+TreasureChest: 429 - [430, 431, 432]
+==========
+[/Forbidden Land - Cut 4 - Environment] -> FOLDER: 208
+Forbidden Land Cut 4: 2
+[/Forbidden Land - Cut 4 - Objects] -> FOLDER: 209
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+StrangeGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+==========
+[/Forbidden Land - Cut 5 - Environment] -> FOLDER: 217
+Forbidden Land Cut 5: 2
+[/Forbidden Land - Cut 5 - Objects] -> FOLDER: 218
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+StrangeGlow: 99 - [100]
+ElectricBarrier: 165 - [166]
+==========
+[/Forbidden Land - Cut 6 - Environment] -> FOLDER: 223
+Forbidden Land Cut 6: 2
+[/Forbidden Land - Cut 6 - Objects] -> FOLDER: 224
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+TeleporterGlow: 33 - [34]
+Armed Dart: 66 - [67, 68, 69, 70, 71, 72, 73]
+SpinningHead: 99 - [100]
+StrangeGlow: 132 - [133]
+Meru: 198 - [199, 200, 201, 202, 203, 204]
+TeleporterOrb: 231 - [232, 233]
+ElectricBarrier: 264 - [265]
+==========
+[/Forbidden Land - Cut 7 - Environment] -> FOLDER: 226
+Forbidden Land Cut 7: 2
+[/Forbidden Land - Cut 7 - Objects] -> FOLDER: 227
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+RockyPlatform: 33 - [34]
+StrangeGlow: 66 - [67]
+TeleportOrb: 297 - [298, 299]
+TeleportGlow: 330 - [331]
+TreasureChest: 396 - [397, 398, 399]
+==========
+[/Forbidden Land - Entrance - Environment] -> FOLDER: 193
+Forbidden Land Entrance: 2
+[/Forbidden Land - Entrance - Objects] -> FOLDER: 194
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Dart2: 33 - [None] # Model with no Animations Seems to be not Dart CHECK THIS!!
+Albert: 66 - [67, 68, 69, 70, 71, 72]
+Meru: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112]
+Miranda: 132 - [133, 134, 135, 136]
+TeleporterOrb: 165 - [166, 167]
+==========
+[/Forbidden Land - Grand Jewel Room - Environment] -> FOLDER: 220
+Forbidden Land Grand Jewel Room: 2
+[/Forbidden Land - Grand Jewel Room - Objects] -> FOLDER: 221
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78]
+Albert: 99 - [100, 101, 102, 103, 104, 105, 106, 107]
+MeruFlying: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144]
+JewelBrigth: 165 - [166]
+Rose: 198 - [199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 209]
+TeleporterOrb: 231 - [232, 233]
+TeleporterGlow: 264 - [265]
+Armed Albert: 297 - [298, 299, 300]
+Haschel: 330 - [331, 332, 333, 334, 335]
+GrandJewel: 363 - [364]
+Dragon Block Staff: 396 - [397]
+==========
+[/Forbidden Land - Species Hall - Environment] -> FOLDER: 211
+Forbidden Land Species Hall: 2
+[/Forbidden Land - Species Hall - Objects] -> FOLDER: 212
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Miranda: 33 - [34, 35, 36, 37, 38, 39, 40]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73]
+Albert: 99 - [100, 101, 102, 103, 104, 105, 106, 107]
+Haschel: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145]
+Kongol: 165 - [166, 167, 168, 169, 170, 171]
+Rose: 198 - [199, 200, 201, 202, 203]
+TeleporterOrb: 231 - [232, 233]
+Foam: 264 - [265]
+Foam2: 297 - [298]
+TeleporterGlow: 330 - [331]
+StrangeGlow: 363 - [364]
+==========
+[/Forbidden Land - Wounder Super Virage Room Alive - Environment] -> FOLDER: 229
+Forbidden Land Wounder Super Virage Room Alive: 2
+[/Forbidden Land - Wounder Super Virage Room Alive - Objects] -> FOLDER: 230
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+TeleporterOrb: 33 - [34, 35]
+StrangeGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+Armed Miranda: 132 - [133, 134]
+Armed Albert: 165 - [166, 167]
+Armed Rose: 198 - [199, 200]
+Miranda: 231 - [232, 233, 234, 235, 236, 237]
+Meru: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273, 274]
+Albert: 297 - [298, 299, 300, 301, 302, 303, 304]
+Rose: 330 - [331, 332, 333, 334, 335, 336, 337]
+Armed Dart: 363 - [364, 365]
+==========
+[/Forbidden Land - Wounder Super Virage Room Clean - Environment] -> FOLDER: 214
+Forbidden Land Wounder Super Virage Room Clean: 2
+[/Forbidden Land - Wounder Super Virage Room Clean - Objects] -> FOLDER: 215
+Dart: 0 - [1, 2, 3, 6, 8, 12, 13, 14, 15, 16, 32]
+TeleporterOrb: 33 - [34, 35]
+StrangeGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+Miranda: 231 - [232, 233, 234, 235, 238, 239]
+Meru: 264 - [265, 266, 267, 276, 277, 278, 279]
+Albert: 297 - [298, 299, 300, 301, 304]
+Rose: 330 - [331, 332, 333, 338, 339, 340, 341]
+==========

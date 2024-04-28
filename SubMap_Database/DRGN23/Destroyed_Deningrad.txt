@@ -1,0 +1,63 @@
+[/Destroyed Deningrad - Clinic - Environment] -> FOLDER: 91
+Destroyed Deningrad Clinic: 2
+[/Destroyed Deningrad - Clinic - Objects] -> FOLDER: 92
+Dart: 0 - [1, 2, 3, 32]
+Medic: 33 - [34, 35, 39, 40, 41]
+FemaleVillager: 99 - [100, 101, 105, 106, 107]
+==========
+[/Destroyed Deningrad - Entrance - Environment] -> FOLDER: 70
+Destroyed Deningrad Entrance: 2
+[/Destroyed Deningrad - Entrance - Objects] -> FOLDER: 71
+Dart: 0 - [1, 2, 3, 6, 7, 8, 32]
+Miranda: 33 - [34, 35, 36, 39, 40, 41]
+Albert: 66 - [67, 68, 69, 72, 73]
+CardboardOldMaleVillager: 99 - [100]
+CardboardOldFemaleVillager: 132 - [133]
+Martel: 165 - [166, 167, 168, 171, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195]
+OldMaleVillager: 198 - [199, 200, 201, 207, 208, 209, 210]
+CardboardFemaleVillager: 231 - [232]
+MaleVillager: 264 - [265, 266, 270, 271, 272]
+FemaleVillager: 297 - [298, 299, 303, 304, 305]
+OldMaleVillager2: 330 - [331, 332, 336, 337, 338]
+CardboardChildFemaleVillager: 363 - [364]
+==========
+[/Destroyed Deningrad - Inn - Environment] -> FOLDER: 88
+Destroyed Deningrad Inn: 2
+[/Destroyed Deningrad - Inn - Objects] -> FOLDER: 89
+Dart: 0 - [1, 2, 3, 6, 7, 8, 32]
+Shana: 33 - [34, 42, 43, 45, 46, 47, 51, 52, 53]
+PrincessWink: 66 - [67, 82]
+MilleSeseauKnight: 99 - [100, 101, 105, 106, 107, 108, 109]
+MaleVillager: 264 - [265, 266, 270, 271, 272]
+FemaleVillager: 297 - [298, 299, 303, 304, 305]
+OldFemaleVillager: 330 - [331, 332, 336, 337, 338]
+OldFemaleVillager2: 363 - [364, 365, 369, 370, 371]
+==========
+[/Destroyed Deningrad - Inn Shana Rest CutScene - Environment] -> FOLDER: 181
+Destroyed Deningrad Inn Shana Rest CutScene: 2
+[/Destroyed Deningrad - Inn Shana Rest CutScene - Objects] -> FOLDER: 182
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 13, 14, 16, 22, 32]
+Shana: 33 - [34, 42, 43, 45, 46, 47, 51, 52, 53]
+Albert: 66 - [67, 68, 73, 75, 77, 78]
+Rose: 99 - [100, 101, 108, 109, 110, 111, 112, 114]
+Haschel: 132 - [133, 134, 139, 144]
+Kongol: 165 - [166, 167, 172, 174]
+Meru: 198 - [199, 200, 207, 208, 209, 210, 211]
+Miranda: 231 - [232, 233, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249]
+==========
+[/Destroyed Deningrad - Street to Castle - Environment] -> FOLDER: 73
+Destroyed Deningrad Street to Castle: 2
+[/Destroyed Deningrad - Street to Castle - Objects] -> FOLDER: 74
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 32]
+Miranda: 33 - [34, 35, 39, 40, 41]
+Albert: 66 - [67, 68, 72, 73, 74]
+Rose: 99 - [100, 101, 105, 106, 107]
+Haschel: 132 - [133, 134, 138, 139, 140]
+Kongol: 165 - [166, 167, 168, 171, 172, 173]
+Meru: 198 - [199, 200, 204, 205, 206]
+MilleSeseauKnight: 231 - [232, 233, 236, 237, 238, 239, 240, 241, 242, 243]
+MaleVillager: 264 - [265, 266, 270, 271, 272]
+OldMaleVillager: 297 - [298, 299, 303, 304, 305]
+Bishop: 330 - [331, 332, 336, 337, 338]
+LibrarianUte: 363 - [364, 365, 369, 370, 371]
+==========

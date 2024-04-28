@@ -1,0 +1,45 @@
+[/Neet - Black Monster Remembers - Environment] -> FOLDER: 508
+Neet Black Monster Remembers: 2
+[/Neet - Black Monster Remembers - Objects] -> FOLDER: 509
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8]
+MilleSeseauKnight: 33 - [34, 35, 42, 43, 44]
+Black Monster: 99 - [100, 101]
+WhiteFlame: 132 - [133]
+==========
+[/Neet - Dart Escape Remembers CutScene - Environment] -> FOLDER: 511
+Neet Dart Escape Remembers CutScene: 2
+[/Neet - Dart Escape Remembers CutScene - Objects] -> FOLDER: 512
+ChildDart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12]
+Zieg: 33 - [34, 35, 36, 39, 42, 43, 44, 45]
+Claire: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88]
+==========
+[/Neet - Dart Remembers Destroyed Neet CutScene - Environment] -> FOLDER: 517
+Neet Dart Remembers Destroyed Neet CutScene: 2
+[/Neet - Dart Remembers Destroyed Neet CutScene - Objects] -> FOLDER: 518
+ChildDart: 0 - [1, 2, 3, 8, 9, 10, 11, 12, 13, 14, 15]
+==========
+[/Neet - Entrance - Environment] -> FOLDER: 151
+Neet Entrance: 2
+[/Neet - Entrance - Objects] -> FOLDER: 152
+Dart: 0 - [1, 2, 3, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 42, 43]
+==========
+[/Neet - Luanna Remember Black Monster CutScene - Environment] -> FOLDER: 520
+Neet Luanna Remember Black Monster CutScene: 2
+[/Neet - Luanna Remember Black Monster CutScene - Objects] -> FOLDER: 521
+Dart: 0 - [1, 32]
+ChildLuanna: 33 - [34, 42, 43, 44, 45]
+FemaleVillager: 66 - [67, 75, 76, 77, 78, 79, 80, 81]
+Black Monster: 99 - [100, 101]
+WhiteFlame: 132 - [133]
+Mist: 165 - [166]
+==========
+[/Neet - Tombstone - Environment] -> FOLDER: 154
+Neet Tombstone: 2
+[/Neet - Tombstone - Objects] -> FOLDER: 155
+Dart: 0 - [1, 2, 3, 9, 10, 11, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45]
+PrincessLuanna: 66 - [67, 68, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83]
+PrincessSetie: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117]
+MilleSeseauKnight: 132 - [133, 134, 138, 139, 140, 141, 142]
+==========

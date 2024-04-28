@@ -1,0 +1,242 @@
+[/Unknown Place Disk 4 - Unknown Cut 1 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 1: None
+[/Unknown Place Disk 4 - Unknown Cut 1 - Objects] -> FOLDER: 392
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 2 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 2: None
+[/Unknown Place Disk 4 - Unknown Cut 2 - Objects] -> FOLDER: 395
+Dart: 0 - [1]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 3 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 3: None
+[/Unknown Place Disk 4 - Unknown Cut 3 - Objects] -> FOLDER: 398
+Dart: 0 - [1, 2, 3]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 4 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 4: None
+[/Unknown Place Disk 4 - Unknown Cut 4 - Objects] -> FOLDER: 401
+Dart: 0 - [1, 2, 3]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 5 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 5: None
+[/Unknown Place Disk 4 - Unknown Cut 5 - Objects] -> FOLDER: 404
+Meru: 0 - [1, 2, 3, 4]
+Guaraha: 33 - [34, 35, 36, 37, 38]
+Jar: 66 - [67, 68]
+StrangeGlow: 99 - [100]
+Pelpee: 132 - [133, 134, 135]
+BlueBird: 165 - [166]
+OldMaleVillager: 198 - [199]
+MaleVillager: 231 - [232, 233]
+OldFemaleVillager: 264 - [265, 266, 267, 268, 269]
+MeruShadow: 297 - [298]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 6 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 6: None
+[/Unknown Place Disk 4 - Unknown Cut 6 - Objects] -> FOLDER: 407
+MaleVillagerSerdio: 0 - [1, 2, 3, 4, 5]
+ChildFemaleVillagerDonau: 33 - [34, 35, 36, 37, 38]
+FemaleVillagerRouge: 66 - [67, 68, 69, 70]
+StrangeGlow: 99 - [100]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 7 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 7: None
+[/Unknown Place Disk 4 - Unknown Cut 7 - Objects] -> FOLDER: 410
+Dart: 0 - [1, 2, 3]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 8 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 8: None
+[/Unknown Place Disk 4 - Unknown Cut 8 - Objects] -> FOLDER: 413
+Dart: 0 - [1, 2, 3]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 9 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 9: None
+[/Unknown Place Disk 4 - Unknown Cut 9 - Objects] -> FOLDER: 419
+Empty: 0 - [1] # Textured Quad with no Texture assigned
+==========
+[/Unknown Place Disk 4 - Unknown Cut 10 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 10: None
+[/Unknown Place Disk 4 - Unknown Cut 10 - Objects] -> FOLDER: 422
+Empty1: 0 - [1] # Textured Quad with no Texture assigned
+BakedParticleSystem: 33 - [34, 35, 36] # Sand particles??
+==========
+[/Unknown Place Disk 4 - Unknown Cut 11 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 11: None
+[/Unknown Place Disk 4 - Unknown Cut 11 - Objects] -> FOLDER: 425
+Empty: 0 - [1] # Textured Quad with no Texture assigned
+==========
+[/Unknown Place Disk 4 - Unknown Cut 12 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 12: None
+[/Unknown Place Disk 4 - Unknown Cut 12 - Objects] -> FOLDER: 428
+Empty1: 0 - [1] # Textured Quad with no Texture assigned
+BakedParticleSystem: 33 - [34, 35, 36]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 13 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 13: None
+[/Unknown Place Disk 4 - Unknown Cut 13 - Objects] -> FOLDER: 785
+Dart: 0 - [1, 2, 3]
+LavitzMother: 33 - [34] # She have an unusual Quality
+Doors: 66 - [67] # Seems to be the Dart CutScene when take the 'Drink' in Lavitz Home
+==========
+[/Unknown Place Disk 4 - Unknown Cut 14 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 14: None
+[/Unknown Place Disk 4 - Unknown Cut 14 - Objects] -> FOLDER: 788
+DartReturningHome: 0 - [1, 2, 3] # Dart Model with a sack
+StrangeGlow: 33 - [34] # Textured Quad with no Texture assigned
+==========
+[/Unknown Place Disk 4 - Unknown Cut 15 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 15: None
+[/Unknown Place Disk 4 - Unknown Cut 15 - Objects] -> FOLDER: 791
+BlueBirdRose: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Dart: 33 - [34]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 16 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 16: None
+[/Unknown Place Disk 4 - Unknown Cut 16 - Objects] -> FOLDER: 794
+DartReturningHome: 0 - [1, 2] # Dart Model with a sack (Second take???)
+StrangeGlow: 33 - [34] # Textured Quad with no Texture assigned
+==========
+[/Unknown Place Disk 4 - Unknown Cut 17 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 17: None
+[/Unknown Place Disk 4 - Unknown Cut 17 - Objects] -> FOLDER: 797
+Empty: 0 - [1] # Textured Quad with no Texture assigned
+OldMaleVillager: 33 - [34, 35, 36] 
+OldFemaleVillager: 66 - [67, 68, 69]
+FemaleVillager1: 99 - [100, 101, 102]
+FemaleVillager2: 132 - [133, 134, 135]
+ChildFemaleVillager: 165 - [166, 167, 168]
+Fester: 231 - [232, 233, 234, 235, 236, 237, 238, 239]
+FletzGuard: 264 - [265, 266, 267, 268, 269]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 18 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 18: None
+[/Unknown Place Disk 4 - Unknown Cut 18 - Objects] -> FOLDER: 800
+KeyGlow: 0 - [1]
+Nello: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+PrincessLisa: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75]
+KingZior: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109]
+BlueBirdRose: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141]
+FletzGuard: 165 - [166, 167, 168]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 19 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 19: None
+[/Unknown Place Disk 4 - Unknown Cut 19 - Objects] -> FOLDER: 839
+Empty1: 0 - [1] # Textured Quad with no Texture assigned
+Pete: 33 - [34]
+MaleVillager1: 132 - [133]
+FemaleVillager: 165 - [166]
+OldMaleVillager1: 198 - [199]
+FemaleVillager2: 231 - [232]
+OldMaleVillager2: 264 - [265]
+Empty2: 297 - [298] # Textured Quad with no Texture assigned
+==========
+[/Unknown Place Disk 4 - Unknown Cut 20 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 20: None
+[/Unknown Place Disk 4 - Unknown Cut 20 - Objects] -> FOLDER: 842
+CommodorePuler: 0 - [1, 2, 3]
+BaleSoldier: 33 - [None] # Retail Bugged Model
+Retail Bugged Animations: None - [34, 35, 36] # Model Expected to be used BaleSoldier, seems to be using Dart model
+Dart: 66 - [67]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 21 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 21: None
+[/Unknown Place Disk 4 - Unknown Cut 21 - Objects] -> FOLDER: 845
+Dart: 0 - [1, 2, 3]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 22 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 22: None
+[/Unknown Place Disk 4 - Unknown Cut 22 - Objects] -> FOLDER: 848
+Miranda: 0 - [1]
+PrincessSetie: 33 - [34]
+PrincessWink: 66 - [67]
+PrincessLuanna: 99 - [100]
+QueenTheresa: 132 - [133]
+Empty: 165 - [166] # Textured Quad with no Texture assigned
+==========
+[/Unknown Place Disk 4 - Unknown Cut 23 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 23: None
+[/Unknown Place Disk 4 - Unknown Cut 23 - Objects] -> FOLDER: 851
+Miranda: 0 - [1]
+PrincessSetie: 33 - [34]
+PrincessWink: 66 - [67]
+PrincessLuanna: 99 - [100]
+QueenTheresa: 132 - [133]
+BlueBirdRose: 165 - [166]
+Empty: 198 - [199] # Textured Quad with no Texture assigned
+==========
+[/Unknown Place Disk 4 - Unknown Cut 24 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 24: None
+[/Unknown Place Disk 4 - Unknown Cut 24 - Objects] -> FOLDER: 854
+CharleFrahma: 0 - [1, 2, 3, 4, 5, 6]
+Bird: 33 - [34, 35] # Maybe was the Beta version of BlueBirdRose?
+Dart: 66 - [67]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 25 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 25: None
+[/Unknown Place Disk 4 - Unknown Cut 25 - Objects] -> FOLDER: 857
+Kayla: 0 - [1, 2, 3, 4] # Can't Recall any CutScene using this Characters
+CommodorePuler: 33 - [34, 35, 36, 37]
+OldMaleVillager: 66 - [67]
+MasterTasman: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108]
+MaleVillager3: 132 - [133]
+StrangeGlow: 165 - [166]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 26 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 26: None
+[/Unknown Place Disk 4 - Unknown Cut 26 - Objects] -> FOLDER: 860
+Dart: 0 - [1, 2, 3]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 27 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 27: None
+[/Unknown Place Disk 4 - Unknown Cut 27 - Objects] -> FOLDER: 863
+MaleVillager1: 0 - [1]
+ChildFemaleVillager: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+MaleVillager2: 66 - [67, 68, 69, 70, 71]
+Dabas: 99 - [100, 101, 102, 103]
+ChildMaleVillager1: 132 - [133, 134, 135, 136, 137, 138]
+FemaleVillager: 165 - [166, 167, 168, 169, 170, 171]
+ChildMaleVillager2: 198 - [199, 200, 201, 202, 203, 204]
+FemaleVillager2: 231 - [232, 233, 234]
+StrangeGlow: 264 - [265]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 28 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 28: None
+[/Unknown Place Disk 4 - Unknown Cut 28 - Objects] -> FOLDER: 866
+Haschel: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Kongol: 33 - [34, 35, 36, 37, 38, 39, 40, 41]
+Martel: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77]
+ChildMaleVillager: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114]
+BlueBirdRose: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180]
+StrangeGlow: 198 - [199]
+Dart: 231 - [232]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 29 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 29: None
+[/Unknown Place Disk 4 - Unknown Cut 29 - Objects] -> FOLDER: 869
+Dart: 0 - [1, 2, 3]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 30 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 30: None
+[/Unknown Place Disk 4 - Unknown Cut 30 - Objects] -> FOLDER: 872
+MaleVillager1: 0 - [1, 2]
+MaleVillager2: 33 - [34, 35, 36, 37, 38]
+OldMaleVillager1: 66 - [67, 68, 69, 70, 71]
+Finial: 99 - [100]
+StrangeGlow: 132 - [133]
+BlueBirdRose: 165 - [166, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180]
+Dart: 198 - [199, 200, 201, 202, 203, 204] # Using a DartDistortedTexture
+Shana: 231 - [232, 233, 234, 235, 236] # For some reason Shana have no Texture assigned
+DartsSack: 264 - [265]
+==========
+[/Unknown Place Disk 4 - Unknown Cut 31 - Environment] -> FOLDER: None
+Unknown Place Disk 4 Unknown Cut 31: None
+[/Unknown Place Disk 4 - Unknown Cut 31 - Objects] -> FOLDER: 875
+DartDistortedTexture: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
+Empty: 33 - [34, 35, 36, 46, 47, 48, 49, 58, 59, 60]
+OldMaleVillager: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]
+ChildMaleVillager: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111]
+ChildFemaleVillager: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143]
+StrangeGlow: 165 - [166]
+Shadow: 231 - [232, 233, 234]
+==========

@@ -1,0 +1,44 @@
+[/Fort Magrad - Cut 1 - Environment] -> FOLDER: 409
+Fort Magrad Cut 1: 2
+[/Fort Magrad - Cut 1 - Objects] -> FOLDER: 410
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+Miranda: 33 - [34, 35]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+Rose: 99 - [100, 101, 102, 103, 104, 105]
+Albert: 132 - [133, 134, 135]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201]
+Snowball: 231 - [232]
+TreasureChest: 264 - [265, 266, 267]
+StrangeGlow: 297 - [298]
+==========
+[/Fort Magrad - Cut 2 - Environment] -> FOLDER: 412
+Fort Magrad Cut 2: 2
+[/Fort Magrad - Cut 2 - Objects] -> FOLDER: 413
+Dart: 0 - [1, 2, 3, 4, 32]
+Miranda: 33 - [34, 35] # NOT USED IN THE FINAL RELEASE
+Meru: 66 - [67, 68, 69] # NOT USED IN THE FINAL RELEASE
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135] # NOT USED IN THE FINAL RELEASE
+Haschel: 165 - [166, 167, 168] # NOT USED IN THE FINAL RELEASE
+Kongol: 198 - [199, 200, 201] # NOT USED IN THE FINAL RELEASE
+TreasureChest: 231 - [232, 233, 234]
+StrangeGlow: 264 - [265]
+==========
+[/Fort Magrad - Cut Altar - Environment] -> FOLDER: 415
+Fort Magrad Cut Altar: 2
+[/Fort Magrad - Cut Altar - Objects] -> FOLDER: 416
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+Miranda: 33 - [34, 35] # NOT USED IN THE FINAL RELEASE
+Meru: 66 - [67, 68, 69] # NOT USED IN THE FINAL RELEASE
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108]
+Albert: 132 - [133, 134, 135] # NOT USED IN THE FINAL RELEASE
+Haschel: 165 - [166, 167, 168] # NOT USED IN THE FINAL RELEASE
+Kongol: 198 - [199, 200, 201] # NOT USED IN THE FINAL RELEASE
+Soul Eater: 231 - [232]
+TreasureChest: 264 - [265, 266, 267]
+Armed Rose: 297 - [298, 299, 300, 301, 302, 303, 304]
+Armed Dart: 330 - [331, 332]
+Diaz: 363 - [364, 365, 367, 368, 369, 370, 371] # NOT USED IN THE FINAL RELEASE
+Zieg: 396 - [401, 402] # NOT USED IN THE FINAL RELEASE
+==========

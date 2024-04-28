@@ -1,0 +1,82 @@
+[/Valley of Corrupted Gravity - Cut 1 - Environment] -> FOLDER: 760
+Valley of Corrupted Gravity Cut 1: 2
+[/Valley of Corrupted Gravity - Cut 1 - Objects] -> FOLDER: 761
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Rock Platform: 33 - [34]
+Shana: 165 - [166, 167, 168, 169, 170]
+Meru: 198 - [199, 200, 201, 202, 203, 204, 205, 206]
+Rose: 231 - [232, 233, 234, 235, 236, 237, 238, 239]
+Wadering Rock: 264 - [265]
+White Treasure Chest: 297 - [298, 299, 300]
+RockFireflies: 330 - [331]
+==========
+[/Valley of Corrupted Gravity - Cut 2 - Environment] -> FOLDER: 763
+Valley of Corrupted Gravity Cut 2: 2
+[/Valley of Corrupted Gravity - Cut 2 - Objects] -> FOLDER: 764
+Dart: 0 - [1, 2, 3, 4, 5, 32]
+Rock Platform: 33 - [34]
+Wadering Rock Platform: 231 - [232]
+White Treasure Chest: 264 - [265, 266, 267]
+Strange Glow: 297 - [298]
+==========
+[/Valley of Corrupted Gravity - Cut 3 - Environment] -> FOLDER: 766
+Valley of Corrupted Gravity Cut 3: 2
+[/Valley of Corrupted Gravity - Cut 3 - Objects] -> FOLDER: 767
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Rock Platform: 33 - [34]
+Wadering Rock: 297 - [298]
+Inverting Gravity Light: 330 - [331]
+Strange Glow: 363 - [364]
+==========
+[/Valley of Corrupted Gravity - Cut 4 - Environment] -> FOLDER: 775
+Valley of Corrupted Gravity Cut 4: 2
+[/Valley of Corrupted Gravity - Cut 4 - Objects] -> FOLDER: 776
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Rock Platform: 33 - [34]
+White Glow: 264 - [265]
+Shana: 297 - [298, 299, 300, 301, 302, 303]
+Meru: 330 - [331, 332, 333, 334, 335, 336]
+Rose: 363 - [364, 365, 366, 367]
+Armed Dart: 396 - [397]
+White Treasure Chest: 429 - [430, 431, 432]
+Empty: 462 - [463] # I don't know what it is, since is are two Textured-Only Quads
+==========
+[/Valley of Corrupted Gravity - Cut 5 - Environment] -> FOLDER: 772
+Valley of Corrupted Gravity Cut 5: 2
+[/Valley of Corrupted Gravity - Cut 5 - Objects] -> FOLDER: 773
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Rose: 99 - [100, 101, 102, 103, 104, 105]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143]
+Haschel: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176]
+==========
+[/Valley of Corrupted Gravity - Entrance 1 - Environment] -> FOLDER: 757
+Valley of Corrupted Gravity Entrance 1: 2
+[/Valley of Corrupted Gravity - Entrance 1 - Objects] -> FOLDER: 758
+Dart: 0 - [1, 2, 3, 4, 5, 32]
+Fletz Guard: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+Horse: 66 - [67, 68, 69, 70, 71]
+Strange Glow: 99 - [100]
+==========
+[/Valley of Corrupted Gravity - Entrance 2 - Environment] -> FOLDER: 778
+Valley of Corrupted Gravity Entrance 2: 2
+[/Valley of Corrupted Gravity - Entrance 2 - Objects] -> FOLDER: 779
+Dart: 0 - [1, 2, 3, 4, 5, 32]
+Fletz Guard: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43]
+Horse: 66 - [67, 68, 69, 70, 71]
+Strange Glow: 99 - [100]
+==========
+[/Valley of Corrupted Gravity - Virage CutScene - Environment] -> FOLDER: 769
+Valley of Corrupted Gravity Virage CutScene: 2
+[/Valley of Corrupted Gravity - Virage CutScene - Objects] -> FOLDER: 770
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Rock Platform: 33 - [34]
+Strange Glow: 264 - [265]
+Shana: 297 - [298, 299, 300, 301, 302, 303]
+Meru: 330 - [331, 332, 333, 334, 335, 336]
+Rose: 363 - [364, 365, 366, 367]
+Armed Dart: 396 - [397]
+White Treasure Chest: 429 - [430, 431, 432]
+White Glow: 462 - [463]
+==========

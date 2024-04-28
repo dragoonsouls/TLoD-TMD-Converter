@@ -1,0 +1,239 @@
+[/Fletz - Accessory Shop - Environment] -> FOLDER: 637
+Fletz Accessory Shop: 2
+[/Fletz - Accessory Shop - Objects] -> FOLDER: 638
+Dart: 0 - [1, 2, 3, 6, 7, 8, 32]
+Shop Attendant: 33 - [34, 35, 39]
+Female Villager: 66 - [67, 68, 72]
+Fire: 99 - [100]
+==========
+[/Fletz - Bar Night - Environment] -> FOLDER: 625
+Fletz Bar Day 1: 2
+[/Fletz - Bar Day 1 - Objects] -> FOLDER: 626
+Dart: 0 - [1, 2, 3, 32]
+Kaffi: 33 - [34, 35, 36, 39]
+Bar Owner: 66 - [67, 68, 72]
+Male Villager: 99 - [100, 101, 105]
+Male Villager 2: 132 - [133, 134, 138]
+Female Villager: 165 - [166, 167, 171]
+Fletz Giant Guard: 198 - [199]
+Orange Glow: 231 - [232]
+Blue Glow: 330 - [331]
+==========
+[/Fletz - Bar Day - Environment] -> FOLDER: 661
+Fletz Bar Day 2: 2
+[/Fletz - Bar Day 2 - Objects] -> FOLDER: 662
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 14, 15, 16, 17, 18, 19, 20, 32]
+Kaffi: 33 - [34, 35, 36, 39, 40, 41, 42, 44, 45]
+Shana: 66 - [67, 68, 72, 73]
+Albert: 99 - [100, 101, 105, 106]
+Rose: 132 - [133, 134, 143, 144]
+Haschel: 165 - [166, 167]
+Bar Owner: 198 - [199, 200, 204, 207]
+Male Villager: 231 - [232, 233, 237]
+Martel: 264 - [265, 266, 270, 272, 274, 275, 276, 277, 278, 280, 281, 282, 283, 284]
+==========
+[/Fletz - Church - Environment] -> FOLDER: 643
+Fletz Church: 2
+[/Fletz - Church - Objects] -> FOLDER: 644
+Dart: 0 - [1, 2, 3, 6, 32]
+Bishop: 33 - [34, 35, 39]
+Male Villager: 66 - [67, 68, 72]
+Female Villager: 99 - [100, 101, 105]
+Old Female Villager: 132 - [133, 134, 138]
+Child Male Villager: 165 - [166, 167, 171]
+Female Villager 2: 198 - [199]
+Fire: 231 - [232]
+==========
+[/Fletz - Clinic 1 - Environment] -> FOLDER: 631
+Fletz Clinic 1: 2
+[/Fletz - Clinic 1 - Objects] -> FOLDER: 632
+Dart: 0 - [1, 2, 3, 32]
+Female Villager: 33 - [34, 35, 39]
+Male Villager: 66 - [67, 68, 72]
+Pregnant Female Villager: 99 - [100, 101, 105]
+Orange Glow: 132 - [133]
+Fire: 198 - [199]
+==========
+[/Fletz - Clinic 2 - Environment] -> FOLDER: 634
+Fletz Clinic 2: 2
+[/Fletz - Clinic 2 - Objects] -> FOLDER: 635
+Dart: 0 - [1, 2, 3, 4, 6, 11, 12, 32]
+Medic: 33 - [34, 35]
+Healing Glow: 66 - [67] 
+==========
+[/Fletz - Cut 1 Day - Environment] -> FOLDER: 607
+Fletz Cut 1 Day: 2
+[/Fletz - Cut 1 Day - Objects] -> FOLDER: 608
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 10, 11, 12, 14, 15, 16, 18, 19, 21, 32]
+Shana: 33 - [34, 35, 37, 39, 40, 41, 43]
+Haschel: 66 - [67, 68, 72, 73, 77, 78]
+Rose: 99 - [100, 101, 105, 107, 110]
+Albert: 132 - [133, 134, 138, 139, 140, 143, 144]
+Nello: 165 - [166, 167, 171, 172, 173, 174, 176]
+Female Villager: 198 - [199, 200, 204]
+Male Villager: 231 - [232, 233, 237]
+Old Female Villager: 264 - [265, 266, 270]
+Turnip Branch: 297 - [298]
+Turnip: 330 - [331]
+==========
+[/Fletz - Cut 1 Night - Environment] -> FOLDER: 655
+Fletz Cut 1 Night: 2
+[/Fletz - Cut 1 Night - Objects] -> FOLDER: 656
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 13, 14, 15, 16, 17, 18, 32]
+Fletz Giant Guard: 33 - [34, 35, 36, 39, 42]
+Shana: 99 - [100, 101, 102, 103, 105, 106, 107, 108, 110, 111]
+Fester: 132 - [133, 134, 138, 139]
+Female Villager: 165 - [166, 167, 171]
+Turnip Branch: 198 - [199]
+Orange Glow: 297 - [298]
+==========
+[/Fletz - Cut 2 Day - Environment] -> FOLDER: 610
+Fletz Cut 2 Day: 2
+[/Fletz - Cut 2 Day - Objects] -> FOLDER: 611
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 32]
+Albert: 33 - [34, 35, 39, 40, 41, 44]
+Fester: 66 - [67, 68, 72, 73]
+Fletz Giant Guard: 99 - [100, 101, 102, 105]
+Female Villager: 132 - [133, 134, 135, 138]
+Male Villager: 165 - [166, 167, 168, 171]
+Old Male Villager: 198 - [199, 200, 201, 204]
+==========
+[/Fletz - Cut 2 Night - Environment] -> FOLDER: 658
+Fletz Cut 2 Night: 2
+[/Fletz - Cut 2 Night - Objects] -> FOLDER: 659
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 32]
+Fletz Giant Guard: 33 - [34, 35, 39, 40, 41, 42]
+Fester: 66 - [67, 68, 72, 73, 74]
+Male Villager: 99 - [100, 105]
+Bandit: 132 - [133, 134, 138]
+==========
+[/Fletz - Fester's House Night - Environment] -> FOLDER: 640
+Fletz Fester's House Night: 2
+[/Fletz - Fester's House Night - Objects] -> FOLDER: 641
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 32]
+Fester: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48]
+Shana: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81]
+Albert: 99 - [100, 101, 105, 106, 107]
+Rose: 132 - [133, 134, 143, 144, 145]
+Haschel: 165 - [166, 167, 170, 171, 172]
+Meru: 198 - [199, 200, 204, 205, 209, 210, 211, 212, 213, 214]
+Orange Glow: 231 - [232]
+==========
+[/Fletz - Fletz Chatting CutScene - Environment] -> FOLDER: 1171
+Fletz Fletz Chatting CutScene: 2
+[/Fletz - Fletz Chatting CutScene - Objects] -> FOLDER: 1172
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 32]
+Albert: 33 - [34, 35, 36, 39, 40, 41]
+Meru: 66 - [67, 68, 69, 72, 73, 74, 77]
+Shana: 99 - [100, 101, 102, 105, 106, 107]
+Rose: 132 - [133, 134, 135]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201]
+Cardboard Male Villager: 231 - [232]
+Cardboard Female Villager: 264 - [265]
+Cardboard Male Villager 2: 297 - [298]
+Cardboard Female Villager 2: 330 - [331]
+==========
+[/Fletz - House 1 Night - Environment] -> FOLDER: 619
+Fletz House 1 Night: 2
+[/Fletz - House 1 Night - Objects] -> FOLDER: 620
+Dart: 0 - [1, 2, 3, 32]
+Male Villager: 33 - [34, 35, 39]
+Orange Glow: 66 - [67]
+==========
+[/Fletz - House 2 Day - Environment] -> FOLDER: 628
+Fletz House 2 Day: 2
+[/Fletz - House 2 Day - Objects] -> FOLDER: 629
+Dart: 0 - [1, 2, 3, 6, 32]
+Old Male Villager: 33 - [34, 35, 39]
+Old Female Villager: 66 - [67, 68, 72]
+==========
+[/Fletz - Inn - Environment] -> FOLDER: 622
+Fletz Inn: 2
+[/Fletz - Inn - Objects] -> FOLDER: 623
+Dart: 0 - [1, 2, 3, 32]
+Male Villager: 33 - [34, 35, 39]
+Female Villager: 66 - [67, 68, 72]
+Male Villager 2: 99 - [100, 101, 105]
+Old Male Villager: 132 - [133, 134, 138]
+Child Male Villager: 165 - [166, 167, 171]
+Male Villager 3: 198 - [199, 200, 204]
+Orange Glow: 231 - [232]
+==========
+[/Fletz - Item Shop - Environment] -> FOLDER: 646
+Fletz Item Shop: 2
+[/Fletz - Item Shop - Objects] -> FOLDER: 647
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 32]
+Shop Attendant: 33 - [34, 35, 39]
+Female Villager: 66 - [67, 68, 72]
+Fester: 99 - [100, 101, 105, 106, 107, 110]
+Orange Glow: 132 - [133]
+==========
+[/Fletz - Nello's House Night - Environment] -> FOLDER: 613
+Fletz Nello's House Night: 2
+[/Fletz - Nello's House Night - Objects] -> FOLDER: 614
+Dart: 0 - [1, 2, 3, 5, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32]
+Nello: 33 - [34, 35, 38, 39, 41]
+Shana: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 79, 80, 81, 82, 83, 84]
+Albert: 99 - [100, 101, 102, 105, 106, 107, 108]
+Rose: 132 - [133, 134, 135, 138, 139, 140, 141]
+Haschel: 165 - [166, 167, 168, 171, 172]
+Orange Glow: 198 - [199]
+==========
+[/Fletz - Planetary 1 - Environment] -> FOLDER: 649
+Fletz Planetary 1: 2
+[/Fletz - Planetary 1 - Objects] -> FOLDER: 650
+Dart: 0 - [1, 2, 3, 4, 11, 12, 13, 32]
+Male Villager: 33 - [34, 35, 36, 39]
+Female Villager: 66 - [67, 68, 72]
+==========
+[/Fletz - Planetary 2 - Environment] -> FOLDER: 652
+Fletz Planetary 2: 2
+[/Fletz - Planetary 2 - Objects] -> FOLDER: 653
+Dart: 0 - [1, 2, 3, 4, 11, 12, 13, 14, 15, 16, 32]
+Male Villager: 33 - [34, 35, 39]
+Zodiac Dome: 66 - [67]
+Fire: 99 - [100]
+==========
+[/Fletz - Telescope Moon - Environment] -> FOLDER: 709
+Fletz Telescope Moon: 2
+[/Fletz - Telescope Moon - Objects] -> FOLDER: 710
+Dart: 0 - [1] # Pretty much sure that this model is not used, just as a placeholder for PlayerStart
+==========
+[/Fletz - Twin Castle Entrance Emille CutScene 1 - Environment] -> FOLDER: 664
+Fletz Twin Castle Entrance Emille CutScene 1: 2
+[/Fletz - Twin Castle Entrance Emille CutScene 1 - Objects] -> FOLDER: 665
+Fire: 0 - [1]
+Princess Emille: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 54, 55, 57, 58, 59, 60, 61, 62]
+Pregnant Female: 66 - [67, 68, 72, 77, 78, 79, 80]
+Male Villager: 99 - [100, 101, 102, 105]
+Fletz Giant Guard: 132 - [133, 134, 135, 138]
+Male Villager 2: 165 - [166, 167, 168, 171]
+Child Male Villager: 198 - [199, 200, 201, 204]
+Female Villager: 231 - [232, 233, 234, 237]
+Cardboard Female Villager: 264 - [265]
+Dog: 297 - [298, 299, 300, 303, 308, 309, 310, 311]
+Old Male Villager: 330 - [331, 332, 336]
+Cardboard Female Villager 2: 363 - [364]
+Cardboard Male Villager: 396 - [397]
+Fire: 429 - [430]
+==========
+[/Fletz - Twin Castle Entrance Emille CutScene 2 - Environment] -> FOLDER: 706
+Fletz Twin Castle Entrance Emille CutScene 2: 2
+[/Fletz - Twin Castle Entrance Emille CutScene 2 - Objects] -> FOLDER: 707
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18]
+Meru: 33 - [34, 35, 36, 37, 39, 40, 41, 44, 45, 46, 48, 49, 50, 52, 53, 54, 55, 56, 57]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Fletz Giant Guard: 99 - [100, 101, 102, 105, 106, 107, 110, 111, 112]
+Shana: 132 - [133, 134, 135, 136, 138]
+Haschel: 165 - [166, 167, 168, 169, 171, 172]
+Rose: 198 - [199, 200, 204]
+==========
+[/Fletz - Weapon Shop - Environment] -> FOLDER: 616
+Fletz Weapon Shop: 2
+[/Fletz - Weapon Shop - Objects] -> FOLDER: 617
+Dart: 0 - [1, 2, 3, 32]
+Shop Attendant: 33 - [34, 35, 39]
+Male Villager: 66 - [67, 68, 72]
+Orange Glow: 99 - [100]
+==========

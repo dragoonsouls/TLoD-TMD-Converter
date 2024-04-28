@@ -161,6 +161,10 @@ class ConvertGuiFiles:
             self.update_bar_progression(model_processed=percent)
             percent += length_bar
         
+        new_message = messagebox.showinfo(title='Conversion Finished', message=f'Total Files Converted: {len(self.files_to_convert)}')
+        if new_message == f'ok':
+            self.master.destroy()
+        
     def create_folders(self, folder_list=list, dump_path=str) -> list:
         """Create a list of paths to create folders, returning a list if necessary to get files or other folders into it"""
         complete_path_base = []
@@ -679,11 +683,11 @@ class ConvertGuiFiles:
     def update_percent_label(self, number_add=float):
         self.percentage_label.update_idletasks()
         percent_string = "%.2f" % number_add
-        print(percent_string)
+        #print(percent_string)
         self.percentage_label.config(text=f'{percent_string}%')
 
     def update_bar_progression(self, model_processed=float):
         self.new_bar.update_idletasks()
         model_processed_round = round(model_processed)
         self.new_bar['value'] = model_processed_round
-        print(self.new_bar['value'])
+        #print(self.new_bar['value'])

@@ -1,0 +1,12 @@
+[/Start Disk 3 - Arrival - Environment] -> FOLDER: 514
+Start Disk 3 Arrival: 2
+[/Start Disk 3 - Arrival - Objects] -> FOLDER: 515
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32] # Rolling Dart animation... WHY????
+Rose: 33 - [34, 35, 42, 43]
+Shana: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+Albert: 99 - [100, 101, 102, 105, 106, 107, 108]
+Haschel: 132 - [133, 134, 135, 138, 139, 140, 141, 142]
+Meru: 165 - [166, 167, 168, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180] # Some fainting and falling animations... WHY???
+CardboardKongol: 198 - [199]
+StrangeGlow: 231 - [232]
+==========

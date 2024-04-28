@@ -1,0 +1,91 @@
+[/Evergreen Forest - Cut 1 - Environment] -> FOLDER: 40
+Evergreen Forest Cut 1: 2
+[/Evergreen Forest - Cut 1 - Objects] -> FOLDER: 41
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Evergreen Forest - Cut 2 - Environment] -> FOLDER: 43
+Evergreen Forest Cut 2: 2
+[/Evergreen Forest - Cut 2 - Objects] -> FOLDER: 44
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Serfius: 33 - [34, 35, 39, 42]
+Teo: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 78]
+Gorgaga: 99 - [100, 101, 105]
+Kamuy: 132 - [133, 134, 135, 138, 141, 142]
+Warrior1: 165 - [166, 167, 168, 171]
+Warrior2: 198 - [199, 200, 201, 204]
+MilleSeseauKnight: 231 - [232, 233, 237, 240]
+Atlow: 264 - [265, 266]
+Greham: 297 - [298, 299]
+TreasureChest: 330 - [331, 332, 333]
+Shana: 363 - [364, 365, 369]
+Albert: 396 - [397, 398, 402]
+ResonatingGround: 429 - [430]
+==========
+[/Evergreen Forest - Cut 3 - Environment] -> FOLDER: 46
+Evergreen Forest Cut 3: 2
+[/Evergreen Forest - Cut 3 - Objects] -> FOLDER: 47
+Dart: 0 - [1, 2, 3, 32]
+TreasureChest: 33 - [34, 35, 36]
+FlyingRat: 66 - [67, 75]
+==========
+[/Evergreen Forest - Cut 4 - Environment] -> FOLDER: 49
+Evergreen Forest Cut 4: 2
+[/Evergreen Forest - Cut 4 - Objects] -> FOLDER: 50
+Dart: 0 - [1, 2, 3, 7, 9, 10, 11, 32]
+MilleSeseauKnight: 33 - [34, 35, 39]
+Miranda: 66 - [67, 68, 69, 72, 73, 75]
+TreasureChest: 99 - [100, 101, 102]
+==========
+[/Evergreen Forest - Cut 5 - Environment] -> FOLDER: 55
+Evergreen Forest Cut 5: 2
+[/Evergreen Forest - Cut 5 - Objects] -> FOLDER: 56
+Dart: 0 - [1, 2, 3, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 32]
+Rose: 33 - [34, 35, 36, 39, 42, 43, 44]
+Meru: 66 - [67, 68, 69, 70, 72, 73, 75, 76, 77, 78]
+Miranda: 198 - [199, 200, 201, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216]
+Albert: 231 - [232, 233, 234, 237, 238, 240, 241, 242]
+Haschel: 264 - [265, 266, 270, 271, 272]
+Shana: 297 - [298, 299, 300, 303, 304, 306, 307]
+MilleSeseauKnight: 330 - [331, 332, 336, 337, 338, 339, 340, 341, 342, 343]
+TreasureChest: 429 - [430, 431, 432]
+==========
+[/Evergreen Forest - Kamuy Nest - Environment] -> FOLDER: 52
+Evergreen Forest Kamuy Nest: 2
+[/Evergreen Forest - Kamuy Nest - Objects] -> FOLDER: 53
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 32]
+Kamuy: 33 - [34, 35, 36, 42, 43, 44, 45]
+Teo: 66 - [67, 68, 72, 73, 74]
+Gorgaga: 99 - [100, 101, 105, 108]
+MilleSeseauKnight: 132 - [133, 134, 138, 140, 141, 142, 143]
+Shana: 165 - [166, 167, 169, 171, 172, 173, 174, 175, 176]
+Albert: 198 - [199, 200, 204, 205]
+ResonatingGround: 264 - [265]
+Armed Dart: 330 - [333, 339]
+Miranda: 363 - [364, 365, 369, 370, 371, 372, 373]
+Armed Shana: 396 - [397]
+==========
+[/Evergreen Forest - Princess Wink Assault CutScene - Environment] -> FOLDER: 61
+Evergreen Forest Princess Wink Assault CutScene: 2
+[/Evergreen Forest - Princess Wink Assault CutScene - Objects] -> FOLDER: 62
+Lloyd: 0 - [1]
+WinglyConjuringAlphabet: 33 - [34]
+Fireball: 66 - [67]
+PrincessWink: 99 - [100, 101, 102, 103, 105, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125]
+Armed Lloyd Dragon Buster: 132 - [133, 134, 135, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151]
+Bardel: 165 - [166, 167, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193]
+MilleSeseauKnight: 231 - [232, 233, 237, 238, 239, 240, 241, 242, 243, 244]
+FireDome: 363 - [364]
+Fume: 396 - [397]
+==========
+[/Evergreen Forest - Wingly Forest Portal - Environment] -> FOLDER: 58
+Evergreen Forest Wingly Forest Portal: 2
+[/Evergreen Forest - Wingly Forest Portal - Objects] -> FOLDER: 59
+Dart: 0 - [1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 32]
+Rose: 33 - [34, 35, 42]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79]
+Miranda: 99 - [100, 101, 105, 106, 107, 108, 109, 110, 111, 112, 113]
+Albert: 132 - [133, 134, 138, 139, 140, 141]
+Haschel: 165 - [166, 167, 171, 172, 173, 174]
+Kongol: 198 - [199, 200, 203, 204, 205, 206, 207, 208]
+WinglyWings: 231 - [232]
+==========

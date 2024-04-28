@@ -1,0 +1,14 @@
+[/Ending - Final Boss Aftermath Exterior Pane - Environment] -> FOLDER: 829
+Ending Final Boss Aftermath Exterior Pane: 2
+[/Ending - Final Boss Aftermath Exterior Pane - Objects] -> FOLDER: 830
+KeyGlow: 0 - [1]
+BlueBirdRose: 33 - [34, 35, 36, 37]
+==========
+[/Ending - THE END Scene - Environment] -> FOLDER: 832
+Ending THE END Scene: 2
+[/Ending - THE END Scene - Objects] -> FOLDER: 833
+KeyGlow: 0 - [1]
+BlueBirdRose: 33 - [34, 35]
+RedBirdZieg: 66 - [67, 68, 69]
+THE END Model: 99 - [100]
+==========

@@ -1,0 +1,144 @@
+[/Furni - Clinic - Environment] -> FOLDER: 28
+Furni Clinic: 2
+[/Furni - Clinic - Objects] -> FOLDER: 29
+Dart: 0 - [1, 2, 3, 32]
+PumpkinRaft: 33 - [34]
+Medic: 66 - [67, 68, 72, 73, 74, 75, 76]
+==========
+[/Furni - Cut 1 - Environment] -> FOLDER: 7
+Furni Cut 1: 2
+[/Furni - Cut 1 - Objects] -> FOLDER: 8
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+PumpkinRaft: 33 - [34]
+ChildMaleVillager: 66 - [67, 68, 72]
+OldFemaleVillager: 99 - [100, 101, 105]
+Sailor: 132 - [133, 134, 135, 138, 141]
+FemaleVillager: 165 - [166, 167, 171]
+Dart2: 198 - [None] # Model with no Animations
+Kayla: 363 - [364, 365, 366, 369, 370, 372]
+QueenFuryBridge: 396 - [397, 398, 399, 400]
+==========
+[/Furni - Cut 1 Arrival - Environment] -> FOLDER: 4
+Furni Cut 1 Arrival: 2
+[/Furni - Cut 1 Arrival - Objects] -> FOLDER: 5
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+BaldWarrior: 33 - [34, 36]
+Rose: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 78]
+Meru: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111]
+Haschel: 132 - [133, 134, 135, 137, 138, 139, 140]
+Shana: 165 - [166, 167, 168, 171, 172, 173, 174, 175, 176]
+Kongol: 198 - [199, 200, 201, 203, 204, 205, 206, 207]
+Albert: 231 - [232, 233, 234, 237, 238, 239, 240]
+Serfius: 264 - [265, 266]
+BaldWarrior2: 297 - [298, 299, 300, 303]
+Sailor: 330 - [331, 332, 336, 339]
+Kayla: 363 - [364, 365, 366, 369, 370, 372]
+QueenFuryBridge: 396 - [397, 398, 399, 400]
+==========
+[/Furni - Cut 2 - Environment] -> FOLDER: 10
+Furni Cut 2: 2
+[/Furni - Cut 2 - Objects] -> FOLDER: 11
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+PumpkinRaft: 33 - [34]
+MilleSeseauKnight: 66 - [67, 68, 72, 73, 74, 75]
+Gorgagas: 99 - [100, 101, 105, 108, 109, 110]
+BaldWarrior: 132 - [133, 134, 135, 138]
+CardboardDrake: 165 - [166]
+CardboardSerfius: 198 - [199]
+Atlow: 231 - [232, 233, 237]
+OldMaleVillager: 264 - [265, 270]
+Fisher: 297 - [298]
+MaleVillager: 330 - [331, 332, 336]
+OldFemaleVillager: 363 - [364, 365, 369]
+CardboardDanton: 396 - [397]
+CardboardGreham: 429 - [430]
+==========
+[/Furni - Cut 3 - Environment] -> FOLDER: 13
+Furni Cut 3: 2
+[/Furni - Cut 3 - Objects] -> FOLDER: 14
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 32]
+PumpkinRaft: 33 - [34]
+Gorgaga: 66 - [67, 68]
+Teo: 99 - [100, 101, 105]
+Kamuy: 132 - [133, 134, 135]
+Fa: 165 - [166, 167, 171]
+==========
+[/Furni - House 1 - Environment] -> FOLDER: 16
+Furni House 1: 2
+[/Furni - House 1 - Objects] -> FOLDER: 17
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+PumpkinRaft: 33 - [34]
+MaleVillager: 66 - [67, 68, 72]
+FemaleVillager: 99 - [100, 101, 105]
+ChildMaleVillager: 132 - [133, 134, 138]
+==========
+[/Furni - Inn - Environment] -> FOLDER: 25
+Furni Inn: 2
+[/Furni - Inn - Objects] -> FOLDER: 26
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32]
+PumpkinRaft: 33 - [34]
+MaleVillager: 66 - [67, 68, 72, 73, 74]
+OldMaleVillager: 99 - [100, 101, 105]
+FemaleVillager: 132 - [133, 134, 138]
+CardboardMaleVillager: 165 - [166]
+OldFemaleVillager: 198 - [199, 200, 204]
+Fisher: 297 - [298]
+==========
+[/Furni - Item Shop - Environment] -> FOLDER: 19
+Furni Item Shop: 2
+[/Furni - Item Shop - Objects] -> FOLDER: 20
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 32]
+PumpkinRaft: 33 - [34]
+Merchant: 66 - [67, 68, 72, 73, 74]
+==========
+[/Furni - Mayor House - Environment] -> FOLDER: 31
+Furni Mayor House: 2
+[/Furni - Mayor House - Objects] -> FOLDER: 32
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+PumpkinRaft: 33 - [34]
+Mayor: 66 - [67, 68, 72, 73, 74]
+Fa: 99 - [100, 101, 105, 106, 107]
+Shana: 132 - [133, 134, 135, 136, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151]
+Albert: 165 - [166, 167, 168, 171, 172, 173]
+Rose: 198 - [199, 200, 204, 205, 206]
+==========
+[/Furni - Mayor House CutScene - Environment] -> FOLDER: 37
+Furni Mayor House CutScene: 2
+[/Furni - Mayor House CutScene - Objects] -> FOLDER: 38
+Dart: 0 - [1, 2, 3, 32]
+Shana: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]
+Haschel: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77, 78, 79]
+Meru: 99 - [100, 101, 102, 105, 106, 107]
+Albert: 132 - [133, 134, 135, 138, 139, 140, 141, 142]
+Rose: 165 - [166, 167, 168, 171, 172, 173]
+Kongol: 198 - [199, 200, 201, 203, 204, 205, 206]
+Fa: 231 - [232, 233, 237, 238, 239]
+Mayor: 264 - [265, 266, 270, 271, 272]
+==========
+[/Furni - Mayor House Roof CutScene - Environment] -> FOLDER: 502
+Furni Mayor House Roof CutScene: 2
+[/Furni - Mayor House Roof CutScene - Objects] -> FOLDER: 503
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45]
+Meru: 66 - [67, 68, 69, 70, 72, 73, 74, 75, 76, 77, 78]
+Albert: 99 - [100, 101, 102, 105, 106, 108]
+Clouds: 132 - [133]
+Dart and Shana: 231 - [232, 233, 234, 235, 237]
+==========
+[/Furni - Teo's House - Environment] -> FOLDER: 34
+Furni Teo's House: 2
+[/Furni - Teo's House - Objects] -> FOLDER: 35
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+TeoFather: 33 - [34, 35, 39]
+TeoMother: 66 - [67, 68, 72]
+WoodPortalBlock: 99 - [100]
+==========
+[/Furni - Warrior's House - Environment] -> FOLDER: 22
+Furni Warrior's House: 2
+[/Furni - Warrior's House - Objects] -> FOLDER: 23
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+MilleSeseauKnight: 33 - [34, 35, 39, 40, 41, 42, 43, 44]
+Gorgaga: 66 - [67, 68, 72]
+Atlow: 99 - [100, 101, 105]
+BaldWarrior: 132 - [133, 134, 138]
+==========

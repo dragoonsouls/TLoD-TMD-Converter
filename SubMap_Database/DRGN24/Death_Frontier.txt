@@ -1,0 +1,469 @@
+[/Death Frontier - Cut 1 - Environment] -> FOLDER: 985
+Death Frontier Cut 1: 2
+[/Death Frontier - Cut 1 - Objects] -> FOLDER: 986
+Dart: 0 - [1, 2, 3, 32]
+Miranda: 33 - [34, 35, 36, 37]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73]
+Rose: 99 - [100, 101, 102]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169]
+Kongol: 198 - [199, 200, 201, 202, 228, 229]
+==========
+[/Death Frontier - Cut 2 - Environment] -> FOLDER: 988
+Death Frontier Cut 2: 2
+[/Death Frontier - Cut 2 - Objects] -> FOLDER: 989
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 3 - Environment] -> FOLDER: 991
+Death Frontier Cut 3: 2
+[/Death Frontier - Cut 3 - Objects] -> FOLDER: 992
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+Dart2: 297 - [None] # Dart Model with no Animations
+==========
+[/Death Frontier - Cut 4 - Environment] -> FOLDER: 994
+Death Frontier Cut 4: 2
+[/Death Frontier - Cut 4 - Objects] -> FOLDER: 995
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 5 - Environment] -> FOLDER: 997
+Death Frontier Cut 5: 2
+[/Death Frontier - Cut 5 - Objects] -> FOLDER: 998
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 6 - Environment] -> FOLDER: 1000
+Death Frontier Cut 6: 2
+[/Death Frontier - Cut 6 - Objects] -> FOLDER: 1001
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+WhiteTreasureChest: 297 - [298, 299, 300]
+==========
+[/Death Frontier - Cut 7 - Environment] -> FOLDER: 1003
+Death Frontier Cut 7: 2
+[/Death Frontier - Cut 7 - Objects] -> FOLDER: 1004
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 8 - Environment] -> FOLDER: 1006
+Death Frontier Cut 8: 2
+[/Death Frontier - Cut 8 - Objects] -> FOLDER: 1007
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 9 - Environment] -> FOLDER: 1009
+Death Frontier Cut 9: 2
+[/Death Frontier - Cut 9 - Objects] -> FOLDER: 1010
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 10 - Environment] -> FOLDER: 1012
+Death Frontier Cut 10: 2
+[/Death Frontier - Cut 10 - Objects] -> FOLDER: 1013
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 11 - Environment] -> FOLDER: 1015
+Death Frontier Cut 11: 2
+[/Death Frontier - Cut 11 - Objects] -> FOLDER: 1016
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+WhiteTreasureChest: 297 - [298, 299, 300]
+==========
+[/Death Frontier - Cut 12 - Environment] -> FOLDER: 1018
+Death Frontier Cut 12: 2
+[/Death Frontier - Cut 12 - Objects] -> FOLDER: 1019
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 13 - Environment] -> FOLDER: 1021
+Death Frontier Cut 13: 2
+[/Death Frontier - Cut 13 - Objects] -> FOLDER: 1022
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 14 - Environment] -> FOLDER: 1024
+Death Frontier Cut 14: 2
+[/Death Frontier - Cut 14 - Objects] -> FOLDER: 1025
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Death Frontier - Cut 15 - Environment] -> FOLDER: 1027
+Death Frontier Cut 15: 2
+[/Death Frontier - Cut 15 - Objects] -> FOLDER: 1028
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 16 - Environment] -> FOLDER: 1030
+Death Frontier Cut 16: 2
+[/Death Frontier - Cut 16 - Objects] -> FOLDER: 1031
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 17 - Environment] -> FOLDER: 1033
+Death Frontier Cut 17: 2
+[/Death Frontier - Cut 17 - Objects] -> FOLDER: 1034
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+WhiteTreasureChest: 297 - [298, 299, 300]
+==========
+[/Death Frontier - Cut 18 - Environment] -> FOLDER: 1036
+Death Frontier Cut 18: 2
+[/Death Frontier - Cut 18 - Objects] -> FOLDER: 1037
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 19 - Environment] -> FOLDER: 1042
+Death Frontier Cut 19: 2
+[/Death Frontier - Cut 19 - Objects] -> FOLDER: 1043
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 20 - Environment] -> FOLDER: 1045
+Death Frontier Cut 20: 2
+[/Death Frontier - Cut 20 - Objects] -> FOLDER: 1046
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 21 - Environment] -> FOLDER: 1048
+Death Frontier Cut 21: 2
+[/Death Frontier - Cut 21 - Objects] -> FOLDER: 1049
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 22 - Environment] -> FOLDER: 1051
+Death Frontier Cut 22: 2
+[/Death Frontier - Cut 22 - Objects] -> FOLDER: 1052
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 23 - Environment] -> FOLDER: 1054
+Death Frontier Cut 23: 2
+[/Death Frontier - Cut 23 - Objects] -> FOLDER: 1055
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 24 - Environment] -> FOLDER: 1057
+Death Frontier Cut 24: 2
+[/Death Frontier - Cut 24 - Objects] -> FOLDER: 1058
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 25 - Environment] -> FOLDER: 1060
+Death Frontier Cut 25: 2
+[/Death Frontier - Cut 25 - Objects] -> FOLDER: 1061
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 26 - Environment] -> FOLDER: 1063
+Death Frontier Cut 26: 2
+[/Death Frontier - Cut 26 - Objects] -> FOLDER: 1064
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 27 - Environment] -> FOLDER: 1066
+Death Frontier Cut 27: 2
+[/Death Frontier - Cut 27 - Objects] -> FOLDER: 1067
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 28 - Environment] -> FOLDER: 1069
+Death Frontier Cut 28: 2
+[/Death Frontier - Cut 28 - Objects] -> FOLDER: 1070
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 29 - Environment] -> FOLDER: 1072
+Death Frontier Cut 29: 2
+[/Death Frontier - Cut 29 - Objects] -> FOLDER: 1073
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+WhiteTreasureChest: 297 - [298, 299, 300]
+==========
+[/Death Frontier - Cut 30 - Environment] -> FOLDER: 1075
+Death Frontier Cut 30: 2
+[/Death Frontier - Cut 30 - Objects] -> FOLDER: 1076
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 31 - Environment] -> FOLDER: 1078
+Death Frontier Cut 31: 2
+[/Death Frontier - Cut 31 - Objects] -> FOLDER: 1079
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 32 - Environment] -> FOLDER: 1081
+Death Frontier Cut 32: 2
+[/Death Frontier - Cut 32 - Objects] -> FOLDER: 1082
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+WhiteTreasureChest: 297 - [298, 299, 300]
+==========
+[/Death Frontier - Cut 33 - Environment] -> FOLDER: 1087
+Death Frontier Cut 33: 2
+[/Death Frontier - Cut 33 - Objects] -> FOLDER: 1088
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 34 - Environment] -> FOLDER: 1090
+Death Frontier Cut 34: 2
+[/Death Frontier - Cut 34 - Objects] -> FOLDER: 1091
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 35 - Environment] -> FOLDER: 1093
+Death Frontier Cut 35: 2
+[/Death Frontier - Cut 35 - Objects] -> FOLDER: 1094
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 36 - Environment] -> FOLDER: 1096
+Death Frontier Cut 36: 2
+[/Death Frontier - Cut 36 - Objects] -> FOLDER: 1097
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 37 - Environment] -> FOLDER: 1099
+Death Frontier Cut 37: 2
+[/Death Frontier - Cut 37 - Objects] -> FOLDER: 1100
+Dart: 0 - [1, 2, 3, 32]
+Sand: 33 - [67] # Animation seems to be displaced, instead using 34, is using the next index after model index 66
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 38 - Environment] -> FOLDER: 1102
+Death Frontier Cut 38: 2
+[/Death Frontier - Cut 38 - Objects] -> FOLDER: 1103
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+==========
+[/Death Frontier - Cut 39 - Environment] -> FOLDER: 1105
+Death Frontier Cut 39: 2
+[/Death Frontier - Cut 39 - Objects] -> FOLDER: 1106
+Dart: 0 - [1, 2, 3, 4, 32]
+Sand: 33 - [34]
+Cactus: 165 - [166, 167, 168, 169]
+Sandworm: 198 - [199, 200]
+CanbryaDayFly: 231 - [232]
+Fume: 264 - [265]
+WhiteTreasureChest: 297 - [298, 299, 300]
+==========
+[/Death Frontier - Cut 40 - Environment] -> FOLDER: 1108
+Death Frontier Cut 40: 2
+[/Death Frontier - Cut 40 - Objects] -> FOLDER: 1109
+Dart: 0 - [1, 2, 3, 32]
+StrangeGlow: 33 - [34]
+==========
+[/Death Frontier - Dart Forgives Black Monster CutScene - Environment] -> FOLDER: 439
+Death Frontier Dart Forgives Black Monster CutScene: 2
+[/Death Frontier - Dart Forgives Black Monster CutScene - Objects] -> FOLDER: 440
+Dart: 0 - [1, 2, 7, 8, 11, 12, 13]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47]
+Armed Dart: 66 - [67, 68, 69, 77, 78, 79, 80, 81, 82, 83, 84]
+Armed Rose: 99 - [100, 101, 110, 111, 112, 113, 114, 115, 116]
+==========
+[/Death Frontier - Oasis 1 - Environment] -> FOLDER: 1039
+Death Frontier Oasis 1: 2
+[/Death Frontier - Oasis 1 - Objects] -> FOLDER: 1040
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Miranda: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169, 170]
+Kongol: 198 - [199, 200, 201, 202, 228, 229]
+==========
+[/Death Frontier - Oasis 2 - Environment] -> FOLDER: 1084
+Death Frontier Oasis 2: 2
+[/Death Frontier - Oasis 2 - Objects] -> FOLDER: 1085
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Miranda: 33 - [34, 35, 36, 37]
+Meru: 66 - [67, 68, 69, 70]
+Rose: 99 - [100, 101, 102, 103]
+Albert: 132 - [133, 134, 135, 136]
+Haschel: 165 - [166, 167, 168, 169]
+Kongol: 198 - [199, 200, 201, 202, 228, 229]
+==========
+[/Death Frontier - Teleporter to Ulara - Environment] -> FOLDER: 442
+Death Frontier Teleporter to Ulara: 2
+[/Death Frontier - Teleporter to Ulara - Objects] -> FOLDER: 443
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 32]
+TeleporterOrb: 33 - [34, 35]
+Rose: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84]
+Albert: 99 - [100, 101, 105, 106, 107, 110]
+Haschel: 132 - [133, 134, 138, 139, 140, 143, 144, 145, 146]
+Meru: 165 - [166, 167, 171, 172, 173]
+Miranda: 198 - [199, 200]
+Kongol: 231 - [232, 233]
+MeruFlying: 264 - [265, 266, 267, 268]
+Empty1: 363 - [364] # Textured Quad with no Texture assigned
+WhiteTreasureChest: 396 - [397, 398, 399] # This WhiteTreasureChest have no Texture assigned
+==========
+[/Death Frontier - Underground 1 - Environment] -> FOLDER: 1111
+Death Frontier Underground 1: 2
+[/Death Frontier - Underground 1 - Objects] -> FOLDER: 1112
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Albert: 33 - [34, 35, 36, 37]
+Sand Drop: 66 - [67]
+Sand Bulk: 99 - [100]
+TreasureChest: 132 - [133, 134, 135]
+==========
+[/Death Frontier - Underground 2 - Environment] -> FOLDER: 1114
+Death Frontier Underground 2: 2
+[/Death Frontier - Underground 2 - Objects] -> FOLDER: 1115
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Sand Drop: 66 - [67]
+Sand Bulk: 99 - [100]
+TreasureChest: 132 - [133, 134, 135]
+==========
+[/Death Frontier - Underground 3 - Environment] -> FOLDER: 1117
+Death Frontier Underground 3: 2
+[/Death Frontier - Underground 3 - Objects] -> FOLDER: 1118
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Sand Drop: 66 - [67]
+Sand Bulk: 99 - [100]
+TreasureChest: 132 - [133, 134, 135]
+==========

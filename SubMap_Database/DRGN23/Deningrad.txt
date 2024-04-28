@@ -1,0 +1,138 @@
+[/Deningrad - Cathedral - Environment] -> FOLDER: 82
+Deningrad Cathedral: 2
+[/Deningrad - Cathedral - Objects] -> FOLDER: 83
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 32]
+Shana: 33 - [34, 35, 39, 40, 41]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Haschel: 99 - [100, 101, 102, 105, 106, 107]
+Kongol: 132 - [133, 134, 135, 138, 139, 140]
+Bishop: 165 - [166, 167, 171, 172, 173]
+LibrarianUte: 198 - [199, 200, 204, 205, 206]
+MaleVillager: 231 - [232, 233, 237, 238, 239]
+FemaleVillager: 264 - [265, 266, 270, 271, 272]
+OldMaleVillager: 297 - [298, 299, 303, 304, 305]
+OldFemaleVillager: 330 - [331, 332, 336, 337, 338]
+ChildMaleVillager: 363 - [364, 365, 369, 370, 371]
+==========
+[/Deningrad - Clinic - Environment] -> FOLDER: 106
+Deningrad Clinic: 2
+[/Deningrad - Clinic - Objects] -> FOLDER: 107
+Dart: 0 - [1, 2, 3, 32]
+Medic: 33 - [34, 35, 39, 40, 41]
+FemaleVillager: 99 - [100, 101, 105, 106, 107] # Maybe like the "Ghost" from DRGN21?
+==========
+[/Deningrad - Entrance - Environment] -> FOLDER: 64
+Deningrad Entrance: 2
+[/Deningrad - Entrance - Objects] -> FOLDER: 65
+Dart: 0 - [1, 2, 3, 32]
+MaleVillager: 33 - [34, 35, 39, 40, 41]
+OldMaleVillager: 66 - [67, 68, 72, 73, 74]
+FemaleVillager: 99 - [100, 101, 105, 106, 107]
+MaleVillager2: 132 - [133, 134, 135, 138]
+OldFemaleVillager: 198 - [199, 200, 204, 205, 206]
+==========
+[/Deningrad - Entrance Princess Luanna CutScene - Environment] -> FOLDER: 112
+Deningrad Entrance Princess Luanna CutScene: 2
+[/Deningrad - Entrance Princess Luanna CutScene - Objects] -> FOLDER: 113
+Dart: 0 - [1, 2, 3, 6, 7, 8, 32]
+Shana: 33 - [34, 35, 36, 39, 40, 41]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 75]
+Rose: 99 - [100, 101, 102, 105, 106, 107]
+Kongol: 132 - [133, 134, 135, 138, 139, 140]
+Haschel: 165 - [166, 167, 168, 171, 172, 173]
+Meru: 198 - [199, 200, 201, 204, 205, 206]
+PrincessLuanna: 231 - [232, 233, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254] # Have some unused Animations like sitting, that aren't used here
+PrincessSetie: 264 - [265, 266, 267, 270, 271, 272]
+OldMaleVillager: 297 - [298, 299, 303, 304, 305]
+OldFemaleVillager: 330 - [331, 332, 336, 337, 338]
+==========
+[/Deningrad - House 1 - Environment] -> FOLDER: 97
+Deningrad House 1: 2
+[/Deningrad - House 1 - Objects] -> FOLDER: 98
+Dart: 0 - [1, 2, 3, 32]
+MaleVillager: 33 - [34, 35, 39, 40, 41]
+FemaleVillager: 66 - [67, 68, 72, 73, 74]
+==========
+[/Deningrad - House 2 - Environment] -> FOLDER: 100
+Deningrad House 2: 2
+[/Deningrad - House 2 - Objects] -> FOLDER: 101
+Dart: 0 - [1, 2, 3, 32]
+OldMaleVillager: 33 - [34, 35, 39, 40, 41]
+OldFemaleVillager: 66 - [67, 68, 72, 73, 74]
+==========
+[/Deningrad - House 3 - Environment] -> FOLDER: 103
+Deningrad House 3: 2
+[/Deningrad - House 3 - Objects] -> FOLDER: 104
+Dart: 0 - [1, 2, 3, 32]
+MaleVillager: 33 - [34, 35, 39, 40, 41]
+==========
+[/Deningrad - House 4 - Environment] -> FOLDER: 109
+Deningrad House 4: 2
+[/Deningrad - House 4 - Objects] -> FOLDER: 110
+Dart: 0 - [1, 2, 3, 32]
+ChildMaleVillager: 33 - [34, 35, 39, 40, 41]
+ChildFemaleVillager: 66 - [67, 68, 72, 73, 74, 75, 76, 77, 78]
+FemaleVillager: 99 - [100, 101, 105, 106, 107, 108, 109, 110, 111]
+==========
+[/Deningrad - Inn - Environment] -> FOLDER: 85
+Deningrad Inn: 2
+[/Deningrad - Inn - Objects] -> FOLDER: 86
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 32]
+Shana: 33 - [34, 35, 36, 39, 40, 41]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Rose: 99 - [100, 101, 102, 105, 106, 107]
+Kongol: 132 - [133, 134, 135, 138, 139, 140]
+Haschel: 165 - [166, 167, 168, 171, 172, 173]
+PrincessLuanna: 231 - [232, 233, 237, 238, 239, 240, 241] # Maybe an unused model for the scene?
+PrincessSetie: 264 - [265, 266, 267, 270, 271, 272]
+MilleSeseauKnight: 297 - [298, 299, 303, 304, 305]
+FemaleVillager: 330 - [331, 332, 336, 337, 338]
+OldFemaleVillager: 363 - [364, 365, 369, 370, 371]
+MaleVillager: 396 - [397, 398, 402, 403, 404]
+OldFemaleVillager2: 429 - [430, 431, 435, 436, 437]
+==========
+[/Deningrad - National Library - Environment] -> FOLDER: 76
+Deningrad National Library: 2
+[/Deningrad - National Library - Objects] -> FOLDER: 77
+Dart: 0 - [1, 2, 3, 6, 7, 8, 32]
+Shana: 33 - [34, 35, 36, 39, 40, 41]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Kongol: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110] # Animation Headache
+Haschel: 132 - [133, 134, 135, 138, 139, 140]
+LibrarianUte: 165 - [166, 167, 171, 172, 173]
+MaleVillager: 198 - [199, 200, 204, 205, 206]
+OldMaleVillager: 231 - [232, 233, 237, 238, 239]
+OldFemaleVillager: 264 - [265, 266, 270, 271, 272]
+FemaleVillager: 297 - [298, 299, 303, 304, 305]
+==========
+[/Deningrad - National Library Museum - Environment] -> FOLDER: 79
+Deningrad National Library Museum: 2
+[/Deningrad - National Library Museum - Objects] -> FOLDER: 80
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 32]
+LibrarianUte: 33 - [34, 35, 39, 40, 41]
+==========
+[/Deningrad - Street to Castle - Environment] -> FOLDER: 67
+Deningrad Street to Castle: 2
+[/Deningrad - Street to Castle - Objects] -> FOLDER: 68
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 32]
+Shana: 33 - [34, 35, 39, 40, 41, 42, 43, 44, 45]
+Albert: 66 - [67, 68, 72, 73, 74]
+Rose: 99 - [100, 101, 105, 106, 107]
+Kongol: 132 - [133, 134, 138, 139, 140, 141, 142]
+Haschel: 165 - [166, 167, 171, 172, 173]
+Meru: 198 - [199, 200, 201, 204, 205, 206, 218, 219, 220, 221, 222] # The last is a weird animation
+LibrarianUte: 231 - [232, 233, 237, 238, 239]
+PrincessLuanna: 264 - [265, 266, 270, 271, 272, 276, 277, 278, 279, 280, 281]
+Dart2: 297 - [298] # This Dart Model is certainly broken... seems that Devs miss the Model and the Animation
+MilleSeseauKnight: 330 - [331, 332, 339, 340]
+ChildFemaleVillager: 363 - [364, 365]
+MaleVillager: 396 - [397, 398]
+ChildMaleVillager: 429 - [430, 431]
+==========
+[/Deningrad - Weapon and Item Shop - Environment] -> FOLDER: 94
+Deningrad Weapon and Item Shop: 2
+[/Deningrad - Weapon and Item Shop - Objects] -> FOLDER: 95
+Dart: 0 - [1, 2, 3, 32]
+WeaponMerchant: 33 - [34, 35, 39, 40, 41]
+ItemMerchant: 66 - [67, 68, 72, 73, 74]
+==========

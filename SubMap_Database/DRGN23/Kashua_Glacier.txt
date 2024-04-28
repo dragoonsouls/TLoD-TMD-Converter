@@ -1,0 +1,53 @@
+[/Kashua Glacier - Cut 1 - Environment] -> FOLDER: 313
+Kashua Glacier Cut 1: 2
+[/Kashua Glacier - Cut 1 - Objects] -> FOLDER: 314
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Miranda: 33 - [34, 35, 36, 37, 38, 39, 40]
+Albert: 66 - [67, 68, 69]
+Meru: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112]
+Haschel: 132 - [133, 134, 135]
+Rose: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201]
+WhiteTreasureChest: 231 - [232, 233, 234]
+KeyGlow: 297 - [298]
+Dart2: 330 - [336, 337, 338, 339]
+ArmoredLloyd: 363 - [364, 365, 366, 367, 368]
+==========
+[/Kashua Glacier - Cut 2 - Environment] -> FOLDER: 316
+Kashua Glacier Cut 2: 2
+[/Kashua Glacier - Cut 2 - Objects] -> FOLDER: 317
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 32]
+Miranda: 33 - [34, 35, 36, 37]
+KeyGlow: 66 - [67]
+WhiteTreasureChest: 99 - [100, 101, 102]
+Post: 165 - [166]
+==========
+[/Kashua Glacier - Inside Glacier Cut 1 - Environment] -> FOLDER: 319
+Kashua Glacier Inside Glacier Cut 1: 2
+[/Kashua Glacier - Inside Glacier Cut 1 - Objects] -> FOLDER: 320
+Dart: 0 - [1, 2, 3, 4, 5, 32]
+Merchant: 33 - [34, 35, 36]
+KeyGlow: 99 - [100]
+WhiteTreasureChest: 132 - [133, 134, 135]
+==========
+[/Kashua Glacier - Inside Glacier Cut 2 - Environment] -> FOLDER: 322
+Kashua Glacier Inside Glacier Cut 2: 2
+[/Kashua Glacier - Inside Glacier Cut 2 - Objects] -> FOLDER: 323
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Kongol: 33 - [34, 35, 36]
+KeyGlow: 66 - [67]
+ChildFemaleVillager: 99 - [100] # ???????? Seems to be a Shana type of Child Female Villager
+WhiteTreasureChest: 132 - [133, 134, 135]
+==========
+[/Kashua Glacier - Inside Glacier Cut 3 - Environment] -> FOLDER: 325
+Kashua Glacier Inside Glacier Cut 3: 2
+[/Kashua Glacier - Inside Glacier Cut 3 - Objects] -> FOLDER: 326
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Kongol: 33 - [34, 35, 36, 37, 38]
+Haschel: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75]
+Armed Dart: 99 - [100, 101, 102]
+Miranda: 132 - [133, 134, 135, 136]
+WhiteTreasureChest: 165 - [166, 167, 168]
+Armed Miranda: 231 - [232, 233, 234, 235]
+Armed Kongol: 264 - [265, 266, 267, 268, 269, 270, 271]
+==========

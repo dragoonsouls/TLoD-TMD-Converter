@@ -1,0 +1,291 @@
+[/Twin Castle - Balcony Night Dinner CutScene - Environment] -> FOLDER: 1135
+Twin Castle Balcony Night Dinner CutScene: 2
+[/Twin Castle - Balcony Night Dinner CutScene - Objects] -> FOLDER: 1136
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16]
+Princess Lisa: 33 - [34, 35, 39, 40, 41, 44, 45]
+Haschel: 66 - [67, 68, 69, 70, 72, 73, 74, 77, 78, 79, 80]
+Meru: 99 - [100, 101, 102, 103, 105, 110, 111, 112, 113, 115, 116, 117]
+Shana: 132 - [133, 134, 137, 138, 139, 140, 143, 144]
+Albert: 165 - [166, 167, 171, 172, 173]
+Rose: 198 - [199, 200, 204, 206, 209, 210]
+Castle Maiden: 231 - [232, 233, 237]
+==========
+[/Twin Castle - Balcony Night Shana CutScene - Environment] -> FOLDER: 1132
+Twin Castle Balcony Night Shana CutScene: 2
+[/Twin Castle - Balcony Night Shana CutScene - Objects] -> FOLDER: 1133
+Dart: 0 - [1, 2, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
+Shana Dressed: 33 - [34, 35, 39, 40, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Rose: 66 - [67, 68, 72, 73, 74, 77, 78, 79]
+Falling Stars: 99 - [100]
+==========
+[/Twin Castle - Basement - Environment] -> FOLDER: 679
+Twin Castle Basement: 2
+[/Twin Castle - Basement - Objects] -> FOLDER: 680
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32]
+Armed Kongol: 33 - [34, 35, 36, 39, 44, 45, 46, 47, 48, 49]
+Shana: 66 - [67, 68, 72, 73, 74]
+Rose: 99 - [100, 101, 105, 106, 107]
+Meru: 132 - [133, 134, 138, 139, 143]
+Castle Maiden: 165 - [166, 167, 171, 172, 173, 176]
+Castle Maiden 2: 198 - [199, 200, 204]
+Fletz Guard: 231 - [232, 233, 234, 237]
+Treasure Crate: 264 - [265, 266, 267]
+Orange Glow: 330 - [331]
+==========
+[/Twin Castle - Dart and Shana CutScene - Environment] -> FOLDER: 1081
+Twin Castle Dart and Shana CutScene: 2
+[/Twin Castle - Dart and Shana CutScene - Objects] -> FOLDER: 1082
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 16, 18, 19, 20, 21, 24, 26, 27]
+Shana: 33 - [34, 35, 39, 40, 41, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 59]
+Fester: 66 - [67, 68, 69, 72, 73, 74, 77, 78]
+Castle Maiden: 99 - [100, 101, 102, 105, 106, 107, 110]
+==========
+[/Twin Castle - Dinner CutScene - Environment] -> FOLDER: 1087
+Twin Castle Dinner CutScene: 2
+[/Twin Castle - Dinner CutScene - Objects] -> FOLDER: 1088
+Dart: 0 - [1, 2, 3, 32]
+King Zior: 33 - [34, 35, 36, 37, 38]
+Princess Emille: 66 - [67, 68, 69, 70, 71]
+Princess Lisa: 99 - [100, 101]
+Fester: 132 - [133, 134]
+Albert: 165 - [166, 167]
+Shana: 198 - [199]
+Haschel: 231 - [232]
+Meru: 264 - [265]
+Rose: 297 - [298]
+==========
+[/Twin Castle - Guest Room Day - Environment] -> FOLDER: 682
+Twin Castle Guest Room Day: 2
+[/Twin Castle - Guest Room Day - Objects] -> FOLDER: 683
+Dart: 0 - [1, 2, 3, 6, 7, 11, 12, 13, 14, 15, 16, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Key Glow: 66 - [67]
+==========
+[/Twin Castle - Guest Room Night - Environment] -> FOLDER: 685
+Twin Castle Guest Room Night: 2
+[/Twin Castle - Guest Room Night - Objects] -> FOLDER: 686
+Dart: 0 - [1, 2, 3, 4, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+Shana: 33 - [34, 35, 44, 45, 46, 47, 48, 49, 50, 51]
+Haschel: 66 - [67, 68, 72, 73, 74, 77, 79, 80, 81, 82, 83, 84]
+Meru: 99 - [100, 101, 102, 105, 106, 107, 110, 111, 112, 115, 116, 117, 118, 119, 120, 121, 123]
+Albert: 132 - [133, 134, 138, 139, 140]
+Rose: 165 - [166, 167, 171, 173, 176, 177]
+Castle Maiden: 198 - [199, 200, 204]
+Castle Maiden 2: 231 - [232, 233, 237]
+Kongol: 264 - [265, 266, 275]
+Orange Glow: 297 - [298]
+==========
+[/Twin Castle - Left Tower - Environment] -> FOLDER: 673
+Twin Castle Left Tower: 2
+[/Twin Castle - Left Tower - Objects] -> FOLDER: 674
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 32]
+Fletz Guard: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50]
+Fletz Giant Guard: 66 - [67, 68, 72]
+Princess Lisa: 99 - [100, 101, 105, 106, 107]
+Shana: 132 - [133, 134, 138, 139]
+Rose: 165 - [166, 167, 176]
+Albert: 198 - [199, 200, 204, 205]
+==========
+[/Twin Castle - Main Hall 1 - Environment] -> FOLDER: 667
+Twin Castle Main Hall 1: 2
+[/Twin Castle - Main Hall 1 - Objects] -> FOLDER: 668
+Dart: 0 - [1, 2, 3, 4, 7, 8, 11, 12, 13, 14, 15, 16, 32]
+Princess Lisa: 33 - [34, 35, 36, 39, 40, 41]
+Princess Emille: 66 - [67, 68, 69, 72, 73, 74]
+Fletz Giant Guard: 99 - [100, 101, 102, 105, 106, 107, 110, 111]
+Fletz Guard: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 143, 144, 145, 146, 147, 148]
+Fire: 165 - [166]
+Shana: 231 - [232, 233, 237]
+Albert: 264 - [265, 266, 272]
+Castle Maiden: 297 - [298, 299, 303]
+==========
+[/Twin Castle - Main Hall 2 - Environment] -> FOLDER: 715
+Twin Castle Main Hall 2: 2
+[/Twin Castle - Main Hall 2 - Objects] -> FOLDER: 716
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 32]
+Shana: 33 - [34, 35, 39, 40, 44]
+Haschel: 66 - [67, 68, 70, 72, 73, 77, 78, 79]
+Meru: 99 - [100, 101, 102, 103, 105, 110, 111, 112, 113]
+Rose: 132 - [133, 134, 143, 144]
+Albert: 165 - [166, 167, 171, 172]
+Kongol: 198 - [199, 200]
+Castle Maiden: 231 - [232, 233, 237]
+Fletz Giant Guard: 264 - [265, 266, 267, 270, 271, 272, 275]
+==========
+[/Twin Castle - Main Hall 3 - Environment] -> FOLDER: 784
+Twin Castle Main Hall 3: 2
+[/Twin Castle - Main Hall 3 - Objects] -> FOLDER: 785
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 32]
+King Zior: 33 - [34, 35, 39, 40, 41, 44, 45, 46]
+Princess Emille: 66 - [67, 68, 72, 73, 74, 77, 78, 79]
+Princess Lisa: 99 - [100, 101, 105, 106, 107]
+Fester: 132 - [133, 134, 138, 139, 140]
+Castle Maiden: 165 - [166, 167, 171, 172, 173]
+Cardboard Fletz Guard: 198 - [199]
+==========
+[/Twin Castle - Main Hall Night - Environment] -> FOLDER: 670
+Twin Castle Main Hall Night: 2
+[/Twin Castle - Main Hall Night - Objects] -> FOLDER: 671
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 32]
+Fester: 33 - [34, 35, 39, 40, 41]
+Castle Maiden: 66 - [67, 68, 69, 72, 73, 74, 75, 76]
+Albert: 99 - [100, 101, 102, 105, 106, 107]
+Fletz Giant Guard: 132 - [133, 134, 135, 138, 139, 140, 141]
+Orange Glow: 297 - [298]
+==========
+[/Twin Castle - Middle Build - Environment] -> FOLDER: 1090
+Twin Castle Middle Build: 2
+[/Twin Castle - Middle Build - Objects] -> FOLDER: 1091
+Dart: 0 - [1, 2, 3, 4, 6, 11, 32]
+Princess Lisa: 33 - [34, 35, 36, 39, 40, 41]
+Princess Emille: 66 - [67, 68, 69, 72, 73, 74]
+Fletz Giant Guard: 99 - [100, 101, 105]
+Fletz Guard: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 143, 144, 145, 146, 147]
+Orange Glow: 165 - [166]
+==========
+[/Twin Castle - Princess Emille Bedroom 1 - Environment] -> FOLDER: 1096
+Twin Castle Princess Emille Bedroom 1: 2
+[/Twin Castle - Princess Emille Bedroom 1 - Objects] -> FOLDER: 1097
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 32]
+Princess Lisa: 33 - [34, 35, 36, 39, 40, 41, 44]
+Shana: 66 - [67, 68, 72, 77, 78, 79, 80, 81]
+Albert: 99 - [100, 101, 105, 106, 107, 110, 111]
+Rose: 132 - [133, 134, 138, 139, 140, 143, 144]
+Meru: 165 - [166, 167, 168, 171, 172, 173, 176]
+Haschel: 198 - [199, 200, 204, 205, 206, 209]
+Castle Maiden: 231 - [232, 233, 237]
+Castle Maiden 2: 264 - [265, 266, 270]
+Blue Glow: 297 - [298]
+Blue Flare: 330 - [331]
+Orange Glow: 363 - [364]
+==========
+[/Twin Castle - Princess Emille Bedroom 2 - Environment] -> FOLDER: 1099
+Twin Castle Princess Emille Bedroom 2: 2
+[/Twin Castle - Princess Emille Bedroom 2 - Objects] -> FOLDER: 1100
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 32]
+Albert: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51]
+Princess Emille: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84]
+Haschel: 99 - [100, 101, 105, 106, 107, 110, 111]
+Meru: 132 - [133, 134, 138, 139, 140, 143, 144, 145]
+Orange Glow: 165 - [166]
+==========
+[/Twin Castle - Princess Emille Inside Paint - Environment] -> FOLDER: 1102
+Twin Castle Princess Emille Inside Paint: 2
+[/Twin Castle - Princess Emille Inside Paint - Objects] -> FOLDER: 1103
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 32]
+Princess Emille: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+Princess Lisa: 66 - [67, 68, 69, 72, 73, 74, 77, 78, 79, 80] # WTH?... LoL
+Shana: 99 - [100, 101, 102, 105, 106, 107, 110, 111, 112, 113]
+Albert: 132 - [133, 134, 135, 138, 139, 140, 143, 144]
+Rose: 165 - [166, 167, 168, 171, 172, 173, 176, 177, 178, 179]
+Red-Eyed Dragoon Spirit Glow: 198 - [199]
+White Glow: 231 - [232]
+Magical Bridge: 264 - [265]
+Jade Dragoon Spirit Glow: 297 - [298]
+==========
+[/Twin Castle - Princess Lisa Bedroom - Environment] -> FOLDER: 1093
+Twin Castle Princess Lisa Bedroom: 2
+[/Twin Castle - Princess Lisa Bedroom - Objects] -> FOLDER: 1094
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 16, 32]
+Princess Lisa: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47]
+Meru: 66 - [67, 68, 69]
+Albert: 99 - [100, 101, 102, 105, 106, 107]
+Shana: 132 - [133, 134, 135, 138, 139, 140]
+Haschel: 165 - [166, 167, 168, 171, 172, 173]
+Rose: 198 - [199, 200, 201, 204, 205, 206]
+Blue Glow: 231 - [232]
+Blue Flare: 264 - [265]
+Castle Maiden: 297 - [298, 299, 303]
+Bird: 330 - [331, 332, 333]
+==========
+[/Twin Castle - Right Tower - Environment] -> FOLDER: 1084
+Twin Castle Right Tower: 2
+[/Twin Castle - Right Tower - Objects] -> FOLDER: 1085
+Dart: 0 - [1, 2, 3, 32]
+Fletz Guard: 33 - [34, 35, 39]
+==========
+[/Twin Castle - Throne Day 1 - Environment] -> FOLDER: 688
+Twin Castle Throne Day 1: 2
+[/Twin Castle - Throne Day 1 - Objects] -> FOLDER: 689
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 32]
+Albert: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47]
+Shana: 66 - [67, 68]
+Meru: 99 - [100, 101]
+Miranda: 132 - [133, 134, 138, 139, 140, 143, 144]
+King Zior: 165 - [166, 171, 172, 173, 176, 177, 178, 179, 180]
+Princess Emille: 198 - [199]
+Princess Lisa: 231 - [232]
+Fletz Giant Guard: 264 - [265, 266, 270, 275]
+Counselor: 297 - [298, 299, 303]
+==========
+[/Twin Castle - Throne Day 2 - Environment] -> FOLDER: 712
+Twin Castle Throne Day 2: 2
+[/Twin Castle - Throne Day 2 - Objects] -> FOLDER: 713
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15]
+Lenus: 33 - [34, 35, 37, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+King Zior: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81]
+Princess Emille: 99 - [100, 101, 102, 105, 106, 110, 121, 122, 123, 124, 125, 126, 127, 128]
+Princess Lisa: 132 - [133, 134, 135, 138, 143]
+Armed Albert: 165 - [166, 167, 168, 176, 177]
+Armed Rose: 198 - [199, 200, 209, 210]
+Meru: 231 - [232, 233, 234, 238, 242]
+Haschel: 264 - [265, 266, 267, 275]
+Armed Dart: 297 - [298, 299, 300, 309, 310, 311, 313, 314]
+Rose: 330 - [331, 332, 336]
+White Glow: 363 - [364]
+White Flare: 396 - [397]
+==========
+[/Twin Castle - Throne Day Closeup CutScene - Environment] -> FOLDER: 694
+Twin Castle Throne Day Closeup CutScene: 2
+[/Twin Castle - Throne Day Closeup CutScene - Objects] -> FOLDER: 695
+Dart: 0 - [1, 2, 7, 11, 12, 13, 14, 15]
+King Zior: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 48]
+Princess Emille: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80]
+Princess Lisa: 99 - [100, 101, 105, 106, 110]
+Albert: 132 - [133, 134, 138, 139, 140, 143]
+Meru: 165 - [166, 168, 171, 176, 177]
+==========
+[/Twin Castle - Throne Night 1 - Environment] -> FOLDER: 691
+Twin Castle Throne Night 1: 2
+[/Twin Castle - Throne Night 1 - Objects] -> FOLDER: 692
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 32]
+Fester: 33 - [34, 35, 39, 40, 41, 44, 45]
+King Zior: 66 - [67, 68, 72, 73, 74, 77, 78, 79, 80, 81, 87, 88, 89, 90]
+Albert: 99 - [100, 101, 105, 106, 107, 108, 110, 111] # Why Albert throwing a rock?
+Shana: 132 - [133, 134]
+Rose: 165 - [166, 167]
+Counselor: 198 - [199, 200, 204]
+Fletz Giant Guard: 231 - [232, 233, 237, 238, 239, 240]
+Orange Glow: 297 - [298]
+==========
+[/Twin Castle - Throne Night 2 - Environment] -> FOLDER: 718
+Twin Castle Throne Night 2: 2
+[/Twin Castle - Throne Night 2 - Objects] -> FOLDER: 719
+Dart: 0 - [1, 2, 3, 4, 7, 8, 11, 12, 13, 14, 15, 16, 21, 22, 23, 24, 25, 32]
+Haschel: 33 - [34, 35, 37, 39, 40, 41, 44]
+Kongol: 66 - [67, 68, 72, 73, 74, 77, 78]
+Castle Maiden: 99 - [100, 101, 105]
+Castle Maiden 2: 132 - [133, 134, 138]
+Albert: 165 - [166, 167, 171, 172, 173]
+Princess Emille: 198 - [199, 200, 201, 202]
+Princess Lisa: 231 - [232, 237]
+King Zior: 264 - [265, 266, 270, 271, 272, 275, 276]
+Meru: 297 - [298, 299, 300, 303, 304, 305, 308, 309, 318, 319, 320, 321]
+Castle Maiden 3: 330 - [331, 336, 337, 338]
+Cardboard Trumpeter: 363 - [364]
+Cardboard Dancers Obscure: 396 - [397]
+Cardboard Dancers Light: 429 - [430]
+Empty: 462 - [463] # I don't know what this is, texture is empty and 3D is a Textured-Only Quad
+==========
+[/Twin Castle - Underground to Ship - Environment] -> FOLDER: 676
+Twin Castle Underground to Ship: 2
+[/Twin Castle - Underground to Ship - Objects] -> FOLDER: 677
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 32]
+Commodore Puler: 33 - [34, 35, 36, 39, 40, 41, 44, 45]
+Kayla: 66 - [67, 68, 69, 72, 73, 74, 77]
+Albert: 99 - [100, 101, 105, 106]
+Haschel: 132 - [133, 134, 138, 139]
+Sailor: 165 - [166, 167, 168, 171, 176]
+Sailor Sweeping: 198 - [199, 200]
+Fletz Giant Guard: 231 - [232, 233, 237]
+==========

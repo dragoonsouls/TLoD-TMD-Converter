@@ -1,0 +1,132 @@
+[/Mt. Mortal Dragon - Cut 1 - Environment] -> FOLDER: 253
+Mt. Mortal Dragon Cut 1: 2
+[/Mt. Mortal Dragon - Cut 1 - Objects] -> FOLDER: 254
+Dart: 0 - [1, 2, 3, 12, 13, 14, 32]
+Miranda: 33 - [34, 35, 44]
+Albert: 66 - [67, 68]
+Rose: 99 - [100, 101]
+Haschel: 132 - [133, 134, 144, 145, 146, 147]
+Meru: 165 - [166, 167]
+Kongol: 198 - [199, 200]
+==========
+[/Mt. Mortal Dragon - Cut 2 - Environment] -> FOLDER: 256
+Mt. Mortal Dragon Cut 2: 2
+[/Mt. Mortal Dragon - Cut 2 - Objects] -> FOLDER: 257
+Dart: 0 - [1, 2, 3, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+==========
+[/Mt. Mortal Dragon - Cut 3 - Environment] -> FOLDER: 259
+Mt. Mortal Dragon Cut 3: 2
+[/Mt. Mortal Dragon - Cut 3 - Objects] -> FOLDER: 260
+Dart: 0 - [1, 2, 3, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+==========
+[/Mt. Mortal Dragon - Cut 4 - Environment] -> FOLDER: 262
+Mt. Mortal Dragon Cut 4: 2
+[/Mt. Mortal Dragon - Cut 4 - Objects] -> FOLDER: 263
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Mt. Mortal Dragon - Cut 5 - Environment] -> FOLDER: 265
+Mt. Mortal Dragon Cut 5: 2
+[/Mt. Mortal Dragon - Cut 5 - Objects] -> FOLDER: 266
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 32]
+Miranda: 33 - [34, 35, 36, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+Albert: 66 - [67, 68, 69, 78, 79, 80]
+Rose: 99 - [100, 101, 102, 111, 112, 113, 114, 115, 116, 117, 118]
+Haschel: 132 - [133, 134, 135, 143]
+Meru: 165 - [166, 167, 168, 177, 178, 179, 180, 181, 182]
+Fireball: 198 - [199]
+MeruFlying: 231 - [232, 233, 243, 244, 245, 246, 247]
+Lloyd: 264 - [265, 266, 267, 276, 277, 278, 279, 280]
+WinglyWings: 363 - [364]
+Empty2: 396 - [397] # Just a Textured Rect Don't know what it is
+==========
+[/Mt. Mortal Dragon - Cut 6 - Environment] -> FOLDER: 268
+Mt. Mortal Dragon Cut 6: 2
+[/Mt. Mortal Dragon - Cut 6 - Objects] -> FOLDER: 269
+Dart: 0 - [1, 2, 3, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+==========
+[/Mt. Mortal Dragon - Cut 7 - Environment] -> FOLDER: 274
+Mt. Mortal Dragon Cut 7: 2
+[/Mt. Mortal Dragon - Cut 7 - Objects] -> FOLDER: 275
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 45, 46, 47, 48, 49]
+Albert: 66 - [67, 68, 77, 79]
+Rose: 99 - [100, 101, 112]
+Haschel: 132 - [133, 134, 145]
+Meru: 165 - [166, 167, 168, 178]
+Kongol: 198 - [199, 200]
+==========
+[/Mt. Mortal Dragon - Cut 8 - Environment] -> FOLDER: 277
+Mt. Mortal Dragon Cut 8: 2
+[/Mt. Mortal Dragon - Cut 8 - Objects] -> FOLDER: 278
+Dart: 0 - [1, 2, 3, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+==========
+[/Mt. Mortal Dragon - Cut 9 - Environment] -> FOLDER: 280
+Mt. Mortal Dragon Cut 9: 2
+[/Mt. Mortal Dragon - Cut 9 - Objects] -> FOLDER: 281
+Dart: 0 - [1, 2, 3, 32]
+Shana: 33 - [34, 36] # ??? WTH is doing SHANA HERE???
+Albert: 66 - [67, 69]
+Rose: 99 - [100, 101, 102]
+Haschel: 132 - [133, 135]
+Meru: 165 - [166, 168]
+Kongol: 198 - [199, 201]
+Armed Dart: 231 - [232]
+WhiteTreasureChest: 264 - [265, 266, 267]
+==========
+[/Mt. Mortal Dragon - Cut 10 - Environment] -> FOLDER: 289
+Mt. Mortal Dragon Cut 10: 2
+[/Mt. Mortal Dragon - Cut 10 - Objects] -> FOLDER: 290
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Mt. Mortal Dragon - Cut 11 - Environment] -> FOLDER: 292
+Mt. Mortal Dragon Cut 11: 2
+[/Mt. Mortal Dragon - Cut 11 - Objects] -> FOLDER: 293
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Mt. Mortal Dragon - Cut 12 - Environment] -> FOLDER: 295
+Mt. Mortal Dragon Cut 12: 2
+[/Mt. Mortal Dragon - Cut 12 - Objects] -> FOLDER: 296
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Mt. Mortal Dragon - Divine Dragon Dead - Environment] -> FOLDER: 286
+Mt. Mortal Dragon Divine Dragon Dead: 2
+[/Mt. Mortal Dragon - Divine Dragon Dead - Objects] -> FOLDER: 287
+Dart: 0 - [1, 2, 3, 9, 12, 13, 14, 15, 16, 17, 18, 32]
+Miranda: 33 - [34, 35, 36] # Animation of Running it's exactly as Shana something weird
+Albert: 66 - [67, 68, 69, 78, 79, 80, 81]
+Rose: 99 - [100, 101, 102, 111]
+Haschel: 132 - [133, 134, 135, 144]
+Meru: 165 - [166, 167, 168, 177]
+Kongol: 198 - [199, 200, 201]
+Armed Dart: 231 - [232]
+Lloyd: 264 - [265, 266, 267, 275, 276, 277, 278, 279, 280, 281]
+==========
+[/Mt. Mortal Dragon - Divine Dragon Den - Environment] -> FOLDER: 283
+Mt. Mortal Dragon Divine Dragon Den: 2
+[/Mt. Mortal Dragon - Divine Dragon Den - Objects] -> FOLDER: 284
+Dart: 0 - [1, 2, 12, 13, 14, 15]
+Miranda: 33 - [34, 35, 36, 45, 46, 47, 48]
+Albert: 66 - [67, 68, 78, 79, 80]
+Rose: 99 - [100, 101, 111]
+Haschel: 132 - [133, 134, 135, 144, 145, 146, 147, 148, 149]
+Meru: 165 - [166, 167, 177, 178, 179, 180]
+Armed Albert: 198 - [199, 200, 201, 210, 211, 212, 213, 214]
+Armed Dart: 231 - [232, 233, 243, 244, 245, 247, 248, 249, 250, 252, 253, 254]
+Armed with Dragon Buster Lloyd: 264 - [265, 266, 267, 276, 277, 278, 279, 280, 281, 282, 283, 284, 285, 286]
+Michael: 297 - [298] # DEVS USING MICHAEL AS PLACEHOLDER FOR DIVINE DRAGON OR WHAT???
+Armed Miranda: 330 - [331, 332, 342, 343, 344, 345, 346, 347]
+Armed Rose: 363 - [364, 365, 366, 375, 376, 377, 378, 379]
+Divine Dragon Fireball: 396 - [397]
+==========
+[/Mt. Mortal Dragon - Inner Cliff CutScene - Environment] -> FOLDER: 271
+Mt. Mortal Dragon Inner Cliff CutScene: 2
+[/Mt. Mortal Dragon - Inner Cliff CutScene - Objects] -> FOLDER: 272
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 32]
+Rose: 33 - [34, 45, 46, 47, 48, 49, 50, 51]
+MeruFlying: 66 - [67, 78, 80, 81, 82]
+Meru: 99 - [100, 101, 102]
+==========

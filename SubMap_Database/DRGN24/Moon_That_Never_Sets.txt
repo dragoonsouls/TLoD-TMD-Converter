@@ -1,0 +1,424 @@
+[/Moon That Never Sets - Archangel Den - Environment] -> FOLDER: 946
+Moon That Never Sets Archangel Den: 2
+[/Moon That Never Sets - Archangel Den - Objects] -> FOLDER: 947
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+Meru: 33 - [34, 35, 36, 37, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57]
+Archangel: 66 - [67, 72]
+Rose: 99 - [100, 101, 102, 105, 106, 107]
+Albert: 132 - [133, 134, 135, 138, 139, 140, 143]
+Green Crystal Shard: 165 - [166]
+Fume: 363 - [364]
+Empty: 429 - [430] # Textured Quad with no Texure assigned
+==========
+[/Moon That Never Sets - Bale Like Outside - Environment] -> FOLDER: 763
+Moon That Never Sets Bale Like Outside: 2
+[/Moon That Never Sets - Bale Like Outside - Objects] -> FOLDER: 764
+Dart: 0 - [1, 2, 3, 12, 13, 32]
+PortalEffect: 33 - [34]
+Albert: 66 - [67, 68, 69, 77]
+SerdioSoldier: 99 - [100, 101, 102, 110, 111]
+ChildMaleVillager: 165 - [166, 167, 168, 176]
+OldMaleVillager: 198 - [199, 200, 201, 209]
+MaleVillager: 231 - [232, 233, 234]
+==========
+[/Moon That Never Sets - Bale Like Restroom - Environment] -> FOLDER: 760
+Moon That Never Sets Bale Like Restroom: 2
+[/Moon That Never Sets - Bale Like Restroom - Objects] -> FOLDER: 761
+Dart: 0 - [1, 2, 3, 4, 11, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 45]
+Albert: 66 - [67, 68, 69, 77, 78, 79, 98]
+Rose1: 99 - [100, 101, 102, 110, 111, 112, 113, 114, 115]
+Haschel: 132 - [133, 134, 135, 144, 145, 146, 147]
+Meru: 165 - [166, 167, 168, 176, 177, 178]
+Kongol: 198 - [199, 200, 201, 210]
+SerdioSoldier: 231 - [232, 233, 242]
+Claire: 264 - [265, 266, 267]
+PortalEffect: 297 - [298]
+PianistFemaleChild: 330 - [331, 342, 343, 344]
+Rose2: 363 - [364, 365, 375, 376, 377]
+OldMaleVillager: 396 - [397, 398, 407, 408, 409]
+PortalSwirlEffect: 429 - [430]
+==========
+[/Moon That Never Sets - Black Castle Throne Like - Environment] -> FOLDER: 766
+Moon That Never Sets Black Castle Throne Like: 2
+[/Moon That Never Sets - Black Castle Throne Like - Objects] -> FOLDER: 767
+Dart: 0 - [1, 2, 3, 32]
+Miranda: 33 - [34, 35, 36, 45]
+Albert: 66 - [67, 68, 69, 77, 78]
+Rose: 99 - [100, 101, 102, 111]
+Haschel: 132 - [133, 134, 135, 144]
+Meru: 165 - [166, 167, 168, 177]
+Kongol: 198 - [199, 200, 201, 210]
+==========
+[/Moon That Never Sets - Clinic - Environment] -> FOLDER: 706
+Moon That Never Sets Clinic: 2
+[/Moon That Never Sets - Clinic - Objects] -> FOLDER: 707
+Dart: 0 - [1, 2, 3, 32]
+Medic: 33 - [34, 35, 36, 44, 45]
+==========
+[/Moon That Never Sets - Doel Throne - Environment] -> FOLDER: 691
+Moon That Never Sets Doel Throne: 2
+[/Moon That Never Sets - Doel Throne - Objects] -> FOLDER: 692
+Dart: 0 - [1, 2, 3, 12, 13, 32]
+Miranda: 33 - [34, 35]
+Albert: 66 - [67, 68, 69, 77, 78, 79, 80, 81]
+Rose: 99 - [100, 101]
+Haschel: 132 - [133, 134]
+Meru: 165 - [166, 167]
+Armed Albert: 198 - [199, 200, 201, 210]
+Doel: 231 - [232, 233, 244, 245, 246, 247]
+Armed Doel: 264 - [265, 276, 277, 278, 279]
+==========
+[/Moon That Never Sets - Forest Like - Environment] -> FOLDER: 715
+Moon That Never Sets Forest Like: 2
+[/Moon That Never Sets - Forest Like - Objects] -> FOLDER: 716
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 48]
+Albert: 66 - [67, 68, 72, 73, 74, 77]
+Haschel: 99 - [100, 101, 105, 106, 107, 110, 111, 112, 113]
+Meru: 132 - [133, 134, 138, 139, 140, 143, 144]
+Kongol: 165 - [166, 167, 171, 172, 173, 176]
+Miranda: 198 - [199, 200, 204, 205, 206, 209]
+TreasureChest: 231 - [232, 233, 234]
+==========
+[/Moon That Never Sets - GOD Den Blue Reveal CU - Environment] -> FOLDER: 964
+Moon That Never Sets GOD Den Blue Reveal CU: 2
+[/Moon That Never Sets - GOD Den Blue Reveal CU - Objects] -> FOLDER: 965
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 16, 21, 22, 23, 24, 25]
+Armed Zieg: 33 - [34, 35, 36, 37, 39, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+Rose: 66 - [67, 68, 69, 72, 73, 74, 77, 78, 79, 80]
+Albert: 99 - [100, 101, 102, 110]
+Empty1: 198 - [199] # Cardboard Shana GOD maybe
+Melbu Frahma Spirit: 231 - [232]
+Armed Rose: 264 - [265, 266, 267, 275, 276, 277, 278]
+==========
+[/Moon That Never Sets - GOD Den Blue Teleporter - Environment] -> FOLDER: 961
+Moon That Never Sets GOD Den Blue Teleporter: 2
+[/Moon That Never Sets - GOD Den Blue Teleporter  - Objects] -> FOLDER: 962
+Dart: 0 - [1, 2, 3, 11, 12, 13, 32]
+TeleportEffect: 33 - [34]
+WhiteTreasureChest: 66 - [67, 68, 69]
+==========
+[/Moon That Never Sets - GOD Den Red - Environment] -> FOLDER: 967
+Moon That Never Sets GOD Den Red: 2
+[/Moon That Never Sets - GOD Den Red - Objects] -> FOLDER: 968
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 16, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46]
+Albert: 66 - [67, 68, 72, 73, 74]
+Meru: 99 - [100, 101, 105, 106, 107, 110, 111, 112, 113]
+Haschel: 132 - [133, 134, 138, 139, 140, 143]
+Miranda: 165 - [166, 167, 171, 172, 173, 176]
+Kongol: 198 - [199, 200, 204, 205, 206, 209, 210, 211, 212, 213]
+CardboardShana: 231 - [232]
+CardboardZieg: 264 - [265]
+CardboardMelbuFrahma: 297 - [298]
+==========
+[/Moon That Never Sets - GOD Last Stand - Environment] -> FOLDER: 970
+Moon That Never Sets GOD Last Stand: 2
+[/Moon That Never Sets - GOD Last Stand - Objects] -> FOLDER: 971
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15]
+MelbuFrahmaGOD: 33 - [34, 39, 40, 41]
+Armed Rose: 66 - [67, 68, 69, 77, 78]
+Armed Albert: 99 - [100, 101, 102, 110]
+Haschel: 132 - [133, 134, 135, 143]
+Armed Meru: 165 - [166, 167, 176]
+Armed Kongol: 198 - [199, 200, 201, 209]
+Armed Miranda: 231 - [232, 233, 242]
+Armed Dart: 264 - [265, 266, 275]
+MelbuFrahmaTentacle: 297 - [298]
+==========
+[/Moon That Never Sets - Home of Giganto Past - Environment] -> FOLDER: 739
+Moon That Never Sets Home of Giganto Past: 2
+[/Moon That Never Sets - Home of Giganto Past - Objects] -> FOLDER: 740
+Dart: 0 - [1, 2, 3, 32]
+Miranda: 33 - [34, 35, 44, 45]
+Albert: 66 - [67, 68, 69, 78, 79, 80, 98]
+MeruFlying: 99 - [100, 101, 102, 103]
+Haschel: 132 - [133, 134, 144]
+Meru: 165 - [166, 167, 176, 177, 178, 179, 180]
+Kongol: 198 - [199, 200, 210, 211, 212, 213, 214, 215, 216, 217, 218]
+DoelandHorse: 231 - [232, 233, 234, 243, 244, 245, 246, 247, 248]
+SandoraSoliderandHorse: 264 - [265, 266, 267, 275, 276, 277, 278, 279, 280, 281, 282, 283]
+Bandit: 297 - [298, 299]
+KongolChild: 396 - [397, 398, 408, 409, 410, 411, 412, 413]
+==========
+[/Moon That Never Sets - Home of Giganto Past 2 - Environment] -> FOLDER: 742
+Moon That Never Sets Home of Giganto Past 2: 2
+[/Moon That Never Sets - Home of Giganto Past 2 - Objects] -> FOLDER: 743
+Dart: 0 - [1, 2, 3, 32]
+Miranda: 33 - [34, 35, 36, 45]
+Albert: 66 - [67, 68, 69, 78, 98]
+PortalEffect: 99 - [100]
+Haschel: 132 - [133, 134, 135, 144]
+Meru: 165 - [166, 167, 168, 176, 177]
+Kongol: 198 - [199, 200, 201, 209, 210]
+Armed Kongol: 231 - [232, 233]
+==========
+[/Moon That Never Sets - Home of Giganto Throne - Environment] -> FOLDER: 745
+Moon That Never Sets Home of Giganto Throne: 2
+[/Moon That Never Sets - Home of Giganto Throne - Objects] -> FOLDER: 746
+Dart: 0 - [1, 2, 3, 32]
+Miranda: 33 - [34, 35, 36, 44, 45, 46, 47, 48, 49, 50, 51]
+Albert: 66 - [67, 68, 69, 77, 78, 98]
+Indora: 99 - [100, 111, 112, 113, 114, 115, 116, 117, 118]
+Haschel: 132 - [133, 134, 135, 143, 144]
+Meru: 165 - [166, 167, 168, 176, 177, 178]
+Armed Kongol: 198 - [199, 200, 201, 209, 212]
+Kongol: 231 - [232, 233, 234, 242, 243, 244, 245, 246, 247, 248]
+==========
+[/Moon That Never Sets - Home of Giganto Throne Basement - Environment] -> FOLDER: 973
+Moon That Never Sets Home of Giganto Throne Basement: 2
+[/Moon That Never Sets - Home of Giganto Throne Basement - Objects] -> FOLDER: 974
+Dart: 0 - [1, 2, 3, 12, 13, 14, 32] # There is a arms up animation i ever seen
+Albert: 66 - [67, 68, 69, 78, 98]
+TreasureChest: 99 - [100, 101, 102]
+==========
+[/Moon That Never Sets - Memories Core Cut 1 - Environment] -> FOLDER: 949
+Moon That Never Sets Memories Core Cut 1: 2
+[/Moon That Never Sets - Memories Core Cut 1 - Objects] -> FOLDER: 950
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 21, 22, 23, 32]
+Rose: 33 - [34, 35, 39, 40, 41]
+Albert: 66 - [67, 68, 72, 73, 74]
+Haschel: 99 - [100, 101, 105, 106, 107]
+Meru: 132 - [133, 134, 138, 139, 140]
+Miranda: 165 - [166, 167, 171, 172, 173]
+Kongol: 198 - [199, 200, 204, 205, 206]
+Fume: 231 - [232]
+==========
+[/Moon That Never Sets - Memories Core Cut 2 - Environment] -> FOLDER: 952
+Moon That Never Sets Memories Core Cut 2: 2
+[/Moon That Never Sets - Memories Core Cut 2 - Objects] -> FOLDER: 953
+Dart: 0 - [1, 2, 3, 21, 22, 23, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+TVEffect: 66 - [67] # it's a CUBE
+==========
+[/Moon That Never Sets - Memories Core Cut 3 - Environment] -> FOLDER: 955
+Moon That Never Sets Memories Core Cut 3: 2
+[/Moon That Never Sets - Memories Core Cut 3 - Objects] -> FOLDER: 956
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 32]
+Rose: 33 - [34, 35, 39, 40, 41]
+Albert: 66 - [67, 68, 72, 73, 74]
+Haschel: 99 - [100, 101, 105, 106, 107]
+Meru: 132 - [133, 134, 138, 139, 140]
+Miranda: 165 - [166, 167, 171, 172, 173]
+Kongol: 198 - [199, 200, 204, 205, 206]
+Fire: 231 - [232]
+==========
+[/Moon That Never Sets - MF Converting to GoD Cutscene - Environment] -> FOLDER: 697
+Moon That Never Sets MF Converting to GoD Cutscene: 2
+[/Moon That Never Sets - MF Converting to GoD Cutscene - Objects] -> FOLDER: 698
+Melbu Frahma Spirit: 0 - [1]
+Shana God Of Destruction: 33 - [34]
+Core Tentacles: 66 - [67, 68, 69, 70, 71, 72]
+Translucent Core: 132 - [133]
+Small Spirit Blast: 165 - [166]
+Spirit Blast: 198 - [199]
+Small Spirit Blast 2: 231 - [232]
+Melbu Frahma God Of Destruction: 264 - [265, 266]
+==========
+[/Moon That Never Sets - MF God of Destruction Red - Environment] -> FOLDER: 586
+Moon That Never Sets MF God of Destruction Red: 2
+[/Moon That Never Sets - MF God of Destruction Red - Objects] -> FOLDER: 587
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22]
+MelbuFrahmaGOD: 33 - [34, 37]
+ArmoredLloyd: 66 - [67, 77, 78, 79, 87, 88, 89, 90, 91, 92]
+Rose: 99 - [100, 101, 102, 105, 106, 107, 110, 111, 112, 113, 114]
+Meru: 132 - [133, 134, 136, 138, 139, 140, 143, 144, 145, 146, 147]
+CardboardShana: 165 - [166]
+CardboardZieg: 198 - [199]
+==========
+[/Moon That Never Sets - MF God of Destruction Red 2 - Environment] -> FOLDER: 694
+Moon That Never Sets MF God of Destruction Red 2: 2
+[/Moon That Never Sets - MF God of Destruction Red 2 - Objects] -> FOLDER: 695
+Dart: 0 - [1, 2, 3, 11, 12, 13, 32]
+LandTeleporterOrb: 33 - [34]
+WhiteTreasureChest: 66 - [67, 68, 69]
+==========
+[/Moon That Never Sets - Mininto Village - Environment] -> FOLDER: 727
+Moon That Never Sets Mininto Village: 2
+[/Moon That Never Sets - Mininto Village - Objects] -> FOLDER: 728
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 45]
+Albert: 66 - [67, 68, 69, 77, 78, 79, 80, 81, 98]
+Rose: 99 - [100, 101, 102, 110, 111]
+Haschel: 132 - [133, 134, 135, 144, 145]
+Meru: 165 - [166, 167, 168, 177, 178, 179, 180]
+Claire: 198 - [199, 200, 201]
+MaleMininto1: 231 - [232, 233, 234, 242]
+FemaleMininto1: 264 - [265, 266, 267, 275]
+FemaleMininto2: 297 - [298, 299, 300, 308]
+StrangeGlow: 330 - [331]
+TreasureChest: 429 - [430, 431, 432]
+==========
+[/Moon That Never Sets - Mininto Village 2 - Environment] -> FOLDER: 730
+Moon That Never Sets Mininto Village 2: 2
+[/Moon That Never Sets - Mininto Village 2 - Objects] -> FOLDER: 731
+Dart: 0 - [1, 2, 3, 32]
+TreasureChest: 33 - [34, 35, 36]
+Albert: 66 - [67, 68, 69, 98]
+==========
+[/Moon That Never Sets - Mininto Village 3 - Environment] -> FOLDER: 733
+Moon That Never Sets Mininto Village 3: 2
+[/Moon That Never Sets - Mininto Village 3 - Objects] -> FOLDER: 734
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 32]
+Claire: 33 - [34, 35, 36, 44, 45]
+Albert: 66 - [67, 68, 69, 98]
+Rose: 99 - [100, 101, 102, 110, 111, 112]
+Haschel: 132 - [133, 134, 135, 143, 144, 145, 146, 147, 148]
+PortalEffect: 165 - [166]
+==========
+[/Moon That Never Sets - Mininto Village 4 - Environment] -> FOLDER: 976
+Moon That Never Sets Mininto Village 4: 2
+[/Moon That Never Sets - Mininto Village 4 - Objects] -> FOLDER: 977
+Dart: 0 - [1, 2, 3, 32]
+TreasureChest: 33 - [34, 35, 36]
+Albert: 66 - [67, 68, 69, 98]
+==========
+[/Moon That Never Sets - Moon Connection Hallway - Environment] -> FOLDER: 709
+Moon That Never Sets Moon Connection Hallway: 2
+[/Moon That Never Sets - Moon Connection Hallway - Objects] -> FOLDER: 710
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Moon That Never Sets - Moon Connection Hallway 2 - Environment] -> FOLDER: 712
+Moon That Never Sets Moon Connection Hallway 2: 2
+[/Moon That Never Sets - Moon Connection Hallway 2 - Objects] -> FOLDER: 713
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Moon That Never Sets - Moon Connection Hallway 2 Repeat - Environment] -> FOLDER: 880
+Moon That Never Sets Moon Connection Hallway 2 Repeat: 2
+[/Moon That Never Sets - Moon Connection Hallway 2 Repeat - Objects] -> FOLDER: 881
+Dart: 0 - [1, 2, 3, 32]
+==========
+[/Moon That Never Sets - Moon Entrance - Environment] -> FOLDER: 700
+Moon That Never Sets Moon Entrance: 2
+[/Moon That Never Sets - Moon Entrance - Objects] -> FOLDER: 701
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44]
+==========
+[/Moon That Never Sets - Moon Entrance Collapsing Center CU - Environment] -> FOLDER: 703
+Moon That Never Sets Moon Entrance Collapsing Center CU: 2
+[/Moon That Never Sets - Moon Entrance Collapsing Center CU - Objects] -> FOLDER: 704
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47]
+Albert: 66 - [67, 68, 77, 78]
+Haschel: 99 - [100, 101, 103]
+Meru: 132 - [133, 134, 136, 143, 144]
+Kongol: 165 - [166, 167, 176, 177]
+Miranda: 198 - [199, 200, 209, 210, 211]
+FlareEffect: 231 - [232]
+==========
+[/Moon That Never Sets - Prairie Like - Environment] -> FOLDER: 718
+Moon That Never Sets Prairie Like: 2
+[/Moon That Never Sets - Prairie Like - Objects] -> FOLDER: 719
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 32] # There are a bunch of non used animations here
+==========
+[/Moon That Never Sets - Rouge Claire Training Room - Environment] -> FOLDER: 736
+Moon That Never Sets Rouge Claire Training Room: 2
+[/Moon That Never Sets - Rouge Claire Training Room - Objects] -> FOLDER: 737
+Dart: 0 - [1, 2, 3, 11, 12, 13, 32]
+Miranda: 33 - [34, 35, 36, 44, 45]
+Claire: 66 - [67, 68, 69, 77, 78, 79, 80, 81]
+Rose: 99 - [100, 101, 102, 110, 111, 112]
+Haschel: 132 - [133, 134, 135, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154]
+==========
+[/Moon That Never Sets - Super Virage Cut - Environment] -> FOLDER: 958
+Moon That Never Sets Super Virage Cut: 2
+[/Moon That Never Sets - Super Virage Cut - Objects] -> FOLDER: 959
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 16, 17, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 44, 45]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Haschel: 99 - [100, 101, 102, 105, 106, 107]
+Meru: 132 - [133, 134, 135, 138, 139, 140]
+Miranda: 165 - [166, 167, 168, 171, 172, 173]
+Kongol: 198 - [199, 200, 201, 204, 205, 206]
+SuperVirage: 231 - [232]
+Armed Dart: 264 - [265, 266, 267, 275]
+==========
+[/Moon That Never Sets - Tundra Like - Environment] -> FOLDER: 721
+Moon That Never Sets Tundra Like: 2
+[/Moon That Never Sets - Tundra Like - Objects] -> FOLDER: 722
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+TreasureChest: 99 - [100, 101, 102]
+==========
+[/Moon That Never Sets - Tundra Like Miranda and Flower CU - Environment] -> FOLDER: 724
+Moon That Never Sets Tundra Like Miranda and Flower CU: 2
+[/Moon That Never Sets - Tundra Like Miranda and Flower CU - Objects] -> FOLDER: 725
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 32]
+Miranda: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
+MirandaMother: 66 - [67, 68, 72, 73, 74]
+MirandaMotherLover: 99 - [100, 101, 105, 106, 107]
+MirandaChild: 132 - [133, 134, 138, 139, 140]
+Meru: 231 - [232, 233, 234, 237, 238, 239, 242] # Model with no Texture assigned
+Rose: 264 - [265, 266, 267, 270, 271, 272] # Model with no Texture assigned
+==========
+[/Moon That Never Sets - Valley of Dragons 1 - Environment] -> FOLDER: 748
+Moon That Never Sets Valley of Dragons 1: 2
+[/Moon That Never Sets - Valley of Dragons 1 - Objects] -> FOLDER: 749
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 32]
+Protodragon: 33 - [34, 35, 45, 46, 47, 48, 49]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113, 114, 115]
+FlyingDragon: 165 - [166, 167]
+CarnivorePlant: 198 - [199] # Dunno what is this exactly but i see them in this SubMap
+==========
+[/Moon That Never Sets - Valley of Dragons 2 - Environment] -> FOLDER: 751
+Moon That Never Sets Valley of Dragons 2: 2
+[/Moon That Never Sets - Valley of Dragons 2 - Objects] -> FOLDER: 752
+Dart: 0 - [1, 2, 3, 9, 16, 17, 18, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+FlyingDragon: 99 - [100, 101]
+==========
+[/Moon That Never Sets - Valley of Dragons 3 - Environment] -> FOLDER: 754
+Moon That Never Sets Valley of Dragons 3: 2
+[/Moon That Never Sets - Valley of Dragons 3 - Objects] -> FOLDER: 755
+Dart: 0 - [1, 2, 3, 12, 13, 32]
+Rose: 99 - [100, 101, 102, 110, 111, 112]
+==========
+[/Moon That Never Sets - Valley of Dragons Michael CU - Environment] -> FOLDER: 757
+Moon That Never Sets Valley of Dragons Michael CU: 2
+[/Moon That Never Sets - Valley of Dragons Michael CU - Objects] -> FOLDER: 758
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 16, 32]
+Rose: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50]
+Zieg: 66 - [67]
+MichaelBaby: 231 - [232, 233, 234] # Seems to be the start of the animation
+MichaelBaby2: 264 - [265] # Seems to be a the black or fume form
+Empty3: 297 - [298] # Seems to be a cloud-smoke thing
+Armed Rose: 330 - [331, 341] # Armed Rose Model with no Texture assigned
+RoseDragoon: 363 - [364, 365, 369, 370, 371] # First time Rose convert into Dragoon
+==========
+[/Moon That Never Sets - Wingly Flying Castle 1 - Environment] -> FOLDER: 769
+Moon That Never Sets Wingly Flying Castle 1: 2
+[/Moon That Never Sets - Wingly Flying Castle 1 - Objects] -> FOLDER: 770
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 45, 46, 47, 48, 49, 50, 51]
+Albert: 66 - [67, 68, 69, 78, 79, 80, 81, 82, 83]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113, 114, 115, 116]
+Haschel: 132 - [133, 134, 135, 144, 145]
+Meru: 165 - [166, 167, 168, 177, 178, 179]
+Kongol: 198 - [199, 200, 201, 210, 211]
+MeruFlying: 231 - [232, 233, 242, 243, 244, 245]
+PortalEffect: 264 - [265]
+==========
+[/Moon That Never Sets - Wingly Flying Castle 2 - Environment] -> FOLDER: 940
+Moon That Never Sets Wingly Flying Castle 2: 2
+[/Moon That Never Sets - Wingly Flying Castle 2 - Objects] -> FOLDER: 941
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 32]
+Miranda: 33 - [34, 35, 36, 45, 46]
+Albert: 66 - [67, 68, 69, 78, 79]
+Rose: 99 - [100, 101, 102, 110, 111, 112, 113, 115, 116] # Rose protecting animation this is gold
+Haschel: 132 - [133, 134, 135, 144]
+Meru: 165 - [166, 167, 168, 177]
+Kongol: 198 - [199, 200, 201, 210, 211] # There are some weird animations here lol
+Michael: 231 - [232]
+MichaelBeamAttack: 264 - [265]
+==========
+[/Moon That Never Sets - Wingly Flying Castle 3 - Environment] -> FOLDER: 943
+Moon That Never Sets Wingly Flying Castle 3: 2
+[/Moon That Never Sets - Wingly Flying Castle 3 - Objects] -> FOLDER: 944
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 11, 12, 13, 14, 15, 32]
+Meru: 33 - [34, 35, 36, 39, 40, 41, 44, 45, 46, 47]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 77, 78]
+Miranda: 99 - [100, 101, 102, 105, 106, 107, 110]
+Bridge: 132 - [133]
+MeruFlying: 198 - [199, 200] # Seems to have no Texture assigned
+==========

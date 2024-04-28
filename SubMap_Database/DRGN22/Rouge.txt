@@ -1,0 +1,10 @@
+[/Rouge - Shore Pallet - Environment] -> FOLDER: 862
+Rouge Shore Pallet: 2
+[/Rouge - Shore Pallet - Objects] -> FOLDER: 863
+Strange Glow: 0 - [1]
+Claire: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52]
+Lotta: 66 - [72, 73, 74, 75]
+Haschel: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 110, 111, 112, 129]
+Floor Shadow Character 1: 132 - [133, 134, 135, 136]
+Floor Shadow Character 2: 132 - [166, 167, 168, 169]
+==========

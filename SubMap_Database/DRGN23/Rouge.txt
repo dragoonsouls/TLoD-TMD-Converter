@@ -1,0 +1,6 @@
+[/Rouge - Haschel Remembers CutScene - Environment] -> FOLDER: 505
+Rouge Haschel Remembers CutScene: 2
+[/Rouge - Haschel Remembers CutScene - Objects] -> FOLDER: 506
+Haschel: 0 - [1, 2, 6, 7, 8]
+Claire: 33 - [34, 35, 36, 39, 42, 43, 44]
+==========

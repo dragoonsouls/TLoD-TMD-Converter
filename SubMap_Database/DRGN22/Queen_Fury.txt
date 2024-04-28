@@ -1,0 +1,162 @@
+[/Queen Fury - Bedroom - Environment] -> FOLDER: 850
+Queen Fury Bedroom: 2
+[/Queen Fury - Bedroom - Objects] -> FOLDER: 851
+Strange Glow: 0 - [1]
+Retail Bugged Animation Bedroom: None - [32] # Dart Waiting Animation
+Shana: 33 - [34, 35, 36, 37, 65]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 98]
+Rose: 99 - [100, 101, 102, 103, 131]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 164]
+Haschel: 165 - [166, 167, 168, 169, 197]
+Kongol: 198 - [199, 200, 201, 202, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 263]
+Dart: 264 - [265, 266, 267, 268]
+Pillow: 297 - [298]
+Orange Glow: 330 - [331]
+Sailor: 363 - [364, 367, 393]
+==========
+[/Queen Fury - Bridge - Environment] -> FOLDER: 841
+Queen Fury Bridge: 2
+[/Queen Fury - Bridge - Objects] -> FOLDER: 842
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 65]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 98]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 131]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 164]
+Haschel: 165 - [166, 167, 168, 169, 170, 171, 197]
+Kongol: 198 - [199, 200, 201, 202, 203, 204, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 236, 237, 263]
+Dart: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 278, 296]
+Commodore Puler: 297 - [298, 299, 301, 302]
+Sailor Navigating: 330 - [331]
+==========
+[/Queen Fury - Crow's Nest - Environment] -> FOLDER: 859
+Queen Fury Crow's Nest: 2
+[/Queen Fury - Crow's Nest - Objects] -> FOLDER: 860
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 65]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 98]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 131]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 164]
+Haschel: 165 - [166, 167, 168, 169, 170, 171, 197]
+Kongol: 198 - [199, 200, 201, 202, 203, 204, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 236, 237, 263]
+Dart: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 296]
+Dark Dragoon Spirit Glow: 297 - [298]
+Sailor: 330 - [331, 332]
+Seagull: 363 - [364]
+==========
+[/Queen Fury - Engine Room - Environment] -> FOLDER: 853
+Queen Fury Engine Room: 2
+[/Queen Fury - Engine Room - Objects] -> FOLDER: 854
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 65]
+Meru: 66 - [67, 68, 69, 70, 98]
+Rose: 99 - [100, 101, 102, 103, 131]
+Albert: 132 - [133, 134, 135, 136, 164]
+Haschel: 165 - [166, 167, 168, 169, 197]
+Kongol: 198 - [199, 200, 201, 202, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 263]
+Dart: 264 - [265, 266, 267, 268, 296]
+Sailor: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306] # 306 retail bugged?
+Kayla: 330 - [331, 332, 333, 335]
+Foam: 363 - [364]
+==========
+[/Queen Fury - Furnace Room - Environment] -> FOLDER: 856
+Queen Fury Furnace Room: 2
+[/Queen Fury - Furnace Room - Objects] -> FOLDER: 857
+Strange Glow: 0 - [1]
+Retail Bugged Animation Furnace Room: None - [32] # Dart Waiting Animation
+Shana: 33 - [34, 35, 36, 37, 65]
+Meru: 66 - [67, 68, 69, 70, 98]
+Rose: 99 - [100, 101, 102, 103, 131]
+Albert: 132 - [133, 134, 135, 136, 164]
+Haschel: 165 - [166, 167, 168, 169, 197]
+Kongol: 198 - [199, 200, 201, 202, 203, 204, 205, 206, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 263]
+Dart: 264 - [265, 266, 267, 268, 269]
+Sailor Working: 297 - [298]
+Coal Forklift Truck: 330 - [331]
+Sailor: 363 - [364, 365, 367]
+==========
+[/Queen Fury - Galley - Environment] -> FOLDER: 847
+Queen Fury Galley: 2
+[/Queen Fury - Galley - Objects] -> FOLDER: 848
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 65]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 98]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 131]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139, 164]
+Haschel: 165 - [166, 167, 168, 169, 170, 171, 172, 197]
+Kongol: 198 - [199, 200, 201, 202, 203, 204, 205, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 236, 237, 238, 263]
+Dart: 264 - [265, 266, 267, 268, 269, 270, 271, 296]
+Sailor: 297 - [298, 299, 300, 301, 302, 303, 304, 305]
+Cabbage: 330 - [331]
+Carrot: 363 - [364]
+Radish: 396 - [397]
+Spinach: 429 - [430]
+Sword: 462 - [463] # This is not Dart Sword... WTH??? hahaha
+==========
+[/Queen Fury - Main Deck - Environment] -> FOLDER: 832
+Queen Fury Main Deck: 2
+[/Queen Fury - Main Deck - Objects] -> FOLDER: 833
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 65]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 98]
+Rose: 99 - [100, 101, 102, 103, 104, 131]
+Albert: 132 - [133, 134, 135, 136, 164]
+Haschel: 165 - [166, 167, 168, 169, 170, 197]
+Kongol: 198 - [199, 200, 201, 202, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 263]
+Dart: 264 - [265, 266, 267, 268, 296]
+Seagull: 297 - [298, 299, 300, 301]
+Sailor Sweeping: 330 - [331, 332]
+Sailor: 363 - [364, 365, 366, 367, 368]
+==========
+[/Queen Fury - Main Hallway - Environment] -> FOLDER: 835
+Queen Fury Main Hallway: 2
+[/Queen Fury - Main Hallway - Objects] -> FOLDER: 836
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 65]
+Meru: 66 - [67, 68, 69, 70, 98]
+Rose: 99 - [100, 101, 102, 103, 131]
+Albert: 132 - [133, 134, 135, 136, 164]
+Haschel: 165 - [166, 167, 168, 169, 197]
+Kongol: 198 - [199, 200, 201, 202, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 263]
+Dart: 264 - [265, 266, 267, 268, 296]
+Kayla: 297 - [298, 299, 300, 301, 302]
+Foam: 330 - [331]
+Sailor: 363 - [364, 365, 367]
+Orange Glow: 429 - [430]
+==========
+[/Queen Fury - State Room - Environment] -> FOLDER: 844
+Queen Fury State Room: 2
+[/Queen Fury - State Room - Objects] -> FOLDER: 845
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 65]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 98]
+Rose: 99 - [100, 101, 102, 103, 104, 131]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 164]
+Haschel: 165 - [166, 167, 168, 169, 197]
+Kongol: 198 - [199, 200, 201, 202, 203, 204, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 263]
+Dart: 264 - [265, 266, 267, 268, 269, 296]
+Sailor Sweeping: 297 - [298, 299]
+==========
+[/Queen Fury - Top Deck - Environment] -> FOLDER: 838
+Queen Fury Top Deck: 2
+[/Queen Fury - Top Deck - Objects] -> FOLDER: 839
+Strange Glow: 0 - [1]
+Shana: 33 - [34, 35, 36, 37, 65]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 98]
+Rose: 99 - [100, 101, 102, 103, 104, 131]
+Albert: 132 - [133, 134, 135, 136, 164]
+Haschel: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 197]
+Kongol: 198 - [199, 200, 201, 202, 228, 229, 230]
+Miranda: 231 - [232, 233, 234, 235, 263]
+Dart: 264 - [265, 266, 267, 268, 296]
+Sailor Sweeping and Guarding: 297 - [298, 299, 300, 301, 302]
+Sailor: 330 - [331, 332, 333, 334]
+==========

@@ -1,0 +1,62 @@
+[/Snowfield - Cavern - Environment] -> FOLDER: 388
+Snowfield Cavern: 2
+[/Snowfield - Cavern - Objects] -> FOLDER: 389
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Miranda: 33 - [34]
+Meru: 66 - [67]
+Rose: 99 - [100]
+Albert: 132 - [133, 135, 137, 138, 139, 140, 141, 162]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201, 228, 229]
+ArmoredLloyd: 231 - [232, 235, 236, 238, 239, 240, 241, 242, 243, 261]
+StrangeGlow: 264 - [265]
+==========
+[/Snowfield - Cut 1 - Environment] -> FOLDER: 385
+Snowfield Cut 1: 2
+[/Snowfield - Cut 1 - Objects] -> FOLDER: 386
+Dart: 0 - [1, 2, 3, 4, 32]
+Miranda: 33 - [34, 35, 36]
+Meru: 66 - [67, 68, 69, 70, 71]
+Rose: 99 - [100, 101, 102]
+Albert: 132 - [133, 134, 135]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201]
+ArmoredLloyd: 231 - [232, 233, 234, 235]
+TreasureChest: 264 - [265, 266, 267]
+==========
+[/Snowfield - Cut 2 - Environment] -> FOLDER: 391
+Snowfield Cut 2: 2
+[/Snowfield - Cut 2 - Objects] -> FOLDER: 392
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Miranda: 33 - [34, 35]
+Meru: 66 - [67, 68, 69]
+Rose: 99 - [100, 101, 102]
+Albert: 132 - [133, 134, 135]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201]
+Post: 231 - [232]
+==========
+[/Snowfield - Cut 3 - Environment] -> FOLDER: 394
+Snowfield Cut 3: 2
+[/Snowfield - Cut 3 - Objects] -> FOLDER: 395
+Dart: 0 - [1, 2, 3, 4, 32]
+TreasureChest: 33 - [34, 35, 36]
+==========
+[/Snowfield - Cut 3 Second - Environment] -> FOLDER: 400
+Snowfield Cut 3 Second: 2
+[/Snowfield - Cut 3 Second - Objects] -> FOLDER: 401
+Dart: 0 - [1, 2, 3, 5, 6, 7, 32]
+TreasureChest: 33 - [34, 35, 36]
+StrangeGlow: 66 - [67]
+==========
+[/Snowfield - Fort Magrad Entrance - Environment] -> FOLDER: 397
+Snowfield Fort Magrad Entrance: 2
+[/Snowfield - Fort Magrad Entrance - Objects] -> FOLDER: 398
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Miranda: 33 - [34, 35, 36]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106]
+Albert: 132 - [133, 134, 135]
+Haschel: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201, 202, 228, 229]
+==========

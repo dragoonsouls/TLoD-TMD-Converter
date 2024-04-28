@@ -1,0 +1,66 @@
+[/Crystal Palace - Knight Restroom - Environment] -> FOLDER: 121
+Crystal Palace Knight Restroom: 2
+[/Crystal Palace - Knight Restroom - Objects] -> FOLDER: 122
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+WhiteTreasureChest: 33 - [34, 35, 36]
+MilleSeseauKnight: 66 - [67, 68, 72, 73, 74, 75, 76]
+CastleMaiden: 165 - [166, 167, 171, 172, 173]
+CastleMaiden2: 198 - [199, 200, 204, 205, 206]
+==========
+[/Crystal Palace - Main Hall - Environment] -> FOLDER: 115
+Crystal Palace Main Hall: 2
+[/Crystal Palace - Main Hall - Objects] -> FOLDER: 116
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Miranda: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Rose: 99 - [100, 101, 102, 105, 106, 107]
+Haschel: 132 - [133, 134, 135, 138, 139, 140]
+Kongol: 165 - [166, 167, 168, 171, 172, 173]
+Meru: 198 - [199, 200, 201, 204, 205, 206]
+WhiteTreasureChest: 231 - [232, 233, 234]
+MilleSeseauKnight: 264 - [265, 266, 270, 271, 272, 273, 274]
+==========
+[/Crystal Palace - Royal Bedroom - Environment] -> FOLDER: 124
+Crystal Palace Royal Bedroom: 2
+[/Crystal Palace - Royal Bedroom - Objects] -> FOLDER: 125
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 32]
+Miranda: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Rose: 99 - [100, 101, 102, 105, 106, 107]
+Kongol: 132 - [133, 134, 135, 137, 138, 139, 140, 141]
+Haschel: 165 - [166, 167, 168, 171, 172, 173, 174, 175]
+Meru: 198 - [199, 200, 201, 204, 205, 206, 207, 208]
+Shana: 231 - [232, 233, 234, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+CastleMaiden: 264 - [265, 266, 270, 271, 272]
+CastleMaiden2: 297 - [298, 299, 303, 304, 305]
+==========
+[/Crystal Palace - Signet Sphere - Environment] -> FOLDER: 130
+Crystal Palace Signet Sphere: 2
+[/Crystal Palace - Signet Sphere - Objects] -> FOLDER: 131
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 32]
+Shana: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
+Albert: 66 - [67, 68, 69, 72, 73, 74, 75, 76, 77]
+Rose: 99 - [100, 101, 102, 105, 106, 107, 108]
+Miranda: 132 - [133, 134, 135, 138, 139, 140, 141, 142, 143, 144, 145, 146]
+Dart and Shana: 264 - [265, 266, 267, 272, 273, 274, 275, 276, 277]
+==========
+[/Crystal Palace - Stairs Fork - Environment] -> FOLDER: 118
+Crystal Palace Stairs Fork: 2
+[/Crystal Palace - Stairs Fork - Objects] -> FOLDER: 119
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+MilleSeseauKnight: 33 - [34, 35, 39, 40, 41, 42, 43]
+==========
+[/Crystal Palace - Throne - Environment] -> FOLDER: 127
+Crystal Palace Throne: 2
+[/Crystal Palace - Throne - Objects] -> FOLDER: 128
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 32]
+Shana: 33 - [34, 35, 39, 40, 41, 42, 43]
+Rose: 66 - [67, 68, 72, 73, 74]
+Meru: 99 - [100, 101, 103, 105, 106, 107, 108, 109, 110, 112, 114, 116, 117, 118]
+PrincessLuanna: 132 - [133, 134, 138, 139, 140]
+PrincessSetie: 165 - [166, 167, 171, 172, 173]
+QueenTheresa: 198 - [199, 200, 202, 204, 205, 206, 208, 210, 211, 212, 213, 215, 216]
+Miranda: 231 - [232, 233, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246]
+PrincessWink: 264 - [265, 266, 270]
+MilleSeseauKnight: 297 - [298, 299, 303, 304, 305, 306, 307, 308, 309, 310]
+==========

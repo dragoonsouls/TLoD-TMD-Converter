@@ -4,7 +4,7 @@ MAIN GUI: main Python code to create the GUI for TLoD TMD Converter
 
 Copyright (C) 2024 DooMMetaL
 """
-
+from threading import Thread
 from tkinter import INSERT, CENTER, END, Canvas, Tk, Button, Frame, Text, LabelFrame, Label, messagebox, Scrollbar, Toplevel, Listbox, Checkbutton, IntVar, ttk, Entry, StringVar
 from tkinter.filedialog import askopenfile, askdirectory
 from PIL import ImageTk, Image
@@ -68,12 +68,11 @@ class Options:
                     else:
                         message_box_sc = messagebox.showinfo(title=f'SELECT SC FOLDER', message='Please select the folder called \"files\" in SC root folder')
                         root_files_sc = askdirectory(title='Select files folder from SC')
+
+                        while root_files_sc == f'':
+                            root_files_sc = self.try_again_folder(self)
+                        
                         getting_all_folders = os.walk(root_files_sc)
-
-                        if root_files_sc == f'':
-                            messagebox.showerror(title=f'Incorrect SC FOLDER', message='FATAL CRASH!: Folder not selected')
-                            exit()
-
                         for root, dirs, files in getting_all_folders:
                             if f'files' in root:
                                 sc_folder_def = root_files_sc
@@ -111,6 +110,14 @@ class Options:
                 dump_f = f'DUMP_FOLDER = {dump_folder}'
                 grabbing_every_str = header + fr_flag + def_res_x + def_res_y + def_sc_folder + dump_f
                 writing_options.write(grabbing_every_str)
+
+
+    def try_again_folder(self) -> str:
+        messagebox.showerror(title=f'Cannot find SC FOLDER', message='Please select the path to the files/ folder inside Severed Chains Folder')
+        root_files_sc = ''
+        root_files_sc = askdirectory(title='Select files folder from SC')
+        return root_files_sc
+
 
 class TCWindow(Frame):
     # Constructor
@@ -186,7 +193,7 @@ class TCWindow(Frame):
         return self.tuple_xy_changed
 
     def execute_about(self): # About Button show
-        message_about = f'TLoD TMD Converter BETA v0.4 \nCoded By DooMMetal (AKA DragoonSouls) 2024 ©\nThis Tool was made from fans to fans!, keep it as it is!\nVisit my Github for updates'
+        message_about = f'TLoD TMD Converter BETA v0.5 \nCoded By DooMMetal (AKA DragoonSouls) 2024 ©\nThis Tool was made from fans to fans!, keep it as it is!\nVisit my Github for updates'
         self.message_box_win = messagebox.showinfo('About TLoD TMD Converter', message_about)
     
     def callback_link(self, url=str):
@@ -493,6 +500,9 @@ class TCWindow(Frame):
         self.list_box_conversion_parent_table.configure(state='normal')
         self.move_to_sub_listbox_button.configure(state='active')
         self.clear_sublist_button.configure(cursor='arrow', state='disabled')
+    
+    def clear_queue_conversion_list(self):
+        self.conversion_queue_listbox.delete(0, END)
 
     # Final Conversion Steps
 
@@ -559,12 +569,9 @@ class TCWindow(Frame):
         self.new_working_label.place(relx=0.01, rely=0.6, relwidth= 0.98, relheight= 0.4)
 
         self.get_var_merge = self.merge_animations_variable.get()
-        convert_queue_files.ConvertGuiFiles(files_to_convert=files_convert, all_files_list=self.create_list_files, merge_flag=self.get_var_merge, masterbar=self.conversion_new_window)
-        new_message = messagebox.showinfo(title='Conversion Finished', message=f'Total Files Converted: {len(files_convert)}')
-        if new_message == f'ok':
-            self.conversion_new_window.destroy()
-            self.new_window_box.grab_set()
-            self.new_window_box.focus_set()
+        conversion_thread = Thread(target=convert_queue_files.ConvertGuiFiles, args=(files_convert, self.create_list_files, self.get_var_merge, self.conversion_new_window), daemon=True)
+        conversion_thread.start()
+        self.clear_queue_conversion_list()
 
     def no_close(self): # THIS FUNCTION is to bypass the [X] Windows icon for closing the window
         pass
@@ -597,9 +604,6 @@ class TCWindow(Frame):
         self.drgn22_button = Button(master=self.new_window_submap, text='DRGN22 ->', cursor='hand2', command=self.press_drgn22_callback)
         self.drgn23_button = Button(master=self.new_window_submap, text='DRGN23 ->', cursor='hand2', command=self.press_drgn23_callback)
         self.drgn24_button = Button(master=self.new_window_submap, text='DRGN24 ->', cursor='hand2', command=self.press_drgn24_callback)
-        self.drgn22_button.configure(state='disabled', cursor='arrow')
-        self.drgn23_button.configure(state='disabled', cursor='arrow')
-        self.drgn24_button.configure(state='disabled', cursor='arrow')
         
         # Parent ListBox for SubMaps
         self.submap_parents_listbox = Listbox(master=self.new_window_submap, cursor="hand2", selectmode='single')
@@ -704,18 +708,48 @@ class TCWindow(Frame):
         self.populate_listbox_submap(table_to_populate=self.submap_parents_listbox, list_objects=self.create_database_submap, parent_string=self.this_super_parent)
         self.submap_parents_listbox.bind("<<ListboxSelect>>", lambda e: self.handling_parent_submap_list_callback())
         self.drgn21_button.configure(state='disabled', cursor='arrow')
+        self.drgn22_button.configure(state='disabled', cursor='arrow')
+        self.drgn23_button.configure(state='disabled', cursor='arrow')
+        self.drgn24_button.configure(state='disabled', cursor='arrow')
     
     def press_drgn22_callback(self):
-        this_super_parent = f'DRGN22'
-        # TODO To be filled
+        self.submap_parents_listbox.configure(state='normal', cursor='hand2')
+        self.submap_parents_listbox.delete(0, END)
+        self.this_super_parent = f'DRGN22'
+        self.convert_all_submaps.configure(state='active')
+        self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+        self.populate_listbox_submap(table_to_populate=self.submap_parents_listbox, list_objects=self.create_database_submap, parent_string=self.this_super_parent)
+        self.submap_parents_listbox.bind("<<ListboxSelect>>", lambda e: self.handling_parent_submap_list_callback())
+        self.drgn21_button.configure(state='disabled', cursor='arrow')
+        self.drgn22_button.configure(state='disabled', cursor='arrow')
+        self.drgn23_button.configure(state='disabled', cursor='arrow')
+        self.drgn24_button.configure(state='disabled', cursor='arrow')
     
     def press_drgn23_callback(self):
-        this_super_parent = f'DRGN23'
-        # TODO To be filled
+        self.submap_parents_listbox.configure(state='normal', cursor='hand2')
+        self.submap_parents_listbox.delete(0, END)
+        self.this_super_parent = f'DRGN23'
+        self.convert_all_submaps.configure(state='active')
+        self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+        self.populate_listbox_submap(table_to_populate=self.submap_parents_listbox, list_objects=self.create_database_submap, parent_string=self.this_super_parent)
+        self.submap_parents_listbox.bind("<<ListboxSelect>>", lambda e: self.handling_parent_submap_list_callback())
+        self.drgn21_button.configure(state='disabled', cursor='arrow')
+        self.drgn22_button.configure(state='disabled', cursor='arrow')
+        self.drgn23_button.configure(state='disabled', cursor='arrow')
+        self.drgn24_button.configure(state='disabled', cursor='arrow')
     
     def press_drgn24_callback(self):
-        this_super_parent = f'DRGN24'
-        # TODO To be filled
+        self.submap_parents_listbox.configure(state='normal', cursor='hand2')
+        self.submap_parents_listbox.delete(0, END)
+        self.this_super_parent = f'DRGN24'
+        self.convert_all_submaps.configure(state='active')
+        self.submap_cut_listbox.configure(state='disabled', cursor='arrow')
+        self.populate_listbox_submap(table_to_populate=self.submap_parents_listbox, list_objects=self.create_database_submap, parent_string=self.this_super_parent)
+        self.submap_parents_listbox.bind("<<ListboxSelect>>", lambda e: self.handling_parent_submap_list_callback())
+        self.drgn21_button.configure(state='disabled', cursor='arrow')
+        self.drgn22_button.configure(state='disabled', cursor='arrow')
+        self.drgn23_button.configure(state='disabled', cursor='arrow')
+        self.drgn24_button.configure(state='disabled', cursor='arrow')
 
     def populate_listbox_submap(self, table_to_populate, list_objects=dict, parent_string=str):
         table_to_populate.delete(0, END)
@@ -772,7 +806,7 @@ class TCWindow(Frame):
                 self.environment_add_checkbox.configure(state='disabled', cursor='x_cursor')
             if check_objects == 'None':
                 self.objects_checkvar.set(0)
-                self.environment_add_checkbox.configure(state='disabled', cursor='x_cursor')
+                self.objects_add_checkbox.configure(state='disabled', cursor='x_cursor')
     
     def select_all_cuts(self):
         self.environment_checkvar.set(1)
@@ -948,12 +982,13 @@ class TCWindow(Frame):
         self.start_button_submap.configure(cursor='arrow', state='disabled')
         self.new_working_label_submap = Label(master=self.conversion_submap_new_window, text=f'Converting Models, please wait...', relief='groove')
         self.new_working_label_submap.place(relx=0.01, rely=0.6, relwidth= 0.98, relheight= 0.4)
-        convert_queue_files_submaps.ConvertSubMapFiles(disk_parent=self.this_super_parent, list_to_convert=final_list, masterbar=self.conversion_submap_new_window)
-        new_message = messagebox.showinfo(title='Conversion Finished', message=f'Total Folders Converted: {len(final_list)}')
-        if new_message == f'ok':
-            self.conversion_submap_new_window.destroy()
-            self.new_window_submap.grab_set()
-            self.new_window_submap.focus_set()
+        submap_conversion_thread = Thread(target=convert_queue_files_submaps.ConvertSubMapFiles, args=(self.this_super_parent, final_list, self.conversion_submap_new_window), daemon=True)
+        submap_conversion_thread.start()
+        self.drgn21_button.configure(cursor='hand2', state='active')
+        self.drgn22_button.configure(cursor='hand2', state='active')
+        self.drgn23_button.configure(cursor='hand2', state='active')
+        self.drgn24_button.configure(cursor='hand2', state='active')
+        self.clear_queue_list()
     
     def stop_conversion_submap(self):
         cancel_conversion = messagebox.askyesno(title='IMPORTANT', message='Are you sure that want to stop the conversion?')
@@ -1183,7 +1218,7 @@ if __name__ == "__main__":
     main_window = Tk()
     config_window = Options.read_write_options(Options)
     main_window.iconbitmap(default='Resources/DD_Eye.ico')
-    main_window.wm_title("TLoD TMD Converter BETA v0.4")
+    main_window.wm_title("TLoD TMD Converter BETA v0.5")
     width_native_windows = main_window.winfo_screenwidth()
     height_native_windows = main_window.winfo_screenheight()
     middle_place_width = (width_native_windows // 2) - (width_native_windows // 3)

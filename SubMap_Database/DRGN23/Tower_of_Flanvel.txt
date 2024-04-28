@@ -1,0 +1,145 @@
+[/Tower of Flanvel - Centered Platform Room - Environment] -> FOLDER: 367
+Tower of Flanvel Centered Platform Room: 2
+[/Tower of Flanvel - Centered Platform Room - Objects] -> FOLDER: 368
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+Platform: 165 - [166]
+PlatformBridge: 198 - [199, 200]
+Rose: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306]
+==========
+[/Tower of Flanvel - Cut 1 - Environment] -> FOLDER: 328
+Tower of Flanvel Cut 1: 2
+[/Tower of Flanvel - Cut 1 - Objects] -> FOLDER: 329
+Dart: 0 - [1, 2, 3, 4, 5, 6, 32]
+Miranda: 33 - [34, 35, 36]
+Albert: 66 - [67, 68, 69, 70, 71, 72]
+Rose: 99 - [100, 101, 102, 103]
+Haschel: 132 - [133, 134, 135]
+Meru: 165 - [166, 167, 168]
+Kongol: 198 - [199, 200, 201]
+KeyGlow: 231 - [232]
+WhiteTreasureChest: 264 - [265, 266, 267]
+==========
+[/Tower of Flanvel - Cut 2 - Environment] -> FOLDER: 337
+Tower of Flanvel Cut 2: 2
+[/Tower of Flanvel - Cut 2 - Objects] -> FOLDER: 338
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+ArmoredLloyd: 132 - [133, 134, 135]
+QueenTheresa: 165 - [166, 167, 168]
+PrincessWink: 198 - [199, 200, 201]
+MilleSeseauKnight: 231 - [232, 233, 234, 235, 236]
+PrincessSetie: 297 - [298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321, 322, 323, 324]
+WhiteTreasureChest: 330 - [331, 332, 333]
+Dart2: 363 - [None] # Model with no Animations
+==========
+[/Tower of Flanvel - Cut 3 - Environment] -> FOLDER: 340
+Tower of Flanvel Cut 3: 2
+[/Tower of Flanvel - Cut 3 - Objects] -> FOLDER: 341
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+KeyGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+==========
+[/Tower of Flanvel - Cut 4 - Environment] -> FOLDER: 343
+Tower of Flanvel Cut 4: 2
+[/Tower of Flanvel - Cut 4 - Objects] -> FOLDER: 344
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+Albert: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141]
+Haschel: 165 - [166, 167, 168, 169]
+Meru: 198 - [199, 200, 201, 202, 203, 204, 205, 206]
+MeruFlying: 264 - [265, 266, 267, 268, 269, 270]
+WhiteTreasureChest: 297 - [298, 299, 300]
+==========
+[/Tower of Flanvel - Cut 5 - Environment] -> FOLDER: 346
+Tower of Flanvel Cut 5: 2
+[/Tower of Flanvel - Cut 5 - Objects] -> FOLDER: 347
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+KeyGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+==========
+[/Tower of Flanvel - Cut 6 - Environment] -> FOLDER: 358
+Tower of Flanvel Cut 6: 2
+[/Tower of Flanvel - Cut 6 - Objects] -> FOLDER: 359
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+KeyGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+==========
+[/Tower of Flanvel - Cut 7 - Environment] -> FOLDER: 361
+Tower of Flanvel Cut 7: 2
+[/Tower of Flanvel - Cut 7 - Objects] -> FOLDER: 362
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+WhiteTreasureChest: 198 - [199, 200, 201]
+==========
+[/Tower of Flanvel - Cut 8 - Environment] -> FOLDER: 364
+Tower of Flanvel Cut 8: 2
+[/Tower of Flanvel - Cut 8 - Objects] -> FOLDER: 365
+Dart: 0 - [1, 2, 3, 4, 32]
+TeleporterOrb: 33 - [34, 35]
+KeyGlow: 66 - [67]
+TeleporterGlow: 99 - [100]
+==========
+[/Tower of Flanvel - Faust Hideout - Environment] -> FOLDER: 370
+Tower of Flanvel Faust Hideout: 2
+[/Tower of Flanvel - Faust Hideout - Objects] -> FOLDER: 371
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+Rose: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108]
+Armed Rose: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141]
+Armed Dart: 165 - [166, 167, 168, 169, 170, 171, 172]
+Faust: 198 - [199, 200, 201, 202]
+WhiteTreasureChest: 231 - [232, 233, 234]
+KeyGlow: 330 - [331]
+==========
+[/Tower of Flanvel - Faust Mirage Room - Environment] -> FOLDER: 349
+Tower of Flanvel Faust Mirage Room: 2
+[/Tower of Flanvel - Faust Mirage Room - Objects] -> FOLDER: 350
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+FaustMirage: 99 - [100, 101, 102]
+Rotating Fume: 132 - [133]
+WhiteTreasureChest: 165 - [166, 167, 168]
+Rose: 198 - [199, 200, 201, 202, 203, 204]
+Empty: 264 - [265] # I don't know what it is, just a Textured RECT
+==========
+[/Tower of Flanvel - Moon Mirror Hideout - Environment] -> FOLDER: 355
+Tower of Flanvel Moon Mirror Hideout: 2
+[/Tower of Flanvel - Moon Mirror Hideout - Objects] -> FOLDER: 356
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+ArmoredLloyd: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62]
+QueenTheresa: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Armed Dart: 99 - [100, 101, 102, 103, 104, 105, 106, 107]
+TeleporterOrb: 132 - [133, 134]
+TeleporterGlow: 165 - [166]
+PrincessWink: 198 - [199, 200, 201, 202, 203, 204, 205, 206, 207, 208, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220]
+MoonMirror: 231 - [232]
+MoonGem: 264 - [265]
+MoonDagger: 297 - [298]
+DartSword: 429 - [430]
+==========
+[/Tower of Flanvel - Top - Environment] -> FOLDER: 352
+Tower of Flanvel Top: 2
+[/Tower of Flanvel - Top - Objects] -> FOLDER: 353
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+Albert: 99 - [100, 101, 102, 103, 104, 105, 106]
+Miranda: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141]
+Kongol: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176]
+Rose: 198 - [199, 200, 201, 202, 203, 204]
+Haschel: 231 - [232, 233, 234, 235, 236, 237, 238, 239, 240, 241]
+Meru: 264 - [265, 266, 267, 268, 269, 270, 271, 272, 273, 274, 275, 276, 277]
+KeyGlow: 297 - [298]
+QueenTheresa: 363 - [364, 365, 366, 367, 368]
+MeruFlying: 429 - [430, 435, 436] # Seems to be not used at all
+==========

@@ -1,0 +1,84 @@
+[/Lidiera - Cavern Day - Environment] -> FOLDER: 985
+Lidiera Cavern Day: 2
+[/Lidiera - Cavern Day - Objects] -> FOLDER: 986
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 16, 32]
+Rose: 33 - [34, 35, 36, 45, 46, 47, 48, 49, 50, 52, 53]
+Pete: 66 - [67, 68, 69, 77, 78]
+Dog: 99 - [100, 101, 102, 110, 111]
+==========
+[/Lidiera - Cavern Night - Environment] -> FOLDER: 1117
+Lidiera Cavern Night: 2
+[/Lidiera - Cavern Night - Objects] -> FOLDER: 1118
+Dart: 0 - [1, 2, 3, 12, 13, 14, 15, 16, 32]
+Rose: 33 - [34, 35, 36, 45, 46, 47, 48, 49, 50, 51, 52, 53]
+Pete: 66 - [67, 68, 69, 78]
+Dog: 99 - [100, 101, 102, 110, 111]
+==========
+[/Lidiera - Cut 1 - Environment] -> FOLDER: 895
+Lidiera Cut 1: 2
+[/Lidiera - Cut 1 - Objects] -> FOLDER: 896
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 32]
+Rose: 33 - [34, 35, 36, 44, 45]
+Pete: 66 - [67, 68, 69, 77, 78, 79, 80, 81, 82, 83, 84, 85]
+Dog: 99 - [100, 101, 102, 110, 111]
+Mayor: 132 - [133, 143, 144, 145]
+Male Villager: 165 - [166, 167, 168, 176, 177, 178]
+Old Male Villager: 198 - [199, 209, 210, 211]
+Raft: 231 - [232]
+Pete Mother: 297 - [298, 299, 309, 310]
+Treasure Chest: 330 - [331, 332, 333]
+Trap Door: 363 - [364]
+Trap Cage: 396 - [397]
+Albert: 429 - [430, 431, 432, 440, 441]
+Trap Rope: 462 - [463]
+==========
+[/Lidiera - Dragging System Room - Environment] -> FOLDER: 1012
+Lidiera Dragging System Room: 2
+[/Lidiera - Dragging System Room - Objects] -> FOLDER: 1013
+Dart: 0 - [1, 2, 3, 12, 13, 14, 16, 17, 32]
+Treasure Chest: 33 - [34, 35, 36]
+Trap Wheel: 99 - [100]
+==========
+[/Lidiera - House 1 - Environment] -> FOLDER: 898
+Lidiera House 1: 2
+[/Lidiera - House 1 - Objects] -> FOLDER: 899
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 32]
+Old Female Villager: 33 - [34, 35]
+==========
+[/Lidiera - House 2 - Environment] -> FOLDER: 901
+Lidiera House 2: 2
+[/Lidiera - House 2 - Objects] -> FOLDER: 902
+Dart: 0 - [1, 2, 3, 32]
+Female Villager: 33 - [34, 35, 44]
+Old Female Villager: 66 - [67, 68, 77, 78]
+==========
+[/Lidiera - Pete's House - Environment] -> FOLDER: 904
+Lidiera Pete's House: 2
+[/Lidiera - Pete's House - Objects] -> FOLDER: 905
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 32]
+Rose: 33 - [34, 35, 36, 44, 45, 46, 47, 48]
+Pete: 66 - [67, 68, 69, 77, 78, 79, 80, 81]
+Dog: 99 - [100, 101, 102, 110, 111, 112, 113]
+Pete Mother: 132 - [133, 134, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152]
+==========
+[/Lidiera - Road to Fueno CutScene - Environment] -> FOLDER: 991
+Lidiera Road to Fueno CutScene: 2
+[/Lidiera - Road to Fueno CutScene - Objects] -> FOLDER: 992
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 32]
+Rose: 33 - [34, 35, 36, 44, 45, 46, 47]
+Pete: 66 - [67, 68, 69, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86]
+Dog: 99 - [100, 101, 102, 110, 111]
+Pete Mother: 132 - [133, 134, 144, 145]
+==========
+[/Lidiera - Terrace CutScene - Environment] -> FOLDER: 988
+Lidiera Terrace CutScene: 2
+[/Lidiera - Terrace CutScene - Objects] -> FOLDER: 989
+Dart: 0 - [1, 2, 3, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 32]
+Albert: 33 - [34, 35, 36, 44, 45]
+Mayor: 66 - [67, 77, 78, 79]
+Male Villager: 99 - [100, 101, 102, 110, 111, 112]
+Old Male Villager: 132 - [133, 143, 144, 145]
+Trap Door: 198 - [199]
+Trap Cage: 231 - [232]
+Trap Rope: 264 - [265]
+==========

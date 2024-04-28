@@ -1,0 +1,140 @@
+[/Rouge - Aglis Already Appear CutScene - Environment] -> FOLDER: 802
+Rouge Aglis Already Appear CutScene: 2
+[/Rouge - Aglis Already Appear CutScene - Objects] -> FOLDER: 803
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7]
+Haschel: 33 - [34, 35, 36, 37, 38, 39]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+Albert: 99 - [100, 101, 102, 103, 104]
+Miranda: 132 - [133, 134, 135, 136, 137, 138]
+Rose: 165 - [166, 167, 168, 169, 170, 171, 172, 173, 174]
+StrangeGlow: 198 - [199]
+MaleVillager1: 231 - [232, 233, 234, 235, 236, 237]
+MaleVillager2: 264 - [265, 266, 267, 268]
+MaleVillager3: 297 - [298, 299, 300, 301, 302, 303]
+==========
+[/Rouge - Aglis Already Appear CutScene 2 - Environment] -> FOLDER: 883
+Rouge Aglis Already Appear CutScene 2: 2
+[/Rouge - Aglis Already Appear CutScene 2 - Objects] -> FOLDER: 884
+Dart: 0 - [1, 2, 3, 4, 5, 6]
+Haschel: 33 - [34, 35, 36, 37]
+Mayor: 66 - [67, 68, 69, 70, 71, 72]
+Rose: 99 - [100, 101, 102, 103]
+Miranda: 132 - [133, 134, 135, 136]
+Albert: 165 - [166, 167, 168]
+Meru: 198 - [199, 200, 201, 202]
+CardboardMaleVillager1: 231 - [232]
+CardboardMaleVillager2: 264 - [265]
+CardboardMaleVillager3: 297 - [298]
+CardboardOldMaleVillager: 330 - [331]
+CardboardFemaleVillager: 363 - [364]
+==========
+[/Rouge - Aglis Appearing CutScene - Environment] -> FOLDER: 688
+Rouge Aglis Appearing CutScene: 2
+[/Rouge - Aglis Appearing CutScene - Objects] -> FOLDER: 689
+Dart: 0 - [1, 2, 3, 32]
+MaleVillager: 33 - [34, 39]
+MaleVillager2: 66 - [67, 68, 69, 72]
+MaleVillager3: 99 - [100, 101, 105, 106, 107, 108, 109, 110]
+FemaleVillager: 132 - [133, 134, 135, 138]
+FemaleVillager2: 165 - [166, 167, 171, 172, 173, 174, 175, 176]
+Mayor: 198 - [199, 200, 201, 204]
+CardboardMaleVillager: 231 - [232]
+CardboardOldMaleVillager: 264 - [265]
+==========
+[/Rouge - Aglis Appearing CutScene 2 - Environment] -> FOLDER: 772
+Rouge Aglis Appearing CutScene 2: 2
+[/Rouge - Aglis Appearing CutScene 2 - Objects] -> FOLDER: 773
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 32]
+Haschel: 33 - [34, 35, 36, 37]
+Rose: 66 - [67, 68, 69]
+Albert: 99 - [100, 101, 102, 103]
+Meru: 132 - [133, 134, 135, 136]
+Miranda: 165 - [166, 167, 168, 169]
+StrangeGlow: 198 - [199]
+FemaleVillager1: 264 - [265, 266, 267, 268, 269, 270, 271]
+FemaleVillager2: 297 - [298, 299, 300, 301, 302, 303, 304]
+MaleVillager1: 330 - [331, 332, 333, 334, 335]
+MaleVillager2: 363 - [364, 365, 366, 367]
+FemaleVillager3: 396 - [397, 398, 399, 400]
+Mayor: 429 - [430]
+==========
+[/Rouge - Depot Room - Environment] -> FOLDER: 601
+Rouge Depot Room: 2
+[/Rouge - Depot Room - Objects] -> FOLDER: 602
+Dart: 0 - [1, 2, 3, 32]
+MaleVillager: 33 - [34, 35, 36, 39, 40, 41]
+FemaleVillager: 66 - [67, 68, 69, 72, 73, 74]
+TreasureCrate: 99 - [100, 101, 102]
+==========
+[/Rouge - Entrance - Environment] -> FOLDER: 592
+Rouge Entrance: 2
+[/Rouge - Entrance - Objects] -> FOLDER: 593
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Raft: 33 - [34]
+ChildMaleVillager: 66 - [67, 68, 69, 70, 71]
+FemaleVillager: 99 - [100, 101, 105]
+MaleVillager: 132 - [133, 134, 135]
+ChildFemaleVillager: 165 - [166, 167, 171]
+ChildMaleVillager2: 231 - [232, 233]
+CardboardMaleVillager: 264 - [265]
+CardboardMaleVillager2: 297 - [298]
+CardboardFemaleVillager: 330 - [331]
+CardboardMaleVillager3: 363 - [None] # Quad Model with no Animations
+Empty: 462 - [463] # Textured Quad no Texture assigned
+==========
+[/Rouge - First Floor - Environment] -> FOLDER: 598
+Rouge First Floor: 2
+[/Rouge - First Floor - Objects] -> FOLDER: 599
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 32]
+Haschel: 33 - [34, 35, 36, 37, 38, 39, 40, 41, 42]
+Rose: 66 - [67, 68, 69, 70]
+Mayor: 99 - [100, 101, 102, 103, 104, 105, 107, 108, 109]
+MaleVillager1: 132 - [133, 138] # Seems to have no Texture assigned
+ChildMaleVillager1: 165 - [166, 167, 168, 169, 170, 171]
+Fire: 198 - [199]
+Empty: 231 - [232] # Textured Quad no Texture assigned
+MaleVillager2: 297 - [None] # Villager Model with no Animations
+ChildMaleVillager2: 330 - [331, 332, 333, 334, 335, 336]
+==========
+[/Rouge - Ground Floor - Environment] -> FOLDER: 595
+Rouge Ground Floor: 2
+[/Rouge - Ground Floor - Objects] -> FOLDER: 596
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Raft: 33 - [34]
+Haschel: 66 - [67, 68, 69, 70, 71, 72, 73, 74]
+FemaleVillager: 99 - [100, 101, 105]
+Mayor: 132 - [133, 134, 135, 136, 137, 138, 139, 140]
+StrangeGlow: 165 - [166]
+OldMaleVillager: 198 - [None] # Villager Model with no Animations
+MaleVillager: 231 - [232, 233, 237]
+ChildMaleVillager: 264 - [265, 266, 267, 270]
+FemaleVillager2: 297 - [298, 299, 303]
+Dart2: 330 - [None] # Dart Model with no Animations
+CardboardMaleVillager: 363 - [364]
+==========
+[/Rouge - Martel Room - Environment] -> FOLDER: 604
+Rouge Martel Room: 2
+[/Rouge - Martel Room - Objects] -> FOLDER: 605
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+Martel: 33 - [34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64]
+Lil: 66 - [67, 68, 69, 70, 71, 73, 74, 75, 76, 77]
+Haschel: 99 - [100, 101, 102, 103, 104, 105, 106, 107, 108]
+Miranda: 132 - [133, 134, 135, 136, 137, 138, 139, 140, 141]
+StrangeGlow: 165 - [166]
+Dart2: 297 - [None] # Dart Model with no Animations
+==========
+[/Rouge - Outside Building - Environment] -> FOLDER: 607
+Rouge Outside Building: 2
+[/Rouge - Outside Building - Objects] -> FOLDER: 608
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 32]
+Haschel: 33 - [34, 35, 36, 37, 38, 39]
+Mayor: 66 - [67, 68, 69, 70, 71]
+Rose: 99 - [100, 101, 102, 103, 104, 105]
+Albert: 132 - [133, 134, 135, 136]
+Meru: 165 - [166, 167, 168, 169, 170, 171, 172]
+Miranda: 198 - [199, 200, 201, 202]
+MaleVillager: 231 - [232, 233, 234, 237]
+Dart2: 264 - [None] # Dart Model with no Animations
+TreasureCrate: 297 - [298, 299, 300]
+StrangeGlow: 330 - [331]
+==========

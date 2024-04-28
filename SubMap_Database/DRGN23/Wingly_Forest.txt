@@ -1,0 +1,109 @@
+[/Wingly Forest - Ancestor Blano Room - Environment] -> FOLDER: 175
+Wingly Forest Ancestor Blano Room: 2
+[/Wingly Forest - Ancestor Blano Room - Objects] -> FOLDER: 176
+Dart: 0 - [1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+TeleporterOrb: 33 - [34, 35]
+Rose: 66 - [67, 68, 72, 73, 74, 75]
+Miranda: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]
+AncestorBlano: 132 - [133, 134, 138, 139, 140, 141, 142, 143, 144, 145, 146]
+Meru: 165 - [166, 167, 168, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181]
+Albert: 198 - [199, 200, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214]
+Kongol: 231 - [232, 233, 236, 238, 240, 241]
+TeleporterGlow: 264 - [265]
+RockyCylinder: 330 - [331]
+Dart: 363 - [378, 379] # For some reason there is a Dart Lonely ModelAnim
+==========
+[/Wingly Forest - Building First Floor - Environment] -> FOLDER: 163
+Wingly Forest Building First Floor: 2
+[/Wingly Forest - Building First Floor - Objects] -> FOLDER: 164
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 32]
+TeleporterOrb: 33 - [34, 35]
+Foam: 66 - [67]
+TeleporterGlow: 132 - [133]
+MeruFather: 198 - [199, 200, 203, 204, 205, 206, 207, 208, 209, 210, 211]
+MeruMother: 231 - [232, 233, 237, 238, 239, 240, 241, 242, 243]
+Meru: 264 - [265, 266, 267, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279, 280, 281, 296]
+FemaleWingly: 330 - [331, 332, 336]
+OldMaleWingly: 363 - [364]
+==========
+[/Wingly Forest - Building Groundfloor - Environment] -> FOLDER: 160
+Wingly Forest Building Groundfloor: 2
+[/Wingly Forest - Building Groundfloor - Objects] -> FOLDER: 161
+Dart: 0 - [1, 2, 3, 32]
+MaleWingly: 33 - [34, 35, 39, 40, 41]
+Meru: 99 - [100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 131]
+AncestorBlano: 132 - [133, 134, 138, 139, 140, 141, 142, 143, 144, 145]
+WinglyBardel: 165 - [166, 167, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186]
+MeruFather: 231 - [232, 233, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248]
+MeruMother: 264 - [265, 266, 267, 270, 271, 272, 273, 274, 275, 276, 277, 278, 279]
+MaleWingly2: 297 - [298, 299, 303, 306]
+==========
+[/Wingly Forest - Building Second Floor - Environment] -> FOLDER: 172
+Wingly Forest Building Second Floor: 2
+[/Wingly Forest - Building Second Floor - Objects] -> FOLDER: 173
+Dart: 0 - [1, 2, 3, 6, 7, 8, 9, 10, 11, 12, 13, 32]
+TeleporterOrb: 33 - [34, 35]
+Meru: 66 - [67, 68, 69, 70, 72, 73, 74, 75, 77, 78]
+Rose: 99 - [100, 101, 105, 106, 107, 108, 109]
+Bardel: 132 - [133, 134, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162]
+DartDragoon: 198 - [199, 200, 207]
+Flare: 231 - [232]
+Fireball: 264 - [265]
+WinglyConjuringAlphabet: 297 - [298]
+OldFemaleWingly: 330 - [331, 332, 336, 337, 338]
+FemaleWingly: 363 - [364, 365, 369, 370, 371]
+MaleWingly: 396 - [397, 398, 402]
+TeleporterGlow: 429 - [430]
+==========
+[/Wingly Forest - Entrance - Environment] -> FOLDER: 157
+Wingly Forest Entrance: 2
+[/Wingly Forest - Entrance - Objects] -> FOLDER: 158
+Dart: 0 - [1, 2, 3, 7, 8, 9, 10, 11, 12, 13, 14, 32]
+TeleporterOrb: 33 - [34, 35]
+Meru: 66 - [67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98]
+Guaraha: 99 - [100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 117, 118, 119, 120, 121]
+MaleWingly: 132 - [133, 134, 138, 139, 140, 141]
+Miranda: 198 - [199, 200, 201, 204, 205, 206, 207]
+TeleporterGlow: 231 - [232]
+Armed Meru: 297 - [298, 306, 307, 308, 309]
+Fireball: 330 - [331]
+==========
+[/Wingly Forest - Guaraha Room - Environment] -> FOLDER: 169
+Wingly Forest Guaraha Room: 2
+[/Wingly Forest - Guaraha Room - Objects] -> FOLDER: 170
+Dart: 0 - [1, 2, 3, 5, 9, 10, 11, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+Guaraha: 99 - [100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 111]
+Meru: 132 - [133, 134, 135, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151]
+Haschel: 165 - [166, 167, 170, 171, 173, 174, 175]
+Miranda: 198 - [199, 200, 203, 204, 207, 208]
+Bardel: 231 - [232, 238]
+==========
+[/Wingly Forest - Weapon and Item Shop - Environment] -> FOLDER: 166
+Wingly Forest Weapon and Item Shop: 2
+[/Wingly Forest - Weapon and Item Shop - Objects] -> FOLDER: 167
+Dart: 0 - [1, 2, 3, 4, 5, 7, 8, 9, 10, 11, 12, 13, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+FemaleWingly: 264 - [265, 266, 270]
+MaleWingly: 297 - [298, 299, 303]
+MaleWingly2: 330 - [331, 332, 336]
+Meru: 363 - [364, 365, 366, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378, 379, 380]
+Archangel: 396 - [397, 402]
+WinglyWings: 429 - [430]
+==========
+[/Wingly Forest - Wingly Super Teleporter - Environment] -> FOLDER: 178
+Wingly Forest Wingly Super Teleporter: 2
+[/Wingly Forest - Wingly Super Teleporter - Objects] -> FOLDER: 179
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 32]
+AncestorBlano: 33 - [34, 35, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51]
+MeruFather: 66 - [67, 68, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84]
+MeruMother: 99 - [100, 101, 102, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116]
+Guaraha: 132 - [133, 134, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149]
+Meru: 165 - [166, 167, 168, 169, 170, 171, 172, 173]
+TeleporterOrb: 198 - [199, 200]
+RockyCylinder: 231 - [232]
+RockyCylinder2: 264 - [265]
+Rock Portals: 330 - [331, 332, 333]
+==========

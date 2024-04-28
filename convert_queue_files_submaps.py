@@ -110,7 +110,9 @@ class ConvertSubMapFiles:
 
             else:
                 messagebox.showerror(title='FATAL CRASH', message='Processing of Files Failed!!...')
-        print("CONVERSION FINISHED")
+        new_message = messagebox.showinfo(title='Conversion Finished', message=f'Total Folders Converted: {len(self.list_to_convert)}')
+        if new_message == f'ok':
+            self.master.destroy()
     
     def create_folders(self, folders=list):
         for folder in folders:
@@ -188,11 +190,11 @@ class ConvertSubMapFiles:
     def update_percent_label(self, number_add=float):
         self.percentage_label.update_idletasks()
         percent_string = "%.2f" % number_add
-        print(percent_string)
+        #print(percent_string)
         self.percentage_label.config(text=f'{percent_string}%')
 
     def update_bar_progression(self, model_processed=float):
         self.new_bar.update_idletasks()
         model_processed_round = round(model_processed)
         self.new_bar['value'] = model_processed_round
-        print(self.new_bar['value'])
+        #print(self.new_bar['value'])

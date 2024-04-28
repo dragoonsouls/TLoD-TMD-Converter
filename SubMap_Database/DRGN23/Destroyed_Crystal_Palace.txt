@@ -1,0 +1,45 @@
+[/Destroyed Crystal Palace - Main Hall - Environment] -> FOLDER: 133
+Destroyed Crystal Palace Main Hall: 2
+[/Destroyed Crystal Palace - Main Hall - Objects] -> FOLDER: 134
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 32]
+Miranda: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56]
+PrincessLuanna: 66 - [67, 68, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90] # Seems to be an earthquake animation
+PrincessSetie: 99 - [100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127] # Seems to be an earthquake animation
+MilleSeseauKnight: 132 - [133, 134, 138, 139, 140, 141, 142, 143, 144, 145]
+==========
+[/Destroyed Crystal Palace - Stairs Fork - Environment] -> FOLDER: 136
+Destroyed Crystal Palace Stairs Fork: 2
+[/Destroyed Crystal Palace - Stairs Fork - Objects] -> FOLDER: 137
+Dart: 0 - [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 32]
+PrincessWink: 33 - [34, 35, 36, 37, 39, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 54, 55]
+Retail Bugged Animations: None - [46] # Model Expected to be used PrincessWink
+MilleSeseauKnight: 66 - [67, 68, 72, 73, 74, 75, 76, 77, 78, 79]
+==========
+[/Destroyed Crystal Palace - Throne - Environment] -> FOLDER: 139
+Destroyed Crystal Palace Throne: 2
+[/Destroyed Crystal Palace - Throne - Objects] -> FOLDER: 140
+Dart: 0 - [1, 2, 3, 5, 6, 7, 8, 9, 11, 12, 14, 19, 20, 25, 32]
+Miranda: 33 - [34, 35, 36, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 54]
+Albert: 66 - [67, 68, 69, 72, 73, 74]
+Meru: 99 - [100, 101, 102, 105, 106, 107]
+Shana: 132 - [133, 134, 136, 138, 139, 140, 145, 146, 147, 149, 151, 152, 153]
+QueenTheresa: 165 - [166, 167, 171, 172, 173, 174, 175, 176]
+PrincessLuanna: 198 - [199, 200, 204, 205, 206]
+PrincessSetie: 231 - [232, 233, 234, 237, 238, 239]
+PrincessWink: 264 - [265, 266, 270, 274, 275, 279, 280, 281, 282, 283, 284, 285]
+Rose: 297 - [298, 299, 300, 303, 304, 305]
+MilleSeseauKnight: 363 - [364, 365, 372, 373]
+==========
+[/Destroyed Crystal Palace - Throne Queen Theresa Kidnap - Environment] -> FOLDER: 142
+Destroyed Crystal Palace Throne Queen Theresa Kidnap: 2
+[/Destroyed Crystal Palace - Throne Queen Theresa Kidnap - Objects] -> FOLDER: 143
+Dart: 0 - [1, 2, 3, 32]
+QueenTheresa: 33 - [34, 35, 37, 39, 40, 41, 43, 46, 47, 48, 49, 50, 51, 52, 59, 60, 61]
+PrincessLuanna: 66 - [67, 68, 72, 73, 74]
+PrincessSetie: 99 - [100, 101, 102, 103, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119]
+PrincessWink: 132 - [133, 134, 135, 136, 138, 141, 142, 143, 144, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 161, 162, 163, 164]
+Retail Bugged Animations: None - [145] # Model Expected to be used PrincessWink
+Lloyd: 165 - [166, 167, 168, 171, 172, 173, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196]
+MilleSeseauKnight: 198 - [199, 200, 204, 205, 206, 207, 208, 209, 210, 211]
+Armed Lloyd: 231 - [232, 233, 234, 237, 240, 241, 242, 243, 244, 245, 246]
+==========

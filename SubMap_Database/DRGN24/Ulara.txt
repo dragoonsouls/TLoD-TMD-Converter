@@ -1,0 +1,153 @@
+[/Ulara - Bar Day - Environment] -> FOLDER: 460
+Ulara Bar Day: 2
+[/Ulara - Bar Day - Objects] -> FOLDER: 461
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+MaleWingly: 66 - [67, 68, 72]
+TeleporterGlow: 99 - [100]
+==========
+[/Ulara - Bar Night - Environment] -> FOLDER: 475
+Ulara Bar Night: 2
+[/Ulara - Bar Night - Objects] -> FOLDER: 476
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 32]
+TeleporterOrb: 33 - [34, 35]
+Rose: 66 - [67, 68, 72, 73, 74, 77]
+Haschel: 99 - [100, 101, 105, 106, 107, 110, 111, 112]
+Miranda: 132 - [133, 134, 138, 139, 140, 143, 144, 145, 146, 147, 148, 149]
+MaleWingly: 165 - [166, 167, 171]
+MaleWingly2: 198 - [199, 200, 204, 205]
+FemaleWingly: 264 - [265, 266, 270, 271]
+TeleporterGlow: 330 - [331]
+==========
+[/Ulara - Carnivore Plant Garden Day - Environment] -> FOLDER: 451
+Ulara Carnivore Plant Garden Day: 2
+[/Ulara - Carnivore Plant Garden Day - Objects] -> FOLDER: 452
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 13, 14, 15, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47]
+FemaleWingly: 66 - [67, 68, 70, 72, 73, 74]
+MaleWingly: 99 - [100, 101, 105, 106, 107, 110, 111, 112, 113]
+CarnivorePlant: 132 - [133, 134]
+==========
+[/Ulara - Carnivore Plant Garden Night - Environment] -> FOLDER: 469
+Ulara Carnivore Plant Garden Night: 2
+[/Ulara - Carnivore Plant Garden Night - Objects] -> FOLDER: 470
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 16, 18, 19, 20, 21, 32]
+Rose: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 48, 49, 50]
+CarnivorePlant: 66 - [67]
+==========
+[/Ulara - Charle Frahma House Day - Environment] -> FOLDER: 454
+Ulara Charle Frahma House Day: 2
+[/Ulara - Charle Frahma House Day - Objects] -> FOLDER: 455
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 32]
+TeleporterOrb: 33 - [34, 35]
+Rose: 66 - [67, 68, 72, 73, 74, 77, 78, 79]
+CharleFrahma: 99 - [100, 101, 105, 106, 107, 110, 111, 112, 113, 114, 115]
+Albert: 132 - [133, 134, 138, 139, 140]
+Haschel: 165 - [166, 167, 171, 172, 173]
+Miranda: 198 - [199, 200, 209]
+TeleporterGlow: 231 - [232]
+WhiteTreasureChest: 330 - [331, 332, 333]
+==========
+[/Ulara - Charle Frahma House Night - Environment] -> FOLDER: 463
+Ulara Charle Frahma House Night: 2
+[/Ulara - Charle Frahma House Night - Objects] -> FOLDER: 464
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 32]
+TeleporterOrb: 33 - [34, 35]
+Rose: 66 - [67, 68, 72, 73]
+CharleFrahma: 99 - [100, 101, 105, 106, 107]
+TeleporterGlow: 132 - [133]
+WhiteTreasureChest: 231 - [232, 233, 234]
+==========
+[/Ulara - Entrance Day - Environment] -> FOLDER: 481
+Ulara Entrance Day: 2
+[/Ulara - Entrance Day - Objects] -> FOLDER: 482
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 32]
+TeleporterOrb: 33 - [34, 35]
+Rose: 66 - [67, 68, 72, 73, 74, 77, 78, 79]
+Miata: 99 - [100, 101, 105, 106, 107]
+CharleFrahma: 132 - [133, 134, 138, 139, 140]
+Caron: 165 - [166, 167, 171, 172, 173]
+TeleporterGlow: 198 - [199]
+CardboardMaleFlyingWingly: 264 - [265]
+CardboardMaleFlyingWingly2: 297 - [298]
+CardboardMaleFlyingWingly3: 330 - [331]
+CardboardMaleFlyingWingly4: 363 - [364]
+CardboardFemaleFlyingWingly1: 396 - [397]
+CardboardFemaleFlyingWingly2: 429 - [430]
+==========
+[/Ulara - Entrance Night - Environment] -> FOLDER: 484
+Ulara Entrance Night: 2
+[/Ulara - Entrance Night - Objects] -> FOLDER: 485
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 15, 32]
+TeleporterOrb: 33 - [34, 35]
+Rose: 66 - [67, 68, 72, 73, 74, 77]
+Caron: 99 - [100, 101, 105, 106, 107]
+Meru: 132 - [133, 134, 138, 139, 140, 143, 144, 145, 146, 147, 148]
+TeleporterGlow: 165 - [166]
+==========
+[/Ulara - From Charle Frahma House Day to Teleporter - Environment] -> FOLDER: 778
+Ulara From Charle Frahma House Day to Teleporter: 2
+[/Ulara - From Charle Frahma House Day to Teleporter - Objects] -> FOLDER: 779
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+==========
+[/Ulara - From Charle Frahma House Night to Teleporter - Environment] -> FOLDER: 781
+Ulara From Charle Frahma House Night to Teleporter: 2
+[/Ulara - From Charle Frahma House Night to Teleporter - Objects] -> FOLDER: 782
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+==========
+[/Ulara - Item and Weapon Shop Day - Environment] -> FOLDER: 448
+Ulara Item and Weapon Shop Day: 2
+[/Ulara - Item and Weapon Shop Day - Objects] -> FOLDER: 449
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+MaleWingly: 66 - [67, 68, 72]
+FemaleWingly: 99 - [100, 101, 105]
+TeleporterGlow: 132 - [133]
+==========
+[/Ulara - Item and Weapon Shop Night - Environment] -> FOLDER: 478
+Ulara Item and Weapon Shop Night: 2
+[/Ulara - Item and Weapon Shop Night - Objects] -> FOLDER: 479
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 32]
+TeleporterOrb: 33 - [34, 35]
+Albert: 66 - [67, 68, 72, 73, 74, 77, 78, 79]
+Kongol: 99 - [100, 101, 105, 106, 107, 110, 111]
+MaleWingly: 132 - [133, 134, 138, 139, 140]
+FemaleWingly: 165 - [166, 167, 171, 172, 173]
+TeleporterGlow: 198 - [199]
+==========
+[/Ulara - Main Hallways Day - Environment] -> FOLDER: 445
+Ulara Main Hallways Day: 2
+[/Ulara - Main Hallways Day - Objects] -> FOLDER: 446
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+MaleWingly: 66 - [67, 68, 72]
+MaleWingly2: 99 - [100, 101, 105]
+TeleporterGlow: 132 - [133]
+==========
+[/Ulara - Main Hallways Night - Environment] -> FOLDER: 466
+Ulara Main Hallways Night: 2
+[/Ulara - Main Hallways Night - Objects] -> FOLDER: 467
+Dart: 0 - [1, 2, 3, 32]
+TeleporterOrb: 33 - [34, 35]
+TeleporterGlow: 66 - [67]
+==========
+[/Ulara - Roses Garden Day - Environment] -> FOLDER: 457
+Ulara Roses Garden Day: 2
+[/Ulara - Roses Garden Day - Objects] -> FOLDER: 458
+Dart: 0 - [1, 2, 3, 7, 8, 11, 12, 13, 14, 32]
+Miranda: 33 - [34, 35, 39, 40, 41, 44, 45, 46, 47, 48, 49]
+Haschel: 66 - [67, 68, 72, 73, 74, 77, 78]
+FemaleWingly: 99 - [100, 101, 105]
+MaleWingly: 132 - [133, 134, 138]
+==========
+[/Ulara - Roses Garden Night - Environment] -> FOLDER: 472
+Ulara Roses Garden Night: 2
+[/Ulara - Roses Garden Night - Objects] -> FOLDER: 473
+Dart: 0 - [1, 2, 3, 32]
+MaleWingly: 33 - [34, 35, 39, 40]
+FemaleWingly: 66 - [67, 68, 72, 73]
+==========

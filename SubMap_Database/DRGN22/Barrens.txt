@@ -1,0 +1,28 @@
+[/Barrens - Cut 1 - Environment] -> FOLDER: 697
+Barrens Cut 1: 2
+[/Barrens - Cut 1 - Objects] -> FOLDER: 698
+Dart: 0 - [1, 2, 3, 32]
+Flying Dragon: 33 - [34]
+Treasure Chest: 66 - [67, 68, 69]
+==========
+[/Barrens - Cut 2 - Environment] -> FOLDER: 700
+Barrens Cut 2: 2
+[/Barrens - Cut 2 - Objects] -> FOLDER: 701
+Dart: 0 - [1, 2, 3, 6, 7, 8, 11, 12, 14, 15, 16, 17, 18, 19, 20, 32]
+Mappi: 33 - [34, 35, 36, 39, 44, 45, 47, 48, 49]
+Bandit: 66 - [67, 68, 69, 70, 72, 77, 78, 79, 80, 81, 82]
+Dart Armed: 99 - [100]
+Shana: 132 - [133, 134, 135]
+Albert: 165 - [166, 167, 168, 171, 172, 173]
+Rose: 198 - [199, 200, 201, 204, 206, 209]
+Haschel: 231 - [232, 233, 234]
+Meru: 264 - [265, 266, 267, 270, 271, 272, 280, 283, 286]
+Lynn: 297 - [298, 299, 300, 303, 304, 305, 308]
+Rose Armed: 330 - [331, 332]
+==========
+[/Barrens - Cut 3 - Environment] -> FOLDER: 703
+Barrens Cut 3: 2
+[/Barrens - Cut 3 - Objects] -> FOLDER: 704
+Dart: 0 - [1, 2, 3, 4, 9, 11, 12, 13, 14, 15, 32]
+Treasure Chest: 33 - [34, 35, 36]
+==========

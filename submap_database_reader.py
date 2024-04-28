@@ -18,12 +18,24 @@ class SubmapDatabase:
     
     def process_drgn2x_database(self, database_path):
         database_dict_base = {} # Here will contain DRGN2x
-        database_drgn21 = database_path + f'\\DRGN21\\'
+        database_path_drgn21 = database_path + f'\\DRGN21\\'
+        database_path_drgn22 = database_path + f'\\DRGN22\\'
+        database_path_drgn23 = database_path + f'\\DRGN23\\'
+        database_path_drgn24 = database_path + f'\\DRGN24\\'
         
-        database_files_drgn21 = self.get_database_files(database_files_path=database_drgn21)
+        database_files_drgn21 = self.get_database_files(database_files_path=database_path_drgn21)
         database_drgn21 = self.database_generator(files_path=database_files_drgn21)
 
-        database_dict_base = {'DRGN21': database_drgn21}
+        database_files_drgn22 = self.get_database_files(database_files_path=database_path_drgn22)
+        database_drgn22 = self.database_generator(files_path=database_files_drgn22)
+
+        database_files_drgn23 = self.get_database_files(database_files_path=database_path_drgn23)
+        database_drgn23 = self.database_generator(files_path=database_files_drgn23)
+
+        database_files_drgn24 = self.get_database_files(database_files_path=database_path_drgn24)
+        database_drgn24 = self.database_generator(files_path=database_files_drgn24)
+
+        database_dict_base = {'DRGN21': database_drgn21, 'DRGN22': database_drgn22, 'DRGN23': database_drgn23, 'DRGN24': database_drgn24}
         
         return database_dict_base
     
