@@ -11,7 +11,7 @@ import os
 from tkinter import messagebox
 
 class SubmapDatabase:
-    def __init__(self, database_path) -> dict:
+    def __init__(self, database_path):
         self.self = SubmapDatabase
         self.database_path = database_path
         self.process_drgn2x_database(database_path=database_path)
@@ -124,7 +124,7 @@ class SubmapDatabase:
         
         return folder_number
 
-    def get_model_anim(self, model_string=str) -> str:
+    def get_model_anim(self, model_string=str) -> tuple:
         start_position_model = model_string.find(f': ')
         name_3d_object = model_string[:start_position_model]
         model_anims = model_string[start_position_model + 2:]

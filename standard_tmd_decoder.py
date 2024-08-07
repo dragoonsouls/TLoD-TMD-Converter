@@ -108,12 +108,14 @@ class PrimitiveTmd:
 
         collada_primitives = []
 
+        logging_this = []
         for current_prim_block_num in range(0, length_prim_block):
             current_prim_block = primitive_block_complete[current_prim_block_num]
             current_number_primitives = number_primitives_complete[current_prim_block_num]
             
             primitives_in_object = []
             next_primitive_start = 0
+            
             for current_primitive_num in range(0, current_number_primitives):
                 decoded_primitive = {'Prim_Name': f''}
                 current_primitive = current_prim_block[next_primitive_start:]
@@ -175,6 +177,8 @@ class PrimitiveTmd:
                     shading_var = f'Gouraud_'
                 else:
                     shading_var = f'Flat_'
+                
+                
                 
                 # Setting Primitive Name
                 prim_name_key = f'{key_light_name}{vertex_var}{shading_var}{texture_var}{grad_var}{translucency_var}'
@@ -382,5 +386,4 @@ class PrimitiveTmd:
                 next_primitive_start += ilen_calc
         
             collada_primitives.append(primitives_in_object)
-    
         return collada_primitives

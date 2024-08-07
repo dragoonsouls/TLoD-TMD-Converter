@@ -16,7 +16,7 @@ class DatabaseDict:
     This Algorithm will create a dict from the database,
     to be sure that the content loaded to the Sub List
     and the Object List is the correct"""
-    def __init__(self, database_path) -> dict:
+    def __init__(self, database_path):
         self.self = DatabaseDict
         self.database_path = database_path
         self.process_database(database_path_str=database_path)
@@ -93,8 +93,8 @@ class DatabaseDict:
                     database_dict['World_Map'][f'{load_to_dict_worldmap[0]}'] = [load_to_dict_worldmap[1], load_to_dict_worldmap[2]]
         return database_dict
 
-    def process_text_file(self, text_file=str) -> str:
-        text_read = None
+    def process_text_file(self, text_file=str) -> list:
+        text_read = []
         with open(text_file, 'r') as text_to_read:
             text_read = text_to_read.readlines()
         
