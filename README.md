@@ -6,7 +6,7 @@ The idea behind this tool is to preserve TMD Models as originally shown ingame(*
 
 Also i added a very specific functionality for researchers and modders, when you export the 3D model two *.txt files will created, Primitive_per_Object will contain useful data of each primitive type used in models and also the quantity of each one. The other called TMD_Report will be created with a count number of Vertex/Normal/Primitive of each object in the file and a sum of all the file.
 
-## BETA 0.5
+## BETA 0.6
 
 **NOW THE TOOL USE A STABLE GRAPHICAL USER INTERFACE**
 You check the releases and you will find a Windows Version of it (Tested in Windows 10)
@@ -125,6 +125,11 @@ You can find me here:
 
 ```
 BETA 0.5 version
+
+FIXING SOME LITTLE BUGS
+
+BETA 0.5 version
+
 ADDED CONVERSION FOR ALL THE SUBMAPS CUTS MODELS AND ANIMATIONS INCLUDING THE MAP ITSELF
 FIXED SOME BREAKING BUGS
 CHANGE SOME LOGIC AROUND TO FIT STANDARDS
@@ -216,3 +221,7 @@ FIRST RELEASE
 ![Shana GoD](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Shana_GoD.png)
 ![Valley of Corrupted Gravity](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/V_o_C_Gravity_Boss_Fight.png)
 ![Witch](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Witch.png)
+![Gorgaga](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Gorgaga.png)
+![Forbidden Land](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Forbidden_Land.png)
+![Fort Magrad](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Fort_Magrad.png)
+![Dart with Bag](https://raw.githubusercontent.com/dragoonsouls/TLoD-TMD-Converter/main/Sample_Images/Dart_Linyera.png)
